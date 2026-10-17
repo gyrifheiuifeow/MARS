@@ -1,0 +1,69 @@
+{
+  "utc": "2026-10-15T12:26:16.765692+00:00",
+  "status": "PASS",
+  "formal_rounds": 36,
+  "formal_queries": 36000,
+  "configuration_groups": 12,
+  "instances_per_group": [
+    1,
+    2,
+    3
+  ],
+  "raw_hashes_and_query_order": "PASS",
+  "recomputed_QPS_mean_and_sample_sd": "PASS",
+  "acceptance_timings_excluded": true,
+  "rounds_with_external_processes_observed": [
+    {
+      "method": "RoadScan",
+      "group": "popular",
+      "rep": 2
+    },
+    {
+      "method": "RoadScan",
+      "group": "medium",
+      "rep": 2
+    },
+    {
+      "method": "HNSW",
+      "group": "medium",
+      "rep": 3
+    },
+    {
+      "method": "HNSW",
+      "group": "rare",
+      "rep": 3
+    },
+    {
+      "method": "SymphonyQG",
+      "group": "popular",
+      "rep": 3
+    },
+    {
+      "method": "SymphonyQG",
+      "group": "medium",
+      "rep": 3
+    },
+    {
+      "method": "SymphonyQG",
+      "group": "rare",
+      "rep": 3
+    },
+    {
+      "method": "Mesh-Road",
+      "group": "popular",
+      "rep": 3
+    },
+    {
+      "method": "Mesh-Road",
+      "group": "medium",
+      "rep": 3
+    },
+    {
+      "method": "Mesh-Road",
+      "group": "rare",
+      "rep": 3
+    }
+  ],
+  "external_activity_note": "Other graph-only compilation/coordinator and alpha48 comparison/performance processes were sampled during 10 run windows. Run windows include loading/preparation/evaluation as well as timed queries; samples do not quantify the exact timed-query overlap or causal impact. This is not an isolated-machine benchmark.",
+  "no_experiment_rerun": true
+}

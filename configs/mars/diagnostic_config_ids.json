@@ -1,0 +1,18 @@
+[
+  "NYC_t6000_full_ef1600_medium",
+  "NYC_t6000_pointwise_ef1600_medium",
+  "BAY_t6000_full_ef1600_medium",
+  "BAY_t6000_pointwise_ef1600_medium",
+  "COL_t6000_full_ef1600_medium",
+  "COL_t6000_pointwise_ef1600_medium",
+  "FLA_t6000_full_ef1600_medium",
+  "FLA_t6000_pointwise_ef1600_medium",
+  "NYC_t2000_full_ef1600_medium",
+  "NYC_t2000_pointwise_ef1600_medium",
+  "NYC_t4000_full_ef1600_medium",
+  "NYC_t4000_pointwise_ef1600_medium",
+  "NYC_t8000_full_ef1600_medium",
+  "NYC_t8000_pointwise_ef1600_medium",
+  "NYC_t10000_full_ef1600_medium",
+  "NYC_t10000_pointwise_ef1600_medium"
+]

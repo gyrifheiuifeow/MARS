@@ -1,0 +1,154 @@
+[
+  {
+    "name": "dataset-BAY.tar.gz.part01",
+    "bytes": 1000000000,
+    "sha256": "390ff70370233ddb42aa27ee23255cf34a2c263431254bd7b96afae583d23708",
+    "archive": "dataset-BAY.tar.gz",
+    "kind": "data",
+    "extract_root": "MARSExp2"
+  },
+  {
+    "name": "dataset-BAY.tar.gz.part02",
+    "bytes": 658262204,
+    "sha256": "41e07016952a49c6f669dcd60552931e99f5f9d9da193420524e6d54bf456a67",
+    "archive": "dataset-BAY.tar.gz",
+    "kind": "data",
+    "extract_root": "MARSExp2"
+  },
+  {
+    "name": "dataset-COL.tar.gz",
+    "bytes": 936753650,
+    "sha256": "bfce750d5768874139ac4fe9d1fbf1bb491ab99579cfa0578ce7f7e3ffbffc08",
+    "archive": "dataset-COL.tar.gz",
+    "kind": "data",
+    "extract_root": "MARSExp2"
+  },
+  {
+    "name": "dataset-FLA.tar.gz.part01",
+    "bytes": 1000000000,
+    "sha256": "f381326492c2018ab2e9150a6d776c3526b43ac05ff8bfae572288a62a2fcff4",
+    "archive": "dataset-FLA.tar.gz",
+    "kind": "data",
+    "extract_root": "MARSExp2"
+  },
+  {
+    "name": "dataset-FLA.tar.gz.part02",
+    "bytes": 1000000000,
+    "sha256": "c5f429a609bf650cfb8ec9df19193f4d4705250d82d0c2cd423dc4eb2d5fef2f",
+    "archive": "dataset-FLA.tar.gz",
+    "kind": "data",
+    "extract_root": "MARSExp2"
+  },
+  {
+    "name": "dataset-FLA.tar.gz.part03",
+    "bytes": 1000000000,
+    "sha256": "9ca0d07b8a4073272854d8902b33287e18cafaabe5848a6755abb8c5fc59a305",
+    "archive": "dataset-FLA.tar.gz",
+    "kind": "data",
+    "extract_root": "MARSExp2"
+  },
+  {
+    "name": "dataset-FLA.tar.gz.part04",
+    "bytes": 484553667,
+    "sha256": "9036cd1bf72df2f39a75fefcb558c1c86fb6c2694a34a5e708104b3b899d3b09",
+    "archive": "dataset-FLA.tar.gz",
+    "kind": "data",
+    "extract_root": "MARSExp2"
+  },
+  {
+    "name": "dataset-NYC.tar.gz.part01",
+    "bytes": 1000000000,
+    "sha256": "1cad95f8ed1bb2b195c5a034b7d10f5ee6fbb5e5d113b8afb14af6de5c347efa",
+    "archive": "dataset-NYC.tar.gz",
+    "kind": "data",
+    "extract_root": "MARSExp2"
+  },
+  {
+    "name": "dataset-NYC.tar.gz.part02",
+    "bytes": 1000000000,
+    "sha256": "62f4b39f1b0c1785826e30bad98b42dae5b0d2efe8419a84a54845ba1563dd8d",
+    "archive": "dataset-NYC.tar.gz",
+    "kind": "data",
+    "extract_root": "MARSExp2"
+  },
+  {
+    "name": "dataset-NYC.tar.gz.part03",
+    "bytes": 760349695,
+    "sha256": "567d6ac6848c5bc3e7b5d3ccc3039f1263a5ba06900031e4f6609f16e6bae6f2",
+    "archive": "dataset-NYC.tar.gz",
+    "kind": "data",
+    "extract_root": "MARSExp2"
+  },
+  {
+    "name": "groundtruth-supplement.tar.gz",
+    "bytes": 5487860,
+    "sha256": "f6556bc3df1ff4e1eaccdc00fce9d89e0b854251e090c1b58ed18845284cb4d6",
+    "archive": "groundtruth-supplement.tar.gz",
+    "kind": "data",
+    "extract_root": "MARSExp2"
+  },
+  {
+    "name": "research-records.tar.gz.part01",
+    "bytes": 1000000000,
+    "sha256": "e70dbe7edc4f11ee648c5093969fe3571064231e4f57d12ece80cbfeaa1406f5",
+    "archive": "research-records.tar.gz",
+    "kind": "records",
+    "extract_root": ""
+  },
+  {
+    "name": "research-records.tar.gz.part02",
+    "bytes": 1000000000,
+    "sha256": "4a38181a24af343735d6aa925756580d01a6ed30660d34e229a2d1a5300e0f8c",
+    "archive": "research-records.tar.gz",
+    "kind": "records",
+    "extract_root": ""
+  },
+  {
+    "name": "research-records.tar.gz.part03",
+    "bytes": 755354738,
+    "sha256": "65772a39317045d6dca46550ea449b616ad4f810cf447fd73a1a32a7bce3e9c4",
+    "archive": "research-records.tar.gz",
+    "kind": "records",
+    "extract_root": ""
+  },
+  {
+    "name": "source_inventory.json",
+    "bytes": 16415500,
+    "sha256": "4402e1f79eab38866497efd75d832c327de6945d55b7c627cebae372737d8d0c",
+    "kind": "records"
+  },
+  {
+    "name": "dataset_files.json",
+    "bytes": 40433,
+    "sha256": "13446d7520d261b7810717b3eae220e9ff9fca157ef5915e3aad1286bce433f8",
+    "kind": "data"
+  },
+  {
+    "name": "symlinks.json",
+    "bytes": 61837,
+    "sha256": "53e5d8fb6dd1cea98dfe8e5e3471af33a3ea7e74211efa30886973998fad8782",
+    "kind": "records"
+  },
+  {
+    "name": "dataset-common.tar.gz",
+    "bytes": 3016305,
+    "sha256": "a4af6f7f0bf0a85303e75e1c49f1103fffea1cca71d8f689f229f23019461ff7",
+    "archive": "dataset-common.tar.gz",
+    "kind": "data",
+    "extract_root": "MARSExp2"
+  },
+  {
+    "name": "local-history.tar.gz",
+    "bytes": 153841369,
+    "sha256": "3c34b070bfc4c0af32ebd0ebc2375b876ca88a8a5be6f896cb477eed3cde017a",
+    "archive": "local-history.tar.gz",
+    "kind": "local",
+    "extract_root": "local-history"
+  },
+  {
+    "name": "local_files.json",
+    "bytes": 2528493,
+    "sha256": "9b5ce70384f7f9232716eaf53d616cb23ff71a036c7e0ef7aa351db06fe28db8",
+    "kind": "local"
+  }
+]

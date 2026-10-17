@@ -1,0 +1,18 @@
+{
+  "verify_sources.py": "Verified 787 published source files and their frozen-source mapping.",
+  "verify_raw_results.py": "{\n  \"unique_raw_files\": 918,\n  \"verified_bindings\": 1065,\n  \"recomputed_performance_rows\": 1017,\n  \"status\": \"PASS\"\n}",
+  "verify_results.py": "{\n  \"summary_tables\": 11,\n  \"numeric_checks\": 2264,\n  \"alpha64_performance_rounds\": 144,\n  \"status\": \"PASS\"\n}",
+  "Linux_build_targets": [
+    "mars_perf",
+    "mars_diag",
+    "mars_accept",
+    "baseline_entry",
+    "frequency_reference"
+  ],
+  "synthetic_acceptance": "TOY_ACCEPTANCE_PASS",
+  "frozen_input_files_verified": 82,
+  "full_real_data_matrix_rerun": false,
+  "docker_build_executed": false,
+  "Graph_only_preparation_and_two_program_compilation": "PASS",
+  "Graph_only_new_index_built": false
+}

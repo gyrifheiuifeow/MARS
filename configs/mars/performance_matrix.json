@@ -1,0 +1,740 @@
+[
+  {
+    "config_id": "NYC_t6000_full_ef1600_medium",
+    "region": "NYC",
+    "tau_m": 6000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-1",
+      "Exp-2",
+      "Exp-7"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "results_tau_all_2000_10000_20260707_000802/groundtruth/NYC/q1000_seed42_natural_medium_tau6000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t2000_full_ef1600_medium",
+    "region": "NYC",
+    "tau_m": 2000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-2",
+      "Exp-6",
+      "Exp-7"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau2000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t4000_full_ef1600_medium",
+    "region": "NYC",
+    "tau_m": 4000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-2",
+      "Exp-6",
+      "Exp-7"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau4000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t8000_full_ef1600_medium",
+    "region": "NYC",
+    "tau_m": 8000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-2",
+      "Exp-7"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "results_tau_all_2000_10000_20260707_000802/groundtruth/NYC/q1000_seed42_natural_medium_tau8000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t10000_full_ef1600_medium",
+    "region": "NYC",
+    "tau_m": 10000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-2",
+      "Exp-7"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "results_tau_all_2000_10000_20260707_000802/groundtruth/NYC/q1000_seed42_natural_medium_tau10000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t3000_full_ef1600_medium",
+    "region": "NYC",
+    "tau_m": 3000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-3",
+      "Exp-6"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau3000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "BAY_t6000_full_ef1600_medium",
+    "region": "BAY",
+    "tau_m": 6000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-1",
+      "Exp-2",
+      "Exp-7"
+    ],
+    "query_manifest": "configs/mars/queries/BAY_medium.csv",
+    "GT": "results_tau_all_2000_10000_20260707_000802/groundtruth/BAY/q1000_seed42_natural_medium_tau6000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "BAY_t2000_full_ef1600_medium",
+    "region": "BAY",
+    "tau_m": 2000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-2"
+    ],
+    "query_manifest": "configs/mars/queries/BAY_medium.csv",
+    "GT": "data/BAY/groundtruth/q1000_seed42_natural_medium_tau2000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "BAY_t4000_full_ef1600_medium",
+    "region": "BAY",
+    "tau_m": 4000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-2"
+    ],
+    "query_manifest": "configs/mars/queries/BAY_medium.csv",
+    "GT": "data/BAY/groundtruth/q1000_seed42_natural_medium_tau4000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "BAY_t8000_full_ef1600_medium",
+    "region": "BAY",
+    "tau_m": 8000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-2"
+    ],
+    "query_manifest": "configs/mars/queries/BAY_medium.csv",
+    "GT": "results_tau_all_2000_10000_20260707_000802/groundtruth/BAY/q1000_seed42_natural_medium_tau8000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "BAY_t10000_full_ef1600_medium",
+    "region": "BAY",
+    "tau_m": 10000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-2"
+    ],
+    "query_manifest": "configs/mars/queries/BAY_medium.csv",
+    "GT": "results_tau_all_2000_10000_20260707_000802/groundtruth/BAY/q1000_seed42_natural_medium_tau10000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "BAY_t3000_full_ef1600_medium",
+    "region": "BAY",
+    "tau_m": 3000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-3"
+    ],
+    "query_manifest": "configs/mars/queries/BAY_medium.csv",
+    "GT": "data/BAY/groundtruth/q1000_seed42_natural_medium_tau3000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "COL_t6000_full_ef1600_medium",
+    "region": "COL",
+    "tau_m": 6000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-1",
+      "Exp-2",
+      "Exp-7"
+    ],
+    "query_manifest": "configs/mars/queries/COL_medium.csv",
+    "GT": "results_tau_all_2000_10000_20260707_000802/groundtruth/COL/q1000_seed42_natural_medium_tau6000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "COL_t2000_full_ef1600_medium",
+    "region": "COL",
+    "tau_m": 2000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-2"
+    ],
+    "query_manifest": "configs/mars/queries/COL_medium.csv",
+    "GT": "data/COL/groundtruth/q1000_seed42_natural_medium_tau2000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "COL_t4000_full_ef1600_medium",
+    "region": "COL",
+    "tau_m": 4000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-2"
+    ],
+    "query_manifest": "configs/mars/queries/COL_medium.csv",
+    "GT": "data/COL/groundtruth/q1000_seed42_natural_medium_tau4000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "COL_t8000_full_ef1600_medium",
+    "region": "COL",
+    "tau_m": 8000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-2"
+    ],
+    "query_manifest": "configs/mars/queries/COL_medium.csv",
+    "GT": "results_tau_all_2000_10000_20260707_000802/groundtruth/COL/q1000_seed42_natural_medium_tau8000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "COL_t10000_full_ef1600_medium",
+    "region": "COL",
+    "tau_m": 10000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-2"
+    ],
+    "query_manifest": "configs/mars/queries/COL_medium.csv",
+    "GT": "results_tau_all_2000_10000_20260707_000802/groundtruth/COL/q1000_seed42_natural_medium_tau10000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "COL_t3000_full_ef1600_medium",
+    "region": "COL",
+    "tau_m": 3000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-3"
+    ],
+    "query_manifest": "configs/mars/queries/COL_medium.csv",
+    "GT": "data/COL/groundtruth/q1000_seed42_natural_medium_tau3000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "FLA_t6000_full_ef1600_medium",
+    "region": "FLA",
+    "tau_m": 6000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-1",
+      "Exp-2",
+      "Exp-7"
+    ],
+    "query_manifest": "configs/mars/queries/FLA_medium.csv",
+    "GT": "results_tau_all_2000_10000_20260707_000802/groundtruth/FLA/q1000_seed42_natural_medium_tau6000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "FLA_t2000_full_ef1600_medium",
+    "region": "FLA",
+    "tau_m": 2000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-2"
+    ],
+    "query_manifest": "configs/mars/queries/FLA_medium.csv",
+    "GT": "data/FLA/groundtruth/q1000_seed42_natural_medium_tau2000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "FLA_t4000_full_ef1600_medium",
+    "region": "FLA",
+    "tau_m": 4000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-2"
+    ],
+    "query_manifest": "configs/mars/queries/FLA_medium.csv",
+    "GT": "data/FLA/groundtruth/q1000_seed42_natural_medium_tau4000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "FLA_t8000_full_ef1600_medium",
+    "region": "FLA",
+    "tau_m": 8000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-2"
+    ],
+    "query_manifest": "configs/mars/queries/FLA_medium.csv",
+    "GT": "results_tau_all_2000_10000_20260707_000802/groundtruth/FLA/q1000_seed42_natural_medium_tau8000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "FLA_t10000_full_ef1600_medium",
+    "region": "FLA",
+    "tau_m": 10000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-2"
+    ],
+    "query_manifest": "configs/mars/queries/FLA_medium.csv",
+    "GT": "results_tau_all_2000_10000_20260707_000802/groundtruth/FLA/q1000_seed42_natural_medium_tau10000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "FLA_t3000_full_ef1600_medium",
+    "region": "FLA",
+    "tau_m": 3000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-3"
+    ],
+    "query_manifest": "configs/mars/queries/FLA_medium.csv",
+    "GT": "data/FLA/groundtruth/q1000_seed42_natural_medium_tau3000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t5000_full_ef50_medium",
+    "region": "NYC",
+    "tau_m": 5000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 50,
+    "workload": "medium",
+    "experiments": [
+      "Exp-4"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau5000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t5000_full_ef100_medium",
+    "region": "NYC",
+    "tau_m": 5000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 100,
+    "workload": "medium",
+    "experiments": [
+      "Exp-4"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau5000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t5000_full_ef200_medium",
+    "region": "NYC",
+    "tau_m": 5000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 200,
+    "workload": "medium",
+    "experiments": [
+      "Exp-4"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau5000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t5000_full_ef400_medium",
+    "region": "NYC",
+    "tau_m": 5000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 400,
+    "workload": "medium",
+    "experiments": [
+      "Exp-4"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau5000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t5000_full_ef800_medium",
+    "region": "NYC",
+    "tau_m": 5000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 800,
+    "workload": "medium",
+    "experiments": [
+      "Exp-4"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau5000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t5000_full_ef1600_medium",
+    "region": "NYC",
+    "tau_m": 5000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-4",
+      "Exp-5",
+      "Exp-6"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau5000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t5000_full_ef1600_popular",
+    "region": "NYC",
+    "tau_m": 5000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "popular",
+    "experiments": [
+      "Exp-5"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_popular.csv",
+    "GT": "data/NYC/groundtruth/q1000_seed42_natural_popular_tau5000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t5000_pivot_ef1600_popular",
+    "region": "NYC",
+    "tau_m": 5000,
+    "k": 10,
+    "variant": "pivot",
+    "rest_ef": 1600,
+    "workload": "popular",
+    "experiments": [
+      "Exp-5"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_popular.csv",
+    "GT": "data/NYC/groundtruth/q1000_seed42_natural_popular_tau5000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t5000_pivot_ef1600_medium",
+    "region": "NYC",
+    "tau_m": 5000,
+    "k": 10,
+    "variant": "pivot",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-5",
+      "Exp-6"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau5000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t5000_full_ef1600_rare",
+    "region": "NYC",
+    "tau_m": 5000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "rare",
+    "experiments": [
+      "Exp-5"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_rare.csv",
+    "GT": "data/NYC/groundtruth/q1000_seed42_natural_rare_tau5000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t5000_pivot_ef1600_rare",
+    "region": "NYC",
+    "tau_m": 5000,
+    "k": 10,
+    "variant": "pivot",
+    "rest_ef": 1600,
+    "workload": "rare",
+    "experiments": [
+      "Exp-5"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_rare.csv",
+    "GT": "data/NYC/groundtruth/q1000_seed42_natural_rare_tau5000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t1000_full_ef1600_medium",
+    "region": "NYC",
+    "tau_m": 1000,
+    "k": 10,
+    "variant": "full",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-6"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau1000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t1000_pivot_ef1600_medium",
+    "region": "NYC",
+    "tau_m": 1000,
+    "k": 10,
+    "variant": "pivot",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-6"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau1000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t2000_pivot_ef1600_medium",
+    "region": "NYC",
+    "tau_m": 2000,
+    "k": 10,
+    "variant": "pivot",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-6"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau2000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t3000_pivot_ef1600_medium",
+    "region": "NYC",
+    "tau_m": 3000,
+    "k": 10,
+    "variant": "pivot",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-6"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau3000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t4000_pivot_ef1600_medium",
+    "region": "NYC",
+    "tau_m": 4000,
+    "k": 10,
+    "variant": "pivot",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-6"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau4000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t6000_pointwise_ef1600_medium",
+    "region": "NYC",
+    "tau_m": 6000,
+    "k": 10,
+    "variant": "pointwise",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-7"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "results_tau_all_2000_10000_20260707_000802/groundtruth/NYC/q1000_seed42_natural_medium_tau6000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "BAY_t6000_pointwise_ef1600_medium",
+    "region": "BAY",
+    "tau_m": 6000,
+    "k": 10,
+    "variant": "pointwise",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-7"
+    ],
+    "query_manifest": "configs/mars/queries/BAY_medium.csv",
+    "GT": "results_tau_all_2000_10000_20260707_000802/groundtruth/BAY/q1000_seed42_natural_medium_tau6000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "COL_t6000_pointwise_ef1600_medium",
+    "region": "COL",
+    "tau_m": 6000,
+    "k": 10,
+    "variant": "pointwise",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-7"
+    ],
+    "query_manifest": "configs/mars/queries/COL_medium.csv",
+    "GT": "results_tau_all_2000_10000_20260707_000802/groundtruth/COL/q1000_seed42_natural_medium_tau6000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "FLA_t6000_pointwise_ef1600_medium",
+    "region": "FLA",
+    "tau_m": 6000,
+    "k": 10,
+    "variant": "pointwise",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-7"
+    ],
+    "query_manifest": "configs/mars/queries/FLA_medium.csv",
+    "GT": "results_tau_all_2000_10000_20260707_000802/groundtruth/FLA/q1000_seed42_natural_medium_tau6000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t2000_pointwise_ef1600_medium",
+    "region": "NYC",
+    "tau_m": 2000,
+    "k": 10,
+    "variant": "pointwise",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-7"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau2000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t4000_pointwise_ef1600_medium",
+    "region": "NYC",
+    "tau_m": 4000,
+    "k": 10,
+    "variant": "pointwise",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-7"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau4000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t8000_pointwise_ef1600_medium",
+    "region": "NYC",
+    "tau_m": 8000,
+    "k": 10,
+    "variant": "pointwise",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-7"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "results_tau_all_2000_10000_20260707_000802/groundtruth/NYC/q1000_seed42_natural_medium_tau8000_k10.tsv",
+    "alpha": 64
+  },
+  {
+    "config_id": "NYC_t10000_pointwise_ef1600_medium",
+    "region": "NYC",
+    "tau_m": 10000,
+    "k": 10,
+    "variant": "pointwise",
+    "rest_ef": 1600,
+    "workload": "medium",
+    "experiments": [
+      "Exp-7"
+    ],
+    "query_manifest": "configs/mars/queries/NYC_medium.csv",
+    "GT": "results_tau_all_2000_10000_20260707_000802/groundtruth/NYC/q1000_seed42_natural_medium_tau10000_k10.tsv",
+    "alpha": 64
+  }
+]

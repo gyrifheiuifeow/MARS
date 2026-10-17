@@ -1,0 +1,10 @@
+{
+  "performance": 144,
+  "diagnostics": 48,
+  "indices": 12,
+  "reused_performance": 5,
+  "new_performance": 139,
+  "reused_indices": 2,
+  "new_indices": 10,
+  "execution_adapter": "v2"
+}

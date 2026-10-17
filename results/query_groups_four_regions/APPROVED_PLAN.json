@@ -1,0 +1,34 @@
+{
+  "regions": [
+    "BAY",
+    "COL",
+    "FLA"
+  ],
+  "groups": [
+    "popular",
+    "medium",
+    "rare"
+  ],
+  "methods": [
+    "MARS",
+    "RoadScan",
+    "HNSW",
+    "SymphonyQG",
+    "Mesh-Road"
+  ],
+  "tau_m": 5000,
+  "k": 10,
+  "MARS_alpha": 64,
+  "MARS_ef": 1600,
+  "formal_rounds": 135,
+  "new_indices": 0,
+  "existing_NYC_rounds_preserved": 45,
+  "combined_rounds": 180,
+  "CPU": 96,
+  "NUMA": 4,
+  "sibling_avoid": 288,
+  "serial": true,
+  "GT_missing_to_generate": 6,
+  "old_GT_unchanged": true,
+  "NYC_affinity_differs_disclose": true
+}

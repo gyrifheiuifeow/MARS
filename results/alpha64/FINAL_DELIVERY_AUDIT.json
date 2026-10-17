@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "default_alpha": 64,
+  "main_MARS_performance": 144,
+  "main_MARS_diagnostic": 48,
+  "default_MARS_cost_instances": 12,
+  "main_all_method_rounds": 540,
+  "unchanged_non_MARS_main_rounds": 468,
+  "query_groups_all_method_rounds": 45,
+  "alpha_parameter_rounds": 33,
+  "alpha_points": 11,
+  "graph_rounds": 9,
+  "graph_instances": 3,
+  "means_and_sample_sd": true,
+  "raw_hashes_verified": true,
+  "category_MARS_excluded_from_final_MARS_statistics": true,
+  "limitations": [
+    "主实验按同配置三个分别构建的索引实例计算均值和样本标准差；参数分析 alpha2 为已接受的早期专用实现，其他阈值为一般实现，须披露版本及测量时段差异。",
+    "Graph-only 每个类别ID一个图节点并保留全部对象关联，使用 CPU96/NUMA4。MARS 沿用未单核绑定的单线程设置；同ef1600对照不能称为完全相同CPU亲和性。",
+    "三组查询基线复用已完成36轮，其中10个历史运行窗口观察到外部进程；观测不能量化其对计时查询的影响，不能写成完全隔离机器测量。HNSW沿用修复后最终版本。"
+  ]
+}

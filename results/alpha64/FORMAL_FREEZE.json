@@ -1,0 +1,62 @@
+{
+  "utc": "2026-10-16T18:40:15.223260+00:00",
+  "version": "student_mars_alpha64_final_20261017_v1",
+  "default_alpha": 64,
+  "default_ef": 1600,
+  "files_sha256": {
+    "run_campaign.py": "5d8c774f223d61a9335d29ed1dad845752e3ffcf783f1dd11a6c06bc1a8c44db",
+    "formal_support.py": "37da1e2f99c801293fb0cac70ebab57f6fa6fd0d5890f405896b934fb415f01d",
+    "validate_partition.py": "5f35283d833a6cd96a0296d8cc2527ee2586a97680a2ec8d5b92fcddc29f617b",
+    "run_extensions.py": "799516c099685968913d17b4e8bd234762c4433f668ab675de5ef320149a0fee",
+    "export_final.py": "bacfba19f698a9fc1445fae060b24fba0e6b93cd6d109be81403e2ef552b1f09"
+  },
+  "approved_plan": {
+    "default_alpha": 64,
+    "default_ef": 1600,
+    "main_performance": 144,
+    "main_reused_performance": 5,
+    "main_diagnostic": 48,
+    "default_indices": 12,
+    "default_reused_indices": 2,
+    "default_new_indices": 10,
+    "parameter_alpha_points": [
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      96,
+      128,
+      256,
+      512,
+      1024
+    ],
+    "parameter_ef_fixed": 1600,
+    "parameter_alpha_three_instances": true,
+    "alpha64_parameter_point_shared_with_main": true,
+    "parameter_other_reused_rounds_expected": 14,
+    "parameter_new_indices_expected": 16,
+    "graph_only_efs": [
+      1600,
+      3200,
+      6400
+    ],
+    "graph_only_indices_total": 3,
+    "graph_only_new_indices_expected": 2,
+    "graph_only_reused_rounds": 3,
+    "graph_only_new_rounds_expected": 6,
+    "query_groups_baseline_reused_rounds": 36,
+    "no_paper_changes": true,
+    "old_category_results_separate": true,
+    "no_additional_parameter_selection": true,
+    "three_independent_indices_not_repeated_queries_on_one_index": true,
+    "serial_all_stages": true,
+    "graph_cpu_policy": "preserve CPU96 strict NUMA4 for Graph-only; MARS inherited unpinned single-thread policy; disclose rather than claim identical affinity",
+    "baseline_caveat": "10 historical query-group run windows observed external processes; retain explicitly disclosed source caveat"
+  },
+  "read_only_prelaunch_validator_pass": true,
+  "query_algorithm_changes": false,
+  "old_code_and_results_untouched": true,
+  "source_instances_independent": true
+}

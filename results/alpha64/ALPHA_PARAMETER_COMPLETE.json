@@ -1,0 +1,8 @@
+{
+  "rounds": 33,
+  "new_rounds": 16,
+  "shared_with_main_alpha64": 3,
+  "previous_rounds": 14,
+  "new_indices": 16,
+  "alpha2_historical_specialized_source_caveat": true
+}

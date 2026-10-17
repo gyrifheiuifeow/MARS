@@ -1,0 +1,4614 @@
+{
+  "Exp7_independent_diagnostics_summary.csv": {
+    "bytes": 10723,
+    "sha256": "aa1720361852135e13e10d13180fc30833aee83bca7a0f59d92b21b1944c7f9d"
+  },
+  "Graph_only_summary.csv": {
+    "bytes": 551,
+    "sha256": "697236bd6d14d02d28accee42eb795887fecae4060ce145cce875332a054a091"
+  },
+  "Exp8_final_cost_summary.csv": {
+    "bytes": 4046,
+    "sha256": "07d01a495ad7e6afe4cebaed10df775e913da16d44bc90f784c693cc0c29e491"
+  },
+  "Exp4_MARS_summary.csv": {
+    "bytes": 690,
+    "sha256": "2d5bcb47556b4fb0a749fbb273d55f9897c2163ec78f67753643ed56e8013fd1"
+  },
+  "Exp1_rankings_and_speedups.csv": {
+    "bytes": 2974,
+    "sha256": "ede4000e30a15868dade57c2c85c5baf94d4a4eb3f8c5e16c3f55cabdd6196fd"
+  },
+  "Exp6_MARS_rounds.csv": {
+    "bytes": 30124,
+    "sha256": "bdb9c751a51f58e9a271010f5938adf2e2045ebd173679a1af098b32c594db07"
+  },
+  "Graph_only_rounds.csv": {
+    "bytes": 7130,
+    "sha256": "88d227eed522697f1cfba1dce46d9b32c08add097d94bf6791333648e18cbd92"
+  },
+  "Exp7_paired_road_summary.csv": {
+    "bytes": 1814,
+    "sha256": "9ea267a5661d6a3e2da77c623d8d6e455564596dcd81be487af6dce339ca4061"
+  },
+  "Exp5_MARS_rounds.csv": {
+    "bytes": 18160,
+    "sha256": "699a6b667a1a44e1a329e371c8d9829792056b8a7ca3acc91a8824d2505c3e40"
+  },
+  "Exp4_MARS_rounds.csv": {
+    "bytes": 18009,
+    "sha256": "b423924aa57be962fbe556764d22df62cc85b8f218176bfd28169f3b9dc0987e"
+  },
+  "MARS64_performance_rounds.csv": {
+    "bytes": 143510,
+    "sha256": "bd9a547c81ee1b77eacffba8e3f7e65f5ea4ab1fd9437c371dc57c60b2edb6c7"
+  },
+  "MAIN_COMPLETE.json": {
+    "bytes": 189,
+    "sha256": "c97fca95d935136165ceef7598833faa0f1c2e3564d4eadf66163bcd4bec6730"
+  },
+  "Exp8_final_cost_rounds.csv": {
+    "bytes": 25058,
+    "sha256": "2403aa4e9b80c81ebfdc672e85abaaecea5007abf1690c5b7065de6691a1abba"
+  },
+  "Exp1_3_final_rounds.csv": {
+    "bytes": 361516,
+    "sha256": "e3412a19c90d261dd87a68406593928f14bbf9ded5ba2b1d9c0c63cbaa3aeb1e"
+  },
+  "Exp5_all_methods_rounds.csv": {
+    "bytes": 26617,
+    "sha256": "7ca62d030b9c2e6edb580bc4fd698c8e9e443e977818d25b671d0d8c43bf5edb"
+  },
+  "EXTENSIONS_COMPLETE.json": {
+    "bytes": 104,
+    "sha256": "49c6e751c225caa1fd81f7aa02ddbb63ad581a5b9183cddb70de085697e2c40e"
+  },
+  "Alpha_parameter_rounds.csv": {
+    "bytes": 31280,
+    "sha256": "2f3e698214b61fbd143405514ee9ae64345082ba0f23a11693bbdf76a342d5e9"
+  },
+  "Exp1_3_final_summary.csv": {
+    "bytes": 22587,
+    "sha256": "c5b60eeb8c9eeb74235c297d01c4fcf9864a61cc376c6bcdfed4a6d82a6a2b39"
+  },
+  "MARS64_performance_summary.csv": {
+    "bytes": 8272,
+    "sha256": "386d7e07ae102fc453c51cdde78cecfdf7cfb768d6abc9420d7bc1054f203f78"
+  },
+  "Exp6_MARS_summary.csv": {
+    "bytes": 1003,
+    "sha256": "e8886042d37a78325c7a4357a74d3d0ff92986b088e6a227b5a9df48734b90c6"
+  },
+  "Alpha_parameter_summary.csv": {
+    "bytes": 964,
+    "sha256": "49a3eb1b8f26b7032c1d34b9c8674e04b8e9606644929fa61ae6b48a77eee02f"
+  },
+  "Exp5_MARS_summary.csv": {
+    "bytes": 633,
+    "sha256": "2e7167ff81f4184b8f5492aa15958650a6ddec6862808d17dd29e72213ccf7e8"
+  },
+  "FORMAL_FREEZE.json": {
+    "bytes": 2217,
+    "sha256": "635543810abd2cd2414585f067432dd42450b65033539e4004011351322bf619"
+  },
+  "MARS64_diagnostic_rounds.csv": {
+    "bytes": 56765,
+    "sha256": "1029c15e7ee62cde8d76b7d6af4e3b09501415c4ec6ad1a712fb88a31cd508c1"
+  },
+  "FINAL_DELIVERY_AUDIT.json": {
+    "bytes": 1147,
+    "sha256": "289c54c383f3a54b935299a44c421a220f882f7f3cd1eaf099b805348c469fe7"
+  },
+  "论文最小修改说明.txt": {
+    "bytes": 1795,
+    "sha256": "bea0783c68342f0f97ed3f38a451ab03261b10a8924af3a01191cabaddf29391"
+  },
+  "GRAPH_COMPLETE.json": {
+    "bytes": 191,
+    "sha256": "6fcab306358fc54c9f2de311e78fb2a052cf2472bcbd0f665af0e1a1c236b99d"
+  },
+  "ALPHA_PARAMETER_COMPLETE.json": {
+    "bytes": 173,
+    "sha256": "fb4371b049614383d05ac08ab918cb0ef925b0627ef6264fce33d50b2d5e30e7"
+  },
+  "Exp5_all_methods_summary.csv": {
+    "bytes": 1296,
+    "sha256": "1c0ea468b03028dc547ee592b667a37d8065c013371a16a7c7650c9a0c441b26"
+  },
+  "正式结果总表与说明.html": {
+    "bytes": 10097,
+    "sha256": "ee5ac98596921899a9159b4c5a152ee4880599bf23212d7e4906d00ed1a120bf"
+  },
+  "Exp7_paired_road_rounds.csv": {
+    "bytes": 2012,
+    "sha256": "09dd609821ce437aeb770acbf2b26b0ddac193ab37f39702ce8a840366977547"
+  },
+  "configs/diag_COL.tsv": {
+    "bytes": 566,
+    "sha256": "d7068be8523704d1ca0264e4fcbd7bc3c300a69aa4a4228916b7f28d56cc2243"
+  },
+  "configs/runtime_diag_COL_2.tsv": {
+    "bytes": 566,
+    "sha256": "d7068be8523704d1ca0264e4fcbd7bc3c300a69aa4a4228916b7f28d56cc2243"
+  },
+  "configs/runtime_perf_BAY_1.tsv": {
+    "bytes": 1803,
+    "sha256": "5cde96d457139c9846c5961e388c1f3d42670678782b304a3d92a11184d23e76"
+  },
+  "configs/perf_NYC.tsv": {
+    "bytes": 6781,
+    "sha256": "437186727ff06b86a02fac2ebf9398cb498bba8cd97b9f15741b182139a0f0dc"
+  },
+  "configs/runtime_diag_FLA_3.tsv": {
+    "bytes": 566,
+    "sha256": "4f9bb7d4823a1f2080eb7573301d9f74263ec27a0fbfae40422645e42894220d"
+  },
+  "configs/accept_BAY.tsv": {
+    "bytes": 806,
+    "sha256": "0664eb297c00ae968e9c2beb137ff8159a456450375c6bcc49518b3e2d07607d"
+  },
+  "configs/runtime_diag_NYC_2.tsv": {
+    "bytes": 2586,
+    "sha256": "62b384934f76227dfa061a967dafe1ea91f88237e690d1cce25b045401a92516"
+  },
+  "configs/exact_road_units.tsv": {
+    "bytes": 737,
+    "sha256": "ca44f31b139911a84ec02b4bf122d85e8930a340be771223b98091ee1aa16b05"
+  },
+  "configs/runtime_perf_NYC_3.tsv": {
+    "bytes": 6781,
+    "sha256": "437186727ff06b86a02fac2ebf9398cb498bba8cd97b9f15741b182139a0f0dc"
+  },
+  "configs/runtime_perf_COL_1.tsv": {
+    "bytes": 1803,
+    "sha256": "5d2d62044cf285098386ca1ab928e6c1fbd1ae453388aec53cf8efaa60beb02d"
+  },
+  "configs/diag_NYC.tsv": {
+    "bytes": 2586,
+    "sha256": "62b384934f76227dfa061a967dafe1ea91f88237e690d1cce25b045401a92516"
+  },
+  "configs/runtime_diag_BAY_3.tsv": {
+    "bytes": 566,
+    "sha256": "d790d4a02e8a0862fedfa4a510df244f17cf555048c5319c33487cdff6da04bd"
+  },
+  "configs/runtime_diag_COL_1.tsv": {
+    "bytes": 566,
+    "sha256": "d7068be8523704d1ca0264e4fcbd7bc3c300a69aa4a4228916b7f28d56cc2243"
+  },
+  "configs/perf_BAY.tsv": {
+    "bytes": 1803,
+    "sha256": "5cde96d457139c9846c5961e388c1f3d42670678782b304a3d92a11184d23e76"
+  },
+  "configs/diagnostic_config_ids.json": {
+    "bytes": 589,
+    "sha256": "c1e58a71b4a100fc67b35fb78099939c61abefe33b9b7f424c24078cc6373047"
+  },
+  "configs/runtime_diag_BAY_1.tsv": {
+    "bytes": 566,
+    "sha256": "d790d4a02e8a0862fedfa4a510df244f17cf555048c5319c33487cdff6da04bd"
+  },
+  "configs/storage.json": {
+    "bytes": 333,
+    "sha256": "6a5ebff8583c9ef83a7eda89adf831bf90f95f4be9b2c999b2ff31565f3ed40f"
+  },
+  "configs/runtime_perf_BAY_2.tsv": {
+    "bytes": 1803,
+    "sha256": "5cde96d457139c9846c5961e388c1f3d42670678782b304a3d92a11184d23e76"
+  },
+  "configs/reused_performance.json": {
+    "bytes": 2485,
+    "sha256": "7bf31144e9c1b7669775a5e72a675e9c1773856731f7cab949d497ca5eae4d2e"
+  },
+  "configs/runtime_perf_NYC_1.tsv": {
+    "bytes": 5796,
+    "sha256": "fdf264c43b893f57637f8d9c92ce2e24c6dfedafa96ca6c41d5860f31f07b03e"
+  },
+  "configs/runtime_diag_FLA_1.tsv": {
+    "bytes": 566,
+    "sha256": "4f9bb7d4823a1f2080eb7573301d9f74263ec27a0fbfae40422645e42894220d"
+  },
+  "configs/runtime_perf_FLA_1.tsv": {
+    "bytes": 1556,
+    "sha256": "417888288361e32ead687462e896accc39bcb146eb624a6f0d53ecd6543f77f1"
+  },
+  "configs/runtime_perf_NYC_2.tsv": {
+    "bytes": 6781,
+    "sha256": "437186727ff06b86a02fac2ebf9398cb498bba8cd97b9f15741b182139a0f0dc"
+  },
+  "configs/runtime_diag_FLA_2.tsv": {
+    "bytes": 566,
+    "sha256": "4f9bb7d4823a1f2080eb7573301d9f74263ec27a0fbfae40422645e42894220d"
+  },
+  "configs/environment.json": {
+    "bytes": 844,
+    "sha256": "01a9be43e01f3644c9c9098b06466666152dcdce5ed78dd1e641847fd1135909"
+  },
+  "configs/runtime_diag_NYC_3.tsv": {
+    "bytes": 2586,
+    "sha256": "62b384934f76227dfa061a967dafe1ea91f88237e690d1cce25b045401a92516"
+  },
+  "configs/accept_COL.tsv": {
+    "bytes": 806,
+    "sha256": "7c346e7fcf7227d9922caadaea0a11c4114edb04cbe184e5390b7955b7c40761"
+  },
+  "configs/runtime_diag_COL_3.tsv": {
+    "bytes": 566,
+    "sha256": "d7068be8523704d1ca0264e4fcbd7bc3c300a69aa4a4228916b7f28d56cc2243"
+  },
+  "configs/runtime_diag_BAY_2.tsv": {
+    "bytes": 566,
+    "sha256": "d790d4a02e8a0862fedfa4a510df244f17cf555048c5319c33487cdff6da04bd"
+  },
+  "configs/runtime_perf_COL_2.tsv": {
+    "bytes": 1803,
+    "sha256": "5d2d62044cf285098386ca1ab928e6c1fbd1ae453388aec53cf8efaa60beb02d"
+  },
+  "configs/APPROVED_PLAN.json": {
+    "bytes": 1308,
+    "sha256": "9c86d30870ea6eed8f134fde3e00f510af6fa611e0a39ed09e956a7bfa7f7bb4"
+  },
+  "configs/parameter_reused.json": {
+    "bytes": 12759,
+    "sha256": "38cfd9e4055f5702606fa95aa12bf939c152f505060029287584afa4d942d971"
+  },
+  "configs/runtime_perf_FLA_2.tsv": {
+    "bytes": 1803,
+    "sha256": "724d911404ba051120fd25d418dd8ba3a1c2ce965c322a67c5fcf3e7f0d926b2"
+  },
+  "configs/perf_COL.tsv": {
+    "bytes": 1803,
+    "sha256": "5d2d62044cf285098386ca1ab928e6c1fbd1ae453388aec53cf8efaa60beb02d"
+  },
+  "configs/runtime_perf_FLA_3.tsv": {
+    "bytes": 1803,
+    "sha256": "724d911404ba051120fd25d418dd8ba3a1c2ce965c322a67c5fcf3e7f0d926b2"
+  },
+  "configs/runtime_diag_NYC_1.tsv": {
+    "bytes": 2586,
+    "sha256": "62b384934f76227dfa061a967dafe1ea91f88237e690d1cce25b045401a92516"
+  },
+  "configs/cross_experiment_reuse.csv": {
+    "bytes": 3496,
+    "sha256": "821a9ae62b04b0047abd3e993341097121c19ae9587704c73cd872ae08f88b52"
+  },
+  "configs/runtime_perf_COL_3.tsv": {
+    "bytes": 1803,
+    "sha256": "5d2d62044cf285098386ca1ab928e6c1fbd1ae453388aec53cf8efaa60beb02d"
+  },
+  "configs/unique_performance_configs.json": {
+    "bytes": 30182,
+    "sha256": "b1838153aa746329186547e110ca8f4b156c97f328dde2c3ed68e3f6ed860a24"
+  },
+  "configs/perf_FLA.tsv": {
+    "bytes": 1803,
+    "sha256": "724d911404ba051120fd25d418dd8ba3a1c2ce965c322a67c5fcf3e7f0d926b2"
+  },
+  "configs/diag_BAY.tsv": {
+    "bytes": 566,
+    "sha256": "d790d4a02e8a0862fedfa4a510df244f17cf555048c5319c33487cdff6da04bd"
+  },
+  "configs/graph_reused.json": {
+    "bytes": 2623,
+    "sha256": "ee33b1c2a1a94ae843784f6f6b0522fc74dea802136bfba74fc578f4b47b5c64"
+  },
+  "configs/diag_FLA.tsv": {
+    "bytes": 566,
+    "sha256": "4f9bb7d4823a1f2080eb7573301d9f74263ec27a0fbfae40422645e42894220d"
+  },
+  "configs/runtime_perf_BAY_3.tsv": {
+    "bytes": 1803,
+    "sha256": "5cde96d457139c9846c5961e388c1f3d42670678782b304a3d92a11184d23e76"
+  },
+  "index_bindings/parameter_a4_rep1.json": {
+    "bytes": 923,
+    "sha256": "1714645911ac5f413ea8e9d83d8b881cfdc9281dc3005f7c8678d038bc68c26b"
+  },
+  "index_bindings/parameter_a16_rep3.json": {
+    "bytes": 943,
+    "sha256": "0d283e9bc4bbd875f127ca1dc1352163188bf3e39728efa2f0f5797e33788e3e"
+  },
+  "index_bindings/parameter_a16_rep2.json": {
+    "bytes": 943,
+    "sha256": "69fef9b97a9883b92b73ab62a77acf682614191b68480afe40f666c4ceffc17d"
+  },
+  "index_bindings/parameter_a8_rep2.json": {
+    "bytes": 941,
+    "sha256": "224c32322cddf7f21f112747e815a7eca83ff986913509d7dbc66984b8d95db4"
+  },
+  "index_bindings/parameter_a2_rep3.json": {
+    "bytes": 906,
+    "sha256": "e36365089d1553db4b485dc74cecb4720758ccb90b4b73e7fae77188e93cb4d5"
+  },
+  "index_bindings/parameter_a8_rep1.json": {
+    "bytes": 923,
+    "sha256": "e622388dab0bbb84f1dd97b8e41a6c57d10ecb07947240c4f4599da516573395"
+  },
+  "index_bindings/parameter_a4_rep3.json": {
+    "bytes": 941,
+    "sha256": "62b343be63bc4f8b2d9941161b00858f900f7c70b5bd0fe57ae5fdd2383cb84c"
+  },
+  "index_bindings/graph_ef6400_rep1.json": {
+    "bytes": 2629,
+    "sha256": "54e7a93dbbbab2a774885a5776a9dfb5afa8187588c0209a2e218a6f1eb7aafb"
+  },
+  "index_bindings/graph_ef3200_rep1.json": {
+    "bytes": 2629,
+    "sha256": "54e7a93dbbbab2a774885a5776a9dfb5afa8187588c0209a2e218a6f1eb7aafb"
+  },
+  "index_bindings/parameter_a256_rep2.json": {
+    "bytes": 945,
+    "sha256": "8398b43099159de60cc4d2531ad7ec3179d13c784f4afb3b2b309e2b1971f8c8"
+  },
+  "index_bindings/parameter_a128_rep2.json": {
+    "bytes": 945,
+    "sha256": "4e82307d8d2618a5791f4736a560c7454f2e1694a0742e3ea4e3029cb37a4bac"
+  },
+  "index_bindings/parameter_a1024_rep1.json": {
+    "bytes": 939,
+    "sha256": "92466a5926ce8719a78e93a36f73cef599282626cf451f18c85e2cdf5881c01c"
+  },
+  "index_bindings/parameter_a8_rep3.json": {
+    "bytes": 941,
+    "sha256": "ad2c01127759669412c1e919ba76201e03b953db07bf6b28ebbb26e4dd7573af"
+  },
+  "index_bindings/parameter_a64_rep1.json": {
+    "bytes": 1189,
+    "sha256": "bc8b10e1e2f3a8e228080ed5ed9647da0ccc8712c71bb0e526e6b3e99ed93bf2"
+  },
+  "index_bindings/parameter_a128_rep1.json": {
+    "bytes": 927,
+    "sha256": "737d92b94eaaba26bf88debd4bada6eb42b08353e0a520ef5eb4f2112a168b85"
+  },
+  "index_bindings/parameter_a512_rep2.json": {
+    "bytes": 945,
+    "sha256": "caf3c9deee8b0e574c74d847381ff03ac44611dfd9008693bb41a5e7e2ed295e"
+  },
+  "index_bindings/graph_ef1600_rep1.json": {
+    "bytes": 2629,
+    "sha256": "54e7a93dbbbab2a774885a5776a9dfb5afa8187588c0209a2e218a6f1eb7aafb"
+  },
+  "index_bindings/graph_ef3200_rep2.json": {
+    "bytes": 799,
+    "sha256": "48aa2171e1a57093580445a5cc2d561f4a23e8ec90275f037aa9f1b7c06d0ea4"
+  },
+  "index_bindings/parameter_a1024_rep2.json": {
+    "bytes": 947,
+    "sha256": "7f152c89433cb15e288dc1f010a26135c47f71ec17a311f31bb0d24a10bae96f"
+  },
+  "index_bindings/parameter_a128_rep3.json": {
+    "bytes": 945,
+    "sha256": "7a4ecf901f295c4da61b8bb5463a1726a67454dc8ef7aafb92a56c750574573d"
+  },
+  "index_bindings/parameter_a64_rep3.json": {
+    "bytes": 994,
+    "sha256": "d14c67a3c3f3f56c9baf7def9ba7d31690e64afd535825d9368b7992cf18d609"
+  },
+  "index_bindings/parameter_a512_rep1.json": {
+    "bytes": 936,
+    "sha256": "d4b813b141fda0da26b20a40b3cc07a6705a88dbfb11b19ff730adbde4230776"
+  },
+  "index_bindings/parameter_a32_rep1.json": {
+    "bytes": 1247,
+    "sha256": "fcf59805e8a799e290675b6c12a2de50d36ce523cc7d313f8ba2e3238139c99c"
+  },
+  "index_bindings/graph_ef1600_rep2.json": {
+    "bytes": 799,
+    "sha256": "48aa2171e1a57093580445a5cc2d561f4a23e8ec90275f037aa9f1b7c06d0ea4"
+  },
+  "index_bindings/parameter_a2_rep2.json": {
+    "bytes": 906,
+    "sha256": "eaedba78640c88a5433c92a72456b482085a1b9a2a86bb9f6df84a916861feb1"
+  },
+  "index_bindings/parameter_a32_rep3.json": {
+    "bytes": 996,
+    "sha256": "209a9fbb5ee2c6f48233289f710524cbae5d6f7d0f2f98feff0b5696abf4873a"
+  },
+  "index_bindings/parameter_a2_rep1.json": {
+    "bytes": 906,
+    "sha256": "a4dca8a40a3ad4b65f58d6505a92dbef4fcc792b8f8dcd906faf716cdea91e06"
+  },
+  "index_bindings/graph_ef3200_rep3.json": {
+    "bytes": 799,
+    "sha256": "90695dd4c558029c8cf2b5f23add089f910f0aa62aae464199ff39e658fa9c63"
+  },
+  "index_bindings/parameter_a512_rep3.json": {
+    "bytes": 945,
+    "sha256": "bda4914825c010be0eef2918c4851f54cb74532f1cd64741f0f3904fd2e006e0"
+  },
+  "index_bindings/parameter_a256_rep3.json": {
+    "bytes": 945,
+    "sha256": "5e1ec078944c3dce051b6a14004d068562419e65f217899e2230aa8cb6480a89"
+  },
+  "index_bindings/parameter_a4_rep2.json": {
+    "bytes": 941,
+    "sha256": "92bb08dca9701003be2048e155d58ca4cbc7d22e24b08d79a05b5418d568fb6b"
+  },
+  "index_bindings/parameter_a256_rep1.json": {
+    "bytes": 927,
+    "sha256": "3525201c47a230c6132cac80533b5d06a09ff3b9f9492189a456619bc1f9830c"
+  },
+  "index_bindings/parameter_a32_rep2.json": {
+    "bytes": 996,
+    "sha256": "37e8071f670594f3c3d8e03c5ea4bb5f7955cc3a29a32b643396308153e55f4a"
+  },
+  "index_bindings/parameter_a96_rep1.json": {
+    "bytes": 925,
+    "sha256": "90f629aca36bfff41284c0c016d14442dcbade929a6849cfdfaa4da452073e2f"
+  },
+  "index_bindings/parameter_a64_rep2.json": {
+    "bytes": 994,
+    "sha256": "05dbf1b4b1573c112750faebdbeaf1e757d599d32a386ac9746165a99b1b7639"
+  },
+  "index_bindings/parameter_a96_rep2.json": {
+    "bytes": 943,
+    "sha256": "9a0bd37fa2b6d48fb4058f4dcdfba1bb41421e4fa08f885f1e6ad2d91b41ea0b"
+  },
+  "index_bindings/parameter_a96_rep3.json": {
+    "bytes": 943,
+    "sha256": "7fc4ecd778f34b1e7a36308ff00022bf02fcdad0a160fab03bf568df08ed0ba1"
+  },
+  "index_bindings/graph_ef1600_rep3.json": {
+    "bytes": 799,
+    "sha256": "90695dd4c558029c8cf2b5f23add089f910f0aa62aae464199ff39e658fa9c63"
+  },
+  "index_bindings/graph_ef6400_rep3.json": {
+    "bytes": 799,
+    "sha256": "90695dd4c558029c8cf2b5f23add089f910f0aa62aae464199ff39e658fa9c63"
+  },
+  "index_bindings/graph_ef6400_rep2.json": {
+    "bytes": 799,
+    "sha256": "48aa2171e1a57093580445a5cc2d561f4a23e8ec90275f037aa9f1b7c06d0ea4"
+  },
+  "index_bindings/parameter_a1024_rep3.json": {
+    "bytes": 947,
+    "sha256": "00e948dca1822d81814f078fbb41ae75a415bf1c9a8de38c6cfa64f9f57a0cda"
+  },
+  "index_bindings/parameter_a16_rep1.json": {
+    "bytes": 925,
+    "sha256": "47503c4cd77c3f99402698c986e690aae3b49b9e2cfb40cbfc5815dbe3f22150"
+  },
+  "queries/accept_COL.csv": {
+    "bytes": 566,
+    "sha256": "d214ad5bff9c35861da4f96b2ef6202481176b453b76436219ee9a6abd3f5215"
+  },
+  "queries/BAY_medium.csv": {
+    "bytes": 50435,
+    "sha256": "fcf1f92a9a07d044530095f59b16d48e64129b00efc38a1d0fa7e2345ec9e91e"
+  },
+  "queries/accept_BAY.csv": {
+    "bytes": 565,
+    "sha256": "481203685047bfc251719ece7a2648bf9f997f1ec4a4f76258f1538af88c31ef"
+  },
+  "queries/COL_medium.csv": {
+    "bytes": 50415,
+    "sha256": "d077bd536b2ad01225e176ea45dc9867d851821165778fedd3bdfe2522307919"
+  },
+  "queries/FLA_medium.csv": {
+    "bytes": 50740,
+    "sha256": "346725de2a46665ad602259fafdf71609f5f550ea868b52a4612bc79c9a59dd4"
+  },
+  "queries/NYC_medium.csv": {
+    "bytes": 50497,
+    "sha256": "702a87742237bd5ba0e19a15b2d7c7281c5726e59009f7a9012fab3ae6d12c0c"
+  },
+  "queries/NYC_popular.csv": {
+    "bytes": 52497,
+    "sha256": "c4ee23af8237a419d185e4062bf54aa93bb33f0b98d6e3e55d7a8ee42b648915"
+  },
+  "queries/NYC_rare.csv": {
+    "bytes": 46497,
+    "sha256": "bc1a78c1ae3eefeb702c4c6c6a069043f8dec6ac5b7909a03b19f1e88f4417b8"
+  },
+  "provenance/input_hashes.json": {
+    "bytes": 16303,
+    "sha256": "a220820e1d4e0a2363f239525fc22dde26aea520e72b9291823905f7b90be9ae"
+  },
+  "provenance/EXTENSION_PREFLIGHT_PASS.json": {
+    "bytes": 182,
+    "sha256": "8ac1a4f3d5c245b3b544ef6c83f99d8e6dc3b14f57584b95a66fa99bcab0e916"
+  },
+  "provenance/expected_query_GT_hashes.json": {
+    "bytes": 10071,
+    "sha256": "80af3ca46a0a4bc1017712012b466acf4b9176a04a14fb635219ae0851356c7a"
+  },
+  "provenance/expected_dataset_bindings.json": {
+    "bytes": 6877,
+    "sha256": "ed7148986f2918dfb46ec3f316319ea7c6ac13baaa78c8543f7ffae7ac2db770"
+  },
+  "provenance/effective_GT_bindings.json": {
+    "bytes": 15230,
+    "sha256": "00ce2e7ff5cfb33953c72b59196c464cd8d274661e7ec60bdf70504ae2faa5d8"
+  },
+  "provenance/unchanged_source_core.json": {
+    "bytes": 68118,
+    "sha256": "04aa75d2b3ac31d28d01d858021b6e38fb09a7cd4fad838d66405787d8273c8f"
+  },
+  "provenance/builds.json": {
+    "bytes": 4774,
+    "sha256": "bd421d7b57cd5028f3055664f10a42942b0f820b7df91f792a1b3b7bf39ae64e"
+  },
+  "provenance/PREFLIGHT_PASS.json": {
+    "bytes": 203,
+    "sha256": "e9c7a4a8e0e0e81fb7e514350c06446190fba727c5c9c037dceff6b4b48304e8"
+  },
+  "construction/baselines/SymphonyQG_FLA_rep1/SymphonyQG_FLA_t3000_b512.csv": {
+    "bytes": 3740,
+    "sha256": "7a83d4db9bc019b39473689cd34e251dfe4242a26f8b0d12fc29baa7771a6ae8"
+  },
+  "construction/baselines/SymphonyQG_FLA_rep1/SymphonyQG_FLA_t6000_b3000.csv": {
+    "bytes": 4672,
+    "sha256": "b1103baf36e23260aa3e0139f02bae64699131a636eff4f577a274e438401006"
+  },
+  "construction/baselines/SymphonyQG_FLA_rep1/space.csv": {
+    "bytes": 974,
+    "sha256": "a45e7e951d815819607006a5071002412bdf3d14d2b1d23e3026010efedc089f"
+  },
+  "construction/baselines/SymphonyQG_FLA_rep1/build_stages.csv": {
+    "bytes": 185,
+    "sha256": "9ba4f45438e247bef160e45116066795a1b8947ad329b30a5278248c56c953e0"
+  },
+  "construction/baselines/SymphonyQG_FLA_rep1/SymphonyQG_FLA_t3000_b8000.csv": {
+    "bytes": 4608,
+    "sha256": "224fd43ba3e680689b5bf566e77900de09b94e86bacc639c20f259040b41cc74"
+  },
+  "construction/baselines/SymphonyQG_FLA_rep1/SymphonyQG_FLA_t3000_b128.csv": {
+    "bytes": 3002,
+    "sha256": "af436e6ca9b189b40f5e2c41fae01199a758d3a5d0d789388a8d4ec4db51cfcc"
+  },
+  "construction/baselines/SymphonyQG_FLA_rep1/build_memory.json": {
+    "bytes": 311,
+    "sha256": "8bcc192a562aabed745ab1f01d971042092390008659a9729dcc827420a6fa91"
+  },
+  "construction/baselines/SymphonyQG_BAY_rep3/space.csv": {
+    "bytes": 973,
+    "sha256": "a34c8e49ce16b456f25f4e18dfb59cc10d08252551083629966200a56ed821be"
+  },
+  "construction/baselines/SymphonyQG_BAY_rep3/build_stages.csv": {
+    "bytes": 191,
+    "sha256": "26ae2c131197f495a3ba16615e49a9391086be0be4b523820bff40b8b060d6b2"
+  },
+  "construction/baselines/SymphonyQG_BAY_rep3/build_memory.json": {
+    "bytes": 311,
+    "sha256": "ad96ee048082c95c487bffbf4f82c9494b88eaeffc9ff771be36400068e9fc7c"
+  },
+  "construction/baselines/HNSW_COL_rep2/space.csv": {
+    "bytes": 958,
+    "sha256": "ee5f0cbf79698b05278c9ee27e29a356c627380afaa0a3a4a9f605679dd5afe7"
+  },
+  "construction/baselines/HNSW_COL_rep2/build_stages.csv": {
+    "bytes": 183,
+    "sha256": "824f9a1c9c3787cd147a1a27424c1003d73d75296f28ea69be076e9138bd3806"
+  },
+  "construction/baselines/HNSW_COL_rep2/build_memory.json": {
+    "bytes": 309,
+    "sha256": "cc428b45ea3a981cdf234578e93ca99d474ea9d7c418d12142b4b307209078dd"
+  },
+  "construction/baselines/HNSW_COL_rep3/space.csv": {
+    "bytes": 958,
+    "sha256": "fad44f39a52105f5ac2d400416df455583cbbdb74f026b8f74c05035afe5908f"
+  },
+  "construction/baselines/HNSW_COL_rep3/build_stages.csv": {
+    "bytes": 191,
+    "sha256": "af46fa3db32079237a45763477fa8457d785111a6449d25a64f709f74ab05ff6"
+  },
+  "construction/baselines/HNSW_COL_rep3/build_memory.json": {
+    "bytes": 309,
+    "sha256": "563f62b01ebdf824a8507496727c0862bf7a140d639f2164c948446606291acb"
+  },
+  "construction/baselines/HNSW_BAY_rep2/space.csv": {
+    "bytes": 958,
+    "sha256": "b159dd31999c3814240e88e100f68109e160f1177a8082490e0de4c02a0c1a9b"
+  },
+  "construction/baselines/HNSW_BAY_rep2/build_stages.csv": {
+    "bytes": 174,
+    "sha256": "008dcce12007b35037549d90629ea639f4b0af6bab7c3ec1c7857000c0ef9f2c"
+  },
+  "construction/baselines/HNSW_BAY_rep2/build_memory.json": {
+    "bytes": 309,
+    "sha256": "7978a237051f84791a3baadfe220eaa7a331c819707a2630fbcced768d01911c"
+  },
+  "construction/baselines/HNSW_FLA_rep1/HNSW_FLA_t3000_b8000.csv": {
+    "bytes": 4322,
+    "sha256": "7406f6698808354666cf86e0fc06538cd54f7fed765222e237ea83f144d7cc20"
+  },
+  "construction/baselines/HNSW_FLA_rep1/space.csv": {
+    "bytes": 958,
+    "sha256": "a7dbdd051ec2e3ae8fb0b6a472e7f4e502f2ee872abc69b79f518f8f71b9adf9"
+  },
+  "construction/baselines/HNSW_FLA_rep1/HNSW_FLA_t3000_b128.csv": {
+    "bytes": 3716,
+    "sha256": "cde4aac0456df4f64fc17396f2320f1f6c68278dbb261f7bff9057d2ccd95969"
+  },
+  "construction/baselines/HNSW_FLA_rep1/build_stages.csv": {
+    "bytes": 191,
+    "sha256": "5367ca9fb5ad578e866be8b9ad6227612951e8bf7f9bd03c4467174810f139f4"
+  },
+  "construction/baselines/HNSW_FLA_rep1/HNSW_FLA_t3000_b512.csv": {
+    "bytes": 3953,
+    "sha256": "573036969a1ac3b27f38f5a42c0167e8cdf02026284b168aa6dd06b35cb5a82d"
+  },
+  "construction/baselines/HNSW_FLA_rep1/HNSW_FLA_t6000_b3000.csv": {
+    "bytes": 4205,
+    "sha256": "4c824f5b9e00aa54586d1bb48bb02fcdba24a232857889a47c2d49cd3f697150"
+  },
+  "construction/baselines/HNSW_FLA_rep1/build_memory.json": {
+    "bytes": 311,
+    "sha256": "1ce6afc01926c845aaacf30373ce31f6692828b257a3461d525b16e9415bf53d"
+  },
+  "construction/baselines/SymphonyQG_COL_rep2/space.csv": {
+    "bytes": 973,
+    "sha256": "4bde51f7e5bc5f273698f483843121c24a9fe4ae2a694008ed804c5ad89ae27d"
+  },
+  "construction/baselines/SymphonyQG_COL_rep2/build_stages.csv": {
+    "bytes": 184,
+    "sha256": "fe24304c93423c6a3e239dd5821221c5af9289a70f469a3bb44f438b2d399e86"
+  },
+  "construction/baselines/SymphonyQG_COL_rep2/build_memory.json": {
+    "bytes": 309,
+    "sha256": "51833bfc8153bb632d06e3ad62dfd174a0f1497bcedac68eb9a8da8cb6e8d163"
+  },
+  "construction/baselines/Mesh-Road_BAY_rep2/space.csv": {
+    "bytes": 45103,
+    "sha256": "495cdc168f7cb3385a6cdfce028e44f52d9e4ed8bca10e1d3cd1827c15fdabc9"
+  },
+  "construction/baselines/Mesh-Road_BAY_rep2/build_stages.csv": {
+    "bytes": 190,
+    "sha256": "a6eea7e7a5429d944b0745328611907c421bfebad24427f1a07dc6b6327b90d4"
+  },
+  "construction/baselines/Mesh-Road_BAY_rep2/build_memory.json": {
+    "bytes": 309,
+    "sha256": "030fa3363bc57d733ff9ecc38f929733886068801552f15c66cdc23e3c8e8ec1"
+  },
+  "construction/baselines/RoadScan_NYC_rep1/cost_validated.json": {
+    "bytes": 901,
+    "sha256": "97f1e0c2d98cb89aad2d77186485ff9bd67d5bdddc969b1567fbf0dabd4fdaf8"
+  },
+  "construction/baselines/RoadScan_NYC_rep1/RoadScan_NYC_t6000_b0.csv": {
+    "bytes": 4507,
+    "sha256": "4bea2726b2566d6ad2551c365ef192c60bfcc1c09926d165a9d2ab07621e4264"
+  },
+  "construction/baselines/RoadScan_NYC_rep1/RoadScan_NYC_t3000_b0.csv": {
+    "bytes": 4517,
+    "sha256": "6ba00e8134c575946ed0ffba034cc2d82f5ba84219a47ba75a4496b414000577"
+  },
+  "construction/baselines/RoadScan_NYC_rep1/space.csv": {
+    "bytes": 614,
+    "sha256": "cf6ad0ede79f7602e35082096d78d5db71a2f88d4d7baf1f69be871122b8004f"
+  },
+  "construction/baselines/RoadScan_NYC_rep1/build_stages.csv": {
+    "bytes": 167,
+    "sha256": "cc192608d0851141ed84bade09b731eff7fae7be182e1b4c2ec2e010fc3cce91"
+  },
+  "construction/baselines/RoadScan_NYC_rep1/build_memory.json": {
+    "bytes": 309,
+    "sha256": "ad537c0af6dce89bdcb8e9dcf3692a1c954a7124320a03513277473a7da23b3a"
+  },
+  "construction/baselines/HNSW_COL_rep1/HNSW_COL_t3000_b8000.csv": {
+    "bytes": 4793,
+    "sha256": "5c8c737d25ae91401af6ef9ff13c4ebaa6cb088dd22198056c62af6221ac8d39"
+  },
+  "construction/baselines/HNSW_COL_rep1/HNSW_COL_t3000_b128.csv": {
+    "bytes": 4158,
+    "sha256": "e7b57ffe36ab3bba3834b4fe95ab267da1ae0a90c418575830ab994b758e6dd4"
+  },
+  "construction/baselines/HNSW_COL_rep1/space.csv": {
+    "bytes": 958,
+    "sha256": "dbdcc869fd8cab7662f30b363c824e258ab90bf4e18db73abaee0657ed3513c7"
+  },
+  "construction/baselines/HNSW_COL_rep1/build_stages.csv": {
+    "bytes": 191,
+    "sha256": "7fb1792d987cb914e6c68ffc0ac633d87e91d44370ea3291fb5d480d58339c18"
+  },
+  "construction/baselines/HNSW_COL_rep1/HNSW_COL_t3000_b512.csv": {
+    "bytes": 4514,
+    "sha256": "9fe49d8a13d5390a9f6a5497c5402e0c2132805178d125c5686c65f612f61b01"
+  },
+  "construction/baselines/HNSW_COL_rep1/HNSW_COL_t6000_b3000.csv": {
+    "bytes": 4694,
+    "sha256": "04ca0971d46228c6353027e1a90e087ab9e91b2b492d0c25fea8ce20731fc669"
+  },
+  "construction/baselines/HNSW_COL_rep1/build_memory.json": {
+    "bytes": 309,
+    "sha256": "01ea1a30b3c905093ee607f351eefc3525ceb32921ba37095182308375eb951f"
+  },
+  "construction/baselines/HNSW_FLA_rep3/space.csv": {
+    "bytes": 958,
+    "sha256": "d33c8fe579a8aafa30b564494375c1a18b5b1a268e80ad192a9ee929b16e47c4"
+  },
+  "construction/baselines/HNSW_FLA_rep3/build_stages.csv": {
+    "bytes": 173,
+    "sha256": "c4b9e48dcf3f72083d30f533a9da9090dbbb32c8aa32e791371f00b248c137c0"
+  },
+  "construction/baselines/HNSW_FLA_rep3/build_memory.json": {
+    "bytes": 311,
+    "sha256": "9f0f413e631b858f38a581e64706f5658dc88846e3009cfd2ca53dde31c20427"
+  },
+  "construction/baselines/Mesh-Road_COL_rep2/space.csv": {
+    "bytes": 26833,
+    "sha256": "83d416b68fb6a4a46b4744a854d44e58174c095c17ac9bc03e67717255814894"
+  },
+  "construction/baselines/Mesh-Road_COL_rep2/build_stages.csv": {
+    "bytes": 191,
+    "sha256": "ef156fe3e49f26f27bbde65c30000bd41f431e86f777821774f119c9e6f9ee46"
+  },
+  "construction/baselines/Mesh-Road_COL_rep2/build_memory.json": {
+    "bytes": 309,
+    "sha256": "ff20ad39e273daf7547054104b4a71e37dc61d14c79f414826b27309bd786e25"
+  },
+  "construction/baselines/HNSW_NYC_rep1/cost_validated.json": {
+    "bytes": 915,
+    "sha256": "32de93d9b3b30a2c3a68208e464aedee5b3becf4a2293007f2288d4521763464"
+  },
+  "construction/baselines/HNSW_NYC_rep1/HNSW_NYC_t6000_b3000.csv": {
+    "bytes": 4489,
+    "sha256": "0f4e3ad2b530e63767e0ba22c8f0c70a744fcd3f19c202088bfd9e1b047a5cec"
+  },
+  "construction/baselines/HNSW_NYC_rep1/HNSW_NYC_t3000_b512.csv": {
+    "bytes": 4408,
+    "sha256": "b307b37ca83a1ace6f62f25fc9afea044d936bd46891db041757f403910acacf"
+  },
+  "construction/baselines/HNSW_NYC_rep1/HNSW_NYC_t3000_b8000.csv": {
+    "bytes": 4518,
+    "sha256": "05136ba97bc179c18aef2c231144ab9f895fc1985685385bcc35083edab11285"
+  },
+  "construction/baselines/HNSW_NYC_rep1/HNSW_NYC_t3000_b128.csv": {
+    "bytes": 4181,
+    "sha256": "9382b5086cefdb79ef5467e0106791ed1e4f97b9fdafebe9b1367803ce59b98d"
+  },
+  "construction/baselines/HNSW_NYC_rep1/space.csv": {
+    "bytes": 865,
+    "sha256": "ca185cdad59d49d1853c7a3ea0954af7077cf434ad67043cd11014f591da67c9"
+  },
+  "construction/baselines/HNSW_NYC_rep1/build_stages.csv": {
+    "bytes": 191,
+    "sha256": "9b2d218701052b8c1c515772241e7577fe41b451f1da13e61ae76a57f7cff2e2"
+  },
+  "construction/baselines/HNSW_NYC_rep1/build_memory.json": {
+    "bytes": 309,
+    "sha256": "5343f91cebfc604b176977323a1d78d21df1b7e4a161eade28074ccf564ae69a"
+  },
+  "construction/baselines/RoadScan_FLA_rep1/RoadScan_FLA_t3000_b0.csv": {
+    "bytes": 4477,
+    "sha256": "e522ea1930c5332d5c505465d6228a579f24c6cff3f093d4a6821ac09ebcde39"
+  },
+  "construction/baselines/RoadScan_FLA_rep1/space.csv": {
+    "bytes": 676,
+    "sha256": "371bbc6bf283e1f2d4f5dac8ec49d50b216b6eccf36991fcd40c7c787d5a72ef"
+  },
+  "construction/baselines/RoadScan_FLA_rep1/build_stages.csv": {
+    "bytes": 162,
+    "sha256": "6b0a6f5b02b15651c107b410f3c5a634f2fbbe664760318599b415daf01fece2"
+  },
+  "construction/baselines/RoadScan_FLA_rep1/build_memory.json": {
+    "bytes": 309,
+    "sha256": "c89b1672aa46bc009b9eecb6dd4dc8a806d87dcbabaca1c4595ad9af25a8de03"
+  },
+  "construction/baselines/RoadScan_FLA_rep1/RoadScan_FLA_t6000_b0.csv": {
+    "bytes": 4421,
+    "sha256": "9c1f5db861e491da8ccf29d6abfa85106e87e0f746fcfac757e7c86ee9fdc074"
+  },
+  "construction/baselines/SymphonyQG_BAY_rep1/SymphonyQG_BAY_t6000_b3000.csv": {
+    "bytes": 5047,
+    "sha256": "f69f82edf9a1a9a882a157ba57ab60e0b7c0795e4bbf2898455cd415f1ec0b85"
+  },
+  "construction/baselines/SymphonyQG_BAY_rep1/SymphonyQG_BAY_t3000_b512.csv": {
+    "bytes": 4071,
+    "sha256": "f01a0c2838879fa8e17413f8ff86245a0f1995e5fbae1104c6ed7c5ac6f5875a"
+  },
+  "construction/baselines/SymphonyQG_BAY_rep1/space.csv": {
+    "bytes": 973,
+    "sha256": "9cacd227095d241d963d3d03acf729aedc41f82d5798324b41c406336d7478bd"
+  },
+  "construction/baselines/SymphonyQG_BAY_rep1/build_stages.csv": {
+    "bytes": 184,
+    "sha256": "276a0032087e7de38892a322f8678572b452ecdcd228225c2bfe3912b2e5a6d5"
+  },
+  "construction/baselines/SymphonyQG_BAY_rep1/SymphonyQG_BAY_t3000_b8000.csv": {
+    "bytes": 4923,
+    "sha256": "4c7c41d0e0639dfc72c16ebdf2c69cb8acdc8a2aa7773638a59c8afafb22a303"
+  },
+  "construction/baselines/SymphonyQG_BAY_rep1/SymphonyQG_BAY_t3000_b128.csv": {
+    "bytes": 4036,
+    "sha256": "ef1826d5769c5b4e8f819c71f64043abc8891c8885c748a99be2e7aeb11d2fcb"
+  },
+  "construction/baselines/SymphonyQG_BAY_rep1/build_memory.json": {
+    "bytes": 311,
+    "sha256": "7cf0e4595e31984a5827bfa114b9c650db93cbe87888d76029e7d751aa3c26f3"
+  },
+  "construction/baselines/SymphonyQG_COL_rep3/space.csv": {
+    "bytes": 973,
+    "sha256": "dab12230c8e790c022702676a596c70cd2e652e6a40bd9cb2593f4bb93559e4b"
+  },
+  "construction/baselines/SymphonyQG_COL_rep3/build_stages.csv": {
+    "bytes": 177,
+    "sha256": "b0fbf9c1d2964c9777d1d85ac4ac2c2c554c7530d32c87d12460817518d34ecd"
+  },
+  "construction/baselines/SymphonyQG_COL_rep3/build_memory.json": {
+    "bytes": 309,
+    "sha256": "707cdebcd20f931b08a7ca6910b675fa66b939456091b10ee71f109f8eb812de"
+  },
+  "construction/baselines/HNSW_FLA_rep2/space.csv": {
+    "bytes": 958,
+    "sha256": "1bb31391c7825b6e0fa7921c61705da735a887ee4e704cc9cfb642cbd520242d"
+  },
+  "construction/baselines/HNSW_FLA_rep2/build_stages.csv": {
+    "bytes": 191,
+    "sha256": "fbd5dda88adfd1594d88949100f14de04fd3bde97554feeb23941bf549c3efcc"
+  },
+  "construction/baselines/HNSW_FLA_rep2/build_memory.json": {
+    "bytes": 311,
+    "sha256": "b7dfda3be515bca1f6a6a28e0f7bb0f68fb47abcf025d9c48f32afdb1b9ed8c1"
+  },
+  "construction/baselines/RoadScan_COL_rep1/RoadScan_COL_t3000_b0.csv": {
+    "bytes": 4781,
+    "sha256": "3ea06b79aa546a74f244a96c3addef57b2e7056ba6d0dff026a07755b3d8543c"
+  },
+  "construction/baselines/RoadScan_COL_rep1/space.csv": {
+    "bytes": 676,
+    "sha256": "5a344391d27d8e97ec139c231a86b17f578d168b8f32a7c93bd5f1be8889cf14"
+  },
+  "construction/baselines/RoadScan_COL_rep1/build_stages.csv": {
+    "bytes": 166,
+    "sha256": "2c27dc77f581ad32a4fefc88ba9e56fdac668ea662dbb02452ce9a57ad46a464"
+  },
+  "construction/baselines/RoadScan_COL_rep1/RoadScan_COL_t6000_b0.csv": {
+    "bytes": 4757,
+    "sha256": "3afc38278f55685fc5fc402889534ae687a634b4289f1a25c1831d40d63f0799"
+  },
+  "construction/baselines/RoadScan_COL_rep1/build_memory.json": {
+    "bytes": 309,
+    "sha256": "660d639086d12fadef1259b2b7b4d57ec7e9ce705ef50e8d6409db7fede4bec2"
+  },
+  "construction/baselines/SymphonyQG_FLA_rep3/space.csv": {
+    "bytes": 974,
+    "sha256": "34739df8b94ba478666d3424bf55109e621b17700c3f0e36d43ed8840472979a"
+  },
+  "construction/baselines/SymphonyQG_FLA_rep3/build_stages.csv": {
+    "bytes": 187,
+    "sha256": "34aa83729fd9d7c99802355b85711e0a91fffeabb5366ee0fe63b07b4e7eab90"
+  },
+  "construction/baselines/SymphonyQG_FLA_rep3/build_memory.json": {
+    "bytes": 311,
+    "sha256": "dd23dcb98852323c87a786aadf1cfff20d3070fd8ac763ddecb2a6a823aaabf1"
+  },
+  "construction/baselines/Mesh-Road_NYC_rep2/space.csv": {
+    "bytes": 72271,
+    "sha256": "5053fda65a6726a6ee342ed0b942a178216b67f4b65483d3aca1979577b36ffc"
+  },
+  "construction/baselines/Mesh-Road_NYC_rep2/build_stages.csv": {
+    "bytes": 190,
+    "sha256": "1f145c69482ea7c1a7164175524d0d7c01d3716ff1bfc2705485b7e5678a0921"
+  },
+  "construction/baselines/Mesh-Road_NYC_rep2/build_memory.json": {
+    "bytes": 309,
+    "sha256": "f4ee00318df692b286f2c6a5daaa5d6611adcc39aaa1cbdcc099e9e228cc212c"
+  },
+  "construction/baselines/HNSW_NYC_rep2/space.csv": {
+    "bytes": 925,
+    "sha256": "24aca8898eae9b77437470c09a21dc7b078c6cdf893554d1ccd3fad4af9580b3"
+  },
+  "construction/baselines/HNSW_NYC_rep2/build_stages.csv": {
+    "bytes": 185,
+    "sha256": "049eabf95f5479b6351a9d76d766a55e2e7c015b4acca51a329b4a24f9448abd"
+  },
+  "construction/baselines/HNSW_NYC_rep2/build_memory.json": {
+    "bytes": 309,
+    "sha256": "9b71d05cb01130a0306a1b3f6ccade27752294ed89317274862eb30f8a09ad46"
+  },
+  "construction/baselines/RoadScan_BAY_rep3/space.csv": {
+    "bytes": 676,
+    "sha256": "e46de7b7eb6ccdc09f05f712f5882601ad41ffea0e9d8e17ea60f9e80ea49ce0"
+  },
+  "construction/baselines/RoadScan_BAY_rep3/build_stages.csv": {
+    "bytes": 174,
+    "sha256": "75a0b877d93874d0e31b87d9cfd4fd20d27bc281bff4aed3de59fa104181ab64"
+  },
+  "construction/baselines/RoadScan_BAY_rep3/build_memory.json": {
+    "bytes": 309,
+    "sha256": "40dde93df2898498f0001e75bce96f0b4f4b756e4311b6e90a8c4e5e932f5c54"
+  },
+  "construction/baselines/Mesh-Road_NYC_rep3/space.csv": {
+    "bytes": 72271,
+    "sha256": "14adda7109b0bca6f3826223598b0c80cba6ab8afa63ad92642b1fdbccdb1d15"
+  },
+  "construction/baselines/Mesh-Road_NYC_rep3/build_stages.csv": {
+    "bytes": 190,
+    "sha256": "7dd652d3fcb6650e95ab902b835c864a8e371f6c0905d9473522f024765bcf93"
+  },
+  "construction/baselines/Mesh-Road_NYC_rep3/build_memory.json": {
+    "bytes": 309,
+    "sha256": "dbc54528e39b421ea7c23431dd2b68ab358e06c5531b6f821e920bb8bc33f841"
+  },
+  "construction/baselines/Mesh-Road_BAY_rep3/space.csv": {
+    "bytes": 45103,
+    "sha256": "b00d107a40a0a4508ffbfcc6ae084efa94d9945cab3a532435d777736c6b6ca0"
+  },
+  "construction/baselines/Mesh-Road_BAY_rep3/build_stages.csv": {
+    "bytes": 179,
+    "sha256": "f26249566ff1895fd01686b155a98d71b5fa1b6ee1d835b721b6e82d2c2a020f"
+  },
+  "construction/baselines/Mesh-Road_BAY_rep3/build_memory.json": {
+    "bytes": 309,
+    "sha256": "1abad6f3cf965235247854e41a971ad85e03f3e85c2cb7953f0cd47544b7879c"
+  },
+  "construction/baselines/HNSW_BAY_rep3/space.csv": {
+    "bytes": 958,
+    "sha256": "9ed885208df8a733eb68ca1cd2e436656b876b36d3b7e2c1e08b8778313be8ac"
+  },
+  "construction/baselines/HNSW_BAY_rep3/build_stages.csv": {
+    "bytes": 191,
+    "sha256": "387ba5709aeff21e384a3dc57b53d8e1211747f1990fa1226941072e30be0b61"
+  },
+  "construction/baselines/HNSW_BAY_rep3/build_memory.json": {
+    "bytes": 309,
+    "sha256": "c4381fd72fd0341a7373a816a5b8844d6549a9c8bd359d1ecbdea7c197ab848d"
+  },
+  "construction/baselines/RoadScan_COL_rep2/space.csv": {
+    "bytes": 676,
+    "sha256": "7ed20d28bba61b0c9cd8b964e080f7b5cb8bb46266c2b30ac6b425a31b3b0c49"
+  },
+  "construction/baselines/RoadScan_COL_rep2/build_stages.csv": {
+    "bytes": 153,
+    "sha256": "5e8dec5cfc6ffab00c9709554096472bf667ae93e23fa8550c27ff1f1ba15c58"
+  },
+  "construction/baselines/RoadScan_COL_rep2/build_memory.json": {
+    "bytes": 309,
+    "sha256": "bf289fcb467339ba6542405fa08743f3f711b66256cde43b6b35fc804b4b723b"
+  },
+  "construction/baselines/HNSW_BAY_rep1/HNSW_BAY_t6000_b3000.csv": {
+    "bytes": 4835,
+    "sha256": "d2d3d5262a54335ca366ef8577c7beb3cdf9e94597d786abb062409cccae9e41"
+  },
+  "construction/baselines/HNSW_BAY_rep1/space.csv": {
+    "bytes": 958,
+    "sha256": "19ed2efd412f65b7d7308a85be2c46ef865c8fae3fa6d1a962e332017f25adb3"
+  },
+  "construction/baselines/HNSW_BAY_rep1/build_stages.csv": {
+    "bytes": 191,
+    "sha256": "33346ac0c103c51320a980ef37986f9ee4092034dc20c41dc338dcc413d14bab"
+  },
+  "construction/baselines/HNSW_BAY_rep1/HNSW_BAY_t3000_b8000.csv": {
+    "bytes": 5004,
+    "sha256": "91d054f469ef4dfcfb873725dbd5e992953e79e422199eb29bc9523ff1cbb544"
+  },
+  "construction/baselines/HNSW_BAY_rep1/HNSW_BAY_t3000_b128.csv": {
+    "bytes": 4130,
+    "sha256": "190855c668e3395eaed41f964614137071065015a24a67b9cd26f07e2a3b2f5f"
+  },
+  "construction/baselines/HNSW_BAY_rep1/HNSW_BAY_t3000_b512.csv": {
+    "bytes": 4281,
+    "sha256": "1b1f14631819b0a2ef1f87372915dcd76cc068d25d7b4285695d558fc9c704e5"
+  },
+  "construction/baselines/HNSW_BAY_rep1/build_memory.json": {
+    "bytes": 309,
+    "sha256": "c1ef579836dfc960ebeb3ca17c9bba225afafd358b35e4c2c86f7d41dae0c9e8"
+  },
+  "construction/baselines/RoadScan_NYC_rep2/space.csv": {
+    "bytes": 654,
+    "sha256": "7f92b348ddcd3ed67af3137de6ea696ce1c8194d37282cc556d07d3afec6d7dd"
+  },
+  "construction/baselines/RoadScan_NYC_rep2/build_stages.csv": {
+    "bytes": 155,
+    "sha256": "48d6091459d088502880a94e83d16ac14e3ae6e341c6d5d4b71f70766ce8f676"
+  },
+  "construction/baselines/RoadScan_NYC_rep2/build_memory.json": {
+    "bytes": 309,
+    "sha256": "20236a29298a0f7c5337841902ba040cf68e01b49082ed7138eb396597f17a9f"
+  },
+  "construction/baselines/HNSW_NYC_rep3/space.csv": {
+    "bytes": 925,
+    "sha256": "866a08f0c6625fabc4656961df9eae2bfc17f66c9957d52ec3b065e855793e77"
+  },
+  "construction/baselines/HNSW_NYC_rep3/build_stages.csv": {
+    "bytes": 191,
+    "sha256": "33a1ec3593344f9f7ca8e023cac46d933ae6965e6fbb87b90f2fd5ee3f2ad65f"
+  },
+  "construction/baselines/HNSW_NYC_rep3/build_memory.json": {
+    "bytes": 309,
+    "sha256": "0fcf013171ecbeec04f218378b5cde7a645bf11049cc34a1a42ef7314c51f52f"
+  },
+  "construction/baselines/RoadScan_FLA_rep2/space.csv": {
+    "bytes": 676,
+    "sha256": "4b9ef5052dcf6f0b21e40552c39df7ebbdb90b7120c8bff780a6cc28d51358d3"
+  },
+  "construction/baselines/RoadScan_FLA_rep2/build_stages.csv": {
+    "bytes": 162,
+    "sha256": "6f3744cbaf65db48c2e7a63f2a1c626facd68b3d42ce29fac4e7ef2a74d9c7e5"
+  },
+  "construction/baselines/RoadScan_FLA_rep2/build_memory.json": {
+    "bytes": 309,
+    "sha256": "b7d0937a016f3158394148f56516fe5a63d49d8f78106cc39c9db07d1318b70f"
+  },
+  "construction/baselines/SymphonyQG_NYC_rep3/space.csv": {
+    "bytes": 940,
+    "sha256": "ceb88154c38b10d220d4513d4087fc7bbcf77f7fbc2f9ed878bd6163d5e14f14"
+  },
+  "construction/baselines/SymphonyQG_NYC_rep3/build_stages.csv": {
+    "bytes": 185,
+    "sha256": "87578eba9a382d74f74d90f546280bab4e838f9b2e8e9c2adf1cafffcdea5812"
+  },
+  "construction/baselines/SymphonyQG_NYC_rep3/build_memory.json": {
+    "bytes": 311,
+    "sha256": "95075e61156130509963157b0d3c105f5aa15ba09c8577c39750703dbabf1a88"
+  },
+  "construction/baselines/SymphonyQG_NYC_rep2/space.csv": {
+    "bytes": 940,
+    "sha256": "76ae5cdfc0c86b744fea54e5949ff3fd9e0324edaa87cffe64e21f3619c3a441"
+  },
+  "construction/baselines/SymphonyQG_NYC_rep2/build_stages.csv": {
+    "bytes": 185,
+    "sha256": "1d7452d12edaf79fa5c065cc32e2c7ab2c0e6aa3757171ed6aa0f86c25e3c02a"
+  },
+  "construction/baselines/SymphonyQG_NYC_rep2/build_memory.json": {
+    "bytes": 311,
+    "sha256": "0ab27c1617cb3eda5aa8973ec1a633cd4871cfefc3d6021d1d2972e19d1a8335"
+  },
+  "construction/baselines/Mesh-Road_COL_rep1/Mesh-Road_COL_t3000_b128.csv": {
+    "bytes": 4569,
+    "sha256": "74cde16adb81b9a91fbc622fe4aaca6550c9bd9e8085bdd78b44ddbd3d3f9bd6"
+  },
+  "construction/baselines/Mesh-Road_COL_rep1/Mesh-Road_COL_t6000_b256.csv": {
+    "bytes": 4673,
+    "sha256": "c4a7ddefea9b0ae14ac63913a6bb3b26a3279541bbde8cb279a28ab7cdea0175"
+  },
+  "construction/baselines/Mesh-Road_COL_rep1/space.csv": {
+    "bytes": 26833,
+    "sha256": "e2d23426dc74e4136fdaa5c11cafb796bb04bf4bb1ea52ff46dcbd836d16174f"
+  },
+  "construction/baselines/Mesh-Road_COL_rep1/build_stages.csv": {
+    "bytes": 191,
+    "sha256": "f33a554e1087478d43ecf7d3e41a70eee6c895339916bdfd8106dfd0ffe02866"
+  },
+  "construction/baselines/Mesh-Road_COL_rep1/Mesh-Road_COL_t3000_b8000.csv": {
+    "bytes": 5036,
+    "sha256": "62e40a4f063b76b36f61b2bacddfd02131e23c596595f2d9ebc8d6ee60cd802e"
+  },
+  "construction/baselines/Mesh-Road_COL_rep1/Mesh-Road_COL_t3000_b512.csv": {
+    "bytes": 4761,
+    "sha256": "24294174e2d622d16615f4b85c9ca66d00540a353891ec52eb47f308e0e2172f"
+  },
+  "construction/baselines/Mesh-Road_COL_rep1/build_memory.json": {
+    "bytes": 309,
+    "sha256": "686abf4d038e3daa6f246f036ca25ccd1c9f4a8d48913fc62e13b6999bed4c2b"
+  },
+  "construction/baselines/Mesh-Road_COL_rep3/space.csv": {
+    "bytes": 26833,
+    "sha256": "0d36ef0ee724f9462dcb264e2038294c745fe12de38ab6630f76f24ae8dbdeb5"
+  },
+  "construction/baselines/Mesh-Road_COL_rep3/build_stages.csv": {
+    "bytes": 191,
+    "sha256": "536959f3f2538f79fbaa689cc2f448b40fa155b009832d778480cfdfbec43f98"
+  },
+  "construction/baselines/Mesh-Road_COL_rep3/build_memory.json": {
+    "bytes": 309,
+    "sha256": "3cf8016622c6c42b81708fca4e8fc756681020f9c5ba5ca25b4205acae80098c"
+  },
+  "construction/baselines/Mesh-Road_FLA_rep1/space.csv": {
+    "bytes": 96375,
+    "sha256": "b4e661965351ed964208d0e9af33863828521ebc08070acb1f34f2ef346db150"
+  },
+  "construction/baselines/Mesh-Road_FLA_rep1/build_stages.csv": {
+    "bytes": 190,
+    "sha256": "91c2bb2a9d3c2cc8cf67cc2cd9ca9629e161b059179d0eaa896a8ac5d34da93b"
+  },
+  "construction/baselines/Mesh-Road_FLA_rep1/Mesh-Road_FLA_t6000_b256.csv": {
+    "bytes": 4709,
+    "sha256": "e569cd95f825c69e17710326509bb4b9fb38b3e1065a70b69ab399971d42b916"
+  },
+  "construction/baselines/Mesh-Road_FLA_rep1/Mesh-Road_FLA_t3000_b512.csv": {
+    "bytes": 4663,
+    "sha256": "91ef13e4d13b5f2b9698261d9cc6820091c0265b8ec4729e689ef2064ea6e2ec"
+  },
+  "construction/baselines/Mesh-Road_FLA_rep1/Mesh-Road_FLA_t3000_b8000.csv": {
+    "bytes": 4758,
+    "sha256": "22f1329f76f396d5f8a51e1facf150b7f937dc1f8f77c2ab323f4c376c07e71a"
+  },
+  "construction/baselines/Mesh-Road_FLA_rep1/Mesh-Road_FLA_t3000_b128.csv": {
+    "bytes": 4620,
+    "sha256": "cfd2f44c90b40938e946614a3eddf7058263c563d7694e893330351fb0b40482"
+  },
+  "construction/baselines/Mesh-Road_FLA_rep1/build_memory.json": {
+    "bytes": 311,
+    "sha256": "338db846190dac7256145315f0953adf70d6bb5b1587409ced237d4d8fb45e48"
+  },
+  "construction/baselines/SymphonyQG_FLA_rep2/space.csv": {
+    "bytes": 974,
+    "sha256": "62bfed455124088f8cb6dad8fd4543e17cbb1fcb637c887663a8a88d0df0f14a"
+  },
+  "construction/baselines/SymphonyQG_FLA_rep2/build_stages.csv": {
+    "bytes": 191,
+    "sha256": "0a985392c112b57817fc435c45e83d5c548e5b17d45b2a64d01b7b7d243cb2d9"
+  },
+  "construction/baselines/SymphonyQG_FLA_rep2/build_memory.json": {
+    "bytes": 311,
+    "sha256": "2d5129988c887f864988e428788ae329c1876be35c856999cf78a8ea0f216a9b"
+  },
+  "construction/baselines/RoadScan_BAY_rep2/space.csv": {
+    "bytes": 676,
+    "sha256": "9bdf96e703b10310a5d4cfbd7900866a02d6a3d916a748dbbfe68f3302d46dbe"
+  },
+  "construction/baselines/RoadScan_BAY_rep2/build_stages.csv": {
+    "bytes": 174,
+    "sha256": "629c1babd32baf40f0739c6ee09f93cb93579756770de87a0697ad88c3b356bb"
+  },
+  "construction/baselines/RoadScan_BAY_rep2/build_memory.json": {
+    "bytes": 309,
+    "sha256": "3a287f0e9b3b25aef6be2ae57032134c348bab2e27c2a1d02dec9b0fd0c5a7fc"
+  },
+  "construction/baselines/SymphonyQG_BAY_rep2/space.csv": {
+    "bytes": 973,
+    "sha256": "96188595ab69fc6e46e18cdedaaa4efa90f27e19dbb63da6381ceec1fcfc88f8"
+  },
+  "construction/baselines/SymphonyQG_BAY_rep2/build_stages.csv": {
+    "bytes": 191,
+    "sha256": "e9d5bf756cae0bf9559b9014ec57859fc7a435b1f89f3c8e6d053a99a3210bd7"
+  },
+  "construction/baselines/SymphonyQG_BAY_rep2/build_memory.json": {
+    "bytes": 311,
+    "sha256": "682e51815bbbe77407dd6c94ed9b7e1723bfc32a7cf7695ab7a4cf57b09682c4"
+  },
+  "construction/baselines/Mesh-Road_FLA_rep2/space.csv": {
+    "bytes": 96375,
+    "sha256": "aea27f859c3e167958be26dc0556e6226e9ba3a604269ed5813376c5e76f4698"
+  },
+  "construction/baselines/Mesh-Road_FLA_rep2/build_stages.csv": {
+    "bytes": 184,
+    "sha256": "37c776ec60493c88f47754397b072d780cb49f8ce1b8d725662f768eecd39462"
+  },
+  "construction/baselines/Mesh-Road_FLA_rep2/build_memory.json": {
+    "bytes": 311,
+    "sha256": "618249e97992cdc1a92a26ad4f5beb7635715c919d8c8c410c09b840d3ee9699"
+  },
+  "construction/baselines/SymphonyQG_NYC_rep1/SymphonyQG_NYC_t3000_b8000.csv": {
+    "bytes": 4824,
+    "sha256": "d16b7f6f7ab3d36f1909f4296e8f2779a2e9c9c4f8ed1f699b59903a0a117fe7"
+  },
+  "construction/baselines/SymphonyQG_NYC_rep1/cost_validated.json": {
+    "bytes": 933,
+    "sha256": "d124ad042a174037a3f69437cf8ec705a11f483ded06a721876e20a968e47605"
+  },
+  "construction/baselines/SymphonyQG_NYC_rep1/space.csv": {
+    "bytes": 880,
+    "sha256": "abc229fcce2fde3a22f2b1c39bf8fa44548a7ffd399a24965bd4b6bd045e683b"
+  },
+  "construction/baselines/SymphonyQG_NYC_rep1/SymphonyQG_NYC_t6000_b3000.csv": {
+    "bytes": 4899,
+    "sha256": "1247a2de14c1c61838d62cbd769d11baa084ab4ea435021898cb8d281a362ab3"
+  },
+  "construction/baselines/SymphonyQG_NYC_rep1/build_stages.csv": {
+    "bytes": 187,
+    "sha256": "1014a1ac26b97319f5be384826f25c89b0d73ba39393355c1953eca4cd8b1b7e"
+  },
+  "construction/baselines/SymphonyQG_NYC_rep1/SymphonyQG_NYC_t3000_b512.csv": {
+    "bytes": 4486,
+    "sha256": "f8dc462ec103162531f963d7c2a9dda4c4a8b93462f8b0359bc078c43dfd88e8"
+  },
+  "construction/baselines/SymphonyQG_NYC_rep1/SymphonyQG_NYC_t3000_b128.csv": {
+    "bytes": 4241,
+    "sha256": "2f0efc599550b2d548f3d85c6bbd63dc8cccbf0927126059021432ac305cae33"
+  },
+  "construction/baselines/SymphonyQG_NYC_rep1/build_memory.json": {
+    "bytes": 311,
+    "sha256": "957cbb9c3d2af5ed6e68d4ffe68cd781643befc4fc166c75fa91cf5660340695"
+  },
+  "construction/baselines/RoadScan_COL_rep3/space.csv": {
+    "bytes": 676,
+    "sha256": "c1743be697fdf5093db7315bd5f363c33184fe1239abcbed121c8d8a261d9e04"
+  },
+  "construction/baselines/RoadScan_COL_rep3/build_stages.csv": {
+    "bytes": 160,
+    "sha256": "aef25bbfa4597a2cbdfbaea78fc2b56546afdab8974acea62b39c6300aa373c2"
+  },
+  "construction/baselines/RoadScan_COL_rep3/build_memory.json": {
+    "bytes": 309,
+    "sha256": "6723aa45cb7b0efd212a883fc863cdc59035e55e5fe28890a313874d9e269505"
+  },
+  "construction/baselines/Mesh-Road_NYC_rep1/Mesh-Road_NYC_t3000_b8000.csv": {
+    "bytes": 4734,
+    "sha256": "85e232e8fe3ba4b205e6627dc0cec48060f6f3cb2f168c41b991e26974450aee"
+  },
+  "construction/baselines/Mesh-Road_NYC_rep1/cost_validated.json": {
+    "bytes": 957,
+    "sha256": "10140ae184157e100886738195367ffcad4bf914dba1e5ff518488e317de7e36"
+  },
+  "construction/baselines/Mesh-Road_NYC_rep1/Mesh-Road_NYC_t3000_b128.csv": {
+    "bytes": 4652,
+    "sha256": "0503e24c7bcd8817622594a74712aa7181783a2c4c882e543f2f463f7899fb62"
+  },
+  "construction/baselines/Mesh-Road_NYC_rep1/Mesh-Road_NYC_t6000_b128.csv": {
+    "bytes": 4657,
+    "sha256": "bcc3b6b451ecd7fe4e9f12ebb34b477192e9d3630dfee05efe4abf8b6d660442"
+  },
+  "construction/baselines/Mesh-Road_NYC_rep1/space.csv": {
+    "bytes": 67351,
+    "sha256": "a89722e4a7c8d379d073431d7beadd0760a385d2efaf24e8772af120f8b0e232"
+  },
+  "construction/baselines/Mesh-Road_NYC_rep1/Mesh-Road_NYC_t3000_b512.csv": {
+    "bytes": 4638,
+    "sha256": "e6d1cdd1fff9f02fecad8f8c737e778e4bce0a8ac5195131c303ca45436c0cca"
+  },
+  "construction/baselines/Mesh-Road_NYC_rep1/build_stages.csv": {
+    "bytes": 190,
+    "sha256": "4abe25f2fb2f095fab35e4f4ac5a39a83c4fdb6bc44e192eb833dad2181fc07d"
+  },
+  "construction/baselines/Mesh-Road_NYC_rep1/build_memory.json": {
+    "bytes": 309,
+    "sha256": "edaaa77551d88b1b8914b3c2c36160717d1df257fc814b5eff1a37bc57af7f0a"
+  },
+  "construction/baselines/RoadScan_NYC_rep3/space.csv": {
+    "bytes": 654,
+    "sha256": "32802bcfdacde57d2761afdff7e674b65866ef98b0dde514bb31dd14857602ad"
+  },
+  "construction/baselines/RoadScan_NYC_rep3/build_stages.csv": {
+    "bytes": 174,
+    "sha256": "05fd3f9de42c51927c2041012d896d2847818d55144c51eaf75dcefb70abb0d1"
+  },
+  "construction/baselines/RoadScan_NYC_rep3/build_memory.json": {
+    "bytes": 309,
+    "sha256": "209ce61d6b1481f1734ae30b8ff6c80a2d5abc05b607f9fb864ff37690366fae"
+  },
+  "construction/baselines/RoadScan_BAY_rep1/RoadScan_BAY_t3000_b0.csv": {
+    "bytes": 4839,
+    "sha256": "ddb2af31e2a53e64d3a86335074bd5eeca6d42c952ed4101880c34548f930b4b"
+  },
+  "construction/baselines/RoadScan_BAY_rep1/space.csv": {
+    "bytes": 654,
+    "sha256": "2adde4f1e719a773a2e8c7fa9bd50ae73e6ff52ad3d8b845c5c9299a158606f7"
+  },
+  "construction/baselines/RoadScan_BAY_rep1/RoadScan_BAY_t6000_b0.csv": {
+    "bytes": 4808,
+    "sha256": "4a75f671883541fe8654f6d91e686523c1e80fa6cf5c4e2a68139912f10c73ea"
+  },
+  "construction/baselines/RoadScan_BAY_rep1/build_stages.csv": {
+    "bytes": 165,
+    "sha256": "d268e6cc3b94c47501f3a75ef29a210b9833288559dfe82c907c9481963ec6ff"
+  },
+  "construction/baselines/RoadScan_BAY_rep1/build_memory.json": {
+    "bytes": 309,
+    "sha256": "edee1d3ec4d13d8f944e3f78f6b293acd35ae6aaea7bd349cb8c4363e6321ff6"
+  },
+  "construction/baselines/SymphonyQG_COL_rep1/SymphonyQG_COL_t3000_b128.csv": {
+    "bytes": 3812,
+    "sha256": "864ffc95b0a115553e0bdfdef6c5ac691b431788b476f3cdefdc304e9b6f1273"
+  },
+  "construction/baselines/SymphonyQG_COL_rep1/SymphonyQG_COL_t3000_b512.csv": {
+    "bytes": 3949,
+    "sha256": "a1fa634674d46d47b4c6535ebf199b8fa7199a78ba4d65aa9969f6c0b8327851"
+  },
+  "construction/baselines/SymphonyQG_COL_rep1/space.csv": {
+    "bytes": 973,
+    "sha256": "5dc9eee2287e8695085c832911d20c0af7eb71c2e1e44d83ca6b98656f1624b3"
+  },
+  "construction/baselines/SymphonyQG_COL_rep1/build_stages.csv": {
+    "bytes": 171,
+    "sha256": "89219bd3f905f1adb4d8fb8ec00af4eb3e10485a8a38c8107594c6abdef9aa88"
+  },
+  "construction/baselines/SymphonyQG_COL_rep1/SymphonyQG_COL_t6000_b3000.csv": {
+    "bytes": 4766,
+    "sha256": "c4cf9dd79469a4da9762f8dc2c3ddb06ab7f1881929adc0767fdf9d335bae6fa"
+  },
+  "construction/baselines/SymphonyQG_COL_rep1/SymphonyQG_COL_t3000_b8000.csv": {
+    "bytes": 4750,
+    "sha256": "d29988fdc5d1929f741bbe2063875d72b1a7137dfab968e954c2e84b557a5ed1"
+  },
+  "construction/baselines/SymphonyQG_COL_rep1/build_memory.json": {
+    "bytes": 309,
+    "sha256": "5e63e05c1ce680c28b32f41cee1f044046f39d91cf1781e7b2fbff426ff9c4d9"
+  },
+  "construction/baselines/Mesh-Road_BAY_rep1/Mesh-Road_BAY_t6000_b128.csv": {
+    "bytes": 4842,
+    "sha256": "a0c2654ea1d00046838fd00637ea8683520fafeb1e9853021b32669bdfeb7eeb"
+  },
+  "construction/baselines/Mesh-Road_BAY_rep1/Mesh-Road_BAY_t3000_b8000.csv": {
+    "bytes": 5165,
+    "sha256": "ffb67ff25c696eaa26dc8d7f7979cbd1515bc766df6de6fd4d8bb71a1711425c"
+  },
+  "construction/baselines/Mesh-Road_BAY_rep1/space.csv": {
+    "bytes": 45103,
+    "sha256": "8821fa14bc64ce140705c3fe459b876f3ef49424257747973ef3e8e66770ecd0"
+  },
+  "construction/baselines/Mesh-Road_BAY_rep1/build_stages.csv": {
+    "bytes": 185,
+    "sha256": "58b77fec8694d517f422481924b8ec9be618e4a618ee14d8fae84fd3d0f37a22"
+  },
+  "construction/baselines/Mesh-Road_BAY_rep1/Mesh-Road_BAY_t3000_b128.csv": {
+    "bytes": 4831,
+    "sha256": "4404ca96c98c811cf173fab4f5c8f21b7e92d8e5822478fcb1fd613040e08d06"
+  },
+  "construction/baselines/Mesh-Road_BAY_rep1/build_memory.json": {
+    "bytes": 309,
+    "sha256": "01bd16d047b06e8e816b43d6671bb321d7adb476fd3e499850a5d5a6bc5d5a8c"
+  },
+  "construction/baselines/Mesh-Road_BAY_rep1/Mesh-Road_BAY_t3000_b512.csv": {
+    "bytes": 5060,
+    "sha256": "9c1166af2076a4871814dedc739656516ec770e63ef23afd7779b5f84c6deff3"
+  },
+  "construction/baselines/RoadScan_FLA_rep3/space.csv": {
+    "bytes": 676,
+    "sha256": "c9ae404403231fbc8ce736351e11c2c969647f03122c0c6bfb49e3f0b3b5b887"
+  },
+  "construction/baselines/RoadScan_FLA_rep3/build_stages.csv": {
+    "bytes": 174,
+    "sha256": "7aa77ff64eef606774c78cdd34a9090946fce3d43a2f78d4ad3dc4858218b680"
+  },
+  "construction/baselines/RoadScan_FLA_rep3/build_memory.json": {
+    "bytes": 309,
+    "sha256": "aec4cbe2db77c8cd41f02c88f2f8bddde5732bf586b65e2a0a6fc5dd2fb6ca37"
+  },
+  "construction/baselines/Mesh-Road_FLA_rep3/space.csv": {
+    "bytes": 96375,
+    "sha256": "32a01a24293e5011c83b2258eff1e6f3a1fd1772719d095da7370a1a7b528e5c"
+  },
+  "construction/baselines/Mesh-Road_FLA_rep3/build_stages.csv": {
+    "bytes": 184,
+    "sha256": "ebfaea8226fa0643624164d512eeb6f33c5bbdcc0704382e828152c5f68d3eb5"
+  },
+  "construction/baselines/Mesh-Road_FLA_rep3/build_memory.json": {
+    "bytes": 311,
+    "sha256": "cef5e2ab6beaa6aec2cf8792dd651af818b52a0771d1aa237cc6b072940c1f6e"
+  },
+  "construction/MARS/BAY_rep3/index_binding.json": {
+    "bytes": 994,
+    "sha256": "aecf328eb5e5b017aae7f372f69cdca91a8bfc93230bb0c8606c8caf633a1b75"
+  },
+  "construction/MARS/BAY_rep3/space.csv": {
+    "bytes": 1295,
+    "sha256": "f7926afcbb3400dc6251a681b0d123716c74359578a3aa26e47f5983276f4c2b"
+  },
+  "construction/MARS/BAY_rep3/build_stages.csv": {
+    "bytes": 191,
+    "sha256": "0046a6f9e819f1f959bda00f0bafe7fc0cda26b5b59ac8fce6119a4dc6b6bc94"
+  },
+  "construction/MARS/BAY_rep3/build_memory.json": {
+    "bytes": 310,
+    "sha256": "78cf2aeee58f559c59f15fb8b9945030184e237cf9903ded66982d764ceac97c"
+  },
+  "construction/MARS/FLA_rep2/index_binding.json": {
+    "bytes": 995,
+    "sha256": "0f2630cc29cc444f5f926c9384b2e7158d8b3d42778cda8b75570bdbf1fe7029"
+  },
+  "construction/MARS/FLA_rep2/space.csv": {
+    "bytes": 1298,
+    "sha256": "ed3a8ff6e4efff0044b3c51c5dc2fb429ea2ec8dfbff2aec52c3610edf898709"
+  },
+  "construction/MARS/FLA_rep2/build_stages.csv": {
+    "bytes": 185,
+    "sha256": "d86d099a6abd51e73ff042e367caf721563652d4b0e6f850120dba56f84e5c2e"
+  },
+  "construction/MARS/FLA_rep2/build_memory.json": {
+    "bytes": 311,
+    "sha256": "2fd53859f484f62499ec3bb5592a358f92799fb48d22a704cc2f996967dace01"
+  },
+  "construction/MARS/NYC_rep1/index_binding.json": {
+    "bytes": 1189,
+    "sha256": "bc8b10e1e2f3a8e228080ed5ed9647da0ccc8712c71bb0e526e6b3e99ed93bf2"
+  },
+  "construction/MARS/NYC_rep1/space.csv": {
+    "bytes": 1363,
+    "sha256": "a4deb4576c7068e734133f423a8f6e53e5cb4ad7a26598c35dda44585071d0fe"
+  },
+  "construction/MARS/NYC_rep1/build_stages.csv": {
+    "bytes": 185,
+    "sha256": "3a7af6eb64de3067c9666f6f001f03908cf57274bac358d70ed31a2642c333c4"
+  },
+  "construction/MARS/NYC_rep1/build_memory.json": {
+    "bytes": 311,
+    "sha256": "b2a34c0a7077400b75a324bc65e60c4f805bf65e3f78ba460075a3d865fd80cf"
+  },
+  "construction/MARS/FLA_rep1/index_binding.json": {
+    "bytes": 1190,
+    "sha256": "caa9ff6ae7243ce44c656b6efb52ddbaf63710f0fe6f222a806e89e4764c7695"
+  },
+  "construction/MARS/FLA_rep1/space.csv": {
+    "bytes": 1366,
+    "sha256": "af33b712812da35178a6d26aa345ab1ded3329c39cb162588672e288ff38966e"
+  },
+  "construction/MARS/FLA_rep1/build_stages.csv": {
+    "bytes": 175,
+    "sha256": "9b6091264d0127a4ee771ccd8991ee4bc623cc0351373cda7a8e6fa5dc25f95c"
+  },
+  "construction/MARS/FLA_rep1/build_memory.json": {
+    "bytes": 311,
+    "sha256": "2985e5d3c30f7e0f368bdb78a1d6828b37baae63726b255513e07f36953ddcf2"
+  },
+  "construction/MARS/FLA_rep3/index_binding.json": {
+    "bytes": 995,
+    "sha256": "b4c00a7188893a0ec7fb89ea2dcb622a267cd4b4f5f1b12e5b06e733e387f30a"
+  },
+  "construction/MARS/FLA_rep3/space.csv": {
+    "bytes": 1298,
+    "sha256": "b27addf3cc86a507650b877279091c2c9c6bd79ed599aef33048a1d352b18973"
+  },
+  "construction/MARS/FLA_rep3/build_stages.csv": {
+    "bytes": 185,
+    "sha256": "62d8f797d595e839d85181c206bbd15fdbf6f066cdd2c776382ab41145112226"
+  },
+  "construction/MARS/FLA_rep3/build_memory.json": {
+    "bytes": 311,
+    "sha256": "61f978b617a7c6dc3aa22859685f737982ec78c728635a817233ab161ea05e1b"
+  },
+  "construction/MARS/NYC_rep2/index_binding.json": {
+    "bytes": 994,
+    "sha256": "05dbf1b4b1573c112750faebdbeaf1e757d599d32a386ac9746165a99b1b7639"
+  },
+  "construction/MARS/NYC_rep2/space.csv": {
+    "bytes": 1295,
+    "sha256": "ee0320b32708107f80a7b3054dd2fa5572da3854f284626a441ed704ed3b3891"
+  },
+  "construction/MARS/NYC_rep2/build_stages.csv": {
+    "bytes": 185,
+    "sha256": "192f435060ab50d01e404e75c86b2fc403abf6639a4dad522a92c4a34ed8739a"
+  },
+  "construction/MARS/NYC_rep2/build_memory.json": {
+    "bytes": 311,
+    "sha256": "2bc229c5d7e5717f4f252f2c8a6f71b91384bfb3342d460cec9164bc8f27ce18"
+  },
+  "construction/MARS/COL_rep2/index_binding.json": {
+    "bytes": 994,
+    "sha256": "8a65c791d97248b086f9be6f7125dccc4c8634f698ca1978f242a7e54fae666e"
+  },
+  "construction/MARS/COL_rep2/space.csv": {
+    "bytes": 1295,
+    "sha256": "118fa45cad1ed392b1bdbdfcd73b73b8a30576a48b9a3df8903c2d5248fad858"
+  },
+  "construction/MARS/COL_rep2/build_stages.csv": {
+    "bytes": 191,
+    "sha256": "5b36c5315995c0c7618dfe782674c72d06dedb0297e3405d72802df23271611d"
+  },
+  "construction/MARS/COL_rep2/build_memory.json": {
+    "bytes": 310,
+    "sha256": "e484a80c09b6c33b0123e7677fd4655c36a8faa426eddff8068a47bd2bff1f8f"
+  },
+  "construction/MARS/BAY_rep2/index_binding.json": {
+    "bytes": 994,
+    "sha256": "fcefa8107d5f4f82a920b8b3e691e0d4d7b39e9fe87dab9d4005dba401a705d2"
+  },
+  "construction/MARS/BAY_rep2/space.csv": {
+    "bytes": 1295,
+    "sha256": "bc56c83cea589687c007741ffe5967621d29c53e9d7cff7880903b227f0e2e49"
+  },
+  "construction/MARS/BAY_rep2/build_stages.csv": {
+    "bytes": 174,
+    "sha256": "4166aba495b7b57c39330358c4780ede34e358d058cb3aab14aab46a39e83952"
+  },
+  "construction/MARS/BAY_rep2/build_memory.json": {
+    "bytes": 310,
+    "sha256": "70f9064fb85dd926d59d7aa907520a7116400ebcc10ec87f7ce8157c89ace0f3"
+  },
+  "construction/MARS/BAY_rep1/index_binding.json": {
+    "bytes": 994,
+    "sha256": "36dc2546e5e80b35eab923029afd10a3b31a5b4c2d9cc6fc93ccb886368fb746"
+  },
+  "construction/MARS/BAY_rep1/space.csv": {
+    "bytes": 1295,
+    "sha256": "fdea0ba2c009d9aad47b270cf92968c16536d6a90e4b5c4c894f82231c41952a"
+  },
+  "construction/MARS/BAY_rep1/build_stages.csv": {
+    "bytes": 186,
+    "sha256": "1ce7e920b5d38f1d0ab907afeb2336ba1c60522e471809e9ca2dcd65dfe2d069"
+  },
+  "construction/MARS/BAY_rep1/build_memory.json": {
+    "bytes": 310,
+    "sha256": "9c975c6aa2bff016572281e842dccf6bdd6d46a62cb4a4ff3d6984ecc213f49d"
+  },
+  "construction/MARS/COL_rep3/index_binding.json": {
+    "bytes": 994,
+    "sha256": "70898adda6895980ad3e9a42a110f60ecd9b343914c4fa6ca24bd12ef9107b7e"
+  },
+  "construction/MARS/COL_rep3/space.csv": {
+    "bytes": 1295,
+    "sha256": "cb0b31d6babfba4b56481f8bc8ee2adb5a536f8790fb169c4339eea42f631a79"
+  },
+  "construction/MARS/COL_rep3/build_stages.csv": {
+    "bytes": 184,
+    "sha256": "a993b19529f4da2c49c7389a7ca91f7c6f8d13c00ec6aef03a6eafa24ab00ac0"
+  },
+  "construction/MARS/COL_rep3/build_memory.json": {
+    "bytes": 310,
+    "sha256": "5843830a3cbe074f73d9347dc78cdd5098c4a664e6567b9c9434be7514dce8e7"
+  },
+  "construction/MARS/NYC_rep3/index_binding.json": {
+    "bytes": 994,
+    "sha256": "d14c67a3c3f3f56c9baf7def9ba7d31690e64afd535825d9368b7992cf18d609"
+  },
+  "construction/MARS/NYC_rep3/space.csv": {
+    "bytes": 1295,
+    "sha256": "510ec95022f8e574a39a9e4357ee62ef050726440da2cc5e508e73470f6771d0"
+  },
+  "construction/MARS/NYC_rep3/build_stages.csv": {
+    "bytes": 189,
+    "sha256": "efe23c9e0be4a753f70c8e6909591bf3738e6f359b392a0f1c1791808bf25e5b"
+  },
+  "construction/MARS/NYC_rep3/build_memory.json": {
+    "bytes": 311,
+    "sha256": "011c8801860ce47762c085659f9aaaac8b2f2097e8a618f52a60201ae3f6247c"
+  },
+  "construction/MARS/COL_rep1/index_binding.json": {
+    "bytes": 994,
+    "sha256": "5562f0c71dddcc4a82079c6ac2105d79a23d4ba9c82cb5b8fc7deea2a40b0f97"
+  },
+  "construction/MARS/COL_rep1/space.csv": {
+    "bytes": 1295,
+    "sha256": "dd3f59f2c6145c4042c280dd0cb992801a71987b8d55936ed8b4e49345806aec"
+  },
+  "construction/MARS/COL_rep1/build_stages.csv": {
+    "bytes": 191,
+    "sha256": "5a2ae3fb55a36485db06453f7bd53fbbe2796d510792740a7a37fcf8aff01766"
+  },
+  "construction/MARS/COL_rep1/build_memory.json": {
+    "bytes": 310,
+    "sha256": "ff9e5d71bbe3e9d0859219843f8d34f55c45230faaa908b521ce0284f5388a0f"
+  },
+  "raw/query_groups/SymphonyQG_rep2_popular.csv": {
+    "bytes": 473750,
+    "sha256": "a416d7f8cef63bd418d5567ff9b7e6110c19c568a5aa7c6ab4a3c8fb8903d7a8"
+  },
+  "raw/query_groups/HNSW_rep3_rare.csv": {
+    "bytes": 444053,
+    "sha256": "992d1e5521161dbd801a2ee81525f6c7e6e6977236dd19dc9fc28cbba1ce9d5f"
+  },
+  "raw/query_groups/HNSW_rep2_popular.csv": {
+    "bytes": 466168,
+    "sha256": "489461333fa36b38f36bab59d3546e531bff4648e23b127473e47740c9bb9412"
+  },
+  "raw/query_groups/SymphonyQG_rep2_medium.csv": {
+    "bytes": 467234,
+    "sha256": "506d2549f02f24cfb6bf773f6fd2cf6d447a8262e624285201ebd0aaacf636bf"
+  },
+  "raw/query_groups/RoadScan_rep3_popular.csv": {
+    "bytes": 443791,
+    "sha256": "f08a72ca38c206db6fa592cd14818e44d0c385fea01e61e9b89ac76e104da50a"
+  },
+  "raw/query_groups/HNSW_rep1_popular.csv": {
+    "bytes": 461391,
+    "sha256": "3f1632f2be48c7665386d937261f044078ff9bd706695b94d46119f3ee0c7e28"
+  },
+  "raw/query_groups/HNSW_rep2_medium.csv": {
+    "bytes": 456030,
+    "sha256": "58e405e7587e3b51232b1c4a5d906856983990f9c6c15a79c3902cf738d56088"
+  },
+  "raw/query_groups/Mesh-Road_rep2_popular.csv": {
+    "bytes": 462508,
+    "sha256": "ccb1b30391bb8a429fac18e7254d04a31f9380ebb3f82df4301ff366575402de"
+  },
+  "raw/query_groups/SymphonyQG_rep3_popular.csv": {
+    "bytes": 473472,
+    "sha256": "469775f925651170064515c1985b394470ad18b8d05726d86df2b1c53b31802a"
+  },
+  "raw/query_groups/Mesh-Road_rep3_popular.csv": {
+    "bytes": 462305,
+    "sha256": "a6a7f0b78b66131ff8e1388a1279288f0e30455124f43a522fbbb657c243670f"
+  },
+  "raw/query_groups/HNSW_rep1_medium.csv": {
+    "bytes": 459991,
+    "sha256": "82e25b87a214a5f51be3ccabe3563db34ecb34bf7197bd1ffe1abaa3e52c31a1"
+  },
+  "raw/query_groups/RoadScan_rep2_popular.csv": {
+    "bytes": 443729,
+    "sha256": "453c748a2a251f09c50b32591cbfc64927922f0465f3fab10142a1c7978ab433"
+  },
+  "raw/query_groups/Mesh-Road_rep3_medium.csv": {
+    "bytes": 460682,
+    "sha256": "b45337b50b1b8036c8f2f0444c943eaac915202fc8e2fc745d810c987c51363e"
+  },
+  "raw/query_groups/HNSW_rep3_medium.csv": {
+    "bytes": 467259,
+    "sha256": "77147fa55273038efab7dd48052a0d9e61217a67e3ee14db4e6a961263794527"
+  },
+  "raw/query_groups/Mesh-Road_rep2_medium.csv": {
+    "bytes": 460615,
+    "sha256": "bd398ff2a6162e32b04c8e26904d751ae7d4fb9b724b97d71deb483cb4b84d7b"
+  },
+  "raw/query_groups/HNSW_rep1_rare.csv": {
+    "bytes": 452260,
+    "sha256": "81f66b343b575b569bc3a614da485e30d3b243a5f24534eb62055b65932496a0"
+  },
+  "raw/query_groups/SymphonyQG_rep1_medium.csv": {
+    "bytes": 471339,
+    "sha256": "8fe4ce17b44f5300240821e8d8ae2dfcb4ef29898a9d83e8941567338a6a67a7"
+  },
+  "raw/query_groups/SymphonyQG_rep1_rare.csv": {
+    "bytes": 451798,
+    "sha256": "0cea3b658b7d59a1a83ea71b8730b75e2bc913c7e0cce33572dbe80db80f1f0b"
+  },
+  "raw/query_groups/RoadScan_rep2_rare.csv": {
+    "bytes": 447154,
+    "sha256": "3769ef05efc539372c47e0f24c12892618967e9bdd2c2c172823cf7608911fe5"
+  },
+  "raw/query_groups/RoadScan_rep3_medium.csv": {
+    "bytes": 442280,
+    "sha256": "600600dfe0c0e800deb0111f331da10016d17f8ecc9ca98e78c5f74c3d8c936b"
+  },
+  "raw/query_groups/Mesh-Road_rep1_rare.csv": {
+    "bytes": 459129,
+    "sha256": "23a61cadd2650a00f5fc967cf89ad101346cea38d2fd4644fe89a49c939a09f6"
+  },
+  "raw/query_groups/SymphonyQG_rep3_rare.csv": {
+    "bytes": 452065,
+    "sha256": "2db91a3ad3611b0739b1a69171c92bc73fe3a783148ba910f4d6cd689dce23f8"
+  },
+  "raw/query_groups/SymphonyQG_rep1_popular.csv": {
+    "bytes": 473909,
+    "sha256": "d0ecb66d4b34b1367dbf52104abd57d5a58c98641f119996dd00a986c3950206"
+  },
+  "raw/query_groups/Mesh-Road_rep2_rare.csv": {
+    "bytes": 459087,
+    "sha256": "3476f43c273b69a84b29b28f8e993e0e3298f092b06d1a2505481a9239f5d6a3"
+  },
+  "raw/query_groups/RoadScan_rep2_medium.csv": {
+    "bytes": 442355,
+    "sha256": "d7f566b25c13585b343bf37e17b00af5b69fd4cd97640705987e0bf982201648"
+  },
+  "raw/query_groups/Mesh-Road_rep3_rare.csv": {
+    "bytes": 459379,
+    "sha256": "a2705bea54aca75cf93d22f1584ed5c657818dffe2cb3939deaef94e71d77149"
+  },
+  "raw/query_groups/Mesh-Road_rep1_medium.csv": {
+    "bytes": 460595,
+    "sha256": "6e86192e8f0717ce4ccf090f5248492d089b8627291b89bc5dd6db3dfe1d76f8"
+  },
+  "raw/query_groups/Mesh-Road_rep1_popular.csv": {
+    "bytes": 462571,
+    "sha256": "d3f8c701c379d8b8de86e75f3f046ca7572f2413508e48e97f2e323786f2a241"
+  },
+  "raw/query_groups/RoadScan_rep1_popular.csv": {
+    "bytes": 443889,
+    "sha256": "ea79659e6720d912a18921c9383adb8806b45ad63d0e93d753b55af078614c67"
+  },
+  "raw/query_groups/RoadScan_rep1_medium.csv": {
+    "bytes": 441928,
+    "sha256": "d138bf5381a593c8d9ba0e1095ad5731778b6b5d2b62df8bcc24cc324ff6c81b"
+  },
+  "raw/query_groups/HNSW_rep2_rare.csv": {
+    "bytes": 460499,
+    "sha256": "f80a4a56584a2871815887ed577a9dc2cbd94aa6b0968b989e5aed584e0d3523"
+  },
+  "raw/query_groups/RoadScan_rep3_rare.csv": {
+    "bytes": 447310,
+    "sha256": "759ca1a4c63a9a1b8c2c3b99644caef244e3a5cf9c32313795187646b733c108"
+  },
+  "raw/query_groups/RoadScan_rep1_rare.csv": {
+    "bytes": 447369,
+    "sha256": "131a2a465e4bbb8baa7193cffac151e5e58aac7aa797d0b87554c594d735bd97"
+  },
+  "raw/query_groups/SymphonyQG_rep3_medium.csv": {
+    "bytes": 466376,
+    "sha256": "c594bb1d3e48635cdc8be6dc95a610523d597cf4f6d11ae52fb61bdf17d11497"
+  },
+  "raw/query_groups/SymphonyQG_rep2_rare.csv": {
+    "bytes": 450167,
+    "sha256": "296b46c7fe9b3b730a8d8f985dccf4e521c4cfba526a22ca6f69d7fbd048a7b9"
+  },
+  "raw/query_groups/HNSW_rep3_popular.csv": {
+    "bytes": 466199,
+    "sha256": "3e92cedcc2c678bf104a652f8c9e6ee0d6faa9c61d362122d0555b04e881cc7c"
+  },
+  "raw/graph_only/ef1600_rep3.csv": {
+    "bytes": 483927,
+    "sha256": "ddb6b23fcdd6f679fad6d3496a0ab6fd7063f35e1c32c59e488c0f43d5423bc9"
+  },
+  "raw/graph_only/ef1600_rep1.csv": {
+    "bytes": 469452,
+    "sha256": "de5407cae0d8705600839e742d96ed4a6f2e16b34b1a16b6bc2e52756cf5ea9c"
+  },
+  "raw/graph_only/ef3200_rep1.csv": {
+    "bytes": 475239,
+    "sha256": "79023ea620de55defeae7e7ea9248e55c4fb38d2ceb9515441d0c3a606966bbe"
+  },
+  "raw/graph_only/ef3200_rep2.csv": {
+    "bytes": 485348,
+    "sha256": "d708795ac2922a17196c57d5c1e0796a0a7c7b5d41c5bcfe00a5343136f94420"
+  },
+  "raw/graph_only/ef1600_rep2.csv": {
+    "bytes": 482068,
+    "sha256": "08297506998cf31c80b085cd7294785096c479ee31edabc74dca05de7e3e3a22"
+  },
+  "raw/graph_only/ef3200_rep3.csv": {
+    "bytes": 486401,
+    "sha256": "0014e9d630ef6bf09b713c3e47b2d820dbfe55cbd099dbc00ab57245dbd02cc1"
+  },
+  "raw/graph_only/ef6400_rep2.csv": {
+    "bytes": 492326,
+    "sha256": "4e6197f84ccc048137264e7fd7e09469f5d6d12be02fd49ac98e6959930856f4"
+  },
+  "raw/graph_only/ef6400_rep3.csv": {
+    "bytes": 492029,
+    "sha256": "e62c549bad9eb616ff48f3731a5966a69b2794c5466882f967904ec5ed6c244f"
+  },
+  "raw/graph_only/ef6400_rep1.csv": {
+    "bytes": 492671,
+    "sha256": "c73728dba0e89ce832090d244e837227d0c6b706909eda4ac30977b310f22498"
+  },
+  "raw/alpha_parameter/a8_rep3.csv": {
+    "bytes": 460481,
+    "sha256": "fa814820d6ab7258d43e795166217722269058314600e3f477b213956cb025f0"
+  },
+  "raw/alpha_parameter/a32_rep2.csv": {
+    "bytes": 458064,
+    "sha256": "60bd4e0147da0e65e54dfc9aafc35f7ea164e974e1304809cc3cbd97d559fe8e"
+  },
+  "raw/alpha_parameter/a64_rep2.csv": {
+    "bytes": 458845,
+    "sha256": "893b90d6581e5f9561e3b3ae249b2932239af55b7e0f4ee27c670d0f32a894e1"
+  },
+  "raw/alpha_parameter/a1024_rep2.csv": {
+    "bytes": 463540,
+    "sha256": "8dae3450fa1598a6211f14f42121bbe5d5432544d25e4b035db3babbd0a80558"
+  },
+  "raw/alpha_parameter/a2_rep3.csv": {
+    "bytes": 456279,
+    "sha256": "12ca2d66c99b79976b930b3fb39b01368814fd958ea37e3b3b5976ebb84b39b9"
+  },
+  "raw/alpha_parameter/a64_rep1.csv": {
+    "bytes": 457536,
+    "sha256": "cfc25a8e2630456cd2995955132c00356ce141fff31d037954d00e72f8ba21fc"
+  },
+  "raw/alpha_parameter/a96_rep2.csv": {
+    "bytes": 460518,
+    "sha256": "d1ec2822615272d6167fb003c0aaeda5090db8ced793c29b920c6e0ee6674b1d"
+  },
+  "raw/alpha_parameter/a2_rep2.csv": {
+    "bytes": 455623,
+    "sha256": "9984442da2092d1cf4248da73ec8bac6af738b79a7cc00a9be3f298309cf2a68"
+  },
+  "raw/alpha_parameter/a4_rep1.csv": {
+    "bytes": 455225,
+    "sha256": "218d6fc22a38b97f18e87d6a9769055e9f581a668bf5f6c8370936df0ab46d12"
+  },
+  "raw/alpha_parameter/a128_rep2.csv": {
+    "bytes": 460950,
+    "sha256": "8915f35dd4306cbaf9ae726cfdbc261bc56b4e26dda5866e582598e583c4ec5c"
+  },
+  "raw/alpha_parameter/a16_rep1.csv": {
+    "bytes": 462024,
+    "sha256": "e9326bcfd2f1b6553d016f20fa2f30f85f88e774bdf37a9581dbf50ecb22ea3e"
+  },
+  "raw/alpha_parameter/a32_rep3.csv": {
+    "bytes": 459979,
+    "sha256": "6d2999b2c2d9565d8bcf3580f6d499e44b8006857d05c89e9c95d9bd4968e6d7"
+  },
+  "raw/alpha_parameter/a128_rep3.csv": {
+    "bytes": 460685,
+    "sha256": "ddeb0b7800384e157afc26d8e506fb44f3a2269e326af9e8e0fa242236afafe4"
+  },
+  "raw/alpha_parameter/a16_rep3.csv": {
+    "bytes": 461538,
+    "sha256": "07a685a1a0b8e72101e000c33538d5abc661c6555ff79dc3c041b612c3273793"
+  },
+  "raw/alpha_parameter/a8_rep1.csv": {
+    "bytes": 460995,
+    "sha256": "314a7777cb378729376ee7d6b9c891790c99f2edf089607a9f20dfc2cc9e5626"
+  },
+  "raw/alpha_parameter/a32_rep1.csv": {
+    "bytes": 459589,
+    "sha256": "873020e332529a5e257d573c46d9b3542de4f54c9e65cc5fb0adec838d88e5c5"
+  },
+  "raw/alpha_parameter/a512_rep3.csv": {
+    "bytes": 463173,
+    "sha256": "4fc4fe0404460970fe3a92355c5452eef1be27e3869a804cc0d7520cc0d66863"
+  },
+  "raw/alpha_parameter/a2_rep1.csv": {
+    "bytes": 456088,
+    "sha256": "51aff7bb38a4229c2c87ede9ad733711da8c3d3b5780fa7cd08c764079c06253"
+  },
+  "raw/alpha_parameter/a512_rep2.csv": {
+    "bytes": 462666,
+    "sha256": "0ab1aa0fd314f10056be8ffc01409a78cf4d6797799b7cd9b2711c9fa69f2dde"
+  },
+  "raw/alpha_parameter/a96_rep1.csv": {
+    "bytes": 459903,
+    "sha256": "2a221a0e9a39b5fc60df2fca290832f91e724bb1af2804181f583dc646ef369c"
+  },
+  "raw/alpha_parameter/a16_rep2.csv": {
+    "bytes": 461666,
+    "sha256": "be3954354cfd5851ed54e3a7273ff1ab1de4e52504fc645dbd39f37b15f93274"
+  },
+  "raw/alpha_parameter/a128_rep1.csv": {
+    "bytes": 460782,
+    "sha256": "05d88ed82cb478982d3ef2e0b2cdaa7617c8fafbee185e67a0b48cfb77b451ae"
+  },
+  "raw/alpha_parameter/a64_rep3.csv": {
+    "bytes": 459261,
+    "sha256": "2e8a92eaa825e1210cbed9d12ef6ba9ecb02c5f390844072495c398d4754a63e"
+  },
+  "raw/alpha_parameter/a256_rep3.csv": {
+    "bytes": 462203,
+    "sha256": "aeed6e027d1ef49ac5379070477a0f867ce8df02fc9568b300fa49f2f8c48314"
+  },
+  "raw/alpha_parameter/a8_rep2.csv": {
+    "bytes": 460950,
+    "sha256": "f2f2bf2c64ac21affadda2058d3ce944d76b51afcec47b4cbc172b762366f506"
+  },
+  "raw/alpha_parameter/a96_rep3.csv": {
+    "bytes": 460336,
+    "sha256": "bd8b088d5b57c20b05822fe77b8668d53e185ee37e786970dd4ed95083c00c5e"
+  },
+  "raw/alpha_parameter/a256_rep1.csv": {
+    "bytes": 461708,
+    "sha256": "eadd108a292b018c2e90e501f962a860680b9c1c3efed9aea635dc1b635cd0a8"
+  },
+  "raw/alpha_parameter/a256_rep2.csv": {
+    "bytes": 461509,
+    "sha256": "9d6c99b8500920b75aad671979e0403fe5cab20b01bec2f954fd84b9e75eea2d"
+  },
+  "raw/alpha_parameter/a4_rep2.csv": {
+    "bytes": 454856,
+    "sha256": "3b12ebbdae9d4cdb5b20b5b01627999efc7d07625ba5b928d9c4ad84c1c9ea7f"
+  },
+  "raw/alpha_parameter/a4_rep3.csv": {
+    "bytes": 455319,
+    "sha256": "c857ef009a322e2c80b5b03ede10596455cdaaab3d981226e8edc5d422d2cd3d"
+  },
+  "raw/alpha_parameter/a1024_rep3.csv": {
+    "bytes": 461179,
+    "sha256": "9a4706e8ee704839a05fddc297794b5a3488d6d3bb41c6e69894219d6952bf16"
+  },
+  "raw/alpha_parameter/a512_rep1.csv": {
+    "bytes": 463203,
+    "sha256": "3c7919f5b16de745c49b1ae64e11381f4525f050974cb9573833683cb3840ed2"
+  },
+  "raw/alpha_parameter/a1024_rep1.csv": {
+    "bytes": 465182,
+    "sha256": "3cd30307b9fe4027d8c291090aeda702712f5f116f3989bf33a9e8cd0a1d29c9"
+  },
+  "raw/baselines/HNSW/BAY_rep2_tau8000_limit3000.csv": {
+    "bytes": 457105,
+    "sha256": "78b4c0f6d16363f41e745eda0595e625046d87d4880591d797be351ffc772af4"
+  },
+  "raw/baselines/HNSW/NYC_rep1_tau3000_limit4000.csv": {
+    "bytes": 461407,
+    "sha256": "abaaab0a64d55a7aded83c4eafb5fa8dfe186b623fab4648fcd119af9e0e3afc"
+  },
+  "raw/baselines/HNSW/COL_rep1_tau3000_limit8000.csv": {
+    "bytes": 451244,
+    "sha256": "760d9ab6037684e65860555308afce7af65106d00bffadc40386f5b24d416661"
+  },
+  "raw/baselines/HNSW/BAY_rep1_tau4000_limit3000.csv": {
+    "bytes": 454114,
+    "sha256": "b09c51913d84a89151c510ebe8d8b1b8c60b11f4c6e51bc82720aa59ede7b2ad"
+  },
+  "raw/baselines/HNSW/COL_rep1_tau6000_limit3000.csv": {
+    "bytes": 448442,
+    "sha256": "8b726f30c8d74a33702465ef6896987de095030d3002dc24383055819d316d88"
+  },
+  "raw/baselines/HNSW/COL_rep3_tau3000_limit512.csv": {
+    "bytes": 438798,
+    "sha256": "128055dba44589699a991cc8c013a6ea03ce0498f8097e5e50103f4bda92bce8"
+  },
+  "raw/baselines/HNSW/FLA_rep1_tau3000_limit128.csv": {
+    "bytes": 351867,
+    "sha256": "807009a209d2075e32a3b7b71d48a70a09f10692dcf681f36ce18f43be239391"
+  },
+  "raw/baselines/HNSW/NYC_rep2_tau3000_limit2000.csv": {
+    "bytes": 457778,
+    "sha256": "af172f94296df34f769c2c006d6bb0672957b0e04a9c09e2fbf2593751313b40"
+  },
+  "raw/baselines/HNSW/BAY_rep2_tau3000_limit2000.csv": {
+    "bytes": 457127,
+    "sha256": "a4c390ff9d5c7f83d769f8e1080ac9efcf9d0392251c6e3d00afbed4a7bdadb0"
+  },
+  "raw/baselines/HNSW/BAY_rep3_tau6000_limit3000.csv": {
+    "bytes": 464744,
+    "sha256": "1383ea808103a38762cd56ab3f50ef3fc4b69122b5e7023f02a4c9158e42fed1"
+  },
+  "raw/baselines/HNSW/COL_rep3_tau3000_limit8000.csv": {
+    "bytes": 459212,
+    "sha256": "67451fb30b0826cb3ac0de009d8da3454d2951e392a76bbdd3372d7198db1790"
+  },
+  "raw/baselines/HNSW/COL_rep2_tau6000_limit3000.csv": {
+    "bytes": 450271,
+    "sha256": "3e9ce92921b9aadb1532fb9f292ca743462da82bea097860c84c3b9bce8356da"
+  },
+  "raw/baselines/HNSW/FLA_rep3_tau8000_limit3000.csv": {
+    "bytes": 459939,
+    "sha256": "d9ff6aa913e551e8d6b81983ebf8ff51d19aff3b8dff6596135888aee11bfa0f"
+  },
+  "raw/baselines/HNSW/NYC_rep2_tau10000_limit3000.csv": {
+    "bytes": 445535,
+    "sha256": "f72b74841a4c0876ca0b4851c76ceedc946f92c34c09625f61c80854c198f7b2"
+  },
+  "raw/baselines/HNSW/FLA_rep1_tau6000_limit3000.csv": {
+    "bytes": 466022,
+    "sha256": "b8e3ae16e4c24cd74649b7a6757518b45a0c94c3bc2aaa6887855544e5a43f18"
+  },
+  "raw/baselines/HNSW/COL_rep2_tau10000_limit3000.csv": {
+    "bytes": 450874,
+    "sha256": "7af9db1a2562bd320c025b2d4d47668ef6e1974a50b93a9ec2d4c2812035895b"
+  },
+  "raw/baselines/HNSW/COL_rep3_tau3000_limit4000.csv": {
+    "bytes": 457873,
+    "sha256": "2a07055bc840036a925b9919f3d2447e821238a3c7fc59b7f9c7464b1f2f14f0"
+  },
+  "raw/baselines/HNSW/BAY_rep2_tau3000_limit1000.csv": {
+    "bytes": 451787,
+    "sha256": "1cc7b9bae2416409f229165e5d1e9bf14a340aa2cd917d02a77ed9c24703a9a0"
+  },
+  "raw/baselines/HNSW/COL_rep1_tau3000_limit2000.csv": {
+    "bytes": 446465,
+    "sha256": "ecef8a2fbf9b075c851db0503eec94fd94b79cd98034967959af9b91eb0053bf"
+  },
+  "raw/baselines/HNSW/FLA_rep1_tau3000_limit4000.csv": {
+    "bytes": 466132,
+    "sha256": "a6d2a430b4789d5defa0be991e82c54a57308880fb425e7b0ec917ca06b1d62b"
+  },
+  "raw/baselines/HNSW/BAY_rep3_tau4000_limit3000.csv": {
+    "bytes": 464277,
+    "sha256": "7785ec86deed9d01531f5fe30d5ad7bd043034d4f9c780bbf7266afac3bb80fa"
+  },
+  "raw/baselines/HNSW/NYC_rep3_tau3000_limit4000.csv": {
+    "bytes": 464101,
+    "sha256": "33d22e43c46b302050ed73e1d0e5be7600ac9acbd84218f7e3f7a0457d08e9f4"
+  },
+  "raw/baselines/HNSW/NYC_rep3_tau6000_limit3000.csv": {
+    "bytes": 466947,
+    "sha256": "5315ee97142cb40d527c3cf1963e181d3209135e612947a3777611ae11a35648"
+  },
+  "raw/baselines/HNSW/COL_rep1_tau3000_limit1000.csv": {
+    "bytes": 436910,
+    "sha256": "e69d8cfe311822a9bdffbff94fda051221f351f3ef382ba207563d4daab8fb44"
+  },
+  "raw/baselines/HNSW/FLA_rep1_tau8000_limit3000.csv": {
+    "bytes": 466916,
+    "sha256": "fe3c1f251d9870255287e29486f795b5d301b02c1d7ee25a4178dc8d8e36f467"
+  },
+  "raw/baselines/HNSW/COL_rep2_tau3000_limit128.csv": {
+    "bytes": 392947,
+    "sha256": "1cad3e4717776325b870d522af575ef5fbcec124adb0281aece6e5479530bd6c"
+  },
+  "raw/baselines/HNSW/BAY_rep2_tau3000_limit4000.csv": {
+    "bytes": 457973,
+    "sha256": "c4eff4c46942703a0c3e8a4a5942422df56d41a810c2954108fe06668e04fad2"
+  },
+  "raw/baselines/HNSW/FLA_rep3_tau3000_limit2000.csv": {
+    "bytes": 443104,
+    "sha256": "432e00213f43ba8471bd8ad558b5924cd8d74b7fa3ce9c32374062d8e53d81eb"
+  },
+  "raw/baselines/HNSW/NYC_rep1_tau3000_limit2000.csv": {
+    "bytes": 459092,
+    "sha256": "4e2f3bea3fbc22e2d319cced5003a50320c76386b55ffe62457f0e3108de8f3c"
+  },
+  "raw/baselines/HNSW/BAY_rep1_tau8000_limit3000.csv": {
+    "bytes": 455031,
+    "sha256": "7b0d8fdb90b14ec13bbe5985d590e56232c0c6bd7be5901fda22092a9b960ae1"
+  },
+  "raw/baselines/HNSW/NYC_rep1_tau3000_limit512.csv": {
+    "bytes": 444021,
+    "sha256": "bde2c9ca3124de647237f121d52ceda9091646d3529beb0af4b0dbc746cdf124"
+  },
+  "raw/baselines/HNSW/COL_rep2_tau3000_limit512.csv": {
+    "bytes": 427996,
+    "sha256": "d529bfb3ffbbc7722e094542e941cd671292ff159b97dd33aba270d8546ae8e2"
+  },
+  "raw/baselines/HNSW/NYC_rep3_tau3000_limit128.csv": {
+    "bytes": 417462,
+    "sha256": "afcfa0e21e532938f09f425d9dfead1901bfbf726e47301d20ce42d523a1c26f"
+  },
+  "raw/baselines/HNSW/FLA_rep2_tau3000_limit128.csv": {
+    "bytes": 327815,
+    "sha256": "b84827687eab09d64f2f7c3c64e2cd1faf89e25667d54583b64e9d6fdb391b19"
+  },
+  "raw/baselines/HNSW/BAY_rep3_tau2000_limit3000.csv": {
+    "bytes": 461313,
+    "sha256": "0815ecf22588f43596ba403b6023b019cea2f40fbb132fd7e10aae34ef3eeed8"
+  },
+  "raw/baselines/HNSW/BAY_rep3_tau10000_limit3000.csv": {
+    "bytes": 466068,
+    "sha256": "9647f9237887c4f3819400dff6658bb12e57bb386a0945f701d2f56f26a7711c"
+  },
+  "raw/baselines/HNSW/NYC_rep3_tau10000_limit3000.csv": {
+    "bytes": 467932,
+    "sha256": "04f6bb81f1479702223d30de59c5e1856fa01b81fe61965e979adac3a5a0c760"
+  },
+  "raw/baselines/HNSW/COL_rep2_tau4000_limit3000.csv": {
+    "bytes": 449948,
+    "sha256": "f277ad55a9176c77a0469d876d2e84ba0782ad2bec52873893384550c7f8b087"
+  },
+  "raw/baselines/HNSW/BAY_rep2_tau2000_limit3000.csv": {
+    "bytes": 453933,
+    "sha256": "ecca33d7b39ba1a451c8603a473635469a5b6833eff57bca4b1c5e1d71347934"
+  },
+  "raw/baselines/HNSW/NYC_rep2_tau2000_limit3000.csv": {
+    "bytes": 458306,
+    "sha256": "b987aa4e6d6c58ff20f21158ec0ae37dad2ec69176e7ac1c9b5164817001d82c"
+  },
+  "raw/baselines/HNSW/BAY_rep2_tau10000_limit3000.csv": {
+    "bytes": 457934,
+    "sha256": "f50d747910eb51f33ccfa6a13b889014bcd9402c5f9cfeabdceee9f0fe49f69d"
+  },
+  "raw/baselines/HNSW/COL_rep3_tau8000_limit3000.csv": {
+    "bytes": 461289,
+    "sha256": "2e24a3b73edbaef136785c7ccb28487fcfc2cb7544fa1a391c5096d612520443"
+  },
+  "raw/baselines/HNSW/NYC_rep2_tau3000_limit512.csv": {
+    "bytes": 438106,
+    "sha256": "4a1842a7f77ca86433e8c911a041912f687064cc4ab04656ca7a0d79be24037f"
+  },
+  "raw/baselines/HNSW/BAY_rep1_tau3000_limit4000.csv": {
+    "bytes": 457058,
+    "sha256": "0ad807c2b98cc6a8874f995bed95ea38960b2d07687ee70b8a0ecaacdc3099cf"
+  },
+  "raw/baselines/HNSW/BAY_rep3_tau3000_limit4000.csv": {
+    "bytes": 463482,
+    "sha256": "f23a3d88ba1cb75ea1b101b35796b711ab831e02be769fdb5b7421c878d5aa91"
+  },
+  "raw/baselines/HNSW/COL_rep2_tau8000_limit3000.csv": {
+    "bytes": 449713,
+    "sha256": "177ec74ddc0daf1346f768dd1ee2192b18930c60f241013c1c46ec7718c195a2"
+  },
+  "raw/baselines/HNSW/COL_rep2_tau3000_limit2000.csv": {
+    "bytes": 443421,
+    "sha256": "23c3bd5012b0823dc59941a02fe582236ad520d3f4841a9607a9acdb1209614e"
+  },
+  "raw/baselines/HNSW/FLA_rep3_tau3000_limit8000.csv": {
+    "bytes": 461641,
+    "sha256": "06bd57bb68466a40cfbc3ff259809c5aafdad9b6ee98c50cf84856e65e2a0fea"
+  },
+  "raw/baselines/HNSW/COL_rep2_tau3000_limit1000.csv": {
+    "bytes": 437056,
+    "sha256": "3df7187b446590ab806744bf48bb362352bea2d3f565694671e6b952ec95abcd"
+  },
+  "raw/baselines/HNSW/NYC_rep3_tau3000_limit2000.csv": {
+    "bytes": 461406,
+    "sha256": "9edbb3d5352c6ed0131a8db0d798881a5e71f2e45fcf03f942c336de52eccd59"
+  },
+  "raw/baselines/HNSW/NYC_rep1_tau3000_limit128.csv": {
+    "bytes": 424151,
+    "sha256": "5999a1a96b19e1d6b4009cbe839ab48bd097514f1920cac74101498d32826327"
+  },
+  "raw/baselines/HNSW/FLA_rep3_tau2000_limit3000.csv": {
+    "bytes": 436593,
+    "sha256": "00d076ada27981055d3a98cf2d21e027792a6001c646f220e2041c60aa4a04e2"
+  },
+  "raw/baselines/HNSW/FLA_rep2_tau2000_limit3000.csv": {
+    "bytes": 444323,
+    "sha256": "9181e399512293c1df6fd9395329bf56e32af6737ec6d2c52fadb647e279f0f3"
+  },
+  "raw/baselines/HNSW/BAY_rep1_tau2000_limit3000.csv": {
+    "bytes": 448809,
+    "sha256": "31677d817b255403a3f566ec91c710e1365d6bb20f00924568be6b92db4fe07a"
+  },
+  "raw/baselines/HNSW/FLA_rep2_tau3000_limit512.csv": {
+    "bytes": 387744,
+    "sha256": "47aef89ec7f29388ca187afca10633cea21ac6a7fe1dbd86f59fd1855af890a5"
+  },
+  "raw/baselines/HNSW/NYC_rep3_tau3000_limit8000.csv": {
+    "bytes": 465671,
+    "sha256": "76337413ef01c2b513d0f972382b0bef3a5d46db3679415dac5b69ddeb6600c7"
+  },
+  "raw/baselines/HNSW/FLA_rep1_tau3000_limit2000.csv": {
+    "bytes": 447439,
+    "sha256": "d5dc61108d72f0ad6a5fcfebc367fd699e6479927d89ad47866be7f4eb5c2dd3"
+  },
+  "raw/baselines/HNSW/NYC_rep2_tau3000_limit1000.csv": {
+    "bytes": 452581,
+    "sha256": "d27cd4f7efebabf5f27a4e8c3af4990ae8c4e5198115d09ee0695e1f9beb4941"
+  },
+  "raw/baselines/HNSW/COL_rep2_tau3000_limit4000.csv": {
+    "bytes": 450476,
+    "sha256": "1cbd8f6fc83eb4bd0161a525ef75a98878a56552a5fda4ceb92445bffe6f3f66"
+  },
+  "raw/baselines/HNSW/NYC_rep3_tau8000_limit3000.csv": {
+    "bytes": 466606,
+    "sha256": "c8d6905ab2a236411665b83d295c9fda7aca26b6ad8eb2039f821e62423da6d2"
+  },
+  "raw/baselines/HNSW/COL_rep1_tau8000_limit3000.csv": {
+    "bytes": 450515,
+    "sha256": "cb01868fe038035f06847debeba4354ace13acd1c497de4a61cb7ca2f34a1ca5"
+  },
+  "raw/baselines/HNSW/NYC_rep3_tau3000_limit512.csv": {
+    "bytes": 448334,
+    "sha256": "ffaa840f6d0a9e5b22fe9b69b34fe9bf8d8b2e1e756998aee9cc6dae2247bbcf"
+  },
+  "raw/baselines/HNSW/FLA_rep1_tau2000_limit3000.csv": {
+    "bytes": 442826,
+    "sha256": "84c88adcb01a876dd86ed8b9167864a11d8f3256de6351f9506a98e2686062f7"
+  },
+  "raw/baselines/HNSW/NYC_rep1_tau8000_limit3000.csv": {
+    "bytes": 456885,
+    "sha256": "2bf84129b27f4819ba0952ba0bb4281c7a6948df8beb6815e24f3ecd1db8967b"
+  },
+  "raw/baselines/HNSW/FLA_rep2_tau10000_limit3000.csv": {
+    "bytes": 455553,
+    "sha256": "8873b3f2a7acc140075385d9149f432d5cd8731e98174606d96590a3e4b0bee2"
+  },
+  "raw/baselines/HNSW/FLA_rep2_tau3000_limit2000.csv": {
+    "bytes": 448822,
+    "sha256": "00b0a87a69203791d698824ed919402dc8e999a6a9f001791b030c6a612f05ad"
+  },
+  "raw/baselines/HNSW/NYC_rep2_tau6000_limit3000.csv": {
+    "bytes": 451092,
+    "sha256": "c24f69b0eb912286d35e298926af6ec69efeb1abb9f9febbc05a8c6066340069"
+  },
+  "raw/baselines/HNSW/COL_rep1_tau10000_limit3000.csv": {
+    "bytes": 453742,
+    "sha256": "2433836e3e48ebe178346eff8e17631eba3710210bb78dafa9a2c283867040ce"
+  },
+  "raw/baselines/HNSW/BAY_rep3_tau3000_limit512.csv": {
+    "bytes": 438295,
+    "sha256": "caa5a7bec5489a645e21397cbdbcac71634b81ee484f3851e2a3475df5516cc5"
+  },
+  "raw/baselines/HNSW/COL_rep1_tau3000_limit128.csv": {
+    "bytes": 401235,
+    "sha256": "ce7d1feb26b8ea4ba492fba6edd6f06a33803154f85a40599f9328261a0cf1e4"
+  },
+  "raw/baselines/HNSW/NYC_rep1_tau4000_limit3000.csv": {
+    "bytes": 459691,
+    "sha256": "f82ecd1c143ac7f38df41d03e773ec5699a9e5a2baeba2dd686af94a238df2d0"
+  },
+  "raw/baselines/HNSW/BAY_rep2_tau6000_limit3000.csv": {
+    "bytes": 456792,
+    "sha256": "5a664fa1d0cd2cd86187a9c1fd9854a8044b464cf1a1139d2a1264d896221d02"
+  },
+  "raw/baselines/HNSW/FLA_rep1_tau10000_limit3000.csv": {
+    "bytes": 468838,
+    "sha256": "5b25d1ae58a115ec98a5b3e0ff4ba338331f9d07a34be3f094a109edd50f3d85"
+  },
+  "raw/baselines/HNSW/BAY_rep3_tau3000_limit1000.csv": {
+    "bytes": 461773,
+    "sha256": "34e4befe42f49c85b5a3b1a7da32efe600e39209829e79cdc13657643de82605"
+  },
+  "raw/baselines/HNSW/COL_rep1_tau4000_limit3000.csv": {
+    "bytes": 450095,
+    "sha256": "2e8217c0526dfdd3f60fa8c618e272c2e9f9b669c68d3d3151cea7ddf0fa0705"
+  },
+  "raw/baselines/HNSW/FLA_rep1_tau3000_limit512.csv": {
+    "bytes": 382339,
+    "sha256": "c19e2411c85e50234cf9df8b76ee473f97885be58bedb9b80c6d9eaafa2c0490"
+  },
+  "raw/baselines/HNSW/BAY_rep3_tau8000_limit3000.csv": {
+    "bytes": 464356,
+    "sha256": "b595415b3525b6f3d9a9589abc6292186c764cc207026f51f5884a4b193c25fc"
+  },
+  "raw/baselines/HNSW/FLA_rep3_tau3000_limit4000.csv": {
+    "bytes": 455180,
+    "sha256": "a9b400a7d5ee3fb191dc2b569b4b225fc133002b6a6b273f1cc3a5550dd3539e"
+  },
+  "raw/baselines/HNSW/NYC_rep2_tau4000_limit3000.csv": {
+    "bytes": 457519,
+    "sha256": "3d9a902dca621d475c49668560b95c81c046211ac7346a168f972d5dd20cc966"
+  },
+  "raw/baselines/HNSW/COL_rep3_tau10000_limit3000.csv": {
+    "bytes": 463834,
+    "sha256": "9ecf525599b161a30a7fcdec1cd960947f8f7e96f2dd74567052c5ea435317e7"
+  },
+  "raw/baselines/HNSW/NYC_rep3_tau3000_limit1000.csv": {
+    "bytes": 457699,
+    "sha256": "2c7622d320e947dd07625e3a93cf489832090f7a7b3c0ca9ab1cc4c253a3d3ed"
+  },
+  "raw/baselines/HNSW/COL_rep1_tau3000_limit4000.csv": {
+    "bytes": 451425,
+    "sha256": "374aec9d49da2eaea6c93326313e9836f709d984da6940b3e9a26b5e4af5f181"
+  },
+  "raw/baselines/HNSW/FLA_rep2_tau3000_limit4000.csv": {
+    "bytes": 457010,
+    "sha256": "d3c0e2dc465cb4d5c533e7a3ebdcd19ec97cbad395a8bd22f1cd78e54265bd53"
+  },
+  "raw/baselines/HNSW/COL_rep1_tau3000_limit512.csv": {
+    "bytes": 426560,
+    "sha256": "b1ed283ed540a11e9ebaa90a59155d77d794acf237ecb094a9527271c8441628"
+  },
+  "raw/baselines/HNSW/BAY_rep3_tau3000_limit128.csv": {
+    "bytes": 397151,
+    "sha256": "1cf8a24f10a9acf5d42dac4909f69f40d65525d5ea680de77b05d10f82e418a2"
+  },
+  "raw/baselines/HNSW/COL_rep3_tau3000_limit128.csv": {
+    "bytes": 407778,
+    "sha256": "46eed84576485bf40782da516a7ae0c2ac7a48f97cd97ab14261bd6a91607271"
+  },
+  "raw/baselines/HNSW/FLA_rep3_tau4000_limit3000.csv": {
+    "bytes": 456634,
+    "sha256": "f528796908d40b320694270ebe967421f745b432e7a43ed0657662d4efce7189"
+  },
+  "raw/baselines/HNSW/NYC_rep1_tau10000_limit3000.csv": {
+    "bytes": 456373,
+    "sha256": "9329b6582832a34814597b7f7fccd160630d6a877e04bdae1c9a3321c7d060bd"
+  },
+  "raw/baselines/HNSW/NYC_rep2_tau3000_limit128.csv": {
+    "bytes": 406728,
+    "sha256": "4a541c027e22bb3af3fd4552686da4499a9ebba068dc46edf3518e50e2629d17"
+  },
+  "raw/baselines/HNSW/FLA_rep1_tau3000_limit8000.csv": {
+    "bytes": 470807,
+    "sha256": "3c36b13f412ad7716dcf8cba2ebeac1351cffcd998cc4102b510252d479ec0fd"
+  },
+  "raw/baselines/HNSW/BAY_rep1_tau3000_limit1000.csv": {
+    "bytes": 451500,
+    "sha256": "9d5f1ecaf949910dc56a2544c0c3f94f2ddb736e4cb8ef6f1b01f3b311db7ec4"
+  },
+  "raw/baselines/HNSW/BAY_rep1_tau6000_limit3000.csv": {
+    "bytes": 455336,
+    "sha256": "cdaaae3c60b96a19370aaf4eef56afd45e2ffa7569279517e066f41281c877eb"
+  },
+  "raw/baselines/HNSW/COL_rep3_tau3000_limit1000.csv": {
+    "bytes": 445761,
+    "sha256": "6bb8e2dd8f828df064bdb96b5995c6cb7c9899f323ff8edfb3f0bb9fe84779bf"
+  },
+  "raw/baselines/HNSW/NYC_rep1_tau3000_limit8000.csv": {
+    "bytes": 462090,
+    "sha256": "fce00bb8c9c227c896c1593fb102d1544f0de757965aac1caaa757800221797a"
+  },
+  "raw/baselines/HNSW/FLA_rep3_tau3000_limit1000.csv": {
+    "bytes": 412174,
+    "sha256": "68c74d3f849e57d375d30e1805236a707fb7b59c1ecef7abbde3ddcf26a5d20d"
+  },
+  "raw/baselines/HNSW/BAY_rep2_tau3000_limit8000.csv": {
+    "bytes": 462274,
+    "sha256": "f990dd3e5986d74a56f181da6a7859db16752af120afaacb898862e9ea66d58f"
+  },
+  "raw/baselines/HNSW/NYC_rep2_tau3000_limit4000.csv": {
+    "bytes": 460039,
+    "sha256": "1b59edca095c8d02accdbca85ff20cdd4634ed8a5dc3988fc4fa3dd3361c9df5"
+  },
+  "raw/baselines/HNSW/NYC_rep1_tau3000_limit1000.csv": {
+    "bytes": 456762,
+    "sha256": "3ce0a6afe441ecdb0f36311b99573b2c575969b678117fc2d7193caae7313f81"
+  },
+  "raw/baselines/HNSW/FLA_rep2_tau8000_limit3000.csv": {
+    "bytes": 455700,
+    "sha256": "32d96186e214fd662df6ad3b77ba06c3dea91b63395ace1c6dea640d7970d272"
+  },
+  "raw/baselines/HNSW/COL_rep2_tau3000_limit8000.csv": {
+    "bytes": 451366,
+    "sha256": "67aeebc07962009b6562c3713c117bf0418244aa90eaa4fedc9d5c4e77906ec4"
+  },
+  "raw/baselines/HNSW/BAY_rep1_tau3000_limit512.csv": {
+    "bytes": 438273,
+    "sha256": "314c9c3b7bf1692eafdbb2dfe306ff4ade0615add7cbf752ed66a6d327db35f8"
+  },
+  "raw/baselines/HNSW/NYC_rep1_tau6000_limit3000.csv": {
+    "bytes": 457505,
+    "sha256": "5dea1a8a0802d2fe96d0e51b2b851f47ca226168fd08e160bd7576b4b8f76196"
+  },
+  "raw/baselines/HNSW/COL_rep2_tau2000_limit3000.csv": {
+    "bytes": 445702,
+    "sha256": "043c549f42783b7b1cec8c327e10a96332b60be60e4679947f9a2d47ae4a44bb"
+  },
+  "raw/baselines/HNSW/FLA_rep3_tau3000_limit512.csv": {
+    "bytes": 375964,
+    "sha256": "917f045305d6ef7a0c37b1a4331b49f3bbaec4e3bd80fc4594b894403d746f14"
+  },
+  "raw/baselines/HNSW/NYC_rep2_tau3000_limit8000.csv": {
+    "bytes": 461011,
+    "sha256": "3d405398355e2d97943f79cd4a18a795f7b6f3fed833d34065f6a92e4443d18e"
+  },
+  "raw/baselines/HNSW/NYC_rep3_tau4000_limit3000.csv": {
+    "bytes": 465120,
+    "sha256": "5da1cb5a1b443ea5a1dcae8aa5ff6a4e62a528b93afa2e73857e04de8fe150af"
+  },
+  "raw/baselines/HNSW/FLA_rep1_tau3000_limit1000.csv": {
+    "bytes": 419135,
+    "sha256": "adfee92568c11ca1a0c2a787ccafcb69d9be16f61997c8eec6c4dd7de1b026c6"
+  },
+  "raw/baselines/HNSW/FLA_rep3_tau10000_limit3000.csv": {
+    "bytes": 462982,
+    "sha256": "d44afc50b823f7333b59f06f721e6b58123960770fa93f48e83800968839dbe5"
+  },
+  "raw/baselines/HNSW/COL_rep3_tau3000_limit2000.csv": {
+    "bytes": 453640,
+    "sha256": "69631c3e790e492cd11c30b744ee6899eb4b688a5b0ac3b57621a7fc060bc96c"
+  },
+  "raw/baselines/HNSW/FLA_rep3_tau3000_limit128.csv": {
+    "bytes": 349230,
+    "sha256": "642578a363f53ae62ce3114374f4ac4a1b9bc70d7c44877ab87d9b66159887f2"
+  },
+  "raw/baselines/HNSW/BAY_rep3_tau3000_limit8000.csv": {
+    "bytes": 463775,
+    "sha256": "998e241323b03ffe80c10edfe53066ef2cd2fcee216557e7447366b32d7981fb"
+  },
+  "raw/baselines/HNSW/BAY_rep1_tau3000_limit2000.csv": {
+    "bytes": 454615,
+    "sha256": "f1227c4c498571a4b929a049ef11efc07910ea5afce9dbd1f16d9e5b60ba7249"
+  },
+  "raw/baselines/HNSW/NYC_rep3_tau2000_limit3000.csv": {
+    "bytes": 458081,
+    "sha256": "3c1c5474c41b3f1c655c13b4fee5249de134c96ddb5f4b75db1b77d519fa5298"
+  },
+  "raw/baselines/HNSW/FLA_rep2_tau4000_limit3000.csv": {
+    "bytes": 456706,
+    "sha256": "c832bb5d509f7902c8e06edbaf4e55841d704c08f7e91c4e1ec2f11d46af1cf6"
+  },
+  "raw/baselines/HNSW/BAY_rep2_tau4000_limit3000.csv": {
+    "bytes": 455888,
+    "sha256": "13414d54dd3f2b07454143bb25ad151e13c92d57d3d3d2c1379f576ce2cb8b1d"
+  },
+  "raw/baselines/HNSW/BAY_rep1_tau3000_limit8000.csv": {
+    "bytes": 462022,
+    "sha256": "3c9e866da9460f3452b68f1897acd2c6290904e96e2e00ce9da4863b77420f9d"
+  },
+  "raw/baselines/HNSW/FLA_rep1_tau4000_limit3000.csv": {
+    "bytes": 464046,
+    "sha256": "d3bfcf09b497a1e6b3288e323fc17f6bafd07eb15ced9249365e561b8fa2f00a"
+  },
+  "raw/baselines/HNSW/COL_rep3_tau4000_limit3000.csv": {
+    "bytes": 458213,
+    "sha256": "74963d4c1ab0aceea75c3df3e19d8af6c2a24e0e952255f19735fe1fec4c6595"
+  },
+  "raw/baselines/HNSW/BAY_rep2_tau3000_limit512.csv": {
+    "bytes": 424172,
+    "sha256": "bf99fc7fefa71beec17e8a6f3aff8284dc5ed559413a9692a029cd76a4a02402"
+  },
+  "raw/baselines/HNSW/COL_rep3_tau2000_limit3000.csv": {
+    "bytes": 451175,
+    "sha256": "f78f856b0648f98d6abcca098e8dbc89901673bca8cf3b377eadd69806c12dd7"
+  },
+  "raw/baselines/HNSW/FLA_rep2_tau3000_limit8000.csv": {
+    "bytes": 461049,
+    "sha256": "847b4aa7c5d5dd4d7b68bba224321b282ddc7b211208054eaaeda39a5cacaddf"
+  },
+  "raw/baselines/HNSW/BAY_rep1_tau3000_limit128.csv": {
+    "bytes": 408070,
+    "sha256": "186bf706084d798a5c95c7035e302c13304ce727fa3e29278456e365e6d7b4a8"
+  },
+  "raw/baselines/HNSW/NYC_rep1_tau2000_limit3000.csv": {
+    "bytes": 456511,
+    "sha256": "180648b77ae458764863b853a4318ca175908777804a91f1122a77d02237f12f"
+  },
+  "raw/baselines/HNSW/BAY_rep3_tau3000_limit2000.csv": {
+    "bytes": 463538,
+    "sha256": "0cede26da3e3462a3fe23e37ab9b8b46c69c6ecb68a676e53f216a8111d5a100"
+  },
+  "raw/baselines/HNSW/COL_rep1_tau2000_limit3000.csv": {
+    "bytes": 449247,
+    "sha256": "0a71a94c7dd7a543b4db7bfea76535f6020d7df9a9354da516a2803162e0bc28"
+  },
+  "raw/baselines/HNSW/FLA_rep3_tau6000_limit3000.csv": {
+    "bytes": 459299,
+    "sha256": "8c0e34879c7723cf2e058f7b08e9b3aa70e6213e7861733d8eb3cb58f04e41b0"
+  },
+  "raw/baselines/HNSW/FLA_rep2_tau6000_limit3000.csv": {
+    "bytes": 457505,
+    "sha256": "a1660c74addc1c0088d14096ee02372f466e22fb9a4cc26565a49321bb35c95e"
+  },
+  "raw/baselines/HNSW/FLA_rep2_tau3000_limit1000.csv": {
+    "bytes": 410879,
+    "sha256": "89241dc9c4b09d9443d2df73116434a657442301f631690b7252655cdd0e2836"
+  },
+  "raw/baselines/HNSW/COL_rep3_tau6000_limit3000.csv": {
+    "bytes": 461230,
+    "sha256": "fb9fab1b1b43d24dbbdbf78af901553aece864a7f42dcb8f0197d3e6fb7e79e1"
+  },
+  "raw/baselines/HNSW/BAY_rep2_tau3000_limit128.csv": {
+    "bytes": 385705,
+    "sha256": "96c7a00aac3b3f1f0c44d360c1c0f782ef6007f260f925ec22a2f970d2c3925b"
+  },
+  "raw/baselines/HNSW/BAY_rep1_tau10000_limit3000.csv": {
+    "bytes": 454805,
+    "sha256": "b7fc4db6d56cecd89e44abe8d0b613b16fdd1b9f250ee78f15485ac41f36407c"
+  },
+  "raw/baselines/HNSW/NYC_rep2_tau8000_limit3000.csv": {
+    "bytes": 447313,
+    "sha256": "63b1183b2fdfb53eceb66c932e8024e1b3ab9dd79159bc31d3a1ee969c7865e1"
+  },
+  "raw/baselines/RoadScan/FLA_rep3_tau3000_limit0.csv": {
+    "bytes": 445272,
+    "sha256": "fdcd4799dfb9adbcb9b99d12a8f2e426b8e8c5155e4560ee0240b42ed546f455"
+  },
+  "raw/baselines/RoadScan/FLA_rep1_tau10000_limit0.csv": {
+    "bytes": 442489,
+    "sha256": "db91c98747202de5d41743cf497da0f7d263e3e5b40254e320c4385ea9b445b9"
+  },
+  "raw/baselines/RoadScan/BAY_rep2_tau10000_limit0.csv": {
+    "bytes": 438104,
+    "sha256": "1f14421f7856e6253c16df5ee4f800e2ee605221699e0aab8fc368695e75cd3b"
+  },
+  "raw/baselines/RoadScan/COL_rep3_tau6000_limit0.csv": {
+    "bytes": 438067,
+    "sha256": "fd8124427995d313b6deb9eea52b171ad833e27f9f9267c7556c2eaef749238c"
+  },
+  "raw/baselines/RoadScan/BAY_rep1_tau6000_limit0.csv": {
+    "bytes": 435019,
+    "sha256": "0fd6fba57b5383b21dbac9456d871586c4321f27cad4c2f9c6a604a0e0b5a560"
+  },
+  "raw/baselines/RoadScan/BAY_rep1_tau8000_limit0.csv": {
+    "bytes": 434485,
+    "sha256": "ed4896c8995b3eceaf1842ed267261dc6507129277b8d344817d4cc41b5a4401"
+  },
+  "raw/baselines/RoadScan/FLA_rep2_tau10000_limit0.csv": {
+    "bytes": 442254,
+    "sha256": "6bcd25e3a51aa74a3a0fc6d1240cb19ec3758f38b41c4fc6644b5cbbce2d8389"
+  },
+  "raw/baselines/RoadScan/BAY_rep2_tau6000_limit0.csv": {
+    "bytes": 435647,
+    "sha256": "7e5e49738928123ce8a0a3754b8d4ebc2af6a4c60f537e27de95ba6e829af20f"
+  },
+  "raw/baselines/RoadScan/FLA_rep2_tau6000_limit0.csv": {
+    "bytes": 440672,
+    "sha256": "3109154f01cfb2ae32b0ad012aaec01b9cbb4a1e79321ee34f57d80ad8c07f6a"
+  },
+  "raw/baselines/RoadScan/BAY_rep3_tau4000_limit0.csv": {
+    "bytes": 437096,
+    "sha256": "a3a167d4e90b4ccab24697069d39c55e6e84108fce38ed17c304d519a31c627f"
+  },
+  "raw/baselines/RoadScan/COL_rep1_tau6000_limit0.csv": {
+    "bytes": 437964,
+    "sha256": "da4a106c798b325b3b697bbd6feb119ba6e2a9f026f3b45469037b1b249898f2"
+  },
+  "raw/baselines/RoadScan/COL_rep2_tau4000_limit0.csv": {
+    "bytes": 437514,
+    "sha256": "b5c997b827964e130baf9bf56ba9297127c0bba777f398019cd66cf92572f587"
+  },
+  "raw/baselines/RoadScan/BAY_rep2_tau2000_limit0.csv": {
+    "bytes": 441176,
+    "sha256": "0cf1cb1987a4cd8ec0981e85cd26b5a1175c3a552749d3c507074a077a8a55e0"
+  },
+  "raw/baselines/RoadScan/FLA_rep2_tau2000_limit0.csv": {
+    "bytes": 448115,
+    "sha256": "aa3eac0280e0c2a7fe37268ac0557e12732ff2514a704281dee01f941b4c66f3"
+  },
+  "raw/baselines/RoadScan/NYC_rep1_tau4000_limit0.csv": {
+    "bytes": 438866,
+    "sha256": "fcef7670d4cbf99c5dcca4576124d9cc254c519aafcadc0cc051f6e47ff9dcf6"
+  },
+  "raw/baselines/RoadScan/NYC_rep2_tau3000_limit0.csv": {
+    "bytes": 438868,
+    "sha256": "55412bb0e6054bf99ff30629d2036f18ac39bf724fadda2e2e3039096bbfb0f9"
+  },
+  "raw/baselines/RoadScan/NYC_rep3_tau8000_limit0.csv": {
+    "bytes": 439675,
+    "sha256": "f2f11551d83f8a358f149896706f3f9ad8098e04e647844477a317196a1a0464"
+  },
+  "raw/baselines/RoadScan/NYC_rep1_tau3000_limit0.csv": {
+    "bytes": 439218,
+    "sha256": "9c316b05ff72c440f2ccd3f1b94ed33cedeb23e233dba137c55985ce075946e5"
+  },
+  "raw/baselines/RoadScan/BAY_rep1_tau2000_limit0.csv": {
+    "bytes": 441103,
+    "sha256": "32984ec3c14f7742e1e84ba62bfe49dfad39122c9d4f865131a737d5857b89e9"
+  },
+  "raw/baselines/RoadScan/NYC_rep3_tau4000_limit0.csv": {
+    "bytes": 439061,
+    "sha256": "213f7f1cd579384b46922a490736b84750d07a5dcb6c28c00683c6b786a3c89e"
+  },
+  "raw/baselines/RoadScan/NYC_rep1_tau10000_limit0.csv": {
+    "bytes": 442649,
+    "sha256": "06488952b8ca3fe77fcba2a4c590f6eff5267ee9929ac334c4c9a2612813d9e7"
+  },
+  "raw/baselines/RoadScan/COL_rep3_tau8000_limit0.csv": {
+    "bytes": 435096,
+    "sha256": "8e247516ebd4d212fab051012253c507ed06343a67d93844f686656809a25fed"
+  },
+  "raw/baselines/RoadScan/NYC_rep1_tau6000_limit0.csv": {
+    "bytes": 438725,
+    "sha256": "f174b3fc6b9ba9c4249e76daec5c66fb3d6a41304578292ded7b30a2c0cbaa53"
+  },
+  "raw/baselines/RoadScan/BAY_rep2_tau3000_limit0.csv": {
+    "bytes": 438921,
+    "sha256": "962f23032d28818fa6952b7fc12bde62e001db0367a74915d24600e13b9236af"
+  },
+  "raw/baselines/RoadScan/FLA_rep2_tau3000_limit0.csv": {
+    "bytes": 445526,
+    "sha256": "84faa987f1b463d538905fa77308b62dcce58c421d232cbac343a1644795ae5c"
+  },
+  "raw/baselines/RoadScan/BAY_rep1_tau3000_limit0.csv": {
+    "bytes": 438732,
+    "sha256": "b4c835ce6e72111a78d55013e02ad482c3f8fcb72d69f1b5335f1d13e28da80d"
+  },
+  "raw/baselines/RoadScan/COL_rep1_tau8000_limit0.csv": {
+    "bytes": 435283,
+    "sha256": "b225953c8312abb2ace121ac5d99a90323d3a2f1dee98167d4a52f93accd8df0"
+  },
+  "raw/baselines/RoadScan/BAY_rep3_tau6000_limit0.csv": {
+    "bytes": 434744,
+    "sha256": "3b571afd9346048e49380e92f6c9d5cff64ad9c0fa6294a4cc7753de8d2eb1a0"
+  },
+  "raw/baselines/RoadScan/NYC_rep2_tau10000_limit0.csv": {
+    "bytes": 442424,
+    "sha256": "554790e76f15a04f65850c584cdc8f06256ef5ffc7d40550c232cc11624b5eb5"
+  },
+  "raw/baselines/RoadScan/BAY_rep3_tau3000_limit0.csv": {
+    "bytes": 438908,
+    "sha256": "e97ed73aa95d2b40558e54f65199b7c268ba988dfcaed02a4d0990830ea2f3e1"
+  },
+  "raw/baselines/RoadScan/FLA_rep1_tau4000_limit0.csv": {
+    "bytes": 443731,
+    "sha256": "a41c20ad08681cd29a66952766f7721be89082fe61d2fadd7f7f9407e36940cb"
+  },
+  "raw/baselines/RoadScan/FLA_rep1_tau6000_limit0.csv": {
+    "bytes": 441095,
+    "sha256": "9f9dd91cf0a09b6fc51468e306bfd345e5222ff3ad64d17b0a6541c4fda9d20a"
+  },
+  "raw/baselines/RoadScan/COL_rep3_tau3000_limit0.csv": {
+    "bytes": 439203,
+    "sha256": "5c94cac32db34e8305c36a4d79be1dec62aad0cec52da4c4262a2c3078b8887a"
+  },
+  "raw/baselines/RoadScan/FLA_rep1_tau2000_limit0.csv": {
+    "bytes": 447211,
+    "sha256": "86590cf9577181b05eff90b1577be1215533177d9bd9efb77051cc9ea2b38485"
+  },
+  "raw/baselines/RoadScan/FLA_rep1_tau8000_limit0.csv": {
+    "bytes": 440596,
+    "sha256": "f4b03b9a3cac51fcb3411348789056730de307711366c53f8cd3b362ce1f72a2"
+  },
+  "raw/baselines/RoadScan/COL_rep2_tau3000_limit0.csv": {
+    "bytes": 439526,
+    "sha256": "73b8dad71bf3bf5211fcd2f0fc74e13caa33e6d012cbf8aaee25e8787d158883"
+  },
+  "raw/baselines/RoadScan/COL_rep3_tau10000_limit0.csv": {
+    "bytes": 437014,
+    "sha256": "2b0cd315aa8e639a1c5a457f6cefa27c7f1692bb737b5ccf45b649c8f59e0980"
+  },
+  "raw/baselines/RoadScan/NYC_rep3_tau3000_limit0.csv": {
+    "bytes": 439206,
+    "sha256": "d706d2c6ea317fb4571c875f3048798ff9f60f146192229f06e4d7a2e98dc392"
+  },
+  "raw/baselines/RoadScan/NYC_rep1_tau2000_limit0.csv": {
+    "bytes": 440177,
+    "sha256": "c4938f262e30dacac9b27c47ae703876beeed8b7f60990d5e5a9f55d3a741f34"
+  },
+  "raw/baselines/RoadScan/BAY_rep3_tau10000_limit0.csv": {
+    "bytes": 437940,
+    "sha256": "e6105be98a9eae12a0915083a3454e004962398e3c4aec9b7aa87055e10636ba"
+  },
+  "raw/baselines/RoadScan/BAY_rep1_tau4000_limit0.csv": {
+    "bytes": 436238,
+    "sha256": "926f98e41bb303a22cce8578089adb9b3774c44a29b30c76ef09f50538021c5e"
+  },
+  "raw/baselines/RoadScan/FLA_rep3_tau2000_limit0.csv": {
+    "bytes": 448053,
+    "sha256": "bfaeffd48f1a07c8dab659f0eda75f796535271e5d23009f9db2c6aee01b4b29"
+  },
+  "raw/baselines/RoadScan/COL_rep1_tau4000_limit0.csv": {
+    "bytes": 438336,
+    "sha256": "9d21f51c71a4b5c7f0a9b9ff52e6c1499e9beddf6c67c17fc36e8b8d4cd38a04"
+  },
+  "raw/baselines/RoadScan/COL_rep3_tau4000_limit0.csv": {
+    "bytes": 438186,
+    "sha256": "47dc98ce3de3c41bb7692ce7e3b3b355d02fd8b1cf7b344807f7d546160978aa"
+  },
+  "raw/baselines/RoadScan/NYC_rep2_tau8000_limit0.csv": {
+    "bytes": 440074,
+    "sha256": "eccbacdfff1fac935073d6ec17f5d3e6851b7a15b58ae3312e2291635562f899"
+  },
+  "raw/baselines/RoadScan/NYC_rep2_tau6000_limit0.csv": {
+    "bytes": 438941,
+    "sha256": "e4d79dc1457481e884e74402e2bdd03a55d4a796748dba45d6578f0bb3a09cdd"
+  },
+  "raw/baselines/RoadScan/COL_rep1_tau10000_limit0.csv": {
+    "bytes": 437331,
+    "sha256": "e9940c5bbf67a995af91934a148b0e574ec64118b069bf7f69c42b7549f55a10"
+  },
+  "raw/baselines/RoadScan/FLA_rep3_tau10000_limit0.csv": {
+    "bytes": 442342,
+    "sha256": "2cc8f1c48d625ee4b7363004469d2f75d1c0a8be230725e2aed439c2a6b2d908"
+  },
+  "raw/baselines/RoadScan/FLA_rep3_tau8000_limit0.csv": {
+    "bytes": 440339,
+    "sha256": "429e34f21b94a841be8b54b10341554af92fee7bf890c6055702bf5c9093e2d3"
+  },
+  "raw/baselines/RoadScan/NYC_rep3_tau10000_limit0.csv": {
+    "bytes": 442616,
+    "sha256": "d2999a6322ebce44b5124a1aaef39f8a726e06184a10f9d58dada7c57038d1d0"
+  },
+  "raw/baselines/RoadScan/COL_rep2_tau2000_limit0.csv": {
+    "bytes": 440749,
+    "sha256": "0dd9798ff41758bb599efddc5834573a883879fd9ef5ac7a5c270c6a451bd619"
+  },
+  "raw/baselines/RoadScan/BAY_rep3_tau8000_limit0.csv": {
+    "bytes": 434893,
+    "sha256": "5d8575a90bf95aff578addc4df556211fb22d8ea7d71812b3a0763fd276cb160"
+  },
+  "raw/baselines/RoadScan/COL_rep2_tau8000_limit0.csv": {
+    "bytes": 435511,
+    "sha256": "fe7c8d006be46595c76dc803091192c7d87978f138fb0494e474765bfb2618ec"
+  },
+  "raw/baselines/RoadScan/NYC_rep2_tau4000_limit0.csv": {
+    "bytes": 439323,
+    "sha256": "bf21f1ba4178cb21640420655078bb99387775ab0791b4bde2ac2ccadeeef345"
+  },
+  "raw/baselines/RoadScan/BAY_rep2_tau4000_limit0.csv": {
+    "bytes": 436730,
+    "sha256": "ba2a63d624359c66416e6cf4b27cd599331b62f5eacd845a9ec902a8b0ed5f74"
+  },
+  "raw/baselines/RoadScan/BAY_rep3_tau2000_limit0.csv": {
+    "bytes": 441738,
+    "sha256": "cc0f71891b60795b812543c9dad20d14173c89c95ed60a69598d5e649755237d"
+  },
+  "raw/baselines/RoadScan/COL_rep2_tau10000_limit0.csv": {
+    "bytes": 437219,
+    "sha256": "ab842467a37f3e735ba6506d3254300dc26acee3a49a492736444406c5b45663"
+  },
+  "raw/baselines/RoadScan/COL_rep1_tau3000_limit0.csv": {
+    "bytes": 439771,
+    "sha256": "68ef8a714e0588bc5288334123be31243c8f81ec2795053e5fb4b778ef062d52"
+  },
+  "raw/baselines/RoadScan/FLA_rep2_tau4000_limit0.csv": {
+    "bytes": 443431,
+    "sha256": "dae8cf95f9c9b6a61919cdeac7973f31b369bb8a25acab88a9c74cf5ec926b26"
+  },
+  "raw/baselines/RoadScan/FLA_rep1_tau3000_limit0.csv": {
+    "bytes": 445115,
+    "sha256": "a2c3e9a1794d65f33f5484a5fcd3c2b877b4eafb56bd068e2b05aab4306b047e"
+  },
+  "raw/baselines/RoadScan/FLA_rep3_tau4000_limit0.csv": {
+    "bytes": 443706,
+    "sha256": "4c1dff6d6e49d4fa719b47d0c6cf7c3d748ff298db83644ce52e79b35f02afb6"
+  },
+  "raw/baselines/RoadScan/COL_rep3_tau2000_limit0.csv": {
+    "bytes": 440911,
+    "sha256": "5c76d7e44640af0dc8ea7c6252aa9aae5055ea7014852781e54b47c6b882b6d6"
+  },
+  "raw/baselines/RoadScan/FLA_rep3_tau6000_limit0.csv": {
+    "bytes": 441266,
+    "sha256": "415fa8e178d3e8f5ae857590db78dcd8c10251790a3dd1e9dc368bce832da3d2"
+  },
+  "raw/baselines/RoadScan/NYC_rep3_tau6000_limit0.csv": {
+    "bytes": 438112,
+    "sha256": "ff267320e7b9bcc28a4a8d513479ebbda972bee25126077b0abd668b23c64e2d"
+  },
+  "raw/baselines/RoadScan/NYC_rep2_tau2000_limit0.csv": {
+    "bytes": 440740,
+    "sha256": "48c824671c401b41b9bca952b64c482bb95aa851484fb1d177279f06f66b5c67"
+  },
+  "raw/baselines/RoadScan/BAY_rep2_tau8000_limit0.csv": {
+    "bytes": 435291,
+    "sha256": "ba021ac29112faddff5fb09f31251ad105c9d2b7a92cec2aafc6b13faa36b70f"
+  },
+  "raw/baselines/RoadScan/FLA_rep2_tau8000_limit0.csv": {
+    "bytes": 440198,
+    "sha256": "d882bdff80da35eeccdefd5d805e771915b3ddf5e63d396a9a375567d01992c3"
+  },
+  "raw/baselines/RoadScan/NYC_rep1_tau8000_limit0.csv": {
+    "bytes": 440050,
+    "sha256": "41d3af2fed5fd4f786da9995358375c25319d130c06dece382ff152128d0dfb4"
+  },
+  "raw/baselines/RoadScan/COL_rep1_tau2000_limit0.csv": {
+    "bytes": 440756,
+    "sha256": "b8202fae14f2838a09998620126e630dcdec0cd765086c763c7200b5d36ea2f6"
+  },
+  "raw/baselines/RoadScan/COL_rep2_tau6000_limit0.csv": {
+    "bytes": 438107,
+    "sha256": "5840bd48fbfcad57f56a7d8853616961d7ae90088465b54ba4e3c1e874155e9e"
+  },
+  "raw/baselines/RoadScan/NYC_rep3_tau2000_limit0.csv": {
+    "bytes": 439480,
+    "sha256": "fe1e1be4c42dbea8a5c87aa284f86129f63fb13d11675461d787f79cebad9db7"
+  },
+  "raw/baselines/RoadScan/BAY_rep1_tau10000_limit0.csv": {
+    "bytes": 437455,
+    "sha256": "ac1babb8d730dc93d465abf2328fd55b8c4709cd91471a44ebda5b90024524de"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep2_tau8000_limit3000.csv": {
+    "bytes": 467015,
+    "sha256": "d38b9a2f1d212c0a792a50b906a7d344c55f4bb6f0a37974407ae2361c0b723f"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep1_tau3000_limit4000.csv": {
+    "bytes": 455675,
+    "sha256": "ad4980719b860f93e18ee5dd7b2d68d4a2778395074ba5980d138aec10003777"
+  },
+  "raw/baselines/SymphonyQG/COL_rep1_tau3000_limit8000.csv": {
+    "bytes": 450375,
+    "sha256": "ae995809fa518f378ad6f2b3d4f35f7f98ce054e52d87f79e14400bab8f5453a"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep1_tau4000_limit3000.csv": {
+    "bytes": 451175,
+    "sha256": "b46774bcc022a89b4046d40c159a61b81c3212658fee6eb1a70f6ab182108d03"
+  },
+  "raw/baselines/SymphonyQG/COL_rep1_tau6000_limit3000.csv": {
+    "bytes": 455329,
+    "sha256": "e5f4ea90c2a38654026af61414d9e3545f9d90fd95f0aeab07fbc6e3c7721ab7"
+  },
+  "raw/baselines/SymphonyQG/COL_rep3_tau3000_limit512.csv": {
+    "bytes": 370278,
+    "sha256": "c97544484d914fc018784c2cf1a79f2d03f589da3d086dd42945ed4bbc9dfd97"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep1_tau3000_limit128.csv": {
+    "bytes": 314684,
+    "sha256": "57fd5c50c301acf1bca080c7ada48a1bece12c1d07c0e86dda8b981789fe02bf"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep2_tau3000_limit2000.csv": {
+    "bytes": 445695,
+    "sha256": "689c01dd8119a0ff4628132a9875bebe79dcd16b09b42afaea410e11e0d8a746"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep2_tau3000_limit2000.csv": {
+    "bytes": 425679,
+    "sha256": "4a9c4db7145de88bbe2dc67791d77a31317509e713c071c62bfe3ee9bb8881dc"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep3_tau6000_limit3000.csv": {
+    "bytes": 463884,
+    "sha256": "3e59be19c6836053ee27290d3ecfe72d7f3c1d778e249ee07a41de932d02bad2"
+  },
+  "raw/baselines/SymphonyQG/COL_rep3_tau3000_limit8000.csv": {
+    "bytes": 451472,
+    "sha256": "0b7b7c107fc009635ff47b6d4560d9998ead711c82ce0a19686aba6145535107"
+  },
+  "raw/baselines/SymphonyQG/COL_rep2_tau6000_limit3000.csv": {
+    "bytes": 456048,
+    "sha256": "6e2d8d03ae4f1ed93a78c8d8662a6e1f54562049bfed3971059f2c6fbc58c048"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep3_tau8000_limit3000.csv": {
+    "bytes": 453958,
+    "sha256": "decab4e78aaf97c1735062f061e2807120f472865390b5faf8a4df2de7981dd7"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep2_tau10000_limit3000.csv": {
+    "bytes": 476198,
+    "sha256": "7c35042a1cc2ad11dcf780566829594be6087dbc32e68292ab4575963bf18a3d"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep1_tau6000_limit3000.csv": {
+    "bytes": 438017,
+    "sha256": "a54a48a027b3fe6070101a829ab1bf20a75356228cb23c0f45eac176195c5eb6"
+  },
+  "raw/baselines/SymphonyQG/COL_rep2_tau10000_limit3000.csv": {
+    "bytes": 462723,
+    "sha256": "988ddbf141016df1e40261602b262cb48e0353eb3ef24c130147788a169dc8f5"
+  },
+  "raw/baselines/SymphonyQG/COL_rep3_tau3000_limit4000.csv": {
+    "bytes": 442321,
+    "sha256": "b03a18a72ca14a7a240cdcad2c32e59603b1e2ef7b7b59ac127ff9ad6e38ef84"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep2_tau3000_limit1000.csv": {
+    "bytes": 391781,
+    "sha256": "2d8b329b86fadba6722ce5320e1ca2aa89a950ad0dc2ed82bbd149a0314db890"
+  },
+  "raw/baselines/SymphonyQG/COL_rep1_tau3000_limit2000.csv": {
+    "bytes": 413928,
+    "sha256": "59caa0d42581b7205407530e243d000ea8491644c354c4992bda76ee888776d1"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep1_tau3000_limit4000.csv": {
+    "bytes": 392390,
+    "sha256": "6ad226a9d939c0ea22d1cf82c721d7a2007303f58390166bc72eed08d86e2fee"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep3_tau4000_limit3000.csv": {
+    "bytes": 453452,
+    "sha256": "498adf93c183298952b90690a8774b915571454e0cfb28b9709037abaf35bd6e"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep3_tau3000_limit4000.csv": {
+    "bytes": 449780,
+    "sha256": "13ccc7e4b18c87c6bab7305acad63340bec49b17e0a9e6a43ef2f4c539425cda"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep3_tau6000_limit3000.csv": {
+    "bytes": 469691,
+    "sha256": "2a91ec09a380d5ad53bfb518e3904c855ea50f348164a738e1255ed08c72e313"
+  },
+  "raw/baselines/SymphonyQG/COL_rep1_tau3000_limit1000.csv": {
+    "bytes": 390284,
+    "sha256": "1b294f02cccccaa1ebf42a84d335a88e11a05cf57c3f22bdcef865935a4069da"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep1_tau8000_limit3000.csv": {
+    "bytes": 452214,
+    "sha256": "608e3980bf9a8845a58ecc6ea514f89fcf816d950bcc1b39aa160e741d64092c"
+  },
+  "raw/baselines/SymphonyQG/COL_rep2_tau3000_limit128.csv": {
+    "bytes": 366964,
+    "sha256": "0403ec85cccef1a2130564c0e640899ec25ced848785f8a199d1554446a51560"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep2_tau3000_limit4000.csv": {
+    "bytes": 447292,
+    "sha256": "6e532b4e00255f14672013d1cdab6e483bb18fde71d2b0feeede877320c12991"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep3_tau3000_limit2000.csv": {
+    "bytes": 377495,
+    "sha256": "d7c5cc86ff7857a4bf014c0a3435d5fc7dc04278067aea78b6e62f51c8dfc3c7"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep1_tau3000_limit2000.csv": {
+    "bytes": 453030,
+    "sha256": "9cb381c4ac4016275ba409b9fed1fa1e2e7ad033065c050521e6738ed773e7fa"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep1_tau8000_limit3000.csv": {
+    "bytes": 466886,
+    "sha256": "49b7a36d246a603bd9a2893790f0483429632c92205aa863f6798d8ca71ad960"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep1_tau3000_limit512.csv": {
+    "bytes": 435150,
+    "sha256": "0f4321018800d7d44830019d058ea7f6fce7cf1870027a1df902e0a5b52d9967"
+  },
+  "raw/baselines/SymphonyQG/COL_rep2_tau3000_limit512.csv": {
+    "bytes": 370849,
+    "sha256": "df2cff1e7d66db7a94c578dd6cf34b5820e98a869d62e6201d2884e4f0c97572"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep3_tau3000_limit128.csv": {
+    "bytes": 403923,
+    "sha256": "241a3d760a95dff1bb7e8d2e3c8edf48ed6c3f2a7078d6ea56af3dbb1e686ba1"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep2_tau3000_limit128.csv": {
+    "bytes": 309216,
+    "sha256": "ae9b0d1aea379e6d988353e0e931bb682048ddd04dc69d20b285526a2a510b43"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep3_tau2000_limit3000.csv": {
+    "bytes": 419467,
+    "sha256": "3782437d83121134f53821e17d04d413619792dc00691c22dceabc336159c432"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep3_tau10000_limit3000.csv": {
+    "bytes": 471269,
+    "sha256": "73c5a3659c086340e568f951dad908ea8c5705c25e32be16c1ea4700f26a428a"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep3_tau10000_limit3000.csv": {
+    "bytes": 476153,
+    "sha256": "41a928dabdd8dab0caed1e18712e3ad6f344d3cd705d202ef40953b91a429944"
+  },
+  "raw/baselines/SymphonyQG/COL_rep2_tau4000_limit3000.csv": {
+    "bytes": 443943,
+    "sha256": "4a103a859b78b40129bf5c9d954358760e3c6db535bba3891676a3d655e85bbe"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep2_tau2000_limit3000.csv": {
+    "bytes": 413237,
+    "sha256": "8cbf63f78665bf4001e482878d55fb26dbd2d57edb68b9ecaa3b376260d91ef9"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep2_tau2000_limit3000.csv": {
+    "bytes": 428736,
+    "sha256": "536065eab61e3193c833b0194addd34d5c8091068f1f2a0e890891da49c50b1d"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep2_tau10000_limit3000.csv": {
+    "bytes": 470941,
+    "sha256": "a2cc6bd0bc5e4374f44a6577b17f9f9fe8a5a94842d774fcf7fbff65a66b959d"
+  },
+  "raw/baselines/SymphonyQG/COL_rep3_tau8000_limit3000.csv": {
+    "bytes": 460363,
+    "sha256": "cfc29770bba89aa6dc961c4f1709f3b4a8980da7868cc30fe67c0fe7dca8fbb6"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep2_tau3000_limit512.csv": {
+    "bytes": 430234,
+    "sha256": "efd41caa84d519321966a35061383daa38d35bff353b9b3cbb9b1282332f7f0d"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep1_tau3000_limit4000.csv": {
+    "bytes": 453315,
+    "sha256": "6cd1f0320b076b2650707c36290d282fc4caa61d9f089b5571dc8fa10ef7cb91"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep3_tau3000_limit4000.csv": {
+    "bytes": 445899,
+    "sha256": "0acab3040e047b2b6c96c0eee8e5362547c031c82b03eda41398f6ef157bbacd"
+  },
+  "raw/baselines/SymphonyQG/COL_rep2_tau8000_limit3000.csv": {
+    "bytes": 460007,
+    "sha256": "74157f444ee1ad66fde30ff284e0f583efba3ec2d9c071feafdd629020d1f6f3"
+  },
+  "raw/baselines/SymphonyQG/COL_rep2_tau3000_limit2000.csv": {
+    "bytes": 413719,
+    "sha256": "c406194a04125de680e5744c45ea0706a7a2959747ac853dd13bee7c65a45337"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep3_tau3000_limit8000.csv": {
+    "bytes": 411820,
+    "sha256": "cc81a1780244619f07912c39432f1b53dbf4cc6f9c0685fb5f988e27b05066f3"
+  },
+  "raw/baselines/SymphonyQG/COL_rep2_tau3000_limit1000.csv": {
+    "bytes": 383277,
+    "sha256": "146917c503fdc575212a3b6310507260d4bff7c7910b016db16fd30549d0665d"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep3_tau3000_limit2000.csv": {
+    "bytes": 444686,
+    "sha256": "6cadd9ad8cd42bed5419620bd37e26cef7f4a9945f8da54ff88f52e239686b83"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep1_tau3000_limit128.csv": {
+    "bytes": 410032,
+    "sha256": "fd6d3b0c4937f5f36ae2dc216630cd537e8c16349f9e79c8c21522363225bfe2"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep3_tau2000_limit3000.csv": {
+    "bytes": 355477,
+    "sha256": "a3f950e95896e3ce83dc1ec41f1d727d02a336359a5739d94ac13790a91ceee0"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep2_tau2000_limit3000.csv": {
+    "bytes": 354285,
+    "sha256": "c2991cef6fd5f22c6ff8ec487b3172359eb40a552388bb5ad6db7d2f60f6bd55"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep1_tau2000_limit3000.csv": {
+    "bytes": 412602,
+    "sha256": "93f1c28174aaa7042ee1d690e188d61ca8e4d3df2148dc7eed195b65d8c52bc0"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep2_tau3000_limit512.csv": {
+    "bytes": 338502,
+    "sha256": "6a2d48c4e02e00e3029c18e901ed5c51784518dd5e0219ee1747014381ca6f17"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep3_tau3000_limit8000.csv": {
+    "bytes": 462625,
+    "sha256": "42fb1464b3d27d986ff7d65d91859995747e680f3269f1cc77b06af3d51a516c"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep1_tau3000_limit2000.csv": {
+    "bytes": 383976,
+    "sha256": "4bba173e5f8230eee086703022d5a30340e97b7bcfb65d0ee66cf4edc4c1190a"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep2_tau3000_limit1000.csv": {
+    "bytes": 436857,
+    "sha256": "a3e3e9332cc573994aaeb7fd11c76feead00c48f4c8994c5998d8231dcc4b512"
+  },
+  "raw/baselines/SymphonyQG/COL_rep2_tau3000_limit4000.csv": {
+    "bytes": 445204,
+    "sha256": "19c5026b7fbacedbc6827e3543a9dabf5314d3b56a80db3a7713b83c671612f9"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep3_tau8000_limit3000.csv": {
+    "bytes": 472674,
+    "sha256": "707c913298f4c679ebc8d5f2f169a4c8eafe39b4c4b9ed35df72ef5b67091990"
+  },
+  "raw/baselines/SymphonyQG/COL_rep1_tau8000_limit3000.csv": {
+    "bytes": 460504,
+    "sha256": "e724220b1f0f2cba7af7f3fd6d6df438c05b28704287d6dcb683c47595ca151c"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep3_tau3000_limit512.csv": {
+    "bytes": 428634,
+    "sha256": "d2872df8bbe2730b65e96c160c07a78e9a7bce7c7fb16ecf01d1315279a59986"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep1_tau2000_limit3000.csv": {
+    "bytes": 354414,
+    "sha256": "cff00449db1ac39a8240867fa174b962088931d609f2887978f846a8ae23ab81"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep1_tau8000_limit3000.csv": {
+    "bytes": 473572,
+    "sha256": "106429ab6551149ab93433c12ad62e1293031e2a468d3955e7a07c10b1da5b88"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep2_tau10000_limit3000.csv": {
+    "bytes": 463019,
+    "sha256": "f2d65c70cfca2b6cf7d2185e64d005c2cb1a5e005a0c5d69b4a9e4a9920d16c8"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep2_tau3000_limit2000.csv": {
+    "bytes": 371715,
+    "sha256": "e30a1e21069b679e06e6fb4ba54d576cc3eaff0ae2bb91231ade9f906ad1f8a9"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep2_tau6000_limit3000.csv": {
+    "bytes": 469698,
+    "sha256": "af63feeba531d4950d140474b92f9fd236102f14ced689c104ff78e7267bc799"
+  },
+  "raw/baselines/SymphonyQG/COL_rep1_tau10000_limit3000.csv": {
+    "bytes": 464111,
+    "sha256": "6669c9ae24a9c570a6ead6da55dd70aca010d5b1916e1245bfb5c1fb903db462"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep3_tau3000_limit512.csv": {
+    "bytes": 366979,
+    "sha256": "23616db138a4f67bd49211040cf1cdcda4f22412b12805575a91bca884ffcced"
+  },
+  "raw/baselines/SymphonyQG/COL_rep1_tau3000_limit128.csv": {
+    "bytes": 368526,
+    "sha256": "59cb17ffe850b72a96f5965751d7c9b7f6a0da5255fcf74ce19467af37c86776"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep1_tau4000_limit3000.csv": {
+    "bytes": 463679,
+    "sha256": "524808ea56bac97a455bebabc15710f0dc30289d48009d909271391ba359c25f"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep2_tau6000_limit3000.csv": {
+    "bytes": 463221,
+    "sha256": "7a6c406149c30e6162644d42b280f50aadf3a4c759a4a54a59ed6e4ff474d64d"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep1_tau10000_limit3000.csv": {
+    "bytes": 461623,
+    "sha256": "0950c15bb40d56aa3fb4052ed319f7544b0dd54a83d58ee4b507c8e9f70e0ae6"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep3_tau3000_limit1000.csv": {
+    "bytes": 399489,
+    "sha256": "c2cbc57b82f002753cb7c52837b7be83a051760c5f707391d3e6d8922722e60d"
+  },
+  "raw/baselines/SymphonyQG/COL_rep1_tau4000_limit3000.csv": {
+    "bytes": 444034,
+    "sha256": "6b7bafd17d2e73620d02a3fa0598ccddbc2843b33da4bcd5bdbb8401fad90ee6"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep1_tau3000_limit512.csv": {
+    "bytes": 362581,
+    "sha256": "3ebc4b50356730710f6ea080e18a11e93d3c88a760271be7cc4205368c095fb5"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep3_tau8000_limit3000.csv": {
+    "bytes": 467746,
+    "sha256": "f480acae322eac6df3c017d0e4588d61ec21553511eec04067a8abd10e015d1e"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep3_tau3000_limit4000.csv": {
+    "bytes": 390010,
+    "sha256": "e82c8f15e3b33b1a90a0eb008d8a0910cfd4dd7962ad64ab06a45f2941ef3361"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep2_tau4000_limit3000.csv": {
+    "bytes": 458830,
+    "sha256": "4f4d6e4db1a86d41594e5063117a420aada6ce051a7929a0e892ab93efd91737"
+  },
+  "raw/baselines/SymphonyQG/COL_rep3_tau10000_limit3000.csv": {
+    "bytes": 463364,
+    "sha256": "2535774f7e45324200714be213da40700c75e0c45d04d650b6927d01bde50a49"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep3_tau3000_limit1000.csv": {
+    "bytes": 437188,
+    "sha256": "5828fbca5efe268ce3979442d34e35fe4060ad0b0eb39b8bf45aa04f125fb3ab"
+  },
+  "raw/baselines/SymphonyQG/COL_rep1_tau3000_limit4000.csv": {
+    "bytes": 441005,
+    "sha256": "43d3aa74acc8d63527e658bc6baf9d5bf763bd78480b1aaeede20919c0c2527f"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep2_tau3000_limit4000.csv": {
+    "bytes": 389778,
+    "sha256": "489ed6c51694b0c8c435c5fdcef5ec5c820cd1d88de39364be03e1686ceadd03"
+  },
+  "raw/baselines/SymphonyQG/COL_rep1_tau3000_limit512.csv": {
+    "bytes": 372328,
+    "sha256": "c5be035e4d9a45b0b8467a71a1e21ed85637f0f3d089c731c4bd62540ca8ccea"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep3_tau3000_limit128.csv": {
+    "bytes": 365141,
+    "sha256": "e7688f406bfe1a658224aa9fa63de6ae8929a5d79d46b94b03cc135889d9b87d"
+  },
+  "raw/baselines/SymphonyQG/COL_rep3_tau3000_limit128.csv": {
+    "bytes": 364185,
+    "sha256": "fa9ba0f5f5ee3c4e4d27965b934e39160ae945cc0468daf87175940f5e90b213"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep3_tau4000_limit3000.csv": {
+    "bytes": 407603,
+    "sha256": "9235c6a7c82b40b548265236f704ffbee2da4d1366fc44d18a2a3366ff84bf08"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep1_tau10000_limit3000.csv": {
+    "bytes": 476738,
+    "sha256": "702b63b72ffc6e91ac97f48bbc89bbec76b238e873c9288fd9353c4783739027"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep2_tau3000_limit128.csv": {
+    "bytes": 405825,
+    "sha256": "490f6ff12b5fbaea6ecb0a17a3ef281d0fee2678f230433e40af60dac09d866e"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep1_tau3000_limit8000.csv": {
+    "bytes": 424152,
+    "sha256": "093fe4cf7a3123ef6baf1c03a204a56d456aa12b216555de5f4f9faaa058f8b7"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep1_tau3000_limit1000.csv": {
+    "bytes": 412427,
+    "sha256": "c3f1d897d56858620e34d407984f90a182aea7c449c45e12d78262039d448fc0"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep1_tau6000_limit3000.csv": {
+    "bytes": 462784,
+    "sha256": "c97f6fd2c0da25ff087fda840f893142bce262749f85198c4b631a1b5782d485"
+  },
+  "raw/baselines/SymphonyQG/COL_rep3_tau3000_limit1000.csv": {
+    "bytes": 381632,
+    "sha256": "c26a3b8471faae347d47eb7c4c7856aca163961cb32ee21bfafe0f0ffe51b12d"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep1_tau3000_limit8000.csv": {
+    "bytes": 464728,
+    "sha256": "da506a22877299ba952e61745c933d6fc50665e5fd071e04908a3a964c3ed601"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep3_tau3000_limit1000.csv": {
+    "bytes": 352029,
+    "sha256": "0058b4d56bb7af1f0c25f55d1c88d38b83a6c85317a39d9a5fcf17281adf0005"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep2_tau3000_limit8000.csv": {
+    "bytes": 462536,
+    "sha256": "40ac6d8af3fe0935aa3051f774323386db46fdb7d89d9704fbd395d12dfcc8b3"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep2_tau3000_limit4000.csv": {
+    "bytes": 450105,
+    "sha256": "14c33b3710bf466584ade0396b34c41cd23980452d66f2cb28a5611b1326a219"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep1_tau3000_limit1000.csv": {
+    "bytes": 444349,
+    "sha256": "e067f4467bd91ce7af62441aebba9ea5a96fc9348c37d5495f1045a0702ba4d3"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep2_tau8000_limit3000.csv": {
+    "bytes": 453726,
+    "sha256": "ff2cf7e81b78f575bdfcce50cd53db478407e5b5d60c6342867bd7a9eb02633b"
+  },
+  "raw/baselines/SymphonyQG/COL_rep2_tau3000_limit8000.csv": {
+    "bytes": 453608,
+    "sha256": "c14f79e07ce9a27513cbcc4475cc1edcb468cc6a107bfb8513a42db3b4cc5e01"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep1_tau3000_limit512.csv": {
+    "bytes": 380015,
+    "sha256": "8fece4cc9ec95072958ae551911c9719fedd5fce709bbb2217cd8e3ec03dfa25"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep1_tau6000_limit3000.csv": {
+    "bytes": 472389,
+    "sha256": "3d93bbb3ce7a8b5841c8d9b22b7e884255a4b5b9de2dcac3f3b2e0fb1cf0dc72"
+  },
+  "raw/baselines/SymphonyQG/COL_rep2_tau2000_limit3000.csv": {
+    "bytes": 416505,
+    "sha256": "ea4e266b73c043b774c09aabbf7c7c43d8c04d6396e473b2a23c053e768599d8"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep3_tau3000_limit512.csv": {
+    "bytes": 344737,
+    "sha256": "8ae0ceff7def15bc089401d43cf4456c5050fd898290c94f052e5de82342cee1"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep2_tau3000_limit8000.csv": {
+    "bytes": 463539,
+    "sha256": "b6a74d159d064f01aa3d3699f8c6a55837adeaccf0f38ee688ecf42b007eddbd"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep3_tau4000_limit3000.csv": {
+    "bytes": 458294,
+    "sha256": "28609af4be0a9ca80794c0375e948aa22b1e6ad5468aa5e0073d014bbfe79ee6"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep1_tau3000_limit1000.csv": {
+    "bytes": 370089,
+    "sha256": "96ce11249b0d5aa0ee4ac4edad7ff5b674d67e132e6ccdf75e32b311dc7d0749"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep3_tau10000_limit3000.csv": {
+    "bytes": 463195,
+    "sha256": "a458260030f88f124f2c9cf7c4527aada012ea23551cad57a402d17b0f1a1ac1"
+  },
+  "raw/baselines/SymphonyQG/COL_rep3_tau3000_limit2000.csv": {
+    "bytes": 410938,
+    "sha256": "3cebf895334b4afabd2938074c4a73ad1da2a9a768336acd448e421b113cf69e"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep3_tau3000_limit128.csv": {
+    "bytes": 336304,
+    "sha256": "a9f5c7ffc93b90a9682aaac625e0b4ef5e4b9555b1eb532991ec56284930f4b1"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep3_tau3000_limit8000.csv": {
+    "bytes": 463397,
+    "sha256": "b1e2983833f147bb730ed9c4108314bcdd7ac5acdaaca26a9d2979a70d66ec2c"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep1_tau3000_limit2000.csv": {
+    "bytes": 425561,
+    "sha256": "c81a91252b103343b6214ee67918b0441faa175512327dd362420d2887327d21"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep3_tau2000_limit3000.csv": {
+    "bytes": 427458,
+    "sha256": "cefa2cffb30e9578a5efc0b35573e0a0fffe3da23316e61a97df6ddb52904d15"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep2_tau4000_limit3000.csv": {
+    "bytes": 406699,
+    "sha256": "9753cd19af01ffa2e4b0a023dddc940f351170846814a20c28b2c8d95c7c778e"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep2_tau4000_limit3000.csv": {
+    "bytes": 451331,
+    "sha256": "aea146219d58787af9eeb729cf095198f7e2721ef4958e4d740b88bdcc78021a"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep1_tau3000_limit8000.csv": {
+    "bytes": 459452,
+    "sha256": "8cc1a8c5916255835f14b4ca8233937450c87061f7b1973be1f359f25666c809"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep1_tau4000_limit3000.csv": {
+    "bytes": 407007,
+    "sha256": "52f8daa7e8c7a82c90336b32f15f895f15715bae6177de185bd0466c5ab7b541"
+  },
+  "raw/baselines/SymphonyQG/COL_rep3_tau4000_limit3000.csv": {
+    "bytes": 444087,
+    "sha256": "0b6b33c24935fb9ac1d2a7d5dfdf2b1a3a050ab0bdde2b7f7262e66181a87608"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep2_tau3000_limit512.csv": {
+    "bytes": 384091,
+    "sha256": "f97ad2a0a46531bf002bcc9bacb1c63e3742619b5d7afacee811355647043843"
+  },
+  "raw/baselines/SymphonyQG/COL_rep3_tau2000_limit3000.csv": {
+    "bytes": 415960,
+    "sha256": "b3514531f4427e5c6733daa9113e8033cfdfaeb353fc5875ca09928c848adf6c"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep2_tau3000_limit8000.csv": {
+    "bytes": 421346,
+    "sha256": "1e3674252986018e13df45b6875fefbcb834e4ed03bf2028a54e6e5734a3dc9f"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep1_tau3000_limit128.csv": {
+    "bytes": 377615,
+    "sha256": "09bb72a265b47846a43357d2675386449876e67fc2f1adf3aad5475fb4f41498"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep1_tau2000_limit3000.csv": {
+    "bytes": 436025,
+    "sha256": "548a2d54ad924b98270c29933d34f22db7fb762baeccc87a87e10fec4ce0cf67"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep3_tau3000_limit2000.csv": {
+    "bytes": 425093,
+    "sha256": "6625dd8a47e72eaba249d4b25b62613ffdb719a988af4cba2c9318de7e6b8ba4"
+  },
+  "raw/baselines/SymphonyQG/COL_rep1_tau2000_limit3000.csv": {
+    "bytes": 418867,
+    "sha256": "47cdc31a27805c65a4a715e65bc86504a7677792530f38f17994a87b4b644e1d"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep3_tau6000_limit3000.csv": {
+    "bytes": 439864,
+    "sha256": "52edf4774073acc9c91d1f7c6d8852e05b938ad60f760e204ed65accad3cbb47"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep2_tau6000_limit3000.csv": {
+    "bytes": 438432,
+    "sha256": "75747677030efbc78beb974238a8b9cc81708d8fdaaea0ce800b7f8653bfd4e0"
+  },
+  "raw/baselines/SymphonyQG/FLA_rep2_tau3000_limit1000.csv": {
+    "bytes": 345626,
+    "sha256": "fe1de6965b5c553bcf89a1e880131467175914c11f5ffca671ae05bdf8aedbec"
+  },
+  "raw/baselines/SymphonyQG/COL_rep3_tau6000_limit3000.csv": {
+    "bytes": 455276,
+    "sha256": "4e01dcf73ee3dc25eb7218b51e1625c09cdd696e10c78bf97db1dbb70436568d"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep2_tau3000_limit128.csv": {
+    "bytes": 381730,
+    "sha256": "c7306b7e28a9cb3416259cd80210a970b625d41020ff234d1b91190a018d7752"
+  },
+  "raw/baselines/SymphonyQG/BAY_rep1_tau10000_limit3000.csv": {
+    "bytes": 470609,
+    "sha256": "c4fe488db9b2978b53d2a8a2f9b4dc1ab2f15871d690d7dbcbfbb0e9f4257e44"
+  },
+  "raw/baselines/SymphonyQG/NYC_rep2_tau8000_limit3000.csv": {
+    "bytes": 472702,
+    "sha256": "903c7766d1232e63bfb6f252dcb56a9ad9a053ec9efe06a7267ed486ea044568"
+  },
+  "raw/baselines/Mesh-Road/COL_rep3_tau4000_limit256.csv": {
+    "bytes": 452808,
+    "sha256": "82a5368f83b2a797e49b95c0907322f45a44ff3c579de57570263b3b339570ac"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep2_tau2000_limit128.csv": {
+    "bytes": 450897,
+    "sha256": "d870d5d074e49ded12f41a3dbf241fa4b38b9121b7c883f3b2bba81a83bf3226"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep1_tau3000_limit4000.csv": {
+    "bytes": 464389,
+    "sha256": "67a024a8d0c56a06d8c9e287f058fed4cef7304cc852ffbce38059e4c9e38a81"
+  },
+  "raw/baselines/Mesh-Road/COL_rep1_tau3000_limit8000.csv": {
+    "bytes": 463267,
+    "sha256": "6a694e279b089e26e241ae194ca790bc8df09342ce3e1a2d429be31de0f9f393"
+  },
+  "raw/baselines/Mesh-Road/COL_rep3_tau3000_limit512.csv": {
+    "bytes": 453691,
+    "sha256": "6bc79bf8d61e8d228a22d0605f2c21e9c9c7a0e50e7b0011fe264e2cb4058adf"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep1_tau3000_limit128.csv": {
+    "bytes": 457290,
+    "sha256": "4d9ecff3869dc1aea85268cf616511b0cca0f2cac7ea3a9cb57a089e662d33f6"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep2_tau3000_limit2000.csv": {
+    "bytes": 464145,
+    "sha256": "e9f0e140a77c8ef97aff68c432d4d021bf395d5bb25121632dfda95a54addb3f"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep2_tau3000_limit2000.csv": {
+    "bytes": 463430,
+    "sha256": "2cd76456efc79d9cb38a7912ce490b5be6bf98edf8dbd311b49c667b4bc942ec"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep2_tau6000_limit128.csv": {
+    "bytes": 458471,
+    "sha256": "a7826afca36440908a894026829e7f717a9922644ce4a42224e21f1a5d860acc"
+  },
+  "raw/baselines/Mesh-Road/COL_rep3_tau3000_limit8000.csv": {
+    "bytes": 463146,
+    "sha256": "8656348177c78fafa4ceca5494024d0d957da0a3eda56ed2a7b972c3fd46e4d4"
+  },
+  "raw/baselines/Mesh-Road/COL_rep1_tau6000_limit256.csv": {
+    "bytes": 454726,
+    "sha256": "be4b8b160d84a0de075eac73b5c537315c85c181dff5e4d07074d637fd6b557c"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep3_tau10000_limit256.csv": {
+    "bytes": 463430,
+    "sha256": "aaf462344e0c911f3e07c640e35ffe1a6e8b800d4e10f1851a99429ca449e33e"
+  },
+  "raw/baselines/Mesh-Road/COL_rep3_tau3000_limit4000.csv": {
+    "bytes": 463026,
+    "sha256": "39d7ffded7601481132e5dfc71bec2711989590fa14ce3cb3392cab780921bf6"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep3_tau4000_limit128.csv": {
+    "bytes": 458641,
+    "sha256": "77a97fcd74047d5d7add4dd68cd6eb2681b8075a699c572686819de610f128f1"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep2_tau3000_limit1000.csv": {
+    "bytes": 463040,
+    "sha256": "6d86be2e3cab918824938e0d44178206bd679390e43a15fdfcd01ee9c45779f1"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep3_tau10000_limit128.csv": {
+    "bytes": 458910,
+    "sha256": "60476d7f900ca40f17e9749bbea273aa44e2bb3d5df6b8602586af3e016a333d"
+  },
+  "raw/baselines/Mesh-Road/COL_rep1_tau3000_limit2000.csv": {
+    "bytes": 462242,
+    "sha256": "f23ed7f9d5a99647afb0cc51d1e12157748fb3374c87dfab4cae6ce64ef0b34f"
+  },
+  "raw/baselines/Mesh-Road/COL_rep2_tau4000_limit256.csv": {
+    "bytes": 453569,
+    "sha256": "5ad33158f947130338a4242a5c52ae420c8a384b01fbee907d194d597c096a67"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep1_tau3000_limit4000.csv": {
+    "bytes": 468162,
+    "sha256": "875aed07b553980b6e28304ddde1a39bcffcbf5fb5a8ed2577f0b1b68316941f"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep3_tau3000_limit4000.csv": {
+    "bytes": 464860,
+    "sha256": "81b5fdd67ac5bfb459f182e6031e515460beee3d2093849c0cddb43a33a013f8"
+  },
+  "raw/baselines/Mesh-Road/COL_rep1_tau3000_limit1000.csv": {
+    "bytes": 461081,
+    "sha256": "a7f3f384d94bbc732d26e59b203138439c2a2af4eeba06abb377ced193fcc8bd"
+  },
+  "raw/baselines/Mesh-Road/COL_rep2_tau3000_limit128.csv": {
+    "bytes": 448217,
+    "sha256": "d871e17f57697b3e967cd0df0347bccf3121e63432166fa75ff51c5b63baa726"
+  },
+  "raw/baselines/Mesh-Road/COL_rep3_tau10000_limit256.csv": {
+    "bytes": 456760,
+    "sha256": "c21fb2fe297397308c3933b5ddbc2136681128305c9eba8336d6938736894bbf"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep2_tau3000_limit4000.csv": {
+    "bytes": 464010,
+    "sha256": "c6c3d0a71bebd704a1a6e9b3c6b75ef0a7a150f59e9f3e3734cf586338ae09ef"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep3_tau3000_limit2000.csv": {
+    "bytes": 468147,
+    "sha256": "6a14f02a9ac766271cb465469e3772d6263c678390e5da24d544f71d12615a0d"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep1_tau3000_limit2000.csv": {
+    "bytes": 464047,
+    "sha256": "c0cda808c5021f467566a12af8c8fd6772db2ce7138be36e81d4c924068fa0f4"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep1_tau3000_limit512.csv": {
+    "bytes": 458751,
+    "sha256": "db5b6bcb814aa48a6913f49a451ce83be4f6b0cdb5387a4f7e9c59033f67accc"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep2_tau2000_limit128.csv": {
+    "bytes": 455993,
+    "sha256": "7bc68d0997c01da343801c1fe77b31dfaae90a82e7d9b9ebc99050c4466ce116"
+  },
+  "raw/baselines/Mesh-Road/COL_rep2_tau3000_limit512.csv": {
+    "bytes": 453530,
+    "sha256": "6eaeb701e46d29667adbf06087ec52aceb8d8eef307528d20ba20a27732bf0a7"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep3_tau3000_limit128.csv": {
+    "bytes": 458428,
+    "sha256": "0d64864dcb1b0ec2e18c2716a70cfb743cb57ba14c33f07eec10d412e340764b"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep2_tau3000_limit128.csv": {
+    "bytes": 457661,
+    "sha256": "67ca2fde258bdfbbc368e9240f8ca91e1075908e3ae174b922902ec6a4822293"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep1_tau6000_limit256.csv": {
+    "bytes": 460920,
+    "sha256": "a4d2f35e4ab797be1c056e083f85f600ac6ecc119dd5423ff4dae97474636edf"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep3_tau6000_limit128.csv": {
+    "bytes": 457311,
+    "sha256": "5e53e1b46b83fdeb904264e0716ac33ec260d4e3c829841a43b7d9f5248d7143"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep3_tau2000_limit128.csv": {
+    "bytes": 451040,
+    "sha256": "a7d3234ba98d561cf63f791f1d22be6936d5a783e75e187de702d453579194a6"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep2_tau8000_limit128.csv": {
+    "bytes": 456964,
+    "sha256": "b7e8163d57eb83bb9f7280a20946a947320ee4027b3d1dd37806e79ad3ee96c5"
+  },
+  "raw/baselines/Mesh-Road/COL_rep1_tau2000_limit256.csv": {
+    "bytes": 446721,
+    "sha256": "cc0e3696d144a9f161f7789e56dc61a70bdbcc8e4e619f9809a2732efddec1b8"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep2_tau4000_limit256.csv": {
+    "bytes": 460283,
+    "sha256": "ed11c269ff9410af59ad15e856faa43fab10158399a8fab0021c81020c47e6bf"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep2_tau8000_limit256.csv": {
+    "bytes": 461580,
+    "sha256": "f235e66d5d4ea03c266afdec46766b5bdce40d0015d46ecc8835659fce13d472"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep2_tau10000_limit256.csv": {
+    "bytes": 463310,
+    "sha256": "92a5d9f847b24d73d7a62b336948b8a56f68043fafa4d31d132f5c01adaf4bfe"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep2_tau8000_limit128.csv": {
+    "bytes": 457240,
+    "sha256": "21e21ab267a09da55f3b7ebafb9364cd2c11d640f6b83a607a97a5ce3e0b6665"
+  },
+  "raw/baselines/Mesh-Road/COL_rep1_tau4000_limit256.csv": {
+    "bytes": 453588,
+    "sha256": "ca3b8043cfde9ce05a0ee4aa7f727db8ab7554e0e8c3ed8c8c9b7e14eb8820e0"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep2_tau3000_limit512.csv": {
+    "bytes": 458200,
+    "sha256": "510fbb479a912f82b4b8779d3dd3cce938327bbe8abaabba35dd7a6417f2da14"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep1_tau3000_limit4000.csv": {
+    "bytes": 463490,
+    "sha256": "532f4ba45c0208d76c28d03af4f030d447ab0a2345693c7e49d4192202808bb8"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep3_tau3000_limit4000.csv": {
+    "bytes": 463512,
+    "sha256": "0646d294fa8d68479bdf3c999aa9fb52f57c8ae3ddb074f9b81f96128cef641c"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep1_tau6000_limit128.csv": {
+    "bytes": 458196,
+    "sha256": "404e3aaa4ee4ca206c87e8c76eb2652fc946fb9769c9331da2d19181e8cc7d0c"
+  },
+  "raw/baselines/Mesh-Road/COL_rep2_tau3000_limit2000.csv": {
+    "bytes": 461723,
+    "sha256": "8619f9acbf076c941b196ec4795ee2da7ce2c12f617bc6ffe3ab3cafacecdcaf"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep3_tau3000_limit8000.csv": {
+    "bytes": 467916,
+    "sha256": "4471cb8e5220884d7086bb8c536fc46afcbe689b8f27248952c694401ad8a226"
+  },
+  "raw/baselines/Mesh-Road/COL_rep2_tau3000_limit1000.csv": {
+    "bytes": 461067,
+    "sha256": "85ec62c4deddc8469230a2a7c7838d02848038602f1c9c217ef8699bf10127e6"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep2_tau10000_limit128.csv": {
+    "bytes": 459310,
+    "sha256": "a77c61b9f69927fff7d90599dd9d2a2186694f40a0fa9a00e9a5a6b868ff7bbf"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep3_tau3000_limit2000.csv": {
+    "bytes": 464444,
+    "sha256": "0d531d06cd1046100bdb99734580ed379bd4c42a3df971cbb376c1dd0443717f"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep1_tau3000_limit128.csv": {
+    "bytes": 458725,
+    "sha256": "3d1c812b309ac6c6a6a2c59f550288968b38ab54df184b6a0d3f30201034ff39"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep1_tau4000_limit128.csv": {
+    "bytes": 455906,
+    "sha256": "c92c44f55379ae1f9e1972a4ff213d78fac3b5d7eb5e0fe40cb18f5060bfbcc7"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep1_tau2000_limit128.csv": {
+    "bytes": 450704,
+    "sha256": "c0599f2c4356fbf8faaf8c5927bce7e93fc15544b54224f66057e97434f0d834"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep1_tau10000_limit128.csv": {
+    "bytes": 458805,
+    "sha256": "da6c842f24b86ae44f5a08276b49b4b4757b6a2bbdc1e1ee89bdeb548164b845"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep2_tau3000_limit512.csv": {
+    "bytes": 459462,
+    "sha256": "8e77dbf9f2fc62b9a9396534a14ce7c08ddb57a6599f0e196e8095d1937b9bb0"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep3_tau3000_limit8000.csv": {
+    "bytes": 464228,
+    "sha256": "d4de7320375ba8ee2eb67f983890122448be9c1bbf73c12ebde75021b7528209"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep3_tau6000_limit256.csv": {
+    "bytes": 461221,
+    "sha256": "03521c0b085731f656c1dfcfa91388169adf4a492362bebb31dd902286c08ca0"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep1_tau3000_limit2000.csv": {
+    "bytes": 468385,
+    "sha256": "5c772cea351f502bc2729bbe621feeff5405b3ff552f14b46f78a8efbaaf0879"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep2_tau3000_limit1000.csv": {
+    "bytes": 464144,
+    "sha256": "9b5348302dbee57e777be6e3714b8f2eb024fb61ccbd1a7df7dc58ed58bb8212"
+  },
+  "raw/baselines/Mesh-Road/COL_rep2_tau3000_limit4000.csv": {
+    "bytes": 463060,
+    "sha256": "ae81ff69d5e93ed2a8341251533e0a219e9df6512e49269446d772cda8d52d4f"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep3_tau3000_limit512.csv": {
+    "bytes": 458614,
+    "sha256": "86ca68b6976d4f7f68e78c45df9c0505984bafce46a04a680b0ab0be81b7f349"
+  },
+  "raw/baselines/Mesh-Road/COL_rep3_tau2000_limit256.csv": {
+    "bytes": 446220,
+    "sha256": "d31f67a81bb5c8c3eaf7c6fe022eefb7e2296aecad66b0b30978cc0565cf18b9"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep2_tau3000_limit2000.csv": {
+    "bytes": 467518,
+    "sha256": "3c5991d62884253703d79c1091de12b1a8ff734c3b54d99a56703c17e68cd9e6"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep3_tau2000_limit256.csv": {
+    "bytes": 453886,
+    "sha256": "b3266f7308367c7fed98e8db80c15c98f6eb6b94ac6d4ddcf95d5f0fb4217ba0"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep3_tau3000_limit512.csv": {
+    "bytes": 457064,
+    "sha256": "87091691c02db6cdac08296c05d5637f7d08ddfba69b98d66b8c10d3712697ea"
+  },
+  "raw/baselines/Mesh-Road/COL_rep2_tau6000_limit256.csv": {
+    "bytes": 454809,
+    "sha256": "8d174e68d6e129e0e3ce91379f5eacd4157244d22b0b22161355558750cc6859"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep3_tau6000_limit128.csv": {
+    "bytes": 458435,
+    "sha256": "543037fef3cf81a630a4060e9b5ac876bfd001c97d4f08db219acd54de262add"
+  },
+  "raw/baselines/Mesh-Road/COL_rep1_tau3000_limit128.csv": {
+    "bytes": 448129,
+    "sha256": "2e195e384166d7073f63a91571de25a252daa8746236377815fc6696911efb4f"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep1_tau4000_limit256.csv": {
+    "bytes": 460180,
+    "sha256": "ff0729e7f8910fca9fe03bc7939a8339bcc3ed8e3cb3e2377b366a3e31beeda2"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep1_tau4000_limit128.csv": {
+    "bytes": 459103,
+    "sha256": "223e2c268340b42640577bf54bc1b2a882bb87e8b90f67ba374aaacb7dfd6a17"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep3_tau3000_limit1000.csv": {
+    "bytes": 463166,
+    "sha256": "674e075b15a3c6731a1832565fe1f9e43bbf5aae422d65b4a662549600763921"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep3_tau2000_limit128.csv": {
+    "bytes": 455984,
+    "sha256": "40c1d91ff521ac35deaec750b3a96210ea1482a12d6e7e2e98d3f9121c67bcab"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep2_tau6000_limit256.csv": {
+    "bytes": 461152,
+    "sha256": "9424663c7b9d2c616562f76a613f0c0e730f2e16126ab218019af759f7f8727b"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep1_tau3000_limit512.csv": {
+    "bytes": 459722,
+    "sha256": "8ec6659693cb351cb02c33e5f62e7479c6314ee38be73cc112d1c464baaf219e"
+  },
+  "raw/baselines/Mesh-Road/COL_rep2_tau2000_limit256.csv": {
+    "bytes": 446497,
+    "sha256": "e95ca92a2cbed1d72358f95cf31a95629df9a0044a982ed7af62c0259bd20dab"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep3_tau8000_limit128.csv": {
+    "bytes": 456617,
+    "sha256": "6b23a7b2d7aea3de01f3c58269f3260d8493abd990f7bd6f4e08197ef14edf74"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep3_tau3000_limit4000.csv": {
+    "bytes": 467851,
+    "sha256": "60d81a1af0931d9ce12a68b5d1448d97d60cfd9c54de5e588bd9a9c95b4dccfa"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep1_tau10000_limit256.csv": {
+    "bytes": 463011,
+    "sha256": "63636f86451b4d6edccab8a099fa09dafe6528c665dc891c0c9b17bea29c33d1"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep1_tau6000_limit128.csv": {
+    "bytes": 457314,
+    "sha256": "3326f472fb52a30ca2f2ba9e75d666a3859dc629a336b75e019c327a07c86d0b"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep3_tau3000_limit1000.csv": {
+    "bytes": 464290,
+    "sha256": "4845fd6628c9a592c5d466198524604c3c53dc637096090f4ace7cdaf0a74d9b"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep1_tau8000_limit128.csv": {
+    "bytes": 457090,
+    "sha256": "eb1cb776b2c8c04190534b293922ba311805f21059f5dcf3d4bcd3cdd2752f98"
+  },
+  "raw/baselines/Mesh-Road/COL_rep3_tau8000_limit256.csv": {
+    "bytes": 455108,
+    "sha256": "1bac54dd54cf689f076813f1a79fb0169def59683017ee8cf9287664a1dc8dd3"
+  },
+  "raw/baselines/Mesh-Road/COL_rep1_tau3000_limit4000.csv": {
+    "bytes": 462583,
+    "sha256": "0550815a3c69afce70d181c86c49cfe7cf8f12d8c18a4c1e88b8800ec1446c07"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep2_tau10000_limit128.csv": {
+    "bytes": 459048,
+    "sha256": "d7384dfc77a0d42eb9c42d4acf78f83d2138aad344e7fc237fcc9d6ed878f59a"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep2_tau2000_limit256.csv": {
+    "bytes": 453466,
+    "sha256": "820d73273fddf05fecc6d21e9ba4febbdcc850dab9c995b9608f99b4b7378a9c"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep2_tau3000_limit4000.csv": {
+    "bytes": 468718,
+    "sha256": "a67c2372f930e90322de31bdbad86db2743815185d3598c0a7bcb4267003947c"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep2_tau4000_limit128.csv": {
+    "bytes": 458700,
+    "sha256": "f9a7b6766254144aced75f6131b355d051d9eab542955a10140ad58bd85f1f21"
+  },
+  "raw/baselines/Mesh-Road/COL_rep1_tau3000_limit512.csv": {
+    "bytes": 454095,
+    "sha256": "3c338684a0062802c011fc190213a99c00c202beb6c3879eb4ac01b6f0172787"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep3_tau3000_limit128.csv": {
+    "bytes": 454545,
+    "sha256": "83c84c0fda3d522f97880b543be774c821eb4ea872fdff2504b1cadc469fc728"
+  },
+  "raw/baselines/Mesh-Road/COL_rep3_tau3000_limit128.csv": {
+    "bytes": 448873,
+    "sha256": "fda35ed19afb549aca8e08b4b50ce2684e6f009068bdd934cfcca9fedd94f8dd"
+  },
+  "raw/baselines/Mesh-Road/COL_rep1_tau8000_limit256.csv": {
+    "bytes": 455131,
+    "sha256": "bde2159f184228bc809c44aada3add7745d45783384a535b2fa81c7da9a0dd03"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep2_tau3000_limit128.csv": {
+    "bytes": 458230,
+    "sha256": "b6effa028fda50fcfc4d2481f0d9e2d027bec07e8a49b25245ab9424e831c625"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep1_tau3000_limit8000.csv": {
+    "bytes": 468644,
+    "sha256": "91ffb479f8f27b763ac698e108daaf1e3738ba9a0caeedd0fe6eead8554e32fe"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep1_tau3000_limit1000.csv": {
+    "bytes": 463319,
+    "sha256": "461a49cd70744932ef2edc58707ec2372a43514168c357ac64db05b4fe9d0b86"
+  },
+  "raw/baselines/Mesh-Road/COL_rep3_tau3000_limit1000.csv": {
+    "bytes": 460986,
+    "sha256": "f1601918a4634985b7c87d79c59c6591ce084ac8a459dedbb2c6e9805f7bb887"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep3_tau8000_limit128.csv": {
+    "bytes": 457572,
+    "sha256": "6e8e95e1292a2fc804e4a0dc82bd05a76555fdc5867932cf679e678b36a0ebfb"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep1_tau10000_limit128.csv": {
+    "bytes": 459194,
+    "sha256": "e1f58a8f890579f166dd42d0778b1c6cb10b5bffaf0f51b1ba4e7ab7798e0d91"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep1_tau8000_limit256.csv": {
+    "bytes": 461482,
+    "sha256": "9b75c84f7455eb7a3a90bedeed78039868df4a5d821937b4e69db46ab3911c45"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep1_tau3000_limit8000.csv": {
+    "bytes": 464937,
+    "sha256": "652c6f676763500161ee6c56aa983de05ce12365f7058265f9f9b9e13d4f8ce6"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep3_tau3000_limit1000.csv": {
+    "bytes": 466681,
+    "sha256": "88bea7e53f0e817ce5af39115144e38eec96b9fdccd3014daf1799aeb70d7b70"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep2_tau3000_limit8000.csv": {
+    "bytes": 463844,
+    "sha256": "e3f8e26f69723d5137fd03468acc3b77e57225bcbe35e8d4724a0737248834dd"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep2_tau3000_limit4000.csv": {
+    "bytes": 464553,
+    "sha256": "386187ec9c0dce9bf2c6d3393ddf5956bea285397ff244c4d2b63836ef7f1145"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep1_tau2000_limit256.csv": {
+    "bytes": 452644,
+    "sha256": "4d62bdf619483ea9d25635ab6a66fabea5ed2adc7465cf1a628def49c0553ffd"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep1_tau3000_limit1000.csv": {
+    "bytes": 464298,
+    "sha256": "981f4c8185b0679f7bcfe2ed278c7ede9ebd7b6565263ecf157c8f4fd4347ee6"
+  },
+  "raw/baselines/Mesh-Road/COL_rep2_tau3000_limit8000.csv": {
+    "bytes": 462842,
+    "sha256": "7682b3e685dbfa9fa1f230a36dc527a486ae54d603a651968d50f131eb7ee799"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep1_tau3000_limit512.csv": {
+    "bytes": 456850,
+    "sha256": "e0165ded324494fb31051d13c6ff0076ebf1255489879477fbd50bf6813b457b"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep2_tau4000_limit128.csv": {
+    "bytes": 455715,
+    "sha256": "2b338329c91f5342f66655b22ba94e8e49a1e10ca1a24947e88a903f422a378b"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep3_tau3000_limit512.csv": {
+    "bytes": 459620,
+    "sha256": "def243b5188f7ee92b11d4761b7697772e95bc047a0cc65b3e75b08d9e94e34e"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep2_tau3000_limit8000.csv": {
+    "bytes": 465002,
+    "sha256": "122450f326f8624c5953791d1d3e95917fff5dbfa4abb4d3c00f4201e5a4857b"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep1_tau3000_limit1000.csv": {
+    "bytes": 466538,
+    "sha256": "bc5a273e659495e0dccf0a9034d3280b53f7326b056727698adbd5504f59683b"
+  },
+  "raw/baselines/Mesh-Road/COL_rep3_tau3000_limit2000.csv": {
+    "bytes": 461742,
+    "sha256": "6fc89cfd06ad20bbf8e263fc20bbc47f65b29b88c049bedc8225798e4ce9524f"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep3_tau3000_limit128.csv": {
+    "bytes": 457392,
+    "sha256": "7c2548d708ee65a1da7c2a7a3a10709fa4ea3ad7da1d1a3dc8a5927b7ab73eb5"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep3_tau8000_limit256.csv": {
+    "bytes": 461548,
+    "sha256": "d1010962d3b8858f7a8ae58f36428e8a8d138027073963da9e37c61fea1f6319"
+  },
+  "raw/baselines/Mesh-Road/COL_rep3_tau6000_limit256.csv": {
+    "bytes": 454438,
+    "sha256": "51982eadeda8ba558a42aba964a8307adda3ef0ce4781189e4c60a2292ec959e"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep3_tau3000_limit8000.csv": {
+    "bytes": 464322,
+    "sha256": "2170a76301a3df9804be39ba35e29cf8c80a183bddfd12ebb5c5a6091a190048"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep1_tau3000_limit2000.csv": {
+    "bytes": 463945,
+    "sha256": "dec311e1512fada7b405115295b3aced1928ee4554c1ac958f42c8485b8cf26e"
+  },
+  "raw/baselines/Mesh-Road/COL_rep2_tau8000_limit256.csv": {
+    "bytes": 454910,
+    "sha256": "bb5ce7a06dca7a78c386b41174dc0d5019e79fae1e54c9c7a4d1a784b690369e"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep1_tau3000_limit8000.csv": {
+    "bytes": 463877,
+    "sha256": "813eacd67245f88079301e53762e768d8c30bb497b4efbdf29e836a8c596ca7f"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep1_tau2000_limit128.csv": {
+    "bytes": 456070,
+    "sha256": "0d8a6dd0c602c474eb6d9ef7597274e269ce8c67ea1eb0e502410125f741f9d4"
+  },
+  "raw/baselines/Mesh-Road/NYC_rep1_tau8000_limit128.csv": {
+    "bytes": 457405,
+    "sha256": "2e707dadec6f68a1d9be114b3b2d4239bbe86869cbbe19e1a5ffcd247b01e57b"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep2_tau3000_limit512.csv": {
+    "bytes": 456766,
+    "sha256": "8fdc2c82d53085b6e724e99ca4b15c91fcafb5f9ba297d7e9257d22ee43021be"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep2_tau3000_limit8000.csv": {
+    "bytes": 468471,
+    "sha256": "9d0b5ffa02060a30c2b0c256790ae8480f0ecba3782f67ce0ce88febcf9bcd9b"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep2_tau6000_limit128.csv": {
+    "bytes": 457001,
+    "sha256": "d1c42bccca1d2f25246e24cff495f96c3ab05d7781839fbbbf15d70a84672d6c"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep3_tau4000_limit256.csv": {
+    "bytes": 460056,
+    "sha256": "e9362ca03eeab21123033cfb180c075a454cae24c44baca43c7ac615d02e5aeb"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep3_tau10000_limit128.csv": {
+    "bytes": 458988,
+    "sha256": "ca2d2fa45076c2ba55210d3da9552068855a363828b6920d34d51c1eae983ff3"
+  },
+  "raw/baselines/Mesh-Road/COL_rep1_tau10000_limit256.csv": {
+    "bytes": 457018,
+    "sha256": "ba5cb50c887c9d8c5b40ba60a6cfdbfd8347f4ce67f6c46ab0987cd1ed39fc79"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep1_tau3000_limit128.csv": {
+    "bytes": 454801,
+    "sha256": "804b2ffee30d2aa5429650073f6fd1aabccfcab9b28dbaf80f828b178f86c6e3"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep3_tau3000_limit2000.csv": {
+    "bytes": 463423,
+    "sha256": "aa9265644e787664676d21e4ec712d7dbb4c27410d456a7baab3b5010bacdc3b"
+  },
+  "raw/baselines/Mesh-Road/FLA_rep2_tau3000_limit1000.csv": {
+    "bytes": 466439,
+    "sha256": "eff60a06dc67dcfce39f42834bfb520ccbfdc172e3f0d3b0f66f87ed1debc906"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep2_tau3000_limit128.csv": {
+    "bytes": 454694,
+    "sha256": "7e8ccd8d9e990cfb7f2032c3298facf7780f11a84e36366c6ec9aed81d83ffa9"
+  },
+  "raw/baselines/Mesh-Road/BAY_rep3_tau4000_limit128.csv": {
+    "bytes": 455596,
+    "sha256": "ad58f7139097236cebe35023d07c12696e86a9405a0efe6e521dd2c076ca2590"
+  },
+  "raw/baselines/Mesh-Road/COL_rep2_tau10000_limit256.csv": {
+    "bytes": 456716,
+    "sha256": "4504e19e71c27ff6b47635b1b5420064123f3647a7cac0cbf7f6cb048ca204ee"
+  },
+  "raw/mars64/BAY_rep3/performance/BAY_t8000_full_ef1600_medium.csv": {
+    "bytes": 458482,
+    "sha256": "b51638daf6a4741a78342b4c167bf2e70c0577d209e0284f6f3d5adefbcbd2e7"
+  },
+  "raw/mars64/BAY_rep3/performance/BAY_t4000_full_ef1600_medium.csv": {
+    "bytes": 460559,
+    "sha256": "c075929ee92f1bcfad9f0f660c61c04db3bd11628bc0e13126e74fba71934c3d"
+  },
+  "raw/mars64/BAY_rep3/performance/BAY_t10000_full_ef1600_medium.csv": {
+    "bytes": 460515,
+    "sha256": "0e27f22ff038c5eecdb8828b650d743b690b4ba7c91ec6c2361a89f8ecd904b8"
+  },
+  "raw/mars64/BAY_rep3/performance/BAY_t2000_full_ef1600_medium.csv": {
+    "bytes": 462013,
+    "sha256": "552cffb5e20e65e2886ea8d71eb75a2532d5b41ff7269962accb1fd45086042a"
+  },
+  "raw/mars64/BAY_rep3/performance/BAY_t3000_full_ef1600_medium.csv": {
+    "bytes": 461386,
+    "sha256": "a57de3b615d2f17ecdee2c204939f98343ed795bad7ec90b378fba74cf52c6de"
+  },
+  "raw/mars64/BAY_rep3/performance/BAY_t6000_full_ef1600_medium.csv": {
+    "bytes": 459049,
+    "sha256": "f9b6c4674f2706f83c704eaf250904f7d5b9e7ce2d8375029265ff7d4aa6ea2f"
+  },
+  "raw/mars64/BAY_rep3/performance/BAY_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 469227,
+    "sha256": "ec15f6ec09d86599f00769efa292c4b993779b20bd1959ae9084169df962f666"
+  },
+  "raw/mars64/BAY_rep3/diagnostic/BAY_t6000_full_ef1600_medium.csv": {
+    "bytes": 732816,
+    "sha256": "d3fbb1c8b0f5823913d4f32386775ead3520a618ea904c338cb32395dbb1c411"
+  },
+  "raw/mars64/BAY_rep3/diagnostic/BAY_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 735736,
+    "sha256": "29a9feafb3f9835ec8922de1768d81e7ca66c6ad9955945fb165be531145b9cf"
+  },
+  "raw/mars64/FLA_rep2/performance/FLA_t10000_full_ef1600_medium.csv": {
+    "bytes": 465693,
+    "sha256": "cd50a36ddb9af0a9f498e223ef8f5afe94fc15c67b39a1c898adda3c382eecb0"
+  },
+  "raw/mars64/FLA_rep2/performance/FLA_t8000_full_ef1600_medium.csv": {
+    "bytes": 464576,
+    "sha256": "51e6b36b2dd5346e1d3db501d31bb330fd63c0cd0dd8633b20e978bcbe031ba2"
+  },
+  "raw/mars64/FLA_rep2/performance/FLA_t3000_full_ef1600_medium.csv": {
+    "bytes": 466081,
+    "sha256": "20ab71e20b46c61791e1ed284b44f9979e2b0ceb804f04d637dfc9d0bc835e71"
+  },
+  "raw/mars64/FLA_rep2/performance/FLA_t4000_full_ef1600_medium.csv": {
+    "bytes": 465920,
+    "sha256": "d9a49455da3789424389002ede8acb0711f8b99387c171e3f6084b76bc837bd3"
+  },
+  "raw/mars64/FLA_rep2/performance/FLA_t6000_full_ef1600_medium.csv": {
+    "bytes": 465051,
+    "sha256": "59eb90f6ace72758668f283ab51137adb82f400df1458882c4e962bd214c1fbd"
+  },
+  "raw/mars64/FLA_rep2/performance/FLA_t2000_full_ef1600_medium.csv": {
+    "bytes": 466754,
+    "sha256": "386bce51cfb88985b5b276afd843284202f3c41440cb92529b05a5cf1ee3615a"
+  },
+  "raw/mars64/FLA_rep2/performance/FLA_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 477181,
+    "sha256": "0e1b252d3495ebf1216d00cd5d5bfbc0f117f125a2b5632c97c1b10e7df88c22"
+  },
+  "raw/mars64/FLA_rep2/diagnostic/FLA_t6000_full_ef1600_medium.csv": {
+    "bytes": 738841,
+    "sha256": "ef9bfe10bd9f0244a9824c607cfc464d0eb085ab9d8629334154c031edce8f21"
+  },
+  "raw/mars64/FLA_rep2/diagnostic/FLA_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 745853,
+    "sha256": "3b91bef28f2949f036fefb1bd76c895de585c452c4ffab417f3d87eaa7776d0c"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t3000_full_ef1600_medium.csv": {
+    "bytes": 460801,
+    "sha256": "776683b420c5b26cd24212d0518e9cbf4293957732901f6403c7d5e4247ce9cf"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t4000_pointwise_ef1600_medium.csv": {
+    "bytes": 471663,
+    "sha256": "6994c4ce28d07c37fa80da9d9c7668d3932ca4e827ae475fbe55ea4cc246c60c"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t2000_pivot_ef1600_medium.csv": {
+    "bytes": 468238,
+    "sha256": "a97c3537d7ea319b421fafec91fad9db516e0cb2dde755212b2a3f91426ef4f4"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t5000_pivot_ef1600_rare.csv": {
+    "bytes": 468273,
+    "sha256": "2c6ba26d976e1cb86e6b8f69583a41b7a4e1e908a38ac4a267d06a49f7957dc4"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t2000_pointwise_ef1600_medium.csv": {
+    "bytes": 473875,
+    "sha256": "f0af59f29eeb0df1fc46dba8b794ec315ac1bea8ed855f780b70d5ad92852759"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t5000_pivot_ef1600_popular.csv": {
+    "bytes": 468188,
+    "sha256": "8dbf6a71996707a6f32b3bf729853724d7d0443904c5ed0ba106e94a8cebd7c6"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t8000_pointwise_ef1600_medium.csv": {
+    "bytes": 470404,
+    "sha256": "9d0c0ce4363f3f42ade2cae860b95354c12f9af25645c891be66366c2aa4037c"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t10000_pointwise_ef1600_medium.csv": {
+    "bytes": 471495,
+    "sha256": "1b765992986ce7f2d24963d23bbf981352135a8d02d040444f8b4045f1e772e4"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t8000_full_ef1600_medium.csv": {
+    "bytes": 458060,
+    "sha256": "9225487ba3a43d0716c1eacc3a83d79c533804f7fad74899c1166d24ada8ba24"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t2000_full_ef1600_medium.csv": {
+    "bytes": 460501,
+    "sha256": "6c561d2d717c5d2de57c2ef6db52af521385a8f9afa4ec4eb2718b3a2216fb0d"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t5000_full_ef50_medium.csv": {
+    "bytes": 458024,
+    "sha256": "0baabbe07ce097d4d3d2125eedc17d0e45629036d33a810f554251c6c39f113e"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t5000_full_ef400_medium.csv": {
+    "bytes": 458622,
+    "sha256": "cff3f0ee11154211da0baaf75f6946b68b91a8b90d6a748c42dbf00ed4bc96aa"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t5000_full_ef100_medium.csv": {
+    "bytes": 459563,
+    "sha256": "5d7d6914c66fdebda466e1cd99dd1e942b6728305cf00fb9e39528dad685fb76"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t5000_full_ef200_medium.csv": {
+    "bytes": 459016,
+    "sha256": "9b7b5d78cb68fb879f2fc1d3ad9614fe17a1b8163ec990f073e7ae141acfb87c"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t10000_full_ef1600_medium.csv": {
+    "bytes": 459736,
+    "sha256": "4b03106e16316aef401efc2faa1d48d4eb335badb24822078458a37439da268f"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t5000_full_ef1600_medium.csv": {
+    "bytes": 457536,
+    "sha256": "cfc25a8e2630456cd2995955132c00356ce141fff31d037954d00e72f8ba21fc"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t5000_pivot_ef1600_medium.csv": {
+    "bytes": 464916,
+    "sha256": "e8164a62677ee343e7be059618874c849048adb5162c8352463f444bf652cca9"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t4000_full_ef1600_medium.csv": {
+    "bytes": 459617,
+    "sha256": "e28ab19ffda8b8b2ace40136eca961606ea21cbac43ce2de8a6ac980908c449d"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t5000_full_ef1600_popular.csv": {
+    "bytes": 459408,
+    "sha256": "79f4f62aa6c8405db3486a6c3455e702d90a2ca6bac841d8a788f4ac35c98161"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t1000_pivot_ef1600_medium.csv": {
+    "bytes": 467612,
+    "sha256": "bdc74d282f2170956279540d106e0093d20e713b14270413971a4a9b613e3869"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t5000_full_ef800_medium.csv": {
+    "bytes": 457953,
+    "sha256": "0aa4a9d7a7c4eefb7a2238595bf0e2f21cfd8490bc518bf8ce885c591426d614"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t6000_full_ef1600_medium.csv": {
+    "bytes": 456864,
+    "sha256": "2bf8da26c1b10c282943364c38364f0fd9e64087a8bf19ae3e9d487b2d89cf77"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t3000_pivot_ef1600_medium.csv": {
+    "bytes": 467706,
+    "sha256": "88d012fded873dccb437ef9a24a94b2bd1a01755a7e1755a9c4af89b4727d96b"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t1000_full_ef1600_medium.csv": {
+    "bytes": 462444,
+    "sha256": "d1430ea263246f1d003410574f79af4cea95efd1f1c698880f905c13641f7728"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 471235,
+    "sha256": "0734adacfc6707a2757d639035d21b459acaddacd9dfb2e7a5a3f5d5b63b4513"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t5000_full_ef1600_rare.csv": {
+    "bytes": 456759,
+    "sha256": "1e54f83bd998e952452b5b1c7960f5c299cca1a8db1675055f8dda260eb2b776"
+  },
+  "raw/mars64/NYC_rep1/performance/NYC_t4000_pivot_ef1600_medium.csv": {
+    "bytes": 466563,
+    "sha256": "f1bac03144955e4ec5b3c7331cef7a9d92ea83280b96cf2e810b810b1133d962"
+  },
+  "raw/mars64/NYC_rep1/diagnostic/NYC_t4000_pointwise_ef1600_medium.csv": {
+    "bytes": 737397,
+    "sha256": "3d4a8d8ba87564531443d6024bf87d6d027119d8996e1bef7786f582963857ad"
+  },
+  "raw/mars64/NYC_rep1/diagnostic/NYC_t2000_pointwise_ef1600_medium.csv": {
+    "bytes": 739849,
+    "sha256": "155e5e55208c50f97c2d596ffd5d6eff375c67b8d443a26c92dc04bf287eb9b3"
+  },
+  "raw/mars64/NYC_rep1/diagnostic/NYC_t8000_pointwise_ef1600_medium.csv": {
+    "bytes": 736494,
+    "sha256": "8dd5b4e9ac23ec1dd741ff65d6773308cdb4a3b0139d47dd684de2915048b2d6"
+  },
+  "raw/mars64/NYC_rep1/diagnostic/NYC_t10000_pointwise_ef1600_medium.csv": {
+    "bytes": 737292,
+    "sha256": "05a57ab74be75ebe32d4d37bacc295244e808629b3acd0cd39a150491d97d27c"
+  },
+  "raw/mars64/NYC_rep1/diagnostic/NYC_t8000_full_ef1600_medium.csv": {
+    "bytes": 730248,
+    "sha256": "18712e8e3172723a010e23e7713742f1cf1f071000ff19236294acc558e5f861"
+  },
+  "raw/mars64/NYC_rep1/diagnostic/NYC_t2000_full_ef1600_medium.csv": {
+    "bytes": 729200,
+    "sha256": "0f3c2eb6e50476033f24123229a2c98c9137d33cc49a9326a8c14ed394026e5b"
+  },
+  "raw/mars64/NYC_rep1/diagnostic/NYC_t10000_full_ef1600_medium.csv": {
+    "bytes": 731471,
+    "sha256": "a64394b8cc83b5c012dd8b1f3c75683e90dd750472799abfa7d6530d0ecdda36"
+  },
+  "raw/mars64/NYC_rep1/diagnostic/NYC_t4000_full_ef1600_medium.csv": {
+    "bytes": 728368,
+    "sha256": "cabc9e0c3b1217aac4d1e7b3c80ce2e2d643430d9707abaf9cb9a2752b430002"
+  },
+  "raw/mars64/NYC_rep1/diagnostic/NYC_t6000_full_ef1600_medium.csv": {
+    "bytes": 729582,
+    "sha256": "016bd2a04a5245ee588c3da260abfdc4ecb36a857ed5c33271734d98e9b86035"
+  },
+  "raw/mars64/NYC_rep1/diagnostic/NYC_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 738088,
+    "sha256": "4a11c73c45a5b2f16a41630453b59a4e39d7ec966746cb135a69caaba8f7c1ca"
+  },
+  "raw/mars64/FLA_rep1/performance/FLA_t10000_full_ef1600_medium.csv": {
+    "bytes": 464733,
+    "sha256": "9b4939d14e62057d66b5b87dc8a02ac94d53282a0fd05707cfd46c52324f7a01"
+  },
+  "raw/mars64/FLA_rep1/performance/FLA_t8000_full_ef1600_medium.csv": {
+    "bytes": 462896,
+    "sha256": "abc56feaa8bd37778b419c4fb8c545480e5705e50c140e56fd4c8497e5a5c370"
+  },
+  "raw/mars64/FLA_rep1/performance/FLA_t3000_full_ef1600_medium.csv": {
+    "bytes": 465703,
+    "sha256": "0fb56a6075fd199165b964fd15fcefe241a8abc0b061426ef6bca70f47b4e78e"
+  },
+  "raw/mars64/FLA_rep1/performance/FLA_t4000_full_ef1600_medium.csv": {
+    "bytes": 465542,
+    "sha256": "ecfe8aa065682329db6d44244b8df1796ea0c4aec6d857e1b3960d5fc4aaf371"
+  },
+  "raw/mars64/FLA_rep1/performance/FLA_t6000_full_ef1600_medium.csv": {
+    "bytes": 462147,
+    "sha256": "4b90f232294192bbdf4419449abdbc90f0f491c19774b213f8884e30fe2d5c49"
+  },
+  "raw/mars64/FLA_rep1/performance/FLA_t2000_full_ef1600_medium.csv": {
+    "bytes": 465969,
+    "sha256": "52ffcfdb7af38dbdcacceb316c2839560d2efd14e9f17387364d881ec2fd30a7"
+  },
+  "raw/mars64/FLA_rep1/performance/FLA_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 477839,
+    "sha256": "c01de70495cb745c90e225b1d537282861e0131caed19023bb7ecfd3495098eb"
+  },
+  "raw/mars64/FLA_rep1/diagnostic/FLA_t6000_full_ef1600_medium.csv": {
+    "bytes": 737489,
+    "sha256": "c44c5526db626e9b22228c82e90999fdcbc71d3b3795c0d9b7ff4c745ce90cf2"
+  },
+  "raw/mars64/FLA_rep1/diagnostic/FLA_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 744728,
+    "sha256": "dd01d48d00ce52c89d85c1791bd9d2779bd312b266ca205235565b024f1555e7"
+  },
+  "raw/mars64/FLA_rep3/performance/FLA_t10000_full_ef1600_medium.csv": {
+    "bytes": 465439,
+    "sha256": "60f4873593be0f13487a362481c80c8e94262f4ef6cf98982ad765b277b97fe7"
+  },
+  "raw/mars64/FLA_rep3/performance/FLA_t8000_full_ef1600_medium.csv": {
+    "bytes": 463990,
+    "sha256": "112105dd052d1b416a16106ddad571d6cd7a7cad887c45f8e5c28840c32e37dd"
+  },
+  "raw/mars64/FLA_rep3/performance/FLA_t3000_full_ef1600_medium.csv": {
+    "bytes": 465889,
+    "sha256": "391b4c7982f2b048dbec072386732622392d9aeaa63bdd0f2af11b35cfd0feb0"
+  },
+  "raw/mars64/FLA_rep3/performance/FLA_t4000_full_ef1600_medium.csv": {
+    "bytes": 465441,
+    "sha256": "f54886af51b1d8469c4e0835c57dbc47059d3df2be9c56dcd47485757c250019"
+  },
+  "raw/mars64/FLA_rep3/performance/FLA_t6000_full_ef1600_medium.csv": {
+    "bytes": 465560,
+    "sha256": "a0417f1a3eef96dbddff009b2fbc88fe057f5eeb2eeae536dd1d27cb7a6e2a78"
+  },
+  "raw/mars64/FLA_rep3/performance/FLA_t2000_full_ef1600_medium.csv": {
+    "bytes": 466928,
+    "sha256": "b9a4860414b27cb5ba6ed457a2330266c7f1847f6d158eebd7b02359428e68fd"
+  },
+  "raw/mars64/FLA_rep3/performance/FLA_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 477687,
+    "sha256": "7c5c4334badd2bc3c3e53829e91bc58d9dd292b0c3f94362c36ef10f48a722bc"
+  },
+  "raw/mars64/FLA_rep3/diagnostic/FLA_t6000_full_ef1600_medium.csv": {
+    "bytes": 738807,
+    "sha256": "736257ae158392b950bf83ea7c056fc0f53c31489bf6c8346874311c010ffe91"
+  },
+  "raw/mars64/FLA_rep3/diagnostic/FLA_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 747019,
+    "sha256": "f3fb4c594aa64962f6c1db5cac1d10c3895ed77ddf2eac04824d98163777f0f9"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t3000_full_ef1600_medium.csv": {
+    "bytes": 461005,
+    "sha256": "47b00f284bcd8dddd2f9ac379410caaef60b939d1e07b23e83fe353ade0a8ecf"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t4000_pointwise_ef1600_medium.csv": {
+    "bytes": 471973,
+    "sha256": "16f0b10ff51d8d42a1e8a7ec429fb3fcc9949cf25605b84abe034e54377d0467"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t2000_pivot_ef1600_medium.csv": {
+    "bytes": 467724,
+    "sha256": "eb9c9a2bf9421e2df98d1e3aad3d1bfe4ba5b26f24315d3ff64412472a74e4b8"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t5000_pivot_ef1600_rare.csv": {
+    "bytes": 468489,
+    "sha256": "74866c3cd6538beafe5c72f40edd0bbdd2d1d211cbedb3bfeac194ca9dc649fa"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t2000_pointwise_ef1600_medium.csv": {
+    "bytes": 474210,
+    "sha256": "91f1e267c43b51067f5b2f47278232b93df0591b3cbc2252365ce0845ccb1f5f"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t5000_pivot_ef1600_popular.csv": {
+    "bytes": 469249,
+    "sha256": "2292f1f59a1d7eca04891537ed6d6b66b9afec8d45938c36ffc66eab6e479a94"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t8000_pointwise_ef1600_medium.csv": {
+    "bytes": 469840,
+    "sha256": "2dfc8f787ed95cbf80eb0aa1a47f8bb0d643a5d1ac77345e3e3437d0650d1ef8"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t10000_pointwise_ef1600_medium.csv": {
+    "bytes": 470934,
+    "sha256": "71aa6f098b4682254613260cbd4bf774ec9c1ea8e763fb22591a1fc4c3ef6baa"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t8000_full_ef1600_medium.csv": {
+    "bytes": 458750,
+    "sha256": "9f732c40e680933bebf33d1ed059681b90bee4dcb7325870b196cff5dbc19d18"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t2000_full_ef1600_medium.csv": {
+    "bytes": 461241,
+    "sha256": "ba489a71b06f6801adb7d9d720b45e3e10e6f1719263e84de8e0c98ef7914af3"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t5000_full_ef50_medium.csv": {
+    "bytes": 457606,
+    "sha256": "bcec207222764b2e9cb288009b3b2dc3dc2d2d7465cfc88986b889a2c9f43002"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t5000_full_ef400_medium.csv": {
+    "bytes": 456964,
+    "sha256": "483f808cb3d72eadc46ed6dd2bf4388b19d402ccfdf72c39cff6ff8cc898ff6c"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t5000_full_ef100_medium.csv": {
+    "bytes": 460109,
+    "sha256": "58481a655676a6c46c198160b01c118b9d4e3268a01b5bc4eddeef7701c9b6ba"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t5000_full_ef200_medium.csv": {
+    "bytes": 458724,
+    "sha256": "1c29cfda6f6ca7c4b21c966f5f50d45ebaf853b7b50d7822cd7921fa3e78c188"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t10000_full_ef1600_medium.csv": {
+    "bytes": 461005,
+    "sha256": "72d5ff912ba5e966147426715e9f815dc0d03a5a39255315dddc41218b41d5e9"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t5000_full_ef1600_medium.csv": {
+    "bytes": 458845,
+    "sha256": "893b90d6581e5f9561e3b3ae249b2932239af55b7e0f4ee27c670d0f32a894e1"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t5000_pivot_ef1600_medium.csv": {
+    "bytes": 465013,
+    "sha256": "e5d6531b8c1dc98e2fa5484552120c7062fdf437dbd26b39e465eb3568e69845"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t4000_full_ef1600_medium.csv": {
+    "bytes": 459537,
+    "sha256": "fbd3af2af2aef1883f2aa87ac092dff520014fbd4fe8f6f5945a5df5377ca31f"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t5000_full_ef1600_popular.csv": {
+    "bytes": 461442,
+    "sha256": "e4a69e1a3e4870089a9f61e3272598914bf0061316640896b989a87bfa1a3e71"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t1000_pivot_ef1600_medium.csv": {
+    "bytes": 468161,
+    "sha256": "efcdf58861c0a93c98705c07c93c2e335119b57dc65514b4ae25ede89c7b8afa"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t5000_full_ef800_medium.csv": {
+    "bytes": 457519,
+    "sha256": "e4a54356d1edf7e3e391877591428a6961dfd55468eefea3dce61335278a0d2d"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t6000_full_ef1600_medium.csv": {
+    "bytes": 459092,
+    "sha256": "ae9dc9466abe9e5f796bb5e611e6cf636b4d8dec39bd8274d7a784f838029ac9"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t3000_pivot_ef1600_medium.csv": {
+    "bytes": 467172,
+    "sha256": "856176e3e82199e33d7c64b3dcfb4692a4d1e35577a8541eb277bc950d2f6f51"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t1000_full_ef1600_medium.csv": {
+    "bytes": 462549,
+    "sha256": "3c45fec553bebaee3876a373e9055de543c4ef9b14044c62039c009dd5440bdf"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 471003,
+    "sha256": "28ec88703c58ff637ca51090422cf58855919c45c5ec9eb08d3bfc0bac86f3e5"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t5000_full_ef1600_rare.csv": {
+    "bytes": 458565,
+    "sha256": "68289334b11b9efd3654f978b81134baf9c1080587a56d31b8bcd2cf8bf7c72f"
+  },
+  "raw/mars64/NYC_rep2/performance/NYC_t4000_pivot_ef1600_medium.csv": {
+    "bytes": 466665,
+    "sha256": "7e144a2c445f9f2c677f4fbe2f8320ec3771e70a20c674728292ac3c6e5fe394"
+  },
+  "raw/mars64/NYC_rep2/diagnostic/NYC_t4000_pointwise_ef1600_medium.csv": {
+    "bytes": 738043,
+    "sha256": "f734291df117c5474438ad00ba276ee82c794e488227fc917974ca9e5507d1a0"
+  },
+  "raw/mars64/NYC_rep2/diagnostic/NYC_t2000_pointwise_ef1600_medium.csv": {
+    "bytes": 740179,
+    "sha256": "35719ebc2ea153944cc61c267f60348dae5a3559db869a1b0221cbaf4123ecc1"
+  },
+  "raw/mars64/NYC_rep2/diagnostic/NYC_t8000_pointwise_ef1600_medium.csv": {
+    "bytes": 736740,
+    "sha256": "5ec15220d4a881d7f3b25b8fb5eb7af3f24f5d3e81e528427351e9e5680d66c4"
+  },
+  "raw/mars64/NYC_rep2/diagnostic/NYC_t10000_pointwise_ef1600_medium.csv": {
+    "bytes": 738218,
+    "sha256": "ddeb761b98550c9976b6ce2e9f29097234aa1a94c95cef9980833ddf815ae91e"
+  },
+  "raw/mars64/NYC_rep2/diagnostic/NYC_t8000_full_ef1600_medium.csv": {
+    "bytes": 731782,
+    "sha256": "ea737a537c06992c46c35364395a290e3594a1c65df34846c3022715ee965f12"
+  },
+  "raw/mars64/NYC_rep2/diagnostic/NYC_t2000_full_ef1600_medium.csv": {
+    "bytes": 730394,
+    "sha256": "a9859a7fff90302d1fe54c9aa9a2725c09c1d7c2759790cb45c910d019ccbb7a"
+  },
+  "raw/mars64/NYC_rep2/diagnostic/NYC_t10000_full_ef1600_medium.csv": {
+    "bytes": 734043,
+    "sha256": "a1d8540eb5b8d0d7aa21a9a1384d14e7eee7113ffb288f13e277c844e891c00f"
+  },
+  "raw/mars64/NYC_rep2/diagnostic/NYC_t4000_full_ef1600_medium.csv": {
+    "bytes": 729033,
+    "sha256": "ead7d9aff450c2b4adcaec8e3eedfa5d53dedb4a657b0197276f954acb27ddb0"
+  },
+  "raw/mars64/NYC_rep2/diagnostic/NYC_t6000_full_ef1600_medium.csv": {
+    "bytes": 732526,
+    "sha256": "35cb75abcc8093589bd2adb0b424e4988dcfbe5b3966cb6169e2c64003737bea"
+  },
+  "raw/mars64/NYC_rep2/diagnostic/NYC_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 737944,
+    "sha256": "6a445d46de00f00fc53cee105ec519160653cad9de87194d854c3ec8baa8fc8f"
+  },
+  "raw/mars64/COL_rep2/performance/COL_t4000_full_ef1600_medium.csv": {
+    "bytes": 460579,
+    "sha256": "568f821bf9711842bca1ad6f464ae61b61949a0f932f06be47e6ed8ad51ff164"
+  },
+  "raw/mars64/COL_rep2/performance/COL_t2000_full_ef1600_medium.csv": {
+    "bytes": 460655,
+    "sha256": "40e6239e57450bd3bdaf23133c5367430f877a648e61367e0069916bdce4b2c8"
+  },
+  "raw/mars64/COL_rep2/performance/COL_t3000_full_ef1600_medium.csv": {
+    "bytes": 460489,
+    "sha256": "5c2a5457f5ff7b4c7afdaf8b3f34977d0deebada9632c2def8343e7463361f71"
+  },
+  "raw/mars64/COL_rep2/performance/COL_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 469229,
+    "sha256": "0b279017a88f6d43cb9bafbb1786ce134a3c0d0321d1dbcda2d500ed419cbacd"
+  },
+  "raw/mars64/COL_rep2/performance/COL_t8000_full_ef1600_medium.csv": {
+    "bytes": 456915,
+    "sha256": "46f88ef8332a1f0a94c5a8b6188e32b1fd766a2531e51f0b5d130384d9af4bee"
+  },
+  "raw/mars64/COL_rep2/performance/COL_t6000_full_ef1600_medium.csv": {
+    "bytes": 458520,
+    "sha256": "d6904ce1d90003a4a45fb5d432069cb95cd9dd45e2c7668ea59b86e4cf7d0add"
+  },
+  "raw/mars64/COL_rep2/performance/COL_t10000_full_ef1600_medium.csv": {
+    "bytes": 458169,
+    "sha256": "c78aaac08e8a690e8951159f1f93a7d8e112c39c77470852bc56b9b884bbae26"
+  },
+  "raw/mars64/COL_rep2/diagnostic/COL_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 735517,
+    "sha256": "6d0f7c67da6592c54a448e6ba814832f3161eca964aa4f46ead4d3f77a1a7cca"
+  },
+  "raw/mars64/COL_rep2/diagnostic/COL_t6000_full_ef1600_medium.csv": {
+    "bytes": 728960,
+    "sha256": "5df1fe84d4c1e1d5bc0b33fdfdc4e2998bc5a81d7e7daf772498340bc04ec91f"
+  },
+  "raw/mars64/BAY_rep2/performance/BAY_t8000_full_ef1600_medium.csv": {
+    "bytes": 458419,
+    "sha256": "7474eaefc79e11bfb502d8b112d0bd6f02abaff7e06f3ae45bb7276ac5144ffe"
+  },
+  "raw/mars64/BAY_rep2/performance/BAY_t4000_full_ef1600_medium.csv": {
+    "bytes": 460345,
+    "sha256": "07ffa53f3a5154aebb68401cb237bd93f2949f88d239be7567c2f917585384f2"
+  },
+  "raw/mars64/BAY_rep2/performance/BAY_t10000_full_ef1600_medium.csv": {
+    "bytes": 459698,
+    "sha256": "c2091fa55f89ce5b1b0d8ad6a9c94f294bc915b7e3d4453608c006450de6e961"
+  },
+  "raw/mars64/BAY_rep2/performance/BAY_t2000_full_ef1600_medium.csv": {
+    "bytes": 460902,
+    "sha256": "5b500a09a760aad0b3402611d8958e6cc9139957704b9177451048e8f00380e6"
+  },
+  "raw/mars64/BAY_rep2/performance/BAY_t3000_full_ef1600_medium.csv": {
+    "bytes": 461627,
+    "sha256": "c0a7983025541f3f08cad57191c382023f041a8232035931b905bff7ef454f27"
+  },
+  "raw/mars64/BAY_rep2/performance/BAY_t6000_full_ef1600_medium.csv": {
+    "bytes": 456068,
+    "sha256": "c784aeabdcb829cbfa0b601ee268167732864a6bee4472d296e7d04f1ba7f046"
+  },
+  "raw/mars64/BAY_rep2/performance/BAY_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 469877,
+    "sha256": "e529d8c62036298f209caaa998bfbd3eb68f9e67435d1318c3f9e4b3abe72802"
+  },
+  "raw/mars64/BAY_rep2/diagnostic/BAY_t6000_full_ef1600_medium.csv": {
+    "bytes": 727239,
+    "sha256": "da49686f1a30294ab479c8b87ef03142c56033434f79a680f46862ad8ac4b258"
+  },
+  "raw/mars64/BAY_rep2/diagnostic/BAY_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 735617,
+    "sha256": "c940973e68016576dd3051e5dae7e580f59c59231b8d5e9f42b86d2ebe92bd8f"
+  },
+  "raw/mars64/BAY_rep1/performance/BAY_t8000_full_ef1600_medium.csv": {
+    "bytes": 458383,
+    "sha256": "86782df6e4aa2908957fb51cc321390f75083d33e030d481d67e49e7e31fcaa3"
+  },
+  "raw/mars64/BAY_rep1/performance/BAY_t4000_full_ef1600_medium.csv": {
+    "bytes": 460333,
+    "sha256": "637de8aa597e8510bedeb71fe3d381feae5abdc5dc91602a3b37507e21cacc1f"
+  },
+  "raw/mars64/BAY_rep1/performance/BAY_t10000_full_ef1600_medium.csv": {
+    "bytes": 459833,
+    "sha256": "4a9ff8f16605bb687dd4d200c1773220a9b315914cf2a21fd045c4846db6c2c3"
+  },
+  "raw/mars64/BAY_rep1/performance/BAY_t2000_full_ef1600_medium.csv": {
+    "bytes": 462322,
+    "sha256": "01e218d9f6ae5af5728e82768df77acd20f4c0014cea5c24aa56b4670152b583"
+  },
+  "raw/mars64/BAY_rep1/performance/BAY_t3000_full_ef1600_medium.csv": {
+    "bytes": 460916,
+    "sha256": "a999864fe2ab571e933f264acbd0cc3fd36c042326a99fe850924580c7245999"
+  },
+  "raw/mars64/BAY_rep1/performance/BAY_t6000_full_ef1600_medium.csv": {
+    "bytes": 459378,
+    "sha256": "a6dcf4fe5c2c55f6cd6126d501dc560c73d40229a2a567d6ebebcf9d59f3e3c8"
+  },
+  "raw/mars64/BAY_rep1/performance/BAY_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 468924,
+    "sha256": "e6634f4324f250c0ce6bbd3b0d9bc205b5839eb94fd2a9f06ad7c2cc75fe85b8"
+  },
+  "raw/mars64/BAY_rep1/diagnostic/BAY_t6000_full_ef1600_medium.csv": {
+    "bytes": 731172,
+    "sha256": "3dacf5870b0619c8025182533842ba22fd3393454d37034fee7fd511eb80a45b"
+  },
+  "raw/mars64/BAY_rep1/diagnostic/BAY_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 736584,
+    "sha256": "ca833277a4178fe2d02e13f9cd0273d744ad490fb4154c3b251ec94a26366d29"
+  },
+  "raw/mars64/COL_rep3/performance/COL_t4000_full_ef1600_medium.csv": {
+    "bytes": 460234,
+    "sha256": "bc0e2dcc51ab9090820b005f1ab00a357b07d70a7322253726f0243527802048"
+  },
+  "raw/mars64/COL_rep3/performance/COL_t2000_full_ef1600_medium.csv": {
+    "bytes": 461038,
+    "sha256": "ac40ce95b9dd4c28cf287b3624f8d3e4c59dbc164d5b72e475385141d2c3a2a5"
+  },
+  "raw/mars64/COL_rep3/performance/COL_t3000_full_ef1600_medium.csv": {
+    "bytes": 460026,
+    "sha256": "aeac87b4e03ee3a67f7a88fc9a26713c634f4baaeea5bff522c0bc8079345bc0"
+  },
+  "raw/mars64/COL_rep3/performance/COL_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 468855,
+    "sha256": "bf0be008a821b21a2b2d63b3871f8d07944e44406b6054607800e8d414ef2a18"
+  },
+  "raw/mars64/COL_rep3/performance/COL_t8000_full_ef1600_medium.csv": {
+    "bytes": 456368,
+    "sha256": "d11da55058494010e7aedb9ebc3aaeb794a756aa6f625a5a640538bcf12eeffa"
+  },
+  "raw/mars64/COL_rep3/performance/COL_t6000_full_ef1600_medium.csv": {
+    "bytes": 459005,
+    "sha256": "c6bd013ee13c70899175680f89e9de0a3d8cf636132a04fbb8175f8c3854d5b6"
+  },
+  "raw/mars64/COL_rep3/performance/COL_t10000_full_ef1600_medium.csv": {
+    "bytes": 457806,
+    "sha256": "b80ec90c5624e169696c6c6bdb6509c819454328db9416639188ccd088870c1f"
+  },
+  "raw/mars64/COL_rep3/diagnostic/COL_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 733818,
+    "sha256": "c643205ed4e23bec806e7fd44f8077329e8c2687df28f7f6bc3c228739152739"
+  },
+  "raw/mars64/COL_rep3/diagnostic/COL_t6000_full_ef1600_medium.csv": {
+    "bytes": 729867,
+    "sha256": "29ddc66656177c88bba2470aa0e29374c92eaa9eb8fbbde5279ffcceaf933d12"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t3000_full_ef1600_medium.csv": {
+    "bytes": 460688,
+    "sha256": "e19de9d1cfc7f2c710aa8607148e04362e5a4d9c2fb97c116e7ed972ad9d6fff"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t4000_pointwise_ef1600_medium.csv": {
+    "bytes": 471787,
+    "sha256": "0b6e2543ea2ec0aa60cb6918589efcb52240185a81003fdcce5251851e4cfba5"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t2000_pivot_ef1600_medium.csv": {
+    "bytes": 467364,
+    "sha256": "3ee3378ff821a88ae22a96fed5bbf644178c29c015af443c2bc6dbb373c63d8f"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t5000_pivot_ef1600_rare.csv": {
+    "bytes": 468603,
+    "sha256": "7e4dd72382cca51966b0d47d21b6d8f62697ac3fb6aae87647d64d7caefc013d"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t2000_pointwise_ef1600_medium.csv": {
+    "bytes": 473602,
+    "sha256": "5a172c8011d2c9241aff7687a583c6c6f4cde1b68bfe3a20cac7319274f8936a"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t5000_pivot_ef1600_popular.csv": {
+    "bytes": 468812,
+    "sha256": "903efff51c7bf4c99b85af8d03610ea920508afcc1c0df1ccb66bafb6a687c72"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t8000_pointwise_ef1600_medium.csv": {
+    "bytes": 470036,
+    "sha256": "45ad39dd40154f8ac0b24c735fdf0fb6396d0aab566450dd47a1b0cb36202b47"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t10000_pointwise_ef1600_medium.csv": {
+    "bytes": 471128,
+    "sha256": "fe2203bc4d05a8952bfd4b02e446337bdd8b5f8ee004d6b07dda05d99dc99cb7"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t8000_full_ef1600_medium.csv": {
+    "bytes": 458773,
+    "sha256": "c68f297dbd9e282b74bc50b1d7fe1d6f40942f08b4f1a01537358fca8299a609"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t2000_full_ef1600_medium.csv": {
+    "bytes": 461394,
+    "sha256": "9e0f325ee9ebbd4728dfb62fb17d248d2ed2926b335fbff8c892eca00ae5deab"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t5000_full_ef50_medium.csv": {
+    "bytes": 457595,
+    "sha256": "2a1efdcd5fc70e690338ef265ab5e2ca98b5e8d867cf7b92630f13b5ec209e81"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t5000_full_ef400_medium.csv": {
+    "bytes": 457766,
+    "sha256": "1a5c060f2c9b6d9f9d9d2fca27059650a1f188c81fb6aa52a9670a9fca6b92cb"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t5000_full_ef100_medium.csv": {
+    "bytes": 459633,
+    "sha256": "8460648e3c70a72b3b59d36ebaae7c76eb17984d91e477acffc8d431cb53d630"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t5000_full_ef200_medium.csv": {
+    "bytes": 458868,
+    "sha256": "3ac364a5076d976f5a00aef57896416fcf45c6c704ea2570dd596072950e110d"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t10000_full_ef1600_medium.csv": {
+    "bytes": 459953,
+    "sha256": "c656679e75356f227384e4d250a33786de85d5b4862fe01d4caab41d1bc61c6c"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t5000_full_ef1600_medium.csv": {
+    "bytes": 459261,
+    "sha256": "2e8a92eaa825e1210cbed9d12ef6ba9ecb02c5f390844072495c398d4754a63e"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t5000_pivot_ef1600_medium.csv": {
+    "bytes": 465366,
+    "sha256": "7b19c1dbe4cc3552f286f2738057a04a761ce1b1f704396325b1fa9d1fee5c2e"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t4000_full_ef1600_medium.csv": {
+    "bytes": 459643,
+    "sha256": "a95e6f2fc6e3d2a8581f2e51ff2f964c3e903434cc068034c95c6a1abcc3ba74"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t5000_full_ef1600_popular.csv": {
+    "bytes": 461949,
+    "sha256": "606f960fd1046477e4ef840f2137063e5f904aa20b5c4d39a5d5d20ee522107f"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t1000_pivot_ef1600_medium.csv": {
+    "bytes": 467467,
+    "sha256": "1f19f75e1a7276c9ad3d1eb7cc1fad1a9adfda930f884bb6c2f380d5f27f4ff8"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t5000_full_ef800_medium.csv": {
+    "bytes": 457624,
+    "sha256": "95bb4ae2b27f55f43ac6bc056ceeffaf573fa758dc57229b0d735fbd3ee463aa"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t6000_full_ef1600_medium.csv": {
+    "bytes": 459363,
+    "sha256": "961f5bb082a37da4484137bf08cacaec44b1f472120499cceb17b94a085ebd6f"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t3000_pivot_ef1600_medium.csv": {
+    "bytes": 467458,
+    "sha256": "c99c12f162db7771547a6756b936bed9f2b4a63056cb60b65623980b52c5f542"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t1000_full_ef1600_medium.csv": {
+    "bytes": 462582,
+    "sha256": "2964fc190d2ca7437a4305d5d87a7c28cadca5b495c8e14c84babd6b64cc49da"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 471247,
+    "sha256": "40327f09043c1f6424aa7800a009d74f6d333a46685a4632c372931b781267ea"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t5000_full_ef1600_rare.csv": {
+    "bytes": 458913,
+    "sha256": "db0089f48651989647dc11a9c0db10d9fc104e6ea821668f80428b6ca961823a"
+  },
+  "raw/mars64/NYC_rep3/performance/NYC_t4000_pivot_ef1600_medium.csv": {
+    "bytes": 466305,
+    "sha256": "ecb432875899d11902aea3289d26e56320f31f9e2d5a1cf9a4ce25ee9f2e8d4a"
+  },
+  "raw/mars64/NYC_rep3/diagnostic/NYC_t4000_pointwise_ef1600_medium.csv": {
+    "bytes": 738851,
+    "sha256": "a52e10027259e381c1857fa447819814842edac2478868e08582af2bb5a0dd06"
+  },
+  "raw/mars64/NYC_rep3/diagnostic/NYC_t2000_pointwise_ef1600_medium.csv": {
+    "bytes": 739471,
+    "sha256": "8040171462403a26e0b36bbbe2c02487042505855d84e54d4392aa8bb5345530"
+  },
+  "raw/mars64/NYC_rep3/diagnostic/NYC_t8000_pointwise_ef1600_medium.csv": {
+    "bytes": 735953,
+    "sha256": "50f1f76e6c77e81b858376b5714cde9a2e4577acf888119591e9155edd3b70c2"
+  },
+  "raw/mars64/NYC_rep3/diagnostic/NYC_t10000_pointwise_ef1600_medium.csv": {
+    "bytes": 737698,
+    "sha256": "90c9273da3628448623bc26281e93d2236233bfcf84f04b59044674354d8dea7"
+  },
+  "raw/mars64/NYC_rep3/diagnostic/NYC_t8000_full_ef1600_medium.csv": {
+    "bytes": 730814,
+    "sha256": "03a7e091c1edfef71af893f77ee98e742d61d9cf90610c2138517526c5b2d0c5"
+  },
+  "raw/mars64/NYC_rep3/diagnostic/NYC_t2000_full_ef1600_medium.csv": {
+    "bytes": 730079,
+    "sha256": "d6af0a8340b527e905c9f77eb36260c1cc8864c52ea18b0d2487056c703868c6"
+  },
+  "raw/mars64/NYC_rep3/diagnostic/NYC_t10000_full_ef1600_medium.csv": {
+    "bytes": 734531,
+    "sha256": "237af31e6b86588d5a0047196fb5ad90dd0802d4a8c3f4f9343e3b06bc1c54aa"
+  },
+  "raw/mars64/NYC_rep3/diagnostic/NYC_t4000_full_ef1600_medium.csv": {
+    "bytes": 728820,
+    "sha256": "9269227b3d008774e15635b0ec4977171b55d5ff0f7ec5db02f8393d6f4b181f"
+  },
+  "raw/mars64/NYC_rep3/diagnostic/NYC_t6000_full_ef1600_medium.csv": {
+    "bytes": 730757,
+    "sha256": "f45cb84cc0277ed99e0e6558f920193b06105cf5b984c52ba73da3b4c64d1558"
+  },
+  "raw/mars64/NYC_rep3/diagnostic/NYC_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 737456,
+    "sha256": "5144c8674850a9b736a48545105f9e6fae901c25437759e3fb4f209ca6da0ac4"
+  },
+  "raw/mars64/COL_rep1/performance/COL_t4000_full_ef1600_medium.csv": {
+    "bytes": 460169,
+    "sha256": "2c8af20adb7753727b8ac068cbbf22a03d9b01aac0fb6d3852b985fc1869d36b"
+  },
+  "raw/mars64/COL_rep1/performance/COL_t2000_full_ef1600_medium.csv": {
+    "bytes": 460744,
+    "sha256": "0082defd2ac8cb8890108daca6fe65fc3ddf3cd807b4a285a9ba22c436e862f7"
+  },
+  "raw/mars64/COL_rep1/performance/COL_t3000_full_ef1600_medium.csv": {
+    "bytes": 460306,
+    "sha256": "68f8abf5920b9ff488c96ade4572889830e0801b6a46ad277ac33d3d2752c5ed"
+  },
+  "raw/mars64/COL_rep1/performance/COL_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 469111,
+    "sha256": "2875ae1eae7e8b9c6fb35bdda172e69fe839a3915d1900c21873f84d69193c7a"
+  },
+  "raw/mars64/COL_rep1/performance/COL_t8000_full_ef1600_medium.csv": {
+    "bytes": 457128,
+    "sha256": "a21871bf5526ce161a0d961c61c213ec9ad6aa1870ccbb1f4efe2852207914d5"
+  },
+  "raw/mars64/COL_rep1/performance/COL_t6000_full_ef1600_medium.csv": {
+    "bytes": 458446,
+    "sha256": "53278c45ca2a5bec2261fc47020ae840b2a1213f82a1077f860d335ef23562b4"
+  },
+  "raw/mars64/COL_rep1/performance/COL_t10000_full_ef1600_medium.csv": {
+    "bytes": 458021,
+    "sha256": "fbfe47379345ea3d9cef9cbaa30bc5eadb364d6f401984e245ed5d506e4eb56f"
+  },
+  "raw/mars64/COL_rep1/diagnostic/COL_t6000_pointwise_ef1600_medium.csv": {
+    "bytes": 735817,
+    "sha256": "853029b42d9b7d8ddf12d884af6bc950cc085dadc59fb31e4773aec8da420e66"
+  },
+  "raw/mars64/COL_rep1/diagnostic/COL_t6000_full_ef1600_medium.csv": {
+    "bytes": 727503,
+    "sha256": "038fa16888713f4b93c99a19ba3e245f55598eb2f85e45bbca47aa75ce5b467c"
+  },
+  "provenance/archive_records/instances_parameter_NYC_a512_rep2.json": {
+    "bytes": 1122,
+    "sha256": "cac8b2db9ea6fabdccc660abbb21d497c154ec22399e27a6a9e9a892a9d3a21f"
+  },
+  "provenance/archive_records/instances_parameter_NYC_a96_rep3.json": {
+    "bytes": 1120,
+    "sha256": "0e44f64e064c19275ec6e354c4ff09153f25162dc43b203ac19e036e0794eb7d"
+  },
+  "provenance/archive_records/instances_BAY_rep3.json": {
+    "bytes": 1092,
+    "sha256": "57c2e09b8245ba002cbea194c606c22db04e4c01be74dc69b9971695a3d4a6e9"
+  },
+  "provenance/archive_records/instances_FLA_rep2.json": {
+    "bytes": 1093,
+    "sha256": "0fac1405ff05b9e5bc5b55cf8b1f8a4024f80610c4fc06a1751eb3c0093b3b48"
+  },
+  "provenance/archive_records/instances_parameter_NYC_a8_rep3.json": {
+    "bytes": 1118,
+    "sha256": "adf8149a6500bf0c2c587f0324ec80d7bf5f51a1656633153792c48130edb2c8"
+  },
+  "provenance/archive_records/instances_parameter_NYC_a256_rep2.json": {
+    "bytes": 1122,
+    "sha256": "18c1e46b351bd01bb06bf03eb596368fbb99c177e7475fe3cebba34f8c001be2"
+  },
+  "provenance/archive_records/instances_parameter_NYC_a256_rep3.json": {
+    "bytes": 1122,
+    "sha256": "529d7c905da05b5b7db672196356dc621ac9b1d08f5227fbb077487b3d819de8"
+  },
+  "provenance/archive_records/runs_COL_rep1_acceptance.json": {
+    "bytes": 1714,
+    "sha256": "e99dd6b03eec5459fd36f40205529532cc23dedd614275d8cd8302451d964e62"
+  },
+  "provenance/archive_records/instances_parameter_NYC_a4_rep2.json": {
+    "bytes": 1118,
+    "sha256": "0170d00986fd40b34dca930a8e30991bd25426c07fbf116b41a07ac27b8d4c02"
+  },
+  "provenance/archive_records/instances_COL_rep3.json": {
+    "bytes": 1092,
+    "sha256": "0b04b805d6654482a6cca388f812ff4af78a6c4c2e8fa0fb7caeded158dfbbc5"
+  },
+  "provenance/archive_records/instances_parameter_NYC_a16_rep3.json": {
+    "bytes": 1120,
+    "sha256": "a164c0574b3bec572cc8b910f0141a564701fc99aa51905d7d1e20d07d44989b"
+  },
+  "provenance/archive_records/instances_NYC_rep3.json": {
+    "bytes": 1092,
+    "sha256": "29f3ac1623ee07c3acbabe56ff2b609eb9b3c7a83685c12920fd8d8eb9c458fb"
+  },
+  "provenance/archive_records/instances_BAY_rep2.json": {
+    "bytes": 1092,
+    "sha256": "ebefc8d1263af98ac6124b533ab9eee37d0677f104464792e076535b2dc02f90"
+  },
+  "provenance/archive_records/instances_parameter_NYC_a8_rep2.json": {
+    "bytes": 1118,
+    "sha256": "ae81d4bd37d9325a705ab8e156bb8782f131604bf507e8239b0cea82360571ae"
+  },
+  "provenance/archive_records/instances_FLA_rep3.json": {
+    "bytes": 1093,
+    "sha256": "d1d6416b4e52875dc7a63e06e495e417eb2f0c84dd302c8342d06d5c3d0d76bf"
+  },
+  "provenance/archive_records/graph_only_rep2_index.json": {
+    "bytes": 957,
+    "sha256": "19401a5cbc70c59e705f9178281a48e65216d1afd4d39c4e6f5e61bbfb933e41"
+  },
+  "provenance/archive_records/instances_parameter_NYC_a1024_rep2.json": {
+    "bytes": 1124,
+    "sha256": "6fd86dfdbc6940543b0135a31bd75812a8bbf2b614c2cd121234f0463f3c3759"
+  },
+  "provenance/archive_records/instances_parameter_NYC_a1024_rep3.json": {
+    "bytes": 1124,
+    "sha256": "c22baae0e3aba5a97d6acdba3fd677e795dcc68e288335e5db25d346cfbfb2bc"
+  },
+  "provenance/archive_records/instances_parameter_NYC_a16_rep2.json": {
+    "bytes": 1120,
+    "sha256": "d33422180e90f6c81b49f7a41b05e17df3f84aad382c818ce497f82663e2685c"
+  },
+  "provenance/archive_records/instances_parameter_NYC_a96_rep2.json": {
+    "bytes": 1120,
+    "sha256": "b49715e05d179014ec9d346301e0fdb3ab6f79716bda850cd593edeee1da2ec5"
+  },
+  "provenance/archive_records/instances_parameter_NYC_a4_rep3.json": {
+    "bytes": 1118,
+    "sha256": "cfe7aa58aaad4c209782117c75d3ea31a976a1ffc1dfcaf3c1d655d0485d2e77"
+  },
+  "provenance/archive_records/instances_NYC_rep2.json": {
+    "bytes": 1092,
+    "sha256": "11a7db75054b27336bf98da6f70a8828c5be3737c73b6110396db2a8fb1ffec8"
+  },
+  "provenance/archive_records/instances_parameter_NYC_a512_rep3.json": {
+    "bytes": 1122,
+    "sha256": "aa5d94a5d73b665d4a6973502ad75c21163993cdf1807844d0b3912b30dbfe15"
+  },
+  "provenance/archive_records/instances_parameter_NYC_a128_rep3.json": {
+    "bytes": 1122,
+    "sha256": "d3f74dabb5463e8323dfe60caca756e012a8e1eaa6eb90cf86e95e296c0e721c"
+  },
+  "provenance/archive_records/runs_BAY_rep1_acceptance.json": {
+    "bytes": 1714,
+    "sha256": "c57a6a64327a2ada81ebf220616cc06a26baeac71d7531d995c0d701a212580d"
+  },
+  "provenance/archive_records/graph_only_rep3_index.json": {
+    "bytes": 957,
+    "sha256": "1704fbd60bd851851c6600d237a751c8ac89f0e94ac765683e308bbc3eef5981"
+  },
+  "provenance/archive_records/instances_COL_rep2.json": {
+    "bytes": 1092,
+    "sha256": "b29c145938e74591448a4f013de5997814b69526d768038211b8fd5a89b4893b"
+  },
+  "provenance/archive_records/instances_parameter_NYC_a128_rep2.json": {
+    "bytes": 1122,
+    "sha256": "ee1f7546f9c715f3424ca4f2f0c0bd785ae6322fe1fa73bb807e07b965443078"
+  },
+  "provenance/archive_records/instances_BAY_rep1.json": {
+    "bytes": 1092,
+    "sha256": "3c1e152f44ee760f97165a6d7f35913c4827e9ffc2a81caa2ca9c8d05a063a7c"
+  },
+  "provenance/archive_records/instances_COL_rep1.json": {
+    "bytes": 1092,
+    "sha256": "b6de06d766f7ad1e85263573bbbd016b4067d72f3a4683ed50da3a10f1c47d6a"
+  }
+}

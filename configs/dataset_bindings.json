@@ -1,0 +1,66 @@
+{
+  "BAY": {
+    "region": "BAY",
+    "objects": 700864,
+    "dimension": 768,
+    "data_sha256": {
+      "data/BAY/order.txt": "2c3a7f0368a5e9707632cf926f2e56faebe65e8a67d8294718bed95c235ea320",
+      "data/BAY/POInames_ID.txt": "0e84268cf8d559a5366d07b79760a899281ce5cf1569ca5f785e490381758c97",
+      "data/BAY/poi_node_mapping_Ext3.txt": "11894b8e1b6594526165a34212ab9a377f490de7d1cb069e3030d98f90550453",
+      "data/BAY/USA-road-d.BAY.co": "5446a3b07e99a6fbf2aa091bd7095b55e4ba77bb94ac9865133b6b9af98af153",
+      "data/BAY/categories_sorted.csv": "7e5da095f4fe15e149ceb23afeaed070efc082fe442167b3bbdeb9ba0e290f48",
+      "data/BAY/cat.fvecs": "df887d9b67d0df117fba39557a8955e8676ed87c67c1a961c8bb914b8de85872",
+      "data/BAY/USA-road-d.BAY.gr": "75a1a78d1f1bd1d8d86b2dc81b0c2ac30f701e078c514c9f9b953130b83f979e",
+      "data/BAY/poi.fvecs": "c3651673c77a221f9ebdfc6fbb9448395e624d9163cf83763e5a528aeda8e553",
+      "data/BAY/categories.txt": "5e087cebb9679e86170d051ff1760df7cd8653def855c8d7a082de1f3b7b69a7"
+    }
+  },
+  "COL": {
+    "region": "COL",
+    "objects": 393709,
+    "dimension": 768,
+    "data_sha256": {
+      "data/COL/order.txt": "01e4421faab5e3ea4c421d4613db93907d43d27ec0aab8060e294fea2e1f73de",
+      "data/COL/POInames_ID.txt": "8e8a16f50e774882efed14db54bbaa66f408d67fe94c903d10f98c1d0683a196",
+      "data/COL/poi_node_mapping_Ext3.txt": "0a92d6d67b7ad8ccc2036dd79e03e4545f66e4e5d61fe4a683a3f39dfea41c06",
+      "data/COL/USA-road-d.COL.co": "1c545e75ef66d25fb8a2478a5395b3b0bd16e7fb463236a97f25718c89226ba4",
+      "data/COL/categories_sorted.csv": "7e5da095f4fe15e149ceb23afeaed070efc082fe442167b3bbdeb9ba0e290f48",
+      "data/COL/cat.fvecs": "df887d9b67d0df117fba39557a8955e8676ed87c67c1a961c8bb914b8de85872",
+      "data/COL/USA-road-d.COL.gr": "2d5510bdc742cf027c0ce90f5d9eebeace29c7431f54f31be015d2ddac070343",
+      "data/COL/poi.fvecs": "7623fa5820e894e6ec3a4ef0c5f64e95420b4e29c94d2df70d1521564ca63ee7",
+      "data/COL/categories.txt": "5e087cebb9679e86170d051ff1760df7cd8653def855c8d7a082de1f3b7b69a7"
+    }
+  },
+  "FLA": {
+    "region": "FLA",
+    "objects": 1534361,
+    "dimension": 768,
+    "data_sha256": {
+      "data/FLA/order.txt": "ed3108b63daa87870f87aab749426122979ece7008a5f8177b3e7f889a62582b",
+      "data/FLA/USA-road-d.FLA.gr": "47a3e851dea2bf27d6c939542e569fa9b5e6f2c8f11e8af3187d87c28435a85d",
+      "data/FLA/POInames_ID.txt": "5159a3dae6df54d95abcd5f276853e3af06903d847814c6046e3cddaaa9dcd10",
+      "data/FLA/poi_node_mapping_Ext3.txt": "2256b06e4e3d8eaf50de1ba730674323de580dd02ba7c9e3ace41d36e7ec57a6",
+      "data/FLA/USA-road-d.FLA.co": "e9ef8ff417f2e0b19faf51918b87f7e77d99269fa95726d105fdf47cd893e90d",
+      "data/FLA/categories_sorted.csv": "7e5da095f4fe15e149ceb23afeaed070efc082fe442167b3bbdeb9ba0e290f48",
+      "data/FLA/cat.fvecs": "df887d9b67d0df117fba39557a8955e8676ed87c67c1a961c8bb914b8de85872",
+      "data/FLA/poi.fvecs": "04e981b5791ece8fe01bb40a91ff89cd01eadb5e3e312a6faa08aa7634d5c001",
+      "data/FLA/categories.txt": "5e087cebb9679e86170d051ff1760df7cd8653def855c8d7a082de1f3b7b69a7"
+    }
+  },
+  "NYC": {
+    "region": "NYC",
+    "objects": 1140399,
+    "dimension": 768,
+    "data_sha256": {
+      "data/NYC/USA-road-d.NYC.co": "b810f32f9661625882104463fd510b60ce3ca1089d406cba35384b86987deda7",
+      "data/NYC/order.txt": "a30efd4829780e87fec2e1b2d48f0a5b6615cc8ac46fb4d2dc2f46a867fd26b6",
+      "data/NYC/POInames_ID.txt": "6cfbdaa414beba23fc43c13f4322b586c34b916ddd1bfe336814342dde4ec8cc",
+      "data/NYC/poi_node_mapping_Ext3.txt": "7ebc96e9cc35c73d32b6917d28cd685fa8f113d190a1bb3f111501fadf416c32",
+      "data/NYC/categories_sorted.csv": "7e5da095f4fe15e149ceb23afeaed070efc082fe442167b3bbdeb9ba0e290f48",
+      "data/NYC/cat.fvecs": "df887d9b67d0df117fba39557a8955e8676ed87c67c1a961c8bb914b8de85872",
+      "data/NYC/USA-road-d.NYC.gr": "37f5b3eff82330850466956b6c036a8ab8551512bdc7509edca1d4c6cf943fa3",
+      "data/NYC/poi.fvecs": "1b12d24ce64c15f55db1eb84e1656c67da8741a03c50ba712dbbbc33abff6eea",
+      "data/NYC/categories.txt": "5e087cebb9679e86170d051ff1760df7cd8653def855c8d7a082de1f3b7b69a7"
+    }
+  }
+}

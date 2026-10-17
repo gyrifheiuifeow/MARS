@@ -1,0 +1,5 @@
+region	units_per_metre	graph_path	sha256
+NYC	10	data/NYC/USA-road-d.NYC.gr	37f5b3eff82330850466956b6c036a8ab8551512bdc7509edca1d4c6cf943fa3
+BAY	10	data/BAY/USA-road-d.BAY.gr	75a1a78d1f1bd1d8d86b2dc81b0c2ac30f701e078c514c9f9b953130b83f979e
+COL	10	data/COL/USA-road-d.COL.gr	2d5510bdc742cf027c0ce90f5d9eebeace29c7431f54f31be015d2ddac070343
+FLA	10	data/FLA/USA-road-d.FLA.gr	47a3e851dea2bf27d6c939542e569fa9b5e6f2c8f11e8af3187d87c28435a85d

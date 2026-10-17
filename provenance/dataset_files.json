@@ -1,0 +1,1202 @@
+[
+ {
+  "path": "data/BAY/POInames_ID.txt",
+  "bytes": 16048914,
+  "sha256": "0e84268cf8d559a5366d07b79760a899281ce5cf1569ca5f785e490381758c97"
+ },
+ {
+  "path": "data/BAY/USA-road-d.BAY.co",
+  "bytes": 9205924,
+  "sha256": "5446a3b07e99a6fbf2aa091bd7095b55e4ba77bb94ac9865133b6b9af98af153"
+ },
+ {
+  "path": "data/BAY/USA-road-d.BAY.gr",
+  "bytes": 15851432,
+  "sha256": "75a1a78d1f1bd1d8d86b2dc81b0c2ac30f701e078c514c9f9b953130b83f979e"
+ },
+ {
+  "path": "data/BAY/cat.fvecs",
+  "bytes": 3829620,
+  "sha256": "df887d9b67d0df117fba39557a8955e8676ed87c67c1a961c8bb914b8de85872"
+ },
+ {
+  "path": "data/BAY/categories.txt",
+  "bytes": 23985,
+  "sha256": "5e087cebb9679e86170d051ff1760df7cd8653def855c8d7a082de1f3b7b69a7"
+ },
+ {
+  "path": "data/BAY/categories_sorted.csv",
+  "bytes": 307270,
+  "sha256": "7e5da095f4fe15e149ceb23afeaed070efc082fe442167b3bbdeb9ba0e290f48"
+ },
+ {
+  "path": "data/BAY/groundtruth/q1000_seed42_medium_tau1000_k10.tsv",
+  "bytes": 368438,
+  "sha256": "53542586ff2a25987b26fb94fd44d98c9664fc93d9aaa9343870d88f0080ca06"
+ },
+ {
+  "path": "data/BAY/groundtruth/q1000_seed42_medium_tau3000_k10.tsv",
+  "bytes": 368076,
+  "sha256": "dd206b6547d8a5c4225c42accc111df365644f6306840d49d2146a933a279e83"
+ },
+ {
+  "path": "data/BAY/groundtruth/q1000_seed42_medium_tau5000_k10.tsv",
+  "bytes": 368275,
+  "sha256": "e268174e181f7387d955dbd1e8271c740813ade5016e484f109c03fcc0943752"
+ },
+ {
+  "path": "data/BAY/groundtruth/q1000_seed42_medium_tau5000_k2.tsv",
+  "bytes": 75446,
+  "sha256": "4b5254fc394753c7ec3dbffc3c9958f51db9d336cce291c15945d66ecefe3c41"
+ },
+ {
+  "path": "data/BAY/groundtruth/q1000_seed42_medium_tau5000_k4.tsv",
+  "bytes": 150939,
+  "sha256": "71ed89b7a0a904c7f8dd1fd3c9bcabfac550c1dfd4ae785d51f65e3d6934e584"
+ },
+ {
+  "path": "data/BAY/groundtruth/q1000_seed42_medium_tau5000_k6.tsv",
+  "bytes": 226394,
+  "sha256": "cc31cbe3c5fd2af0d5708545376881f548e3a4733f9fda66fc15523ea34e6614"
+ },
+ {
+  "path": "data/BAY/groundtruth/q1000_seed42_medium_tau5000_k8.tsv",
+  "bytes": 301890,
+  "sha256": "f5afd53260654f51faac8d22a783ccd795dfcb5ee21610147e4403749bdbdaa6"
+ },
+ {
+  "path": "data/BAY/groundtruth/q1000_seed42_medium_tau7000_k10.tsv",
+  "bytes": 368322,
+  "sha256": "7e88559757941bb1837a461d1494d291a5c607aee01f9c79cb03eada381b473f"
+ },
+ {
+  "path": "data/BAY/groundtruth/q1000_seed42_medium_tau9000_k10.tsv",
+  "bytes": 368348,
+  "sha256": "6a078b7c2e59db4fd8aed7f4b59707fa9dd2ad508ceb09f0d986d49b874d41ca"
+ },
+ {
+  "path": "data/BAY/groundtruth/q1000_seed42_natural_medium_tau1000_k10.tsv",
+  "bytes": 368395,
+  "sha256": "27d3daf63582b827becfdbeccd3e4a1ebcf05a6aa8407fcd59d6dff8e6ecf05b"
+ },
+ {
+  "path": "data/BAY/groundtruth/q1000_seed42_natural_medium_tau2000_k10.tsv",
+  "bytes": 367868,
+  "sha256": "905ed08af91c7106092dff3f9643989d6cad05caea61677d0b2e9a6a1ce2781b"
+ },
+ {
+  "path": "data/BAY/groundtruth/q1000_seed42_natural_medium_tau3000_k10.tsv",
+  "bytes": 367727,
+  "sha256": "32c65255e9567efc2cd9c5b150552cd92ac61438f30589e2437e09d1a3370b76"
+ },
+ {
+  "path": "data/BAY/groundtruth/q1000_seed42_natural_medium_tau4000_k10.tsv",
+  "bytes": 367626,
+  "sha256": "a04542c1af8915f2fd35594f37e6ae234e240c37ad484310cf3898dfbe8fddad"
+ },
+ {
+  "path": "data/BAY/groundtruth/q1000_seed42_natural_medium_tau5000_k10.tsv",
+  "bytes": 367455,
+  "sha256": "fa3a2458b57faeaf7260f790144727a7a25747fdc8881e13178c69f68345b971"
+ },
+ {
+  "path": "data/BAY/groundtruth/q1000_seed42_popular_tau5000_k10.tsv",
+  "bytes": 366258,
+  "sha256": "4f1054db7c53c028ca043c8883c5962ad616bb6ce6d73be2eff63d2cce986acb"
+ },
+ {
+  "path": "data/BAY/groundtruth/q1000_seed42_rare_tau5000_k10.tsv",
+  "bytes": 371158,
+  "sha256": "7edc85f56dac93411f4bc6ef38c5a7b7449e7fab08b66765986da58d8dc5315e"
+ },
+ {
+  "path": "data/BAY/groundtruth/q10_seed42_natural_medium_tau5000_k10.tsv",
+  "bytes": 3758,
+  "sha256": "6412940726bcc82f6c59dcd1c4bfa23121a923724bf4dec83be15e8deec68546"
+ },
+ {
+  "path": "data/BAY/order.txt",
+  "bytes": 2459050,
+  "sha256": "2c3a7f0368a5e9707632cf926f2e56faebe65e8a67d8294718bed95c235ea320"
+ },
+ {
+  "path": "data/BAY/poi.fvecs",
+  "bytes": 1742012624,
+  "sha256": "c3651673c77a221f9ebdfc6fbb9448395e624d9163cf83763e5a528aeda8e553"
+ },
+ {
+  "path": "data/BAY/poi_node_mapping_Ext3.txt",
+  "bytes": 13348909,
+  "sha256": "11894b8e1b6594526165a34212ab9a377f490de7d1cb069e3030d98f90550453"
+ },
+ {
+  "path": "data/BAY/processed/category_level1_groups.json",
+  "bytes": 21250,
+  "sha256": "17a00328df5b6e68b27eb2e39a818493715daff86f52663b9d3b9e461ece8f8f"
+ },
+ {
+  "path": "data/BAY/queries/q1000_seed42_medium.fvecs",
+  "bytes": 3076000,
+  "sha256": "86f9c23ea4c726045c7c089a3eda18af205ea3fc13665210fe945504b9d126b0"
+ },
+ {
+  "path": "data/BAY/queries/q1000_seed42_medium.manifest.json",
+  "bytes": 525,
+  "sha256": "f5dd8695a920fc2f23e929701da583ea4f55330de0f6ee7e75840defcfc6e50c"
+ },
+ {
+  "path": "data/BAY/queries/q1000_seed42_medium.meta.tsv",
+  "bytes": 31772,
+  "sha256": "28583d4af0cbfa235236ee670e20775676b19fbd68ba5b0517f020f745efd5c1"
+ },
+ {
+  "path": "data/BAY/queries/q1000_seed42_natural_medium.fvecs",
+  "bytes": 3076000,
+  "sha256": "cada06e024f9d06cef32162dc43e2756dea16876aa39d90ef26a2628aa41cb8f"
+ },
+ {
+  "path": "data/BAY/queries/q1000_seed42_natural_medium.manifest.json",
+  "bytes": 866,
+  "sha256": "2664373608ac5d776c07ef958c49713e07155fbe820a7f9ad0e21f8671de1641"
+ },
+ {
+  "path": "data/BAY/queries/q1000_seed42_natural_medium.meta.tsv",
+  "bytes": 52296,
+  "sha256": "fcdfa715654a6cc3c8c18ba93eb15f4e44d6bd46eaabd40960864e2862ab13ab"
+ },
+ {
+  "path": "data/BAY/queries/q1000_seed42_natural_popular.fvecs",
+  "bytes": 3076000,
+  "sha256": "0a1da4250fdaaa794e1d683797038bbfcab75583dbc8091fce4d239acf2a57bd"
+ },
+ {
+  "path": "data/BAY/queries/q1000_seed42_natural_popular.manifest.json",
+  "bytes": 857,
+  "sha256": "f44abc409aae3ff3dbba6c665820f626515673a36615ef6a7dbbaa62bee26816"
+ },
+ {
+  "path": "data/BAY/queries/q1000_seed42_natural_popular.meta.tsv",
+  "bytes": 51929,
+  "sha256": "8e01645e153c955f81fcb74816366453de43fcf07d490afffce717711a05c6c6"
+ },
+ {
+  "path": "data/BAY/queries/q1000_seed42_natural_rare.fvecs",
+  "bytes": 3076000,
+  "sha256": "f8e196de2b9fd24eb24c9476705fe9eec93d4a0966aa15c687b15b1e7b411bf3"
+ },
+ {
+  "path": "data/BAY/queries/q1000_seed42_natural_rare.manifest.json",
+  "bytes": 837,
+  "sha256": "3630b50c92268f6fcc0d9e34f9c7317e8c066c7d5203d6925292e24d9151edde"
+ },
+ {
+  "path": "data/BAY/queries/q1000_seed42_natural_rare.meta.tsv",
+  "bytes": 47859,
+  "sha256": "f8fbdea9dbe56d9e1f8ca6f2edb9937bd3384283809e530e78a5dff66963ab9d"
+ },
+ {
+  "path": "data/BAY/queries/q1000_seed42_popular.fvecs",
+  "bytes": 3076000,
+  "sha256": "fb22fdccddc8c9d515b548e90a9ed0a88cb991d7a676a91ec001dc75bc4ec838"
+ },
+ {
+  "path": "data/BAY/queries/q1000_seed42_popular.manifest.json",
+  "bytes": 524,
+  "sha256": "19472aeee228a3ed628a171a4826f708ac4b1af57722bc16942367670cf7da7c"
+ },
+ {
+  "path": "data/BAY/queries/q1000_seed42_popular.meta.tsv",
+  "bytes": 32219,
+  "sha256": "befa24f7499cacc9a875245705226291d389b094a0104ef4f1c609cbfffcff13"
+ },
+ {
+  "path": "data/BAY/queries/q1000_seed42_rare.fvecs",
+  "bytes": 3076000,
+  "sha256": "1e3c8db577a8db357bb8c6945c998f5069767222a2fcc380c5244edebb78ce59"
+ },
+ {
+  "path": "data/BAY/queries/q1000_seed42_rare.manifest.json",
+  "bytes": 542,
+  "sha256": "4128a0f0837398f858e22ea2409d9599c50203e9bdb7cc0ff6997a338f37614f"
+ },
+ {
+  "path": "data/BAY/queries/q1000_seed42_rare.meta.tsv",
+  "bytes": 31916,
+  "sha256": "099eadecff3736eaf507ffdd8a646f9d54f3a6fa7e50cc251e3e02b8d5032fa8"
+ },
+ {
+  "path": "data/BAY/queries/q10_seed42_natural_medium.fvecs",
+  "bytes": 30760,
+  "sha256": "5ea091b00938861b579313e07f863e01f786e225f797cf167f9e362627a12d1b"
+ },
+ {
+  "path": "data/BAY/queries/q10_seed42_natural_medium.manifest.json",
+  "bytes": 1231,
+  "sha256": "43558dee3f3fa150557450082307ef8ef8f9774e83c0e837eeb37e2ec16f08c4"
+ },
+ {
+  "path": "data/BAY/queries/q10_seed42_natural_medium.meta.tsv",
+  "bytes": 565,
+  "sha256": "4a46b9a8a2e64085dcdf48d0446c825e30e79486c7da6d2af6dffba6c5aa6a21"
+ },
+ {
+  "path": "data/BAY/queries/q1500_seed20260807_natural_medium.fvecs",
+  "bytes": 4614000,
+  "sha256": "3081c9232b39153f7d1ad940a0f61d92da78444bb15cbc477f3c5f7a30be24a1"
+ },
+ {
+  "path": "data/BAY/queries/q1500_seed20260807_natural_medium.manifest.json",
+  "bytes": 879,
+  "sha256": "855084fa261a1ba6fda55cb7c8f5934eeded0554a91eac6dac4b14647aa3da91"
+ },
+ {
+  "path": "data/BAY/queries/q1500_seed20260807_natural_medium.meta.tsv",
+  "bytes": 87601,
+  "sha256": "03e676326f9a4a365163b96696f5a22e90725ca1c799b7ae9689a37bb724e79d"
+ },
+ {
+  "path": "data/COL/POInames_ID.txt",
+  "bytes": 9013630,
+  "sha256": "8e8a16f50e774882efed14db54bbaa66f408d67fe94c903d10f98c1d0683a196"
+ },
+ {
+  "path": "data/COL/USA-road-d.COL.co",
+  "bytes": 12523408,
+  "sha256": "1c545e75ef66d25fb8a2478a5395b3b0bd16e7fb463236a97f25718c89226ba4"
+ },
+ {
+  "path": "data/COL/USA-road-d.COL.gr",
+  "bytes": 21344630,
+  "sha256": "2d5510bdc742cf027c0ce90f5d9eebeace29c7431f54f31be015d2ddac070343"
+ },
+ {
+  "path": "data/COL/cat.fvecs",
+  "bytes": 3829620,
+  "sha256": "df887d9b67d0df117fba39557a8955e8676ed87c67c1a961c8bb914b8de85872"
+ },
+ {
+  "path": "data/COL/categories.txt",
+  "bytes": 23985,
+  "sha256": "5e087cebb9679e86170d051ff1760df7cd8653def855c8d7a082de1f3b7b69a7"
+ },
+ {
+  "path": "data/COL/categories_sorted.csv",
+  "bytes": 307270,
+  "sha256": "7e5da095f4fe15e149ceb23afeaed070efc082fe442167b3bbdeb9ba0e290f48"
+ },
+ {
+  "path": "data/COL/groundtruth/q1000_seed42_medium_tau1000_k10.tsv",
+  "bytes": 362769,
+  "sha256": "cfca6b6b95e9a423ef8e2ce86c2217fe375174d4053f931be7663c0be42a4e3d"
+ },
+ {
+  "path": "data/COL/groundtruth/q1000_seed42_medium_tau3000_k10.tsv",
+  "bytes": 365080,
+  "sha256": "57feb8e83aec75257a62c91274d3bab9eebf1491b7e8eb95f9e577ae7ad72c30"
+ },
+ {
+  "path": "data/COL/groundtruth/q1000_seed42_medium_tau5000_k10.tsv",
+  "bytes": 365851,
+  "sha256": "70b0b68ecc7283c58f9a625a4d8ca7c8efef9b733651b577d1612671ca8ce2a7"
+ },
+ {
+  "path": "data/COL/groundtruth/q1000_seed42_medium_tau5000_k2.tsv",
+  "bytes": 75154,
+  "sha256": "122d4efa112c570ab4dc8ee676bd35b1480f4aac6a2bc521606fdb0ee7566971"
+ },
+ {
+  "path": "data/COL/groundtruth/q1000_seed42_medium_tau5000_k4.tsv",
+  "bytes": 150184,
+  "sha256": "e4618ae1c8fd3e702936a1142ba1f2cbdfb7fe116c53718080d7cce4f0a67f1c"
+ },
+ {
+  "path": "data/COL/groundtruth/q1000_seed42_medium_tau5000_k6.tsv",
+  "bytes": 225153,
+  "sha256": "1eb31428c950a6db94eb2812b5b786b3092f3242c2b3037c0ae2335b4796cf04"
+ },
+ {
+  "path": "data/COL/groundtruth/q1000_seed42_medium_tau5000_k8.tsv",
+  "bytes": 300036,
+  "sha256": "ef007804e87393bc20919643f6eba7131d1b625c276b9a02cf881b323d88371c"
+ },
+ {
+  "path": "data/COL/groundtruth/q1000_seed42_medium_tau7000_k10.tsv",
+  "bytes": 366321,
+  "sha256": "85197a44ccc239adb567c0ed59f56c5ac4d7cdf438cafbfcb7d81d80ec3bdb59"
+ },
+ {
+  "path": "data/COL/groundtruth/q1000_seed42_medium_tau9000_k10.tsv",
+  "bytes": 366557,
+  "sha256": "e419b344c2fa1ed07edb8ffa02c9fadd28c2cd1200d0f8e66ec9dd4058f73bdb"
+ },
+ {
+  "path": "data/COL/groundtruth/q1000_seed42_natural_medium_tau1000_k10.tsv",
+  "bytes": 362613,
+  "sha256": "f8f2eabc40c673feaf0b9b5fd0747ec3c93fc4b5248e925698d786729d55f1ec"
+ },
+ {
+  "path": "data/COL/groundtruth/q1000_seed42_natural_medium_tau2000_k10.tsv",
+  "bytes": 364216,
+  "sha256": "b8707b9df738e66032e6b70f6f7c1a835045c95d97e9a25d7235eedc276094a4"
+ },
+ {
+  "path": "data/COL/groundtruth/q1000_seed42_natural_medium_tau3000_k10.tsv",
+  "bytes": 364519,
+  "sha256": "3fb4832f6e420c99e363d5fc0374550ed6dda83a129047015fd842d08a465dfe"
+ },
+ {
+  "path": "data/COL/groundtruth/q1000_seed42_natural_medium_tau4000_k10.tsv",
+  "bytes": 364452,
+  "sha256": "e3fc55e4f255c39d663499eebf8986f700c2ed723b34611feb2e3ed255718aae"
+ },
+ {
+  "path": "data/COL/groundtruth/q1000_seed42_natural_medium_tau5000_k10.tsv",
+  "bytes": 364176,
+  "sha256": "8f6851e489894b5a2eafb9ad63156ccecb3a64114caa3749f1d45b7c170ba10e"
+ },
+ {
+  "path": "data/COL/groundtruth/q1000_seed42_popular_tau5000_k10.tsv",
+  "bytes": 362676,
+  "sha256": "400cab315e50e0dc93d7a2876c0bb3f9f025ffbe4ea2d0055ece6ddf11142b3d"
+ },
+ {
+  "path": "data/COL/groundtruth/q1000_seed42_rare_tau5000_k10.tsv",
+  "bytes": 368298,
+  "sha256": "5890690b8cb54705dea131642e885ea56751763bbfd86ba257efda91071abe47"
+ },
+ {
+  "path": "data/COL/groundtruth/q10_seed42_natural_medium_tau5000_k10.tsv",
+  "bytes": 3699,
+  "sha256": "d8cf7966c8427566d0996bdeb4de3960dfda6d84d2ed2d213c1ea6dd53a75b09"
+ },
+ {
+  "path": "data/COL/order.txt",
+  "bytes": 2938552,
+  "sha256": "01e4421faab5e3ea4c421d4613db93907d43d27ec0aab8060e294fea2e1f73de"
+ },
+ {
+  "path": "data/COL/poi.fvecs",
+  "bytes": 969678240,
+  "sha256": "7623fa5820e894e6ec3a4ef0c5f64e95420b4e29c94d2df70d1521564ca63ee7"
+ },
+ {
+  "path": "data/COL/poi_node_mapping_Ext3.txt",
+  "bytes": 7637392,
+  "sha256": "0a92d6d67b7ad8ccc2036dd79e03e4545f66e4e5d61fe4a683a3f39dfea41c06"
+ },
+ {
+  "path": "data/COL/processed/category_level1_groups.json",
+  "bytes": 21250,
+  "sha256": "36d4f5d040066a001627eb818e88d43991e13a3edd8b08ef779cad8e531033dd"
+ },
+ {
+  "path": "data/COL/queries/q1000_seed42_medium.fvecs",
+  "bytes": 3076000,
+  "sha256": "bb954eeb8f838acd89f57dff84c799a46fdcc3fcac878fd6dea0f9c264702bb9"
+ },
+ {
+  "path": "data/COL/queries/q1000_seed42_medium.manifest.json",
+  "bytes": 525,
+  "sha256": "28453c566e07b89288dc79cf9a4ef61ac83715b32b14dff3727ac5dc93c1c48c"
+ },
+ {
+  "path": "data/COL/queries/q1000_seed42_medium.meta.tsv",
+  "bytes": 31699,
+  "sha256": "b4a7924843f1d6b14250a76a36d7552cdf1b5a47821bcd89046f145397c89d9d"
+ },
+ {
+  "path": "data/COL/queries/q1000_seed42_natural_medium.fvecs",
+  "bytes": 3076000,
+  "sha256": "c2fda19e1713014e6b09d71689534bd136b2d540fcf8efa6b354b03f2b1c1a6e"
+ },
+ {
+  "path": "data/COL/queries/q1000_seed42_natural_medium.manifest.json",
+  "bytes": 866,
+  "sha256": "4ac331106805ce9b32dfd51677521584d38cdd4c35dadf4179f42078e448d22f"
+ },
+ {
+  "path": "data/COL/queries/q1000_seed42_natural_medium.meta.tsv",
+  "bytes": 52115,
+  "sha256": "ae9071ad7adafea1b656201dcc3f4c45974d002c726e1e781c8addf556fff978"
+ },
+ {
+  "path": "data/COL/queries/q1000_seed42_natural_popular.fvecs",
+  "bytes": 3076000,
+  "sha256": "a81053438ed87014d954c6afc082e1b10549fd7208c31b03c9a89f620c27db55"
+ },
+ {
+  "path": "data/COL/queries/q1000_seed42_natural_popular.manifest.json",
+  "bytes": 857,
+  "sha256": "3e623b9f605afc61727e5b6eb61ec4878a1a4bce9544e826d09c0f76a842506a"
+ },
+ {
+  "path": "data/COL/queries/q1000_seed42_natural_popular.meta.tsv",
+  "bytes": 51915,
+  "sha256": "3c5740a269c0f43cd7c60298b4ee789b9718e5a805f2a298fed90201e827e8c8"
+ },
+ {
+  "path": "data/COL/queries/q1000_seed42_natural_rare.fvecs",
+  "bytes": 3076000,
+  "sha256": "2f6d691e1bafa8b1dcc045df37f6175c902e2d48314c4a971a831d70c35931fb"
+ },
+ {
+  "path": "data/COL/queries/q1000_seed42_natural_rare.manifest.json",
+  "bytes": 837,
+  "sha256": "e9dcb35f93ce1d96302689410bf3e559f5f76b5da9cfe0df0c53a5455a1fa905"
+ },
+ {
+  "path": "data/COL/queries/q1000_seed42_natural_rare.meta.tsv",
+  "bytes": 48129,
+  "sha256": "21d2ea5018e8c2b7596c2d13ddca92558effa8f4bb293f9b96c9398f69604c23"
+ },
+ {
+  "path": "data/COL/queries/q1000_seed42_popular.fvecs",
+  "bytes": 3076000,
+  "sha256": "126f772911337e51e25b46b69b6ae1c2f869fdc1910ef09878e7a5975ecd8277"
+ },
+ {
+  "path": "data/COL/queries/q1000_seed42_popular.manifest.json",
+  "bytes": 524,
+  "sha256": "fb2e6f4c955b7e2eb64163a4e665980202f3f18795cb5e7be8aa877a3a176616"
+ },
+ {
+  "path": "data/COL/queries/q1000_seed42_popular.meta.tsv",
+  "bytes": 32193,
+  "sha256": "f83e2ec3c16714e87a9c2b0318d88454888a78b52ec8f7ff2fceff2a93bbd79f"
+ },
+ {
+  "path": "data/COL/queries/q1000_seed42_rare.fvecs",
+  "bytes": 3076000,
+  "sha256": "26cf81b3bfc98923aed8a7f898c40eb8631c77ef092f4a70f6e00a18f28f11c1"
+ },
+ {
+  "path": "data/COL/queries/q1000_seed42_rare.manifest.json",
+  "bytes": 542,
+  "sha256": "8ac60c12ae3a7bdaed37a8cd1f6e4ffbe69584a150191d391afd2983b7314050"
+ },
+ {
+  "path": "data/COL/queries/q1000_seed42_rare.meta.tsv",
+  "bytes": 32025,
+  "sha256": "596adf916267881908ae7d9a892d2f90926d5dc5ea6260865482911746c15275"
+ },
+ {
+  "path": "data/COL/queries/q10_seed42_natural_medium.fvecs",
+  "bytes": 30760,
+  "sha256": "212b264d5a422e7c26c4071830068afb9d3df62ae0c2017784d424b324e6625c"
+ },
+ {
+  "path": "data/COL/queries/q10_seed42_natural_medium.manifest.json",
+  "bytes": 1231,
+  "sha256": "1d60cdea62cb768a8ec4937fc1573df6b6cee3bc6e70e79dd701e4c34bf7e875"
+ },
+ {
+  "path": "data/COL/queries/q10_seed42_natural_medium.meta.tsv",
+  "bytes": 566,
+  "sha256": "d9022040484710beb561ecbd7616138e0b48372beb938d91d205c90878d72dfa"
+ },
+ {
+  "path": "data/COL/queries/q1500_seed20260807_natural_medium.fvecs",
+  "bytes": 4614000,
+  "sha256": "40352728b6714ffc6491209cac2e79811161a3711a7a954d6622d419e1714471"
+ },
+ {
+  "path": "data/COL/queries/q1500_seed20260807_natural_medium.manifest.json",
+  "bytes": 879,
+  "sha256": "3bed87b742bb5014ea32ddff614f2eda742f707cac0aab49a1c2e5d720475ab3"
+ },
+ {
+  "path": "data/COL/queries/q1500_seed20260807_natural_medium.meta.tsv",
+  "bytes": 87806,
+  "sha256": "838e8ea4977302e356cf340e056dedeae67a4ad2172ebda8d9f9b808c274c9a0"
+ },
+ {
+  "path": "data/NYC/POInames_ID.txt",
+  "bytes": 26527699,
+  "sha256": "6cfbdaa414beba23fc43c13f4322b586c34b916ddd1bfe336814342dde4ec8cc"
+ },
+ {
+  "path": "data/NYC/USA-road-d.NYC.co",
+  "bytes": 7290774,
+  "sha256": "b810f32f9661625882104463fd510b60ce3ca1089d406cba35384b86987deda7"
+ },
+ {
+  "path": "data/NYC/USA-road-d.NYC.gr",
+  "bytes": 14437459,
+  "sha256": "37f5b3eff82330850466956b6c036a8ab8551512bdc7509edca1d4c6cf943fa3"
+ },
+ {
+  "path": "data/NYC/cat.fvecs",
+  "bytes": 3829620,
+  "sha256": "df887d9b67d0df117fba39557a8955e8676ed87c67c1a961c8bb914b8de85872"
+ },
+ {
+  "path": "data/NYC/categories.txt",
+  "bytes": 23985,
+  "sha256": "5e087cebb9679e86170d051ff1760df7cd8653def855c8d7a082de1f3b7b69a7"
+ },
+ {
+  "path": "data/NYC/categories_sorted.csv",
+  "bytes": 307270,
+  "sha256": "7e5da095f4fe15e149ceb23afeaed070efc082fe442167b3bbdeb9ba0e290f48"
+ },
+ {
+  "path": "data/NYC/groundtruth/484357{tag}_tau1000_k10.tsv",
+  "bytes": 371941,
+  "sha256": "9d57c8cf4e11e81e655808e1dbc7c46b558514b1105ece0e6324dc23b7ceb721"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_medium_tau1000_k10.tsv",
+  "bytes": 371837,
+  "sha256": "975fa80556e453fc7093df97ccd2b8c0cb5049f75f55ee3a30ad0efb0ed0b91e"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_medium_tau2000_k10.tsv",
+  "bytes": 371432,
+  "sha256": "9d0ab57147b440d1a37b40edde9588b18801475148308a2ecddde3752e4e8b8b"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_medium_tau3000_k10.tsv",
+  "bytes": 371771,
+  "sha256": "b1f4151c455eb78add33cfae0f6f4e09fe03553bef98c391795fbf9df2e2e24d"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_medium_tau4000_k10.tsv",
+  "bytes": 370912,
+  "sha256": "e64b9c59ce711dd541382e2a8c0f66326ebdb0450a497ddd7fbd073cb0b1252a"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_medium_tau5000_k10.tsv",
+  "bytes": 371885,
+  "sha256": "aecc735d2a30c6a5dfe2da594a0fbc6da6aca37c4f0458e5dc77e89f1452ab39"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_medium_tau5000_k2.tsv",
+  "bytes": 74302,
+  "sha256": "6adb42e24401d94ce02006e36a520bba5e15aae93fd6319cb77cc498afaf4057"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_medium_tau5000_k4.tsv",
+  "bytes": 152380,
+  "sha256": "b6f70f8b6e4761f89c87d5ff052c8f7bc25ad448156d5e7750fa1a66fb9f0533"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_medium_tau5000_k6.tsv",
+  "bytes": 228520,
+  "sha256": "48f06844a60e94245f5b4442318edd579413dadb18017298284ec906cfa3a721"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_medium_tau5000_k8.tsv",
+  "bytes": 304677,
+  "sha256": "576d1993440d23ee7c846a43f62c7184c0f2f8ce44231efd0690287e216bee4a"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_medium_tau7000_k10.tsv",
+  "bytes": 371916,
+  "sha256": "4169cbc06b0f22954078d3470910b7afd9daa8b447ac1cb5070231805c8ba36e"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_medium_tau9000_k10.tsv",
+  "bytes": 371936,
+  "sha256": "a387ec20cc0927115251671a7f464d6537821a31a9c03c5ea6ecc0127073cd3c"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau1000_k10.tsv",
+  "bytes": 371941,
+  "sha256": "9d57c8cf4e11e81e655808e1dbc7c46b558514b1105ece0e6324dc23b7ceb721"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau1500_k10.tsv",
+  "bytes": 371776,
+  "sha256": "323059829bbeb7dfa1ff02d5c7442cec70ab6257a07df009107d5826e87a33e9"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau2000_k10.tsv",
+  "bytes": 371585,
+  "sha256": "c50f5d33f9e55c8f2009ae61a9fc818a6f4bb204abc589d985808a2d2320ffbc"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau3000_k10.tsv",
+  "bytes": 371312,
+  "sha256": "0f0e0b6d60b6494149d6b80e2036cb73c2c862dfe9fc739066920c51bcd8826e"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau4000_k10.tsv",
+  "bytes": 371058,
+  "sha256": "1114d02a16fb2075195b6b0cd3dcd724d5546b81f60fd5aa010e01bfae946baf"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau5000_k10.tsv",
+  "bytes": 370729,
+  "sha256": "7434d25b431de1a9dd81609d6d43ae6d85e0562a736377e603f58b94d66d8a23"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau5000_k2.tsv",
+  "bytes": 75898,
+  "sha256": "41ca515ec7c39250b2a5aa9f4e88d9563906a64a4ad4f9305fb6f2f4d0444496"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau5000_k4.tsv",
+  "bytes": 151824,
+  "sha256": "986fa4dfd493b3e10be567f66d1a92223f05addc908f1c44eae2ff6668f24240"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau5000_k6.tsv",
+  "bytes": 227767,
+  "sha256": "8ee543d46c3396d4f3c87ae359385eeed345ab43477cd134c3720cad0ac69f67"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau5000_k8.tsv",
+  "bytes": 303753,
+  "sha256": "41ad451277eb0d261faa22e7b88d0909c7c1fadb2bf247e0fcea82907d4df826"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_natural_medium_tau500_k10.tsv",
+  "bytes": 372228,
+  "sha256": "c53e972a85c01e73491bb1d316555889e652a3bda348e6e264bb67b2736bb905"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_natural_popular_tau5000_k10.tsv",
+  "bytes": 368610,
+  "sha256": "38a74d8e2eae198562dd41d677eb6b541b2189a1a05ed92aad80ff74edd38775"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_natural_rare_tau5000_k10.tsv",
+  "bytes": 374010,
+  "sha256": "a8b882d9ea459a1600333dad0c23d369c640b329f1bcafe5a9e5a5ad16ab19e8"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_popular_tau5000_k10.tsv",
+  "bytes": 370576,
+  "sha256": "64a799d7aad9c0c5880de3de47e6a716c8c65a0b660ee29bbc30f70ec12e1552"
+ },
+ {
+  "path": "data/NYC/groundtruth/q1000_seed42_rare_tau5000_k10.tsv",
+  "bytes": 374915,
+  "sha256": "f3dea9b2e772f8feb7516ca31ee5b0b7d60c452d65ac6d954cbc045e2893a143"
+ },
+ {
+  "path": "data/NYC/groundtruth/q10_seed42_natural_medium_tau5000_k10.tsv",
+  "bytes": 3710,
+  "sha256": "6403a070082cc04559056bf7d9e28c49981454ce0b7475f7742b4640861f2106"
+ },
+ {
+  "path": "data/NYC/groundtruth/q20_seed42_medium_tau1000_k10.tsv",
+  "bytes": 7175,
+  "sha256": "711adc0de9de1150f17def6b1beec8914a36d228ad0027b3bfe8e52e11336541"
+ },
+ {
+  "path": "data/NYC/groundtruth/q20_seed42_medium_tau3000_k10.tsv",
+  "bytes": 7192,
+  "sha256": "3f133387db23b685a0d5d7570d5ea7b81dc14da10cbab05a6133db6bd1e6561f"
+ },
+ {
+  "path": "data/NYC/groundtruth/q20_seed42_medium_tau50000_k10.tsv",
+  "bytes": 483,
+  "sha256": "68ce4c65c27ba05b09a55f54a5bf1dc59fb96a1c39cc146b6ece47e91d3e6efa"
+ },
+ {
+  "path": "data/NYC/groundtruth/q20_seed42_medium_tau5000_k10.tsv",
+  "bytes": 7193,
+  "sha256": "43be4d90825584cf9e4ccac356fc16844b58559bda00cbce28ed2a2fb59c9e9e"
+ },
+ {
+  "path": "data/NYC/groundtruth/q20_seed42_medium_tau5000_k2.tsv",
+  "bytes": 1475,
+  "sha256": "3994459cc8bd012db289d63e3ea787e92d24caff2c90d92f524e5597bf8cf0df"
+ },
+ {
+  "path": "data/NYC/groundtruth/q20_seed42_medium_tau5000_k20.tsv",
+  "bytes": 14499,
+  "sha256": "b72109e54a2c10a278f8aec0ddca89b540d2457eedb5fa1ed3f0ef475d5f3a2a"
+ },
+ {
+  "path": "data/NYC/groundtruth/q20_seed42_medium_tau5000_k30.tsv",
+  "bytes": 21806,
+  "sha256": "783a370fe34b794344139c15a4f98819aad956e8d0d55b40c2335e6dce11f672"
+ },
+ {
+  "path": "data/NYC/groundtruth/q20_seed42_medium_tau5000_k4.tsv",
+  "bytes": 2898,
+  "sha256": "0a8801835428031f519dac27088691f7396db008288d6943982af7c00d77818b"
+ },
+ {
+  "path": "data/NYC/groundtruth/q20_seed42_medium_tau5000_k40.tsv",
+  "bytes": 29119,
+  "sha256": "d14b9c2c186500d014060186354638f5e5880b909f50d31cd07074ca7e271b57"
+ },
+ {
+  "path": "data/NYC/groundtruth/q20_seed42_medium_tau5000_k50.tsv",
+  "bytes": 36427,
+  "sha256": "a00f3dff5a065b446f495b233f0e91a93c01f82716e675506e32978187a613e8"
+ },
+ {
+  "path": "data/NYC/groundtruth/q20_seed42_medium_tau5000_k6.tsv",
+  "bytes": 4325,
+  "sha256": "d3e36859887666d2f59429bd7f6492bc19529f2fb28167abdbfce7c6176f7599"
+ },
+ {
+  "path": "data/NYC/groundtruth/q20_seed42_medium_tau5000_k8.tsv",
+  "bytes": 5746,
+  "sha256": "910721c9e83e0e8d9298ad9b82b37c9b427d4de1f81810bd67122fdea1f1f2a2"
+ },
+ {
+  "path": "data/NYC/groundtruth/q20_seed42_medium_tau7000_k10.tsv",
+  "bytes": 7196,
+  "sha256": "ff064368fe4b5626beaef527b118f23f008c897e9370f5b9dc2a644dd5aa6c4b"
+ },
+ {
+  "path": "data/NYC/groundtruth/q20_seed42_medium_tau9000_k10.tsv",
+  "bytes": 7198,
+  "sha256": "a6cd2a01be49be9d3912f666cdc3223248eb3d28e74ca626776daa485b98837d"
+ },
+ {
+  "path": "data/NYC/groundtruth/q500_seed20260808_natural_medium_tau10000_k10.tsv",
+  "bytes": 183398,
+  "sha256": "cda5993cdbc34fc1d1bb20364e3b7b93628994ffac2606e3ad455f62283e7a56"
+ },
+ {
+  "path": "data/NYC/groundtruth/q500_seed20260808_natural_medium_tau2000_k10.tsv",
+  "bytes": 185283,
+  "sha256": "43576934145a18d9c3790df8c0cd99536c19fe6cfd33fe57586f1c93385de2be"
+ },
+ {
+  "path": "data/NYC/groundtruth/q500_seed20260808_natural_medium_tau4000_k10.tsv",
+  "bytes": 185075,
+  "sha256": "2c9e72719d422d9ddc27121bf0a9a0f77a02bf6ee9aa3ef3a0cee1d3dae84760"
+ },
+ {
+  "path": "data/NYC/groundtruth/q500_seed20260808_natural_medium_tau6000_k10.tsv",
+  "bytes": 184662,
+  "sha256": "1a02f7449a1ad509bc65da942bdcd9dd300549b75965ba6ff5a5595dd8b641d1"
+ },
+ {
+  "path": "data/NYC/groundtruth/q500_seed20260808_natural_medium_tau8000_k10.tsv",
+  "bytes": 184066,
+  "sha256": "99160ef88c8b6fe915d7d29b851c03b720028b53775ae4095bf030f8851f785b"
+ },
+ {
+  "path": "data/NYC/order.txt",
+  "bytes": 1739312,
+  "sha256": "a30efd4829780e87fec2e1b2d48f0a5b6615cc8ac46fb4d2dc2f46a867fd26b6"
+ },
+ {
+  "path": "data/NYC/poi.fvecs",
+  "bytes": 2915282076,
+  "sha256": "1b12d24ce64c15f55db1eb84e1656c67da8741a03c50ba712dbbbc33abff6eea"
+ },
+ {
+  "path": "data/NYC/poi_node_mapping_Ext3.txt",
+  "bytes": 21409402,
+  "sha256": "7ebc96e9cc35c73d32b6917d28cd685fa8f113d190a1bb3f111501fadf416c32"
+ },
+ {
+  "path": "data/NYC/processed/category_level1_groups.json",
+  "bytes": 21250,
+  "sha256": "466b2e6e36961f65ddd5e7dbaa2fa89262dff3881d415cfebcc82d1102653961"
+ },
+ {
+  "path": "data/NYC/queries/q1000_seed42_medium.fvecs",
+  "bytes": 3076000,
+  "sha256": "ab256f7f60e50c72487e67723deea84abdc7a592deea3eeba2075ade24998a4e"
+ },
+ {
+  "path": "data/NYC/queries/q1000_seed42_medium.manifest.json",
+  "bytes": 525,
+  "sha256": "688d34ba329847aad7539b267d6ea4e23231f355159a78d2c1625ef3b3b62543"
+ },
+ {
+  "path": "data/NYC/queries/q1000_seed42_medium.meta.tsv",
+  "bytes": 31815,
+  "sha256": "7fa0450c9c72f32ad1f6afc1d3faa28c732c14c5fcb7dd7804fa4a27d433a254"
+ },
+ {
+  "path": "data/NYC/queries/q1000_seed42_natural_medium.fvecs",
+  "bytes": 3076000,
+  "sha256": "257913bd393ee1a88c2ceb07c9350a541c73db4966ee43aacedebe8d457daf64"
+ },
+ {
+  "path": "data/NYC/queries/q1000_seed42_natural_medium.manifest.json",
+  "bytes": 866,
+  "sha256": "18993c3747f2c63a183129600187d941055b614e0a56d4031444f376ced5cc56"
+ },
+ {
+  "path": "data/NYC/queries/q1000_seed42_natural_medium.meta.tsv",
+  "bytes": 52356,
+  "sha256": "3c06892124eb83737651e20b9f143e2bc498667f02b25e53c937926142a13c47"
+ },
+ {
+  "path": "data/NYC/queries/q1000_seed42_natural_popular.fvecs",
+  "bytes": 3076000,
+  "sha256": "6fec7df75a7febf625e237ae0a64c538ca471000998c5cc1745a77dd134c4a7e"
+ },
+ {
+  "path": "data/NYC/queries/q1000_seed42_natural_popular.manifest.json",
+  "bytes": 857,
+  "sha256": "9bd3a9638a118f11a83b5a158b3b65ff034253396dfca232a0ea76c40f8fbf0e"
+ },
+ {
+  "path": "data/NYC/queries/q1000_seed42_natural_popular.meta.tsv",
+  "bytes": 52039,
+  "sha256": "bc151d9078a71781ed3ae0463268b6021966104f04bc4eadd302cfe7083db1de"
+ },
+ {
+  "path": "data/NYC/queries/q1000_seed42_natural_rare.fvecs",
+  "bytes": 3076000,
+  "sha256": "562a569b7809a8e5bb26613405594d0ca3fd5b55c9b5586f50f1053d1d6ad6a4"
+ },
+ {
+  "path": "data/NYC/queries/q1000_seed42_natural_rare.manifest.json",
+  "bytes": 837,
+  "sha256": "30e3fd3816da7231cbc50cf9393bf41ffeab008183467108e44f89d90ccc7170"
+ },
+ {
+  "path": "data/NYC/queries/q1000_seed42_natural_rare.meta.tsv",
+  "bytes": 48077,
+  "sha256": "60bee2d56206584e5f0b44636cb57190c7b91108c8bac110097e193a2a89eeb1"
+ },
+ {
+  "path": "data/NYC/queries/q1000_seed42_popular.fvecs",
+  "bytes": 3076000,
+  "sha256": "c44974acba65b1a70c76519b5ea2c88ed860cc49b91f0540bf057ddb439b61ab"
+ },
+ {
+  "path": "data/NYC/queries/q1000_seed42_popular.manifest.json",
+  "bytes": 524,
+  "sha256": "db297aa7a51e179314ce723f1e45cf84d120b0f384748613ff63a0ffa8c120a9"
+ },
+ {
+  "path": "data/NYC/queries/q1000_seed42_popular.meta.tsv",
+  "bytes": 32246,
+  "sha256": "10f5c8477ad04a9dbc41993b9aed3b1aa3837b1262538c124670a6c9dd7f8702"
+ },
+ {
+  "path": "data/NYC/queries/q1000_seed42_rare.fvecs",
+  "bytes": 3076000,
+  "sha256": "4c03e9240a6e463763b4b60ff84e7604ce3b2a2bc6d3ec382bac7090c0d18315"
+ },
+ {
+  "path": "data/NYC/queries/q1000_seed42_rare.manifest.json",
+  "bytes": 542,
+  "sha256": "360c0e19544b16c168ad079857e176a007f8b331b12bd0013352970423eba903"
+ },
+ {
+  "path": "data/NYC/queries/q1000_seed42_rare.meta.tsv",
+  "bytes": 31916,
+  "sha256": "0ef6809bdb098e98c7cafb2a727fdacfbf0f197cfe2d24d0dd0f153637b181a5"
+ },
+ {
+  "path": "data/NYC/queries/q10_seed42_natural_medium.fvecs",
+  "bytes": 30760,
+  "sha256": "27bc4ab8a538f617b9800e5c6dcac971507644a544950c27491e3ad204d3fa63"
+ },
+ {
+  "path": "data/NYC/queries/q10_seed42_natural_medium.manifest.json",
+  "bytes": 1231,
+  "sha256": "779d6b7473991cb1c4db80c7a3aee09ed1aa65cb16ce65969a39b0646ed7c5aa"
+ },
+ {
+  "path": "data/NYC/queries/q10_seed42_natural_medium.meta.tsv",
+  "bytes": 559,
+  "sha256": "0a5205049a80254bb42993a48d960c1aa712cc2efdb3154af293e34099ea40ce"
+ },
+ {
+  "path": "data/NYC/queries/q1500_seed20260807_natural_medium.fvecs",
+  "bytes": 4614000,
+  "sha256": "8e3b9cec39c6b97fbf1d28d5f1a5fda84750bc40397ecf2489b048a00aa4fee2"
+ },
+ {
+  "path": "data/NYC/queries/q1500_seed20260807_natural_medium.manifest.json",
+  "bytes": 879,
+  "sha256": "0eb86ebd093157607247f2399ebf18dde45310ee3d74c85e799613fd5c4c58bf"
+ },
+ {
+  "path": "data/NYC/queries/q1500_seed20260807_natural_medium.meta.tsv",
+  "bytes": 87664,
+  "sha256": "9035328a0df6a4a1a968ebad0385c0cfd6c75104ec05f60c12648ba692843b89"
+ },
+ {
+  "path": "data/NYC/queries/q20_seed42_medium.fvecs",
+  "bytes": 61520,
+  "sha256": "332f57c8e9e09a8856e6f6a456db9ed3cfa9df75c17a8a10637d93c1321ea4e3"
+ },
+ {
+  "path": "data/NYC/queries/q20_seed42_medium.manifest.json",
+  "bytes": 519,
+  "sha256": "4c2b4f1c6c4f096dead7f26b4274a43c1c8c65fef670a75efa18c7bf14046295"
+ },
+ {
+  "path": "data/NYC/queries/q20_seed42_medium.meta.tsv",
+  "bytes": 690,
+  "sha256": "c2fd412666a78a1b2b2deb38ea975f0e051c5770cc850010dd6fcf6a9b893f50"
+ },
+ {
+  "path": "data/NYC/queries/q500_seed20260808_natural_medium.fvecs",
+  "bytes": 1538000,
+  "sha256": "764a8984fb110c7529e15e5f8806e5d35570760621dc33dfc289ac5713cea3c5"
+ },
+ {
+  "path": "data/NYC/queries/q500_seed20260808_natural_medium.manifest.json",
+  "bytes": 876,
+  "sha256": "615c9c4cfe7f9a6d07296ff383162b42dc83a52a8e1778f9b5df952c5883c50b"
+ },
+ {
+  "path": "data/NYC/queries/q500_seed20260808_natural_medium.meta.tsv",
+  "bytes": 29022,
+  "sha256": "905d487846a9fafec11cef0e5837f3c838bc60e9b30df0abb306c983db1e5679"
+ },
+ {
+  "path": "data/FLA/POInames_ID.txt",
+  "bytes": 35126293,
+  "sha256": "5159a3dae6df54d95abcd5f276853e3af06903d847814c6046e3cddaaa9dcd10"
+ },
+ {
+  "path": "data/FLA/USA-road-d.FLA.co",
+  "bytes": 29930001,
+  "sha256": "e9ef8ff417f2e0b19faf51918b87f7e77d99269fa95726d105fdf47cd893e90d"
+ },
+ {
+  "path": "data/FLA/USA-road-d.FLA.gr",
+  "bytes": 55645328,
+  "sha256": "47a3e851dea2bf27d6c939542e569fa9b5e6f2c8f11e8af3187d87c28435a85d"
+ },
+ {
+  "path": "data/FLA/cat.fvecs",
+  "bytes": 3829620,
+  "sha256": "df887d9b67d0df117fba39557a8955e8676ed87c67c1a961c8bb914b8de85872"
+ },
+ {
+  "path": "data/FLA/categories.txt",
+  "bytes": 23985,
+  "sha256": "5e087cebb9679e86170d051ff1760df7cd8653def855c8d7a082de1f3b7b69a7"
+ },
+ {
+  "path": "data/FLA/categories_sorted.csv",
+  "bytes": 307270,
+  "sha256": "7e5da095f4fe15e149ceb23afeaed070efc082fe442167b3bbdeb9ba0e290f48"
+ },
+ {
+  "path": "data/FLA/groundtruth/q1000_seed42_medium_tau1000_k10.tsv",
+  "bytes": 377515,
+  "sha256": "8840a9fa54be24ccf5072306e9e647fe2e69a47be7588098d9cccd3e3511b08a"
+ },
+ {
+  "path": "data/FLA/groundtruth/q1000_seed42_medium_tau3000_k10.tsv",
+  "bytes": 377714,
+  "sha256": "90d9fd02f24269ae7870373ba8c2718f62e18332468d2b310f3559da604faf35"
+ },
+ {
+  "path": "data/FLA/groundtruth/q1000_seed42_medium_tau5000_k10.tsv",
+  "bytes": 377969,
+  "sha256": "af68620211d7577f64dc221ca160774d7f867f3d517fc7789869d1695eca1735"
+ },
+ {
+  "path": "data/FLA/groundtruth/q1000_seed42_medium_tau5000_k2.tsv",
+  "bytes": 77457,
+  "sha256": "a6a0ddeafd42c3e84d2368e2401700ff32220322504ab23e918dfc2f8e1ae9ba"
+ },
+ {
+  "path": "data/FLA/groundtruth/q1000_seed42_medium_tau5000_k4.tsv",
+  "bytes": 154849,
+  "sha256": "fc54cff7c3f91bf60e93483e43eab4a4d837eb3f535f7213405ed6633832f081"
+ },
+ {
+  "path": "data/FLA/groundtruth/q1000_seed42_medium_tau5000_k6.tsv",
+  "bytes": 232257,
+  "sha256": "d2fb250ddd9aea9668f612287f2b78b8e5baa611b6bba3b5130075383b68f55a"
+ },
+ {
+  "path": "data/FLA/groundtruth/q1000_seed42_medium_tau5000_k8.tsv",
+  "bytes": 309605,
+  "sha256": "64c8670aae8e5e90b5dba25b2fad84db543db466d2181e8cf6fce043099f00a5"
+ },
+ {
+  "path": "data/FLA/groundtruth/q1000_seed42_medium_tau7000_k10.tsv",
+  "bytes": 378107,
+  "sha256": "38e90c026cd10cdbf7caf642fff21274f3e10b1c56f361cdff7d6bdcd8861a23"
+ },
+ {
+  "path": "data/FLA/groundtruth/q1000_seed42_medium_tau9000_k10.tsv",
+  "bytes": 378275,
+  "sha256": "6664092f1169d77b3817f0e5feee016590f7b197344b201fe47b0d0ee690882a"
+ },
+ {
+  "path": "data/FLA/groundtruth/q1000_seed42_natural_medium_tau1000_k10.tsv",
+  "bytes": 377519,
+  "sha256": "f354093eb4aa45f43e3765c390b721dfe99812b938e5b0603e7f4fee5187aafc"
+ },
+ {
+  "path": "data/FLA/groundtruth/q1000_seed42_natural_medium_tau2000_k10.tsv",
+  "bytes": 377847,
+  "sha256": "2833b212cb474b133cd3f9f321f371760ab0a28e3274bf9421177414f38722f0"
+ },
+ {
+  "path": "data/FLA/groundtruth/q1000_seed42_natural_medium_tau3000_k10.tsv",
+  "bytes": 377923,
+  "sha256": "f79802d20f2559d6d0f3c0cd310e2b3c0ff19405144d6615912e3f4972d581f3"
+ },
+ {
+  "path": "data/FLA/groundtruth/q1000_seed42_natural_medium_tau4000_k10.tsv",
+  "bytes": 377837,
+  "sha256": "2e8625a0376d6f8431c54dec45e7c9325859e4231b813a78363a4e13d0ac0c8e"
+ },
+ {
+  "path": "data/FLA/groundtruth/q1000_seed42_natural_medium_tau5000_k10.tsv",
+  "bytes": 377747,
+  "sha256": "3a71ad274f8402f1483dd8a4915c7e2eaef500eb4c942376133ea238b6a2b706"
+ },
+ {
+  "path": "data/FLA/groundtruth/q1000_seed42_popular_tau5000_k10.tsv",
+  "bytes": 375295,
+  "sha256": "59808fd2d67b614ff0fd1a5f34dbe0cdc6b75ed7cae5304bd372196d51e12e0b"
+ },
+ {
+  "path": "data/FLA/groundtruth/q1000_seed42_rare_tau5000_k10.tsv",
+  "bytes": 381065,
+  "sha256": "8d393f3a59419088e41e9847c9e51a9f5c22493568b36a28a90ca246552682f3"
+ },
+ {
+  "path": "data/FLA/groundtruth/q10_seed42_natural_medium_tau5000_k10.tsv",
+  "bytes": 3839,
+  "sha256": "640d97421ac108082af06de57b56198cda2bb4122cecc0833f562bedf428a44a"
+ },
+ {
+  "path": "data/FLA/order.txt",
+  "bytes": 7451898,
+  "sha256": "ed3108b63daa87870f87aab749426122979ece7008a5f8177b3e7f889a62582b"
+ },
+ {
+  "path": "data/FLA/poi.fvecs",
+  "bytes": 3661851884,
+  "sha256": "04e981b5791ece8fe01bb40a91ff89cd01eadb5e3e312a6faa08aa7634d5c001"
+ },
+ {
+  "path": "data/FLA/poi_node_mapping_Ext3.txt",
+  "bytes": 30087346,
+  "sha256": "2256b06e4e3d8eaf50de1ba730674323de580dd02ba7c9e3ace41d36e7ec57a6"
+ },
+ {
+  "path": "data/FLA/processed/category_level1_groups.json",
+  "bytes": 21250,
+  "sha256": "9301c1db5fbb08da06ecc3c96e5a80158c0ccb5a5dda5353737aa2fe2d7a0c65"
+ },
+ {
+  "path": "data/FLA/queries/q1000_seed42_medium.fvecs",
+  "bytes": 3076000,
+  "sha256": "a38204333c0064f7851738e72f5d84cbc7a7bf433682a5516b5f94d0ff337431"
+ },
+ {
+  "path": "data/FLA/queries/q1000_seed42_medium.manifest.json",
+  "bytes": 525,
+  "sha256": "8a3037fea5eddf734919cdc91a6728ae19b6cc9faac4d92f6052436d3949a593"
+ },
+ {
+  "path": "data/FLA/queries/q1000_seed42_medium.meta.tsv",
+  "bytes": 31880,
+  "sha256": "e550f3fc55ff39fc8b8fc56dd22de135b7d1520602fa2bc49ed66963a275b04f"
+ },
+ {
+  "path": "data/FLA/queries/q1000_seed42_natural_medium.fvecs",
+  "bytes": 3076000,
+  "sha256": "f660e0706d1f112c7e9e06b6391a91ff21f947100d9a6bb42ff0cb02fc55233b"
+ },
+ {
+  "path": "data/FLA/queries/q1000_seed42_natural_medium.manifest.json",
+  "bytes": 866,
+  "sha256": "6c033c8ca1633ae959508f89f6b768cfb9b392abebb0d38563ba1665449b1968"
+ },
+ {
+  "path": "data/FLA/queries/q1000_seed42_natural_medium.meta.tsv",
+  "bytes": 52457,
+  "sha256": "90a842a381372763a0d99b7f4ae5d94ce53b20e14aac1c5dc7230f4b0cd7298b"
+ },
+ {
+  "path": "data/FLA/queries/q1000_seed42_natural_popular.fvecs",
+  "bytes": 3076000,
+  "sha256": "a22eb0e9c393125362aa949cee4663bc9af4aa15d6a7c2a8eb05ec20271c5c7a"
+ },
+ {
+  "path": "data/FLA/queries/q1000_seed42_natural_popular.manifest.json",
+  "bytes": 857,
+  "sha256": "feea9a2a021552815a3d011020c554c34ce6fe7abda385c55a00a975e3449fda"
+ },
+ {
+  "path": "data/FLA/queries/q1000_seed42_natural_popular.meta.tsv",
+  "bytes": 52319,
+  "sha256": "1a7cc1ab27128bfcafbd749d036b1f73fc5d2641d9db06b48bba871b9d007226"
+ },
+ {
+  "path": "data/FLA/queries/q1000_seed42_natural_rare.fvecs",
+  "bytes": 3076000,
+  "sha256": "c3f22f6caedaca7dad59a30e36e84edb2b27f8fb81a966e9877eae9aa7ed3df1"
+ },
+ {
+  "path": "data/FLA/queries/q1000_seed42_natural_rare.manifest.json",
+  "bytes": 837,
+  "sha256": "1b499d7d5f9fb699345e5660b0faaa5624916c7a9b1fa2353e5bbee4627aed50"
+ },
+ {
+  "path": "data/FLA/queries/q1000_seed42_natural_rare.meta.tsv",
+  "bytes": 48186,
+  "sha256": "c55860471567af23677986788b29a883ba9895f3e3e2df0b6d468e209e2890ae"
+ },
+ {
+  "path": "data/FLA/queries/q1000_seed42_popular.fvecs",
+  "bytes": 3076000,
+  "sha256": "86e96951534805cab4045df2d79d37277deffb88a1bd62a3721d1bbae1dc512f"
+ },
+ {
+  "path": "data/FLA/queries/q1000_seed42_popular.manifest.json",
+  "bytes": 524,
+  "sha256": "63a16ae89f455146606cdaf64f4efa80f1df8778f99bec87875183f7b7f400b2"
+ },
+ {
+  "path": "data/FLA/queries/q1000_seed42_popular.meta.tsv",
+  "bytes": 32490,
+  "sha256": "80d0e30f07375c72a0449935cf58d996454171269da2a4a4aef6df87c47a7c83"
+ },
+ {
+  "path": "data/FLA/queries/q1000_seed42_rare.fvecs",
+  "bytes": 3076000,
+  "sha256": "2a5e4d07856955614708d66cf1b6c784ce40717461bfd5344c9b7a695c8b3ac8"
+ },
+ {
+  "path": "data/FLA/queries/q1000_seed42_rare.manifest.json",
+  "bytes": 542,
+  "sha256": "950eef87c6baea0d061bc58fc5bff60e16c6b760d0983cfb8a24624750e564b5"
+ },
+ {
+  "path": "data/FLA/queries/q1000_seed42_rare.meta.tsv",
+  "bytes": 32153,
+  "sha256": "d82bb12f27f5b3fdb8e7086259a3ebc059d295001d5d1235826a7f5464e2f839"
+ },
+ {
+  "path": "data/FLA/queries/q10_seed42_natural_medium.fvecs",
+  "bytes": 30760,
+  "sha256": "3e88c81312b7e8023523152ac53b83b5492314c6ded0d897a4529a9556e0649f"
+ },
+ {
+  "path": "data/FLA/queries/q10_seed42_natural_medium.manifest.json",
+  "bytes": 1231,
+  "sha256": "1ba65f4204d331ca3e830e49b112a6136667248ae64a1d053347990b80a8647d"
+ },
+ {
+  "path": "data/FLA/queries/q10_seed42_natural_medium.meta.tsv",
+  "bytes": 568,
+  "sha256": "51de1f0563e630ad53821d5255f2f5f0313b8b6d2b9bf2037539bf7c6c5ec89f"
+ },
+ {
+  "path": "data/FLA/queries/q1500_seed20260807_natural_medium.fvecs",
+  "bytes": 4614000,
+  "sha256": "907c7aaf10dcf8d2310e9ab72fe7d5b87bde41ddd62a33908633687465b821e3"
+ },
+ {
+  "path": "data/FLA/queries/q1500_seed20260807_natural_medium.manifest.json",
+  "bytes": 879,
+  "sha256": "d526845e19971cac647b0fb2ef4bea702f2b530a3b60eea6f5b0a73ff9e6c169"
+ },
+ {
+  "path": "data/FLA/queries/q1500_seed20260807_natural_medium.meta.tsv",
+  "bytes": 88399,
+  "sha256": "a80d4cd8e1a9f2c91d74c316cd50f176c511547b9710efc85741b1cc70c17da4"
+ }
+]

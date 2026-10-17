@@ -1,0 +1,25 @@
+name: Build and dataset-free checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  linux:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check final matrices and portable configuration
+        run: python3 -m unittest discover -s tests -v
+      - name: Compile final experiment entry points (sequentially)
+        run: python3 scripts/build.py
+      - name: Synthetic frequency, mapping, scoring and round-trip checks
+        run: build/bin/mars_accept unit build/toy_acceptance
+      - name: Verify published source hashes
+        run: python3 scripts/verify_sources.py
+      - name: Verify frozen raw results and recompute reported statistics
+        run: |
+          python3 scripts/verify_raw_results.py
+          python3 scripts/verify_results.py

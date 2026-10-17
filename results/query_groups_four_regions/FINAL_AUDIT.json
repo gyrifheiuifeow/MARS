@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "settings": 60,
+  "rounds": 180,
+  "new_rounds": 135,
+  "NYC_reused_rounds": 45,
+  "new_indices": 0,
+  "new_GT_files": 6,
+  "all_three_instances": true,
+  "raw_hashes_verified": true,
+  "statistics": "mean and sample standard deviation",
+  "CPU96_NUMA4_new_regions": true,
+  "NYC_execution_policy_difference_disclosed": true
+}

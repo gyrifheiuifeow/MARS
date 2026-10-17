@@ -1,0 +1,10 @@
+# Preserve the exact frozen source/config bytes across Windows and Linux.
+runtime/** -text
+configs/** -text
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+provenance/** text eol=lf
+licenses/** -text
+results/** -text
+history/** -text

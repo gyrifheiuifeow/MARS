@@ -1,0 +1,12 @@
+{
+  "rounds": 9,
+  "new_rounds": 6,
+  "reused_rounds": 3,
+  "independent_instances": 3,
+  "ef_values": [
+    1600,
+    3200,
+    6400
+  ],
+  "old_ef800_record_preserved_not_expanded": true
+}
