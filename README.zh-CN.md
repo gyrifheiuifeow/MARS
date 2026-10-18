@@ -1,69 +1,130 @@
-# MARS：道路距离约束下的多方面向量检索
+# MARS
 
-这个仓库保存 MARS 的实现、实验输入和各轮测量记录。当前主入口采用 **2026 年 10 月 17 日完成的频率划分版本，默认 α=64、ef=1600**。较早的“类别进入 pivot、名称进入 rest”版本，以及 α32 和其他参数试验，都保留在历史材料中。不同版本的数据没有合并成同一条曲线。
+Efficient Multi-Aspect Road-Constrained Vector Search
 
-如果只是核对论文中的数值，可以先看 `results/alpha64` 和 `results/query_groups_four_regions`。这里不仅有汇总表，也有对应的逐查询 CSV。`python3 scripts/verify_raw_results.py` 会检查原始文件哈希并重新计算 QPS、Recall；`python3 scripts/verify_results.py` 则从逐轮结果重新计算均值和样本标准差。这两步不需要编译程序，也不需要下载向量数据集。
+MARS 面向道路网络中的多方面向量检索，在给定道路距离范围内查找与查询语义相关的对象。
+算法利用道路谓词筛选可达对象，并通过 pivot 倒排表和 rest 语义图检索候选对象。
+本仓库提供 MARS 与四种对比方法的实现、实验脚本、处理好的数据集和逐查询结果。
 
-| 实验 | 对应结果 |
-|---|---|
-| Query Efficiency、随 τ 变化的 QPS/Recall、Pareto | `results/alpha64/Exp1_3_final_summary.csv` |
-| popular、medium、rare 三类查询，四地区、五种方法 | `results/query_groups_four_regions/all_four_regions_summary.csv` |
-| α 参数，11 档、每档三个实例 | `results/alpha64/Alpha_parameter_summary.csv` |
-| α64 版本的 ef 参数 | `results/alpha64/Exp4_MARS_summary.csv` |
-| 去掉 pivot 的 Graph-only | `results/alpha64/Graph_only_summary.csv` |
-| 去掉 rest 的 Pivot-only | `results/alpha64/Exp5_MARS_summary.csv`、`Exp6_MARS_summary.csv` |
-| 道路编译消融 | `results/alpha64/Exp7_paired_road_summary.csv` |
-| 修复后 HNSW 和 α64 MARS 的索引构建、大小、内存 | `results/alpha64/Exp8_final_cost_summary.csv` |
+### 编译
 
-实验编号沿用原始文件名，论文修改过程中编号曾发生变化，因此查找时应以实验含义为准。10 月 17 日单独重跑的原类别版 ef 实验放在 `results/history/original_category_ef_rerun`，它不是 α64 的参数实验。
-
-## 从下载到运行
-
-先克隆仓库。GitHub 仓库如果仍为私有，需要使用已获得访问权限的账号。
+运行环境为支持 AVX2/FMA 的 Linux x86-64，需要 Python 3.12 及以上版本，
+以及支持 OpenMP 的 C++17 编译器。实验使用 GCC 13.3。
+Python 脚本只依赖标准库，使用已有向量进行检索不需要 GPU。
 
 ```bash
 git clone https://github.com/gyrifheiuifeow/MARS__Efficient_Multi_Aspect_Road_Constrained_Vector_Search.git
 cd MARS__Efficient_Multi_Aspect_Road_Constrained_Vector_Search
+python3 scripts/build.py
+```
+
+编译后的 MARS、基线程序和验证程序位于 `build/bin/`。
+仓库包含所需的第三方源码及其许可声明，
+[Dockerfile](Dockerfile) 提供了 Ubuntu 24.04 的构建环境。
+
+### 运行
+
+可以先运行小规模正确性检查，无需下载数据集或构建完整索引：
+
+```bash
+python3 -m unittest discover -s tests -v
+build/bin/mars_accept unit build/toy_acceptance
+```
+
+C++ 检查覆盖频率划分、对象关联、评分，以及索引的保存与加载。
+通过后会输出 `TOY_ACCEPTANCE_PASS`。
+
+下面以 NYC 为例，下载数据、构建一份 MARS 索引，再运行对应的性能实验。
+运行其他地区时，将两条命令中的 `NYC` 替换为数据集表中的地区代码。
+
+```bash
+python3 scripts/fetch_artifacts.py --kind data --output ../mars-artifacts
+python3 scripts/verify_data.py --data-root ../mars-artifacts/MARSExp2
+
+python3 scripts/reproduce.py run \
+  --method MARS --region NYC --rep 1 --stage build \
+  --data-root ../mars-artifacts/MARSExp2 --output-root ../mars-run
+
+python3 scripts/reproduce.py run \
+  --method MARS --region NYC --rep 1 --stage perf \
+  --data-root ../mars-artifacts/MARSExp2 --output-root ../mars-run
+```
+
+索引保存到 `../mars-run/instances/MARS/NYC/rep1`，
+查询结果保存到 `../mars-run/results/MARS/NYC/rep1/perf`。
+构建和查询阶段使用同一个输出根目录。
+运行对比方法时，将两条命令中的 `MARS` 替换为 `HNSW`、`SymphonyQG`、
+`Mesh-Road` 或 `RoadScan`。
+
+完整 MARS 实验会为每个地区分别构建三份索引，随后串行运行各项配置：
+
+```bash
+python3 scripts/run_matrix.py \
+  --data-root ../mars-artifacts/MARSExp2 \
+  --output-root ../mars-full --execute
+```
+
+省略 `--execute` 时，脚本只准备任务文件并打印实验计划。
+该实验矩阵包括 144 轮性能测量和 48 轮独立的阶段诊断。
+额外的 α 参数实验、Graph-only 消融及四地区查询组实验，
+见[实验设置](docs/EXPERIMENTS.md)和[归档说明](docs/ARCHIVE.md)。
+
+已有结果位于 [`results/alpha64/`](results/alpha64/) 和
+[`results/query_groups_four_regions/`](results/query_groups_four_regions/)，
+包括查询效率、随 τ 变化的 QPS 和 Recall、Pareto 曲线、查询组对比、
+参数实验、消融实验及索引构建成本。以下命令可核对原始文件并重新计算汇总值：
+
+```bash
 python3 scripts/verify_sources.py
 python3 scripts/verify_raw_results.py
 python3 scripts/verify_results.py
 ```
 
-正式程序运行在支持 AVX2/FMA 的 Linux x86-64 机器上，使用 C++17、OpenMP 和单线程查询。历史记录中的编译器为 GCC 13.3。Python 工具仅依赖标准库，下载解包工具要求 Python 3.12 及以上。已经提供准备好的向量，查询实验不需要 GPU 或在线调用嵌入模型。`Dockerfile` 给出了 Ubuntu 24.04 的构建环境，实际测量机器的记录见 `provenance/build_environment.json`。
+QPS 按查询条数除以核心查询总耗时计算。Recall 采用实验中的分数阈值标准，
+分母为 `min(k, GT 结果数)`。表中报告各索引实例的均值和样本标准差。
+计时范围、基线参数和索引大小的计算方法见[实验设置](docs/EXPERIMENTS.md)，
+CPU 绑定及各轮运行条件随原始记录保存。
 
-```bash
-python3 scripts/build.py
-python3 -m unittest discover -s tests -v
-build/bin/mars_accept unit build/toy_acceptance
-python3 scripts/fetch_artifacts.py --kind data --output ../mars-artifacts
-python3 scripts/verify_data.py --data-root ../mars-artifacts/MARSExp2
-```
+### 参数
 
-数据集较大，放在同一仓库的 [Release](https://github.com/gyrifheiuifeow/MARS__Efficient_Multi_Aspect_Road_Constrained_Vector_Search/releases/tag/v2026.10.18-reproducibility) 中。下载脚本会自动拼接分卷、核对 SHA-256，再解包。它支持已有 Git 登录凭据或 `GITHUB_TOKEN` 环境变量，凭据不应写入代码。下载完整历史材料时，将 `--kind data` 改成 `--kind all`。
+- `--method` 选择 MARS 或四种对比方法；`--region` 选择 `NYC`、`BAY`、`COL` 或 `FLA`。
+- `--data-root` 指向包含 `data/<region>` 的目录；`--output-root` 指定索引、日志和结果的保存位置。
+  新实验使用新的输出目录。
+- `--rep` 选择第 1、2 或 3 份索引。每份索引独立构建，并在不同查询配置之间复用。
+- `--alpha` 设置 MARS 的频率阈值。一个向量关联至少 α 个不同对象时进入 pivot，
+  其余向量进入 rest 图。默认 α 为 64，不同 α 使用各自的输出目录。
+- 默认查询参数为 `k=10`、rest `ef=1600`。半径、ef、查询组和消融变体记录在
+  `configs/mars/performance_matrix.json` 中，基线配置位于 `configs/baselines/`。
+- `--stage diag` 单独测量 MARS 各阶段的开销；`--dry-run` 只准备输入并打印命令，
+  不构建索引或执行查询。
 
-下面的例子先构建 NYC 的一份 α64 索引，再加载它运行对应的性能配置。两步使用同一个输出根目录；程序会拒绝覆盖已经存在的阶段结果。
+去掉 rest 使用 `pivot` 变体，道路编译消融使用 `pointwise` 变体，
+两者均包含在 MARS 实验矩阵中。去掉 pivot 使用共享类别节点的 Graph-only 实现，
+通过 [`scripts/graph_only.py`](scripts/graph_only.py) 准备和运行，
+具体命令见[归档说明](docs/ARCHIVE.md)。
 
-```bash
-python3 scripts/reproduce.py run --method MARS --region NYC --rep 1 \
-  --stage build --data-root ../mars-artifacts/MARSExp2 --output-root ../mars-run
-python3 scripts/reproduce.py run --method MARS --region NYC --rep 1 \
-  --stage perf --data-root ../mars-artifacts/MARSExp2 --output-root ../mars-run
-```
+### 数据集
 
-`--method` 还支持 HNSW、SymphonyQG、Mesh-Road 和 RoadScan。`scripts/run_matrix.py` 可以先打印完整 MARS 实验计划，显式加上 `--execute` 后才会串行执行。默认矩阵包括 ef、rest 和道路编译变体。`reproduce.py --alpha` 可在独立输出目录中选择其他频率阈值；`scripts/graph_only.py` 会在新目录准备并编译冻结的 Graph-only 源码。补充查询组、历史 α 扫描和其他入口见[归档说明](docs/ARCHIVE.md)。历史协调脚本保留原来的路径、续跑条件和 CPU/NUMA 设置，应结合对应的绑定记录使用。
+处理好的数据集放在仓库的
+[Release](https://github.com/gyrifheiuifeow/MARS__Efficient_Multi_Aspect_Road_Constrained_Vector_Search/releases/tag/v2026.10.18-reproducibility)
+中。下载脚本会拼接分卷、核对 SHA-256 并解包。
+访问私有仓库时，脚本读取 `GITHUB_TOKEN` 或使用已有的 Git 登录凭据。
 
-## 如何理解统计口径
+| 地区代码 | 对象数 | 数据目录 |
+|---|---:|---|
+| `NYC` | 1,140,399 | `data/NYC` |
+| `BAY` | 700,864 | `data/BAY` |
+| `COL` | 393,709 | `data/COL` |
+| `FLA` | 1,534,361 | `data/FLA` |
 
-QPS 按“查询条数除以核心查询总耗时”计算，而不是逐查询 QPS 的平均数。Recall 保留原有的分数阈值口径和 GT 分母。阶段诊断会产生额外开销，因此诊断数据与性能数据分开。HNSW 使用修复后的空候选重启版本；RoadScan 使用当时冻结的近似评分设置，不能因为它扫描道路范围，就把它的 Recall 视为必然等于 100%。
+每个地区的数据包括道路图、POI 映射、768 维名称和类别向量、查询向量及 GT。
+实验直接使用提供的向量，文件格式和输入哈希见 [DATA.md](docs/DATA.md)。
 
-构建耗时、保存耗时、峰值内存分别记录。索引大小同时提供实际序列化字节数，以及扣除明确重复载荷后的结构字节数；后者不等同于文件实际占用空间。
+四个地区的压缩包合计约 8.84 GB，解压和索引构建还需要额外磁盘空间。
+ANN 索引在本地构建，历史构建记录及索引文件哈希保存在归档中。
+重新构建近似图时，索引字节和部分查询结果可能与已有记录不同。
 
-历史数据也有需要说明的条件差异。Graph-only 固定在 CPU96/NUMA4，主 MARS 实验采用未固定单核的单线程配置；补充的 BAY/COL/FLA 查询组固定 CPU/NUMA，NYC 复用已有测量。十个历史基线运行窗口观察到其他活跃进程。α=2 使用较早的专用实现。这些信息都随结果保留，不把它们写成完全同场、完全相同条件下的测量。
-
-## 历史材料和复现边界
-
-Release 保存完整源代码树、各轮配置、日志、结果、审计文件、本地绘图材料，以及四个地区准备好的道路图、POI 映射、向量、查询与 GT。原始文件按原字节归档；可移植入口另放在 `scripts/` 和 `runtime/`，并记录原始源码与发布源码的哈希对应关系。
-
-开发工作树接近 1 TB，其中大部分是各轮生成的 ANN 索引。这些大型二进制索引没有上传，文件清单、已有绑定和哈希记录、构建代码及成本记录均已保留。重建近似图时，即使 seed 标签相同，也可能得到不同的索引字节和个别查询结果。因此，本仓库可以核验保存下来的结果，并提供重新构建和测量的材料；此次整理没有重新跑完全部真实数据实验，也不承诺重建后每一项都逐位相同。
-
-详细参数、版本来源和附件内容分别见 [EXPERIMENTS.md](docs/EXPERIMENTS.md)、[VERSIONS.md](docs/VERSIONS.md) 和 [ARCHIVE.md](docs/ARCHIVE.md)。第三方代码保留原有声明，数据文件的收录不构成新的授权许可。
+下载时将 `--kind data` 改为 `--kind all`，还可取得较早的源码、实验轮次、
+日志和绘图文件。当前实现使用 α64，原类别版及其他 α 实验单独保留。
+版本关系见 [VERSIONS.md](docs/VERSIONS.md) 和 [CHANGELOG.md](docs/CHANGELOG.md)。
+英文说明见 [README.md](README.md)。
