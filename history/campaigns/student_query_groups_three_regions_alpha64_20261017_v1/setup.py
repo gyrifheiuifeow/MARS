@@ -1,6 +1,6 @@
 from pathlib import Path
 import csv,json,shutil,hashlib,subprocess,os,difflib
-R=Path('/data/home/yhxu/seetacloud_migration_20260923/projects/autodl-tmp/MARSExp2');S=R/'submission_experiments_20260726/results/student_runs';P=S/'student_query_groups_three_regions_alpha64_20261017_v1';A=S/'student_mars_alpha64_final_20261017_v1';B=S/'student_exp5_baselines_query_groups_20261015_v2/execution_v4';V=S/'student_measure_entry_20261007_v3_exact_validation'
+R=Path('/workspace/MARSExp2');S=R/'submission_experiments_20260726/results/student_runs';P=S/'student_query_groups_three_regions_alpha64_20261017_v1';A=S/'student_mars_alpha64_final_20261017_v1';B=S/'student_exp5_baselines_query_groups_20261015_v2/execution_v4';V=S/'student_measure_entry_20261007_v3_exact_validation'
 REG=['BAY','COL','FLA'];GROUPS=['popular','medium','rare'];METHODS=['MARS','RoadScan','HNSW','SymphonyQG','Mesh-Road']
 def save(p,x):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(x,indent=2)+'\n')
 def sha(p):

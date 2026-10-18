@@ -15,14 +15,12 @@ OpenMP. The experiments used GCC 13.3. Python scripts use the standard library.
 Search with the supplied embeddings runs on the CPU.
 
 ```bash
-git clone https://github.com/gyrifheiuifeow/MARS.git
 cd MARS
 python3 scripts/build.py
 ```
 
 The build compiles MARS, the baseline runner, and the validation programs into
 `build/bin/`. Third-party source and its notices are included in the repository.
-An Ubuntu 24.04 build environment is also provided in [Dockerfile](Dockerfile).
 
 ### Execution
 
@@ -37,12 +35,11 @@ build/bin/mars_accept unit build/toy_acceptance
 The C++ checks cover frequency partitioning, object associations, scoring, and
 index serialization. A successful run prints `TOY_ACCEPTANCE_PASS`.
 
-The following commands download the prepared data, build one MARS index for
-NYC, and run its performance configurations. Replace `NYC` with another region
-from the dataset table to run that region.
+Place the prepared data under `../mars-artifacts/MARSExp2`. The following
+commands build one MARS index for NYC and run its performance configurations.
+Replace `NYC` with another region from the dataset table to run that region.
 
 ```bash
-python3 scripts/fetch_artifacts.py --kind data --output ../mars-artifacts
 python3 scripts/verify_data.py --data-root ../mars-artifacts/MARSExp2
 
 python3 scripts/reproduce.py run \
@@ -120,12 +117,6 @@ shared-category Graph-only implementation, prepared and run through
 
 ### Datasets
 
-Prepared datasets are distributed through the repository's
-[release](https://github.com/gyrifheiuifeow/MARS/releases/tag/v2026.10.18-reproducibility).
-The download script joins split files, checks SHA-256 hashes, and extracts the
-data. For a private repository, it uses `GITHUB_TOKEN` or the existing Git
-credential helper.
-
 | Region argument | Objects | Data directory |
 |---|---:|---|
 | `NYC` | 1,140,399 | `data/NYC` |
@@ -144,9 +135,6 @@ locally; their historical build records and file hashes are included in the
 archives. Fresh graph construction may produce different index bytes and
 approximate query results.
 
-Use `--kind all` with the download script to include earlier source snapshots,
-experiment rounds, logs, and plotting files. The main implementation uses α64;
+The main implementation uses α64;
 the original category-based version and earlier α experiments are retained
-separately. See [VERSIONS.md](docs/VERSIONS.md) and [CHANGELOG.md](docs/CHANGELOG.md)
-for their relationship. A [Chinese version](README.zh-CN.md) of this README is
-also available.
+separately.

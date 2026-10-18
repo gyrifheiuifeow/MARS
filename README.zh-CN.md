@@ -13,14 +13,12 @@ MARS 面向道路网络中的多方面向量检索，在给定道路距离范围
 Python 脚本只依赖标准库，使用已有向量进行检索不需要 GPU。
 
 ```bash
-git clone https://github.com/gyrifheiuifeow/MARS.git
 cd MARS
 python3 scripts/build.py
 ```
 
 编译后的 MARS、基线程序和验证程序位于 `build/bin/`。
-仓库包含所需的第三方源码及其许可声明，
-[Dockerfile](Dockerfile) 提供了 Ubuntu 24.04 的构建环境。
+仓库包含所需的第三方源码及其许可声明。
 
 ### 运行
 
@@ -34,11 +32,11 @@ build/bin/mars_accept unit build/toy_acceptance
 C++ 检查覆盖频率划分、对象关联、评分，以及索引的保存与加载。
 通过后会输出 `TOY_ACCEPTANCE_PASS`。
 
-下面以 NYC 为例，下载数据、构建一份 MARS 索引，再运行对应的性能实验。
+将准备好的数据放在 `../mars-artifacts/MARSExp2` 下。
+下面以 NYC 为例，构建一份 MARS 索引，再运行对应的性能实验。
 运行其他地区时，将两条命令中的 `NYC` 替换为数据集表中的地区代码。
 
 ```bash
-python3 scripts/fetch_artifacts.py --kind data --output ../mars-artifacts
 python3 scripts/verify_data.py --data-root ../mars-artifacts/MARSExp2
 
 python3 scripts/reproduce.py run \
@@ -105,11 +103,6 @@ CPU 绑定及各轮运行条件随原始记录保存。
 
 ### 数据集
 
-处理好的数据集放在仓库的
-[Release](https://github.com/gyrifheiuifeow/MARS/releases/tag/v2026.10.18-reproducibility)
-中。下载脚本会拼接分卷、核对 SHA-256 并解包。
-访问私有仓库时，脚本读取 `GITHUB_TOKEN` 或使用已有的 Git 登录凭据。
-
 | 地区代码 | 对象数 | 数据目录 |
 |---|---:|---|
 | `NYC` | 1,140,399 | `data/NYC` |
@@ -124,7 +117,4 @@ CPU 绑定及各轮运行条件随原始记录保存。
 ANN 索引在本地构建，历史构建记录及索引文件哈希保存在归档中。
 重新构建近似图时，索引字节和部分查询结果可能与已有记录不同。
 
-下载时将 `--kind data` 改为 `--kind all`，还可取得较早的源码、实验轮次、
-日志和绘图文件。当前实现使用 α64，原类别版及其他 α 实验单独保留。
-版本关系见 [VERSIONS.md](docs/VERSIONS.md) 和 [CHANGELOG.md](docs/CHANGELOG.md)。
-英文说明见 [README.md](README.md)。
+当前实现使用 α64，原类别版及其他 α 实验单独保留。

@@ -1,0 +1,15 @@
+{
+  "scope": "current source and result files; excludes Git history and historical archive attachments",
+  "known_author_identifiers_remaining": 0,
+  "personal_repository_addresses_remaining": 0,
+  "historical_path_replacement": "/workspace/",
+  "third_party_attribution_preserved": true,
+  "core_source_files_verified": 787,
+  "raw_query_files_verified": 918,
+  "numeric_summary_checks": 2264,
+  "unchanged_numeric_CSV_cells_checked": 11976,
+  "unit_tests_passed": 6,
+  "external_historical_archives_anonymized": false,
+  "git_history_anonymized": false,
+  "submission_zip_excludes_git_history_and_external_archives": true
+}

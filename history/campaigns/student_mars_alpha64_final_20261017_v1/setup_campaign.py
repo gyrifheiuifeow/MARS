@@ -1,6 +1,6 @@
 from pathlib import Path
 import json,csv,shutil,hashlib,os,subprocess,struct,datetime
-S=Path('/data/home/yhxu/seetacloud_migration_20260923/projects/autodl-tmp/MARSExp2/submission_experiments_20260726/results/student_runs')
+S=Path('/workspace/MARSExp2/submission_experiments_20260726/results/student_runs')
 P=S/'student_mars_alpha64_final_20261017_v1'; A=S/'student_mars_freq_general_a64_pilot_20261015_v1'; F=S/'student_mars_freq_a32_formal_20261015_v1'; B=S/'student_mars_freq_general_a32_pilot_20261015_v1'
 def save(p,x):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(x,indent=2)+'\n')
 def sha(p):
@@ -65,8 +65,8 @@ save(P/'configs/reused_performance.json',reused)
 baseline=S/'student_exp5_baselines_query_groups_20261015_v2/execution_v4'
 assert json.loads((baseline/'COMPLETED.json').read_text())['formal_rounds']==36
 save(P/'references/query_group_baselines.json',{'source':str(baseline),'rounds':36,'audit':json.loads((baseline/'FINAL_DELIVERY_AUDIT_20261015.json').read_text()),'preserve_external_activity_caveat':True})
-nas=Path('/mnt/nas_mount/yhxu_MARS_student_archives')/P.name;nas.mkdir(parents=True,exist_ok=False)
-probe=nas/'ARCHIVE_POLICY.json';save(probe,{'owner':'yhxu','campaign':str(P),'only_new_campaign_completed_indices':True,'preserve_originals_and_old_frozen_indices':True,'verify_copy_before_replacing_new_local_directory_with_symlink':True,'archive_between_measurements_only':True})
+nas=Path('/mnt/nas_mount/anonymous_MARS_student_archives')/P.name;nas.mkdir(parents=True,exist_ok=False)
+probe=nas/'ARCHIVE_POLICY.json';save(probe,{'owner':'anonymous','campaign':str(P),'only_new_campaign_completed_indices':True,'preserve_originals_and_old_frozen_indices':True,'verify_copy_before_replacing_new_local_directory_with_symlink':True,'archive_between_measurements_only':True})
 assert shutil.disk_usage(nas).free>400_000_000_000
 save(P/'configs/storage.json',{'archive_root':str(nas),'local_student_free_bytes':shutil.disk_usage(P).free,'archive_free_bytes':shutil.disk_usage(nas).free,'local_reserve_bytes':35_000_000_000,'build_and_save_on_original_data_device':True,'archive_only_after_all_instance_measurements':True})
 plan={'default_alpha':64,'default_ef':1600,'main_performance':144,'main_reused_performance':5,'main_diagnostic':48,'default_indices':12,'default_reused_indices':2,'default_new_indices':10,'parameter_alpha_points':[2,4,8,16,32,64,96,128,256,512,1024],'parameter_ef_fixed':1600,'parameter_alpha_three_instances':True,'alpha64_parameter_point_shared_with_main':True,'parameter_other_reused_rounds_expected':14,'parameter_new_indices_expected':16,'graph_only_efs':[1600,3200,6400],'graph_only_indices_total':3,'graph_only_new_indices_expected':2,'graph_only_reused_rounds':3,'graph_only_new_rounds_expected':6,'query_groups_baseline_reused_rounds':36,'no_paper_changes':True,'old_category_results_separate':True,'no_additional_parameter_selection':True,'three_independent_indices_not_repeated_queries_on_one_index':True,'serial_all_stages':True,'graph_cpu_policy':'preserve CPU96 strict NUMA4 for Graph-only; MARS inherited unpinned single-thread policy; disclose rather than claim identical affinity','baseline_caveat':'10 historical query-group run windows observed external processes; retain explicitly disclosed source caveat'}

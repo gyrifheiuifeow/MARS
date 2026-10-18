@@ -36,7 +36,7 @@ them to zero based. Verified units and graph checksums are in `configs/road_unit
 
 `configs/dataset_bindings.json` and `configs/query_gt_hashes.json` record input
 checksums. Checked-in query CSVs specify exact rows and vertices, not the vector
-payload. Download matching embeddings and GT with `scripts/fetch_artifacts.py --kind data --output /path/to/artifacts`; the data root is `/path/to/artifacts/MARSExp2`. No API credentials
+payload. Place the supplied embeddings and GT under the data root using the layout above. No API credentials
 or automatic external embedding calls are provided.
 
 For real-data acceptance, generate the independent canonical reference first:

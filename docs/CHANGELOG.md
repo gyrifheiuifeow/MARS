@@ -1,6 +1,6 @@
 # Experiment lineage
 
-These dates identify saved experiment snapshots, not a reconstructed Git commit history. The original working directory was not a Git checkout. The previous publication's actual Git log is preserved in `provenance/previous_publication_git_log.txt`.
+These dates identify saved experiment snapshots, not a reconstructed Git commit history. The original working directory was not a Git checkout.
 
 The October 5 records establish the original-category formal measurements and the corrected rest/road experiment source. The subsequent October 6 measurement entry separates cache preparation from core timing. The October 7 v3 entry adds the independent integer-road check outside the performance timer and freezes the shared baseline measurement protocol.
 

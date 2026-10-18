@@ -20,52 +20,52 @@
     "sha256": "ede4000e30a15868dade57c2c85c5baf94d4a4eb3f8c5e16c3f55cabdd6196fd"
   },
   "Exp6_MARS_rounds.csv": {
-    "bytes": 30124,
-    "sha256": "bdb9c751a51f58e9a271010f5938adf2e2045ebd173679a1af098b32c594db07"
+    "bytes": 25174,
+    "sha256": "118d0e2fb7ec10b6e406bd08d327237ada4074363f2e53db4694841bef018ee9"
   },
   "Graph_only_rounds.csv": {
-    "bytes": 7130,
-    "sha256": "88d227eed522697f1cfba1dce46d9b32c08add097d94bf6791333648e18cbd92"
+    "bytes": 5645,
+    "sha256": "eb260384e965cb633374566f59a3ef1e7f90dc1a528e51b12dcce7b97ac8551e"
   },
   "Exp7_paired_road_summary.csv": {
     "bytes": 1814,
     "sha256": "9ea267a5661d6a3e2da77c623d8d6e455564596dcd81be487af6dce339ca4061"
   },
   "Exp5_MARS_rounds.csv": {
-    "bytes": 18160,
-    "sha256": "699a6b667a1a44e1a329e371c8d9829792056b8a7ca3acc91a8824d2505c3e40"
+    "bytes": 15190,
+    "sha256": "b5ea0cf43daa809748978aeff88700518b119086b9539f8e32d70a3e17f220f7"
   },
   "Exp4_MARS_rounds.csv": {
-    "bytes": 18009,
-    "sha256": "b423924aa57be962fbe556764d22df62cc85b8f218176bfd28169f3b9dc0987e"
+    "bytes": 15039,
+    "sha256": "1ba621a9dc7f77b343a8fe8368eee832402b81db41ca0ef5a41292db9c94c4c0"
   },
   "MARS64_performance_rounds.csv": {
-    "bytes": 143510,
-    "sha256": "bd9a547c81ee1b77eacffba8e3f7e65f5ea4ab1fd9437c371dc57c60b2edb6c7"
+    "bytes": 119750,
+    "sha256": "4d43047aa329834782bdcb13a0a93f5be137306979d4bca81ac213d4c0f37344"
   },
   "MAIN_COMPLETE.json": {
     "bytes": 189,
     "sha256": "c97fca95d935136165ceef7598833faa0f1c2e3564d4eadf66163bcd4bec6730"
   },
   "Exp8_final_cost_rounds.csv": {
-    "bytes": 25058,
-    "sha256": "2403aa4e9b80c81ebfdc672e85abaaecea5007abf1690c5b7065de6691a1abba"
+    "bytes": 20438,
+    "sha256": "7805321ca537b5dbcdb518a228dab3731643ec3e634891874083f70515208812"
   },
   "Exp1_3_final_rounds.csv": {
-    "bytes": 361516,
-    "sha256": "e3412a19c90d261dd87a68406593928f14bbf9ded5ba2b1d9c0c63cbaa3aeb1e"
+    "bytes": 324556,
+    "sha256": "8a99d3a13edd78b5ed07eff0a1a68be42f70da671a5daa3827bd103be67fa0c2"
   },
   "Exp5_all_methods_rounds.csv": {
-    "bytes": 26617,
-    "sha256": "7ca62d030b9c2e6edb580bc4fd698c8e9e443e977818d25b671d0d8c43bf5edb"
+    "bytes": 23152,
+    "sha256": "dee0798f0b04be6b8dc21f8bbf4a9582356264e4372e13ddad7507f8766fbdc8"
   },
   "EXTENSIONS_COMPLETE.json": {
     "bytes": 104,
     "sha256": "49c6e751c225caa1fd81f7aa02ddbb63ad581a5b9183cddb70de085697e2c40e"
   },
   "Alpha_parameter_rounds.csv": {
-    "bytes": 31280,
-    "sha256": "2f3e698214b61fbd143405514ee9ae64345082ba0f23a11693bbdf76a342d5e9"
+    "bytes": 25065,
+    "sha256": "65e96a25a5c2c2cd3c4152ec9b44877d4d4e76c9627e4dbd39b6f73669596dd4"
   },
   "Exp1_3_final_summary.csv": {
     "bytes": 22587,
@@ -92,8 +92,8 @@
     "sha256": "635543810abd2cd2414585f067432dd42450b65033539e4004011351322bf619"
   },
   "MARS64_diagnostic_rounds.csv": {
-    "bytes": 56765,
-    "sha256": "1029c15e7ee62cde8d76b7d6af4e3b09501415c4ec6ad1a712fb88a31cd508c1"
+    "bytes": 48845,
+    "sha256": "c31f62ca73ba842f6c24c99f752362f937887076fe23935d9dd7cd1711a9d269"
   },
   "FINAL_DELIVERY_AUDIT.json": {
     "bytes": 1147,

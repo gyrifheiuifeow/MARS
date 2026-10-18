@@ -1,7 +1,7 @@
 from pathlib import Path
 import shutil
 W=Path(__file__).resolve().parent
-C=Path('C:/Users/25854/Documents/Codex/2026-10-03/jian/outputs/student_mars_freq_a32_formal_20261015_v1')
+C=Path('/workspace/user/Documents/Codex/2026-10-03/jian/outputs/student_mars_freq_a32_formal_20261015_v1')
 for name in ['run_formal.py','validate_partition.py']:
  s=(C/name).read_text()
  if name=='run_formal.py':

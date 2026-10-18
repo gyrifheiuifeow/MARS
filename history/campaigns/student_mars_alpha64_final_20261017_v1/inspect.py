@@ -1,6 +1,6 @@
 from pathlib import Path
 import json,os,shutil
-S=Path('/data/home/yhxu/seetacloud_migration_20260923/projects/autodl-tmp/MARSExp2/submission_experiments_20260726/results/student_runs')
+S=Path('/workspace/MARSExp2/submission_experiments_20260726/results/student_runs')
 for sub,rels in {
 'student_mars_freq_general_a64_pilot_20261015_v1':['runs/NYC/ACCEPTANCE_PASS.json','comparison_full1000_20261015_v1/outputs/new_performance_results.json','medium6_full1000_20261016_v1/outputs/new_results.json','configs/environment.json'],
 'student_exp5_baselines_query_groups_20261015_v2/execution_v4':['FINAL_DELIVERY_AUDIT_20261015.json','COMPLETED.json'],
