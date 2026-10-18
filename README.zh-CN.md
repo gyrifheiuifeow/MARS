@@ -13,8 +13,8 @@ MARS 面向道路网络中的多方面向量检索，在给定道路距离范围
 Python 脚本只依赖标准库，使用已有向量进行检索不需要 GPU。
 
 ```bash
-git clone https://github.com/gyrifheiuifeow/MARS__Efficient_Multi_Aspect_Road_Constrained_Vector_Search.git
-cd MARS__Efficient_Multi_Aspect_Road_Constrained_Vector_Search
+git clone https://github.com/gyrifheiuifeow/MARS.git
+cd MARS
 python3 scripts/build.py
 ```
 
@@ -106,7 +106,7 @@ CPU 绑定及各轮运行条件随原始记录保存。
 ### 数据集
 
 处理好的数据集放在仓库的
-[Release](https://github.com/gyrifheiuifeow/MARS__Efficient_Multi_Aspect_Road_Constrained_Vector_Search/releases/tag/v2026.10.18-reproducibility)
+[Release](https://github.com/gyrifheiuifeow/MARS/releases/tag/v2026.10.18-reproducibility)
 中。下载脚本会拼接分卷、核对 SHA-256 并解包。
 访问私有仓库时，脚本读取 `GITHUB_TOKEN` 或使用已有的 Git 登录凭据。
 

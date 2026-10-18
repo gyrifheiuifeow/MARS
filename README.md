@@ -15,8 +15,8 @@ OpenMP. The experiments used GCC 13.3. Python scripts use the standard library.
 Search with the supplied embeddings runs on the CPU.
 
 ```bash
-git clone https://github.com/gyrifheiuifeow/MARS__Efficient_Multi_Aspect_Road_Constrained_Vector_Search.git
-cd MARS__Efficient_Multi_Aspect_Road_Constrained_Vector_Search
+git clone https://github.com/gyrifheiuifeow/MARS.git
+cd MARS
 python3 scripts/build.py
 ```
 
@@ -121,7 +121,7 @@ shared-category Graph-only implementation, prepared and run through
 ### Datasets
 
 Prepared datasets are distributed through the repository's
-[release](https://github.com/gyrifheiuifeow/MARS__Efficient_Multi_Aspect_Road_Constrained_Vector_Search/releases/tag/v2026.10.18-reproducibility).
+[release](https://github.com/gyrifheiuifeow/MARS/releases/tag/v2026.10.18-reproducibility).
 The download script joins split files, checks SHA-256 hashes, and extracts the
 data. For a private repository, it uses `GITHUB_TOKEN` or the existing Git
 credential helper.
