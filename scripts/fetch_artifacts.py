@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify and extract explicitly supplied artifact files."""
+"""Verify and extract artifact archives."""
 from pathlib import Path
 import argparse,hashlib,json,shutil,tarfile,urllib.request,urllib.parse,sys
 ROOT=Path(__file__).resolve().parents[1]

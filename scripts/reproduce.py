@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Prepare portable paths or run one explicitly selected experiment stage."""
+"""Prepare task files and run an experiment stage."""
 from pathlib import Path
 import argparse, csv, hashlib, json, os, subprocess
 

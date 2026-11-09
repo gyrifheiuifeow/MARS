@@ -75,7 +75,7 @@ static Returned searchNew(const string& method,Dataset& ds,BaselineRuntime& r,co
  if(method=="RoadScan"){auto a=roadRangeQScanEstimateOnly(ds,r.qscan,q,source,o.tau,o.k);return {std::move(a.ids),0,0};}
  throw runtime_error("unknown method");
 }
-// Reference wrappers preserve the original runner's calls. Mesh uses its unedited original body.
+// Reference calls used to compare the measurement wrappers with the original runners.
 static vector<int> searchReference(const string& method,Dataset& ds,BaselineRuntime& r,const Options& o,const vector<float>& q,int source){
  if(method=="Mesh-Road")return reference_searchMeshRoad(ds,r.mesh,o,q,source).ids;
  if(method=="RoadScan")return roadRangeQScanEstimateOnly(ds,r.qscan,q,source,o.tau,o.k).ids;
@@ -135,9 +135,9 @@ int main(int argc,char** argv){try{
    else {auto nd=rt/"nodes"/region;filesystem::create_directories(nd);saveTreeMetadata(runtime.mesh.tree,runtime.mesh.alpha,nd/"str.meta");for(auto& item:runtime.mesh.local_indexes)item.second->save(nd/("node_"+to_string(item.first)));saveMeshState(runtime.mesh,rt/"runtime.bin");}
   }
  }
- // Fixed raw-vector cache preparation is outside all query timers and outside Exp8 build paths.
+ // Warm vector-reader caches after construction accounting and before querying.
  prepareVectorReaderCaches(ds,output,mode=="cache_reference");
- // No evaluation query can execute before the construction/reload peak snapshot above.
+ // Start query evaluation after build or reload accounting.
  if(mode!="build"&&mode!="cache_reference")queries(mode,method,ds,runtime,base,tasks,picks,output);
  recordVectorReaderCacheState(ds,output,"after_queries");
  delete ds.poi_reader;delete ds.cat_reader;cout<<"ENTRY_COMPLETE "<<mode<<' '<<method<<endl;return 0;

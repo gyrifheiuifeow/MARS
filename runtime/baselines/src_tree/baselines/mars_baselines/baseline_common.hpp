@@ -152,7 +152,7 @@ class FvecsReader {
     }
     int dim() const { return dim_; }
     long long rows() const { return rows_; }
-    // Query-preparation diagnostics only. No change to readNorm1Based or its capacity.
+    // Cache inspection and reset helpers for query preparation.
     size_t cacheCapacity() const { return max_cache_; }
     size_t cacheBucketCount() const { return cache_.bucket_count(); }
     vector<int> cachedVectorIds() const {vector<int> ids;ids.reserve(cache_.size());for(const auto& p:cache_)ids.push_back(p.first);sort(ids.begin(),ids.end());return ids;}
@@ -565,8 +565,7 @@ static vector<int> marsLite(Dataset& ds, const vector<float>& q, int source_vert
     double theta = -1e100;
     for (int g = 0; g < 11; ++g) {
         if (group_objects[g].empty()) continue;
-        // Conservative global ball with radius 2.0. This enables the pruning hook while
-        // avoiding false negatives in this first runner.
+        // Use a radius-2 ball for the unit-vector score bound.
         double ub = dotProduct(q, ds.category_map.group_centers[g]) + 2.0;
         if ((int)heap.size() >= k) theta = heap.top().score;
         if (ub <= theta) continue;

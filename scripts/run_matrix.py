@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Plan or explicitly execute the frozen MARS matrix, serially."""
+"""Prepare or run the MARS experiment matrix serially."""
 from pathlib import Path
 import argparse,json,subprocess,sys,hashlib,csv
 from reproduce import ROOT,REGIONS,prepare

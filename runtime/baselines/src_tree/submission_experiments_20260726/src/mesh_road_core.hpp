@@ -227,7 +227,7 @@ class STRTree {
 
     int rootId() const { return root_id_; }
 
-    // Persistence only: restore the identical saved STR topology; no construction/search changes.
+    // Restore the root and node links from a saved STR tree.
     void restoreFrozen(int root, std::vector<STRNode> nodes) {
         if (root < 0 || root >= static_cast<int>(nodes.size())) throw std::runtime_error("bad saved STR root");
         for (size_t i=0;i<nodes.size();++i) {

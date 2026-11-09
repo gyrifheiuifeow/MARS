@@ -35,7 +35,7 @@ for reg in ['NYC','BAY','COL','FLA']:
  selected=[c for c in cfg if c['region']==reg]
  def task(c):return {'config_id':c['config_id'],'tau':c['tau_m'],'k':c['k'],'variant':c['variant'],'rest_ef':c['rest_ef'],'query_manifest':c['query_manifest'],'workload':c['workload'],'alpha':64}
  tasks(P/f'configs/perf_{reg}.tsv',[task(c) for c in selected]);tasks(P/f'configs/diag_{reg}.tsv',[task(c) for c in selected if c['config_id'] in diag])
-# Bind existing data without rewriting it; all hashing precedes timed jobs.
+# Hash the input files before starting measurements.
 data=json.loads((F/'provenance/expected_dataset_bindings.json').read_text());file_hash={}
 for reg,d in data.items():
  for path,h in d['data_sha256'].items():assert sha(path)==h;file_hash[path]=h

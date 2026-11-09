@@ -1,35 +1,7 @@
 #pragma once
-// ---------------------------------------------------------------------------
-// MARS-CAT unique-aspect (POI name) channel: theta early-stop SymphonyQG.
-//
-// Isolation discipline (hard constraint): this is a COPY of the upstream
-// baselines/RaBitQ-Library-main/include/rabitqlib/index/symqg/qg.hpp, placed
-// under mars_cat/src/ and modified ONLY here. The original qg.hpp is NOT
-// touched. To avoid any ODR / redefinition clash with the original
-// rabitqlib::symqg::QuantizedGraph (which the experiment runner already
-// includes & uses for the global graph), this copy lives in a SEPARATE
-// namespace rabitqlib::symqg_theta and is named QuantizedGraphTheta.
-//
-// We DO NOT re-implement the builder. The name graph is built with the
-// original rabitqlib::symqg::QuantizedGraph + QGBuilder, then save()d to a
-// binary file; QuantizedGraphTheta::load() reads that exact same binary
-// format (identical layout, since this class is a verbatim structural copy)
-// and we only run search on it here.
-//
-// New method: search_theta_stop (Plan A, true early stop, NO budget).
-//   Replaces the ef-bounded while loop of search_filtered with a theta-driven
-//   admissible early stop. METRIC_IP distance is dist = 1 - IP (see
-//   utils/space.hpp dot_product_dis and index/query.hpp BatchQuery::set_g_add),
-//   so similarity = 1 - dist and is monotonically DECREASING in distance.
-//   search_pool is a min-by-distance beam; its front (next unchecked) gives the
-//   smallest remaining distance, i.e. the LARGEST possible remaining similarity
-//   = an upper bound on the name-similarity of every candidate still reachable.
-//   Once that frontier upper bound <= theta, no remaining object can beat the
-//   current k-th exact score -> we break. theta is supplied by the caller (the
-//   shared cross-channel theta = current exact k-th objectScore). We report the
-//   visited candidate ids (those accepted by the feasibility filter) plus their
-//   name similarities so the integrator can decide which objects to exact-score.
-// ---------------------------------------------------------------------------
+// SymphonyQG queries for the rest channel.
+// Uses the upstream graph file format in a separate namespace.
+// MARS calls search_converge for approximate beam search and score filtering.
 
 #include <omp.h>
 
@@ -61,11 +33,11 @@
 
 namespace rabitqlib::symqg_theta {
 
-// A single (object/vertex id, name-similarity) the theta-stop search surfaced.
+// A visited graph node and its query inner product.
 template <typename T>
 struct ThetaHit {
     uint32_t id;
-    T similarity;  // exact IP between query and this name vector (= 1 - dist)
+    T similarity;  // query inner product for this graph node
 };
 
 template <typename T = float>
@@ -135,20 +107,12 @@ class QuantizedGraphTheta {
     [[nodiscard]] auto entry_point() const { return this->entry_point_; }
 
     void load(const char*);
-    void save(const char*) const; // Same persisted format; round-trip acceptance only.
+    void save(const char*) const; // Uses the upstream graph serialization format.
     void set_ef(size_t cur_ef) { this->ef_ = cur_ef; }
 
-    // ---- Plan A theta early-stop search (no budget) -----------------------
-    // Runs best-first beam exactly like search_filtered, but the loop breaks as
-    // soon as the search frontier's best POSSIBLE name-similarity (1 - smallest
-    // remaining distance) drops to <= theta. For every popped node it computes
-    // the EXACT name-IP (via raw_dist_func_) and, if accept(id) passes, records
-    // a ThetaHit. The caller then exact-objectScores the accepted ids.
-    //
-    // theta : shared cross-channel threshold (current exact k-th objectScore).
-    // accept: feasibility predicate (object in feasible road region).
-    // hits  : output, accepted candidates with their exact name similarity.
-    // steps : output, number of nodes popped (for diagnostics / navigability).
+    // Legacy search that stops when the next beam node has similarity <= theta.
+    // The frontier score does not bound undiscovered nodes. MARS uses search_converge.
+    // accept selects output nodes. steps counts popped nodes.
     template <class AcceptFn>
     void search_theta_stop(
         const T* __restrict__ query,
@@ -158,25 +122,8 @@ class QuantizedGraphTheta {
         size_t& steps
     );
 
-    // ---- Standard SymphonyQG convergent search + theta filter -------------
-    // FIX for the early-stop bug: the old search_theta_stop broke the beam as
-    // soon as the SEARCH FRONTIER's similarity dropped to <= theta. That is the
-    // classic HNSW/beam climb-phase trap: while the beam is still climbing from
-    // entry_point toward the query, the frontier nodes are genuinely far (low
-    // similarity), but continuing the walk reaches MUCH closer (higher
-    // similarity) nodes. "Frontier sim <= theta -> break" therefore stops during
-    // the climb, before the beam ever reaches the query's true name neighbors
-    // (route_graph=1, feasible_object_checks~0, recall unchanged).
-    //
-    // search_converge instead runs the SAME convergence loop as upstream
-    // search/search_filtered: a beam of fixed width ef_ (SymphonyQG's intrinsic
-    // search-width parameter, NOT a budget and NOT tau-dependent) that runs
-    // until the beam naturally converges (search_pool, capacity ef_, stops
-    // inserting nodes farther than its worst, so has_next() drains to false).
-    // This finds the query's true name top-neighbors. theta is then applied as a
-    // FILTER on the converged candidates (keep only name similarity > theta),
-    // never to interrupt the beam. The caller exact-objectScores the kept ids;
-    // theta and the top-k heap are updated ONLY by exact objectScore.
+    // Approximate beam search with capacity ef_. The beam drains without a theta stop.
+    // Return popped nodes that pass accept and have inner product greater than theta.
     template <class AcceptFn>
     void search_converge(
         const T* __restrict__ query,
@@ -280,7 +227,7 @@ inline void QuantizedGraphTheta<T>::search_theta_stop(
         vis->set(cur_node);
         ++steps;
 
-        // exact distance of cur_node: dist = 1 - IP (METRIC_IP). similarity = 1 - dist.
+        // Convert inner-product distance to similarity: sim = 1 - dist.
         q_obj.set_g_add(raw_dist_func_(query, get_vector(cur_node), dim_));
         T cur_dist = q_obj.g_add();
         T cur_sim = static_cast<T>(1) - cur_dist;
@@ -293,17 +240,10 @@ inline void QuantizedGraphTheta<T>::search_theta_stop(
             hits.push_back(ThetaHit<T>{static_cast<uint32_t>(cur_node), cur_sim});
         }
 
-        // Admissible theta early stop (Plan A, no budget): the search frontier's
-        // best remaining candidate is the unchecked node with the SMALLEST
-        // distance. Its similarity (1 - that distance) upper-bounds the name
-        // similarity of EVERY candidate still reachable along the beam. Once that
-        // upper bound <= theta, no remaining object can raise the exact top-k
-        // (name IP is an exact per-object upper bound on objectScore for the
-        // name aspect, and objectScore is max over aspects), so we stop.
+        // Apply the legacy frontier cutoff. This score is not a global search bound.
         if (search_pool.has_next()) {
             PID nxt = search_pool.next_id();
-            // exact frontier distance (tighter & guaranteed vs. the quantized
-            // estimate stored in the beam; keeps the stop admissible).
+            // Evaluate the next frontier node using its stored vector.
             T front_dist = raw_dist_func_(query, get_vector(nxt), dim_);
             T front_sim_ub = static_cast<T>(1) - front_dist;
             if (front_sim_ub <= theta) {
@@ -315,13 +255,7 @@ inline void QuantizedGraphTheta<T>::search_theta_stop(
     visited_list_pool_->release_vis_list(vis);
 }
 
-// Standard SymphonyQG convergent beam search + theta filter (the FIX).
-// Mirrors upstream search_filtered's convergence loop EXACTLY (beam of width
-// ef_, runs until search_pool drains by natural convergence), but:
-//   - records, for every popped node, the EXACT name-IP similarity (= 1 - dist);
-//   - keeps a candidate only if accept(id) passes (feasible road region) AND
-//     its name similarity > theta (the theta FILTER on converged neighbors).
-// theta NEVER interrupts the beam. The caller exact-objectScores the kept ids.
+// Expand the approximate beam and collect road-feasible hits above theta.
 template <typename T>
 template <class AcceptFn>
 inline void QuantizedGraphTheta<T>::search_converge(
@@ -344,10 +278,7 @@ inline void QuantizedGraphTheta<T>::search_converge(
     auto* vis = visited_list_pool_->get_free_vislist();
     std::vector<T> est_dist(degree_bound_);
 
-    // Standard convergence: no theta break. search_pool has fixed capacity ef_;
-    // scan_neighbors stops inserting nodes farther than the current worst once
-    // the pool is full, so the beam converges to the query's true ef_ nearest
-    // name neighbors and has_next() naturally drains to false.
+    // Expand unchecked nodes until the fixed-capacity search pool drains.
     while (search_pool.has_next()) {
         PID cur_node = search_pool.pop();
         if (vis->get(cur_node)) {
@@ -356,7 +287,7 @@ inline void QuantizedGraphTheta<T>::search_converge(
         vis->set(cur_node);
         ++steps;
 
-        // exact name-IP for cur_node: dist = 1 - IP (METRIC_IP); sim = 1 - dist.
+        // Convert inner-product distance to similarity: sim = 1 - dist.
         q_obj.set_g_add(raw_dist_func_(query, get_vector(cur_node), dim_));
         T cur_dist = q_obj.g_add();
         T cur_sim = static_cast<T>(1) - cur_dist;
@@ -365,9 +296,7 @@ inline void QuantizedGraphTheta<T>::search_converge(
             q_obj, cur_node, est_dist.data(), search_pool, *vis, this->degree_bound_
         );
 
-        // theta FILTER (not an early stop): keep feasible candidates whose name
-        // similarity beats the current cross-channel theta. These are the name
-        // neighbors that can still raise the exact top-k.
+        // Filter output hits while continuing graph expansion.
         if (cur_sim > theta && accept(cur_node)) {
             hits.push_back(ThetaHit<T>{static_cast<uint32_t>(cur_node), cur_sim});
         }

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check archived raw-query hashes and recompute performance QPS/Recall."""
+"""Check raw-query files and recompute QPS and Recall."""
 from pathlib import Path
 import csv,hashlib,statistics,math,json
 ROOT=Path(__file__).resolve().parents[1]

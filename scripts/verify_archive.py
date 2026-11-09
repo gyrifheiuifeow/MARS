@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify an extracted server, dataset or local-history file inventory."""
+"""Check extracted files against an artifact inventory."""
 from pathlib import Path
 import argparse,hashlib,json
 def main():

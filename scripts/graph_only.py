@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Prepare and run the archived shared-category Graph-only source in a fresh tree."""
+"""Run the shared-category Graph-only experiment."""
 from pathlib import Path
 import argparse,csv,json,os,shutil,subprocess,hashlib
 REPO=Path(__file__).resolve().parents[1]

@@ -30,7 +30,7 @@ for r in refs:
   assert all(x[k]==q[k] for k in ['query_tag','query_id','row_index','source_vertex'])
   assert (x.get('alpha')==str(r['alpha']) or (r['alpha']==2 and 'alpha' not in x)) and x['tau_m']=='5000' and x['rest_ef']=='1600' and x['variant']=='full'
  b=json.loads(Path(r['binding_file']).read_text());root=Path(b['instance'])
- # Reuse already recorded cryptographic binding and verify it now before any experiment starts.
+ # Verify the reused index files against their saved hashes.
  for name,h in b['files'].items():assert (root/name).stat().st_size==h['bytes'] and sha(root/name)==h['sha256']
  dest=P/f"references/alpha_sweep/a{r['alpha']}_rep{r['repetition']}.csv";dest.parent.mkdir(exist_ok=True,parents=True);shutil.copy2(r['raw_file'],dest);r['local_copy']=str(dest)
  print('PARAMETER_REUSE',r['alpha'],r['repetition'],flush=True)

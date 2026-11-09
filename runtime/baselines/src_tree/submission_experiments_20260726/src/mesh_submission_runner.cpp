@@ -641,7 +641,7 @@ static MeshSearchResult searchMeshRoad(
     }
     result.ids = heapToObjectIds(heap);
     result.returned_size = static_cast<int>(result.ids.size());
-    // Extra correctness verification is performed by the entry after its outer timer.
+    // The measurement entry checks results after stopping its query timer.
     result.internal_ms = chrono::duration<double, milli>(chrono::steady_clock::now() - internal_begin).count();
     return result;
 }

@@ -558,8 +558,7 @@ static vector<int> marsLite(Dataset& ds, const vector<float>& q, int source_vert
     double theta = -1e100;
     for (int g = 0; g < 11; ++g) {
         if (group_objects[g].empty()) continue;
-        // Conservative global ball with radius 2.0. This enables the pruning hook while
-        // avoiding false negatives in this first runner.
+        // Use a radius-2 ball for the unit-vector score bound.
         double ub = dotProduct(q, ds.category_map.group_centers[g]) + 2.0;
         if ((int)heap.size() >= k) theta = heap.top().score;
         if (ub <= theta) continue;

@@ -15,7 +15,7 @@ from run_extensions import validate
 q=P/'queries/NYC_medium.csv'
 for r in json.loads((P/'configs/parameter_reused.json').read_text()):validate(r['local_copy'],q,r['alpha'],1600,'full')
 for r in json.loads((P/'configs/graph_reused.json').read_text()):validate(r['raw_file'],q,None,r['ef'],'graph_shared_category')
-# Validate export keys and existing baseline scopes now, without launching any search.
+# Check export keys and baseline configurations.
 S=P.parent;old=S/'student_hnsw_empty_restart_candidate_20261008_v1/formal_runs/student_hnsw_formal_20261008_v1/outputs'
 rr=list(csv.DictReader(next(old.glob('Exp1-3*完整*逐轮*.csv')).open(encoding='utf-8-sig')));assert len(rr)==540 and sum(x['method']!='MARS' for x in rr)==468
 plan=json.loads((P/'configs/APPROVED_PLAN.json').read_text());assert plan['default_alpha']==64

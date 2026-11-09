@@ -64,7 +64,7 @@ for reg in REG:
    save(P/f'bindings/{method}_{reg}_rep{rep}.json',{'method':method,'region':reg,'rep':rep,'instance':str(instance),'source_binding':str(src),'source_binding_sha256':sha(src),'files':current,'large_index_hashes_inherited_from_qualified_binding_not_recomputed':True})
   if method=='Mesh-Road':shutil.copy2(S/f'student_measure_entry_20261006_v2_cache/configs/v1/Mesh_{reg}_placement.json',P/f'configs/Mesh_{reg}_placement.json')
 save(P/'configs/queue.json',queue);save(P/'provenance/query_input_bindings.json',inputs)
-# Fresh exact GT for the six missing natural-query workloads. No old GT overwritten.
+# Generate exact ground truth for the six missing workloads.
 original=(R/'code/exact_groundtruth_h2h.cpp').read_text();t=original.replace('#include "h2h.h"','#include <climits>\n#include <cfloat>').replace('typedef pair<int, double> ID;','typedef pair<int, long long> ID;')
 t=t.replace('w = static_cast<double>(intw) / 10.0;','w = intw; // frozen manifest: 10 integer units per metre')
 t=t.replace('vector<double> dist(N, DBL_MAX);','const long long bound=llround(tau*10.0);\n    vector<long long> dist(N, LLONG_MAX);').replace('priority_queue<pair<double, int>, vector<pair<double, int> >, greater<pair<double, int> > > pq;','priority_queue<pair<long long, int>, vector<pair<long long, int> >, greater<pair<long long, int> > > pq;').replace('pair<double, int> cur = pq.top();','pair<long long, int> cur = pq.top();').replace('double d = cur.first;','long long d = cur.first;').replace('if (d > tau)','if (d > bound)').replace('double nd = d + e.second;','long long nd = d + e.second;').replace('if (nd <= tau && nd < dist[v])','if (nd <= bound && nd < dist[v])')

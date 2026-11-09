@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Summarize saved query CSVs without running searches or modifying raw files."""
+"""Summarize the recorded query results."""
 from pathlib import Path
 import argparse,csv,json,statistics as st,collections,math
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate saved MARS query coverage and result consistency; no searches."""
+"""Check query coverage and result consistency."""
 from pathlib import Path
 import argparse,csv,json,math
 ROOT=Path(__file__).resolve().parents[1]

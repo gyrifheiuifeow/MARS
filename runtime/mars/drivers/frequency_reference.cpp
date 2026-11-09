@@ -21,8 +21,7 @@ int main(int argc,char**argv){try{
  ifstream mapfile(dir+"/poi_node_mapping_Ext3.txt");if(!mapfile)throw runtime_error("mapping missing");
  vector<Object> objs;set<int> usedname,usedcat;string line;
  while(getline(mapfile,line)){auto pos=line.find('<');if(pos==string::npos)continue;Object o;o.name=stoi(line.substr(0,pos));usedname.insert(o.name);istringstream ss(line.substr(pos+1));int c;while(ss>>c){o.cats.push_back(c);usedcat.insert(c);}objs.push_back(move(o));}
- // Independent implementation: ordered full-coordinate dictionary and per-object
- // ordered sets, reading fvecs directly, not the production GlobalIndexData.
+ // Build the reference from fvecs using full-coordinate keys and per-object sets.
  map<string,uint32_t> dict;vector<vector<uint32_t>> owners;
  vector<uint32_t> names,cats;
  auto read=[&](string file,const set<int>&used,vector<uint32_t>&ids){ifstream f(file,ios::binary);if(!f)throw runtime_error("fvecs missing");ids.push_back(UINT32_MAX);int d;uint32_t id=0;size_t count=0;while(f.read((char*)&d,4)){if(d!=768)throw runtime_error("dim");vector<float> v(d);f.read((char*)v.data(),4*d);if(!f)throw runtime_error("short read");++id;ids.push_back(UINT32_MAX);if(!used.count(id))continue;++count;normalize(v);string key((char*)v.data(),v.size()*4);auto it=dict.find(key);if(it==dict.end()){uint32_t uid=owners.size();it=dict.emplace(move(key),uid).first;owners.emplace_back();}ids[id]=it->second;}if(count!=used.size())throw runtime_error("missing referenced ID");};

@@ -31,8 +31,8 @@
     "path": "runtime/mars/src_tree/baselines/mars_baselines/baseline_common.hpp",
     "frozen_sha256": "c26a86030fc49b72d58c57f075ecf7b6291f7df7c1d2eb035ab79b3b9e2f42cb",
     "snapshot": "student_mars_alpha64_final_20261017_v1",
-    "changed_for_publication": false,
-    "published_sha256": "c26a86030fc49b72d58c57f075ecf7b6291f7df7c1d2eb035ab79b3b9e2f42cb"
+    "changed_for_publication": true,
+    "published_sha256": "e035204f7c989c156acb690eeb2272e1457f115b15a1ee0c0ec703e1b4ddbbaa"
   },
   {
     "path": "runtime/mars/src_tree/baselines/mars_baselines/qg_build_contract.hpp",
@@ -2670,8 +2670,8 @@
     "path": "runtime/mars/src_tree/submission_experiments_20260726/src/qg_theta.hpp",
     "frozen_sha256": "270dcb6ad2839d6ae5f4cd511bea96b33919ebb0b6b0a60c52b533161fdde836",
     "snapshot": "student_mars_alpha64_final_20261017_v1",
-    "changed_for_publication": false,
-    "published_sha256": "270dcb6ad2839d6ae5f4cd511bea96b33919ebb0b6b0a60c52b533161fdde836"
+    "changed_for_publication": true,
+    "published_sha256": "1f7420c012259e8fcc16598be1b68d6f458d1e363c280bb29a9af61098c096fe"
   },
   {
     "path": "runtime/mars/src_tree/submission_experiments_20260726/src/mesh_runner_contract.hpp",
@@ -2684,8 +2684,8 @@
     "path": "runtime/mars/src_tree/submission_experiments_20260726/src/mars_cat_runner.cpp",
     "frozen_sha256": "c305fce9d98adae3479aa402051312e9ca58f4df67d4240945b69d79c5214110",
     "snapshot": "student_mars_alpha64_final_20261017_v1",
-    "changed_for_publication": false,
-    "published_sha256": "c305fce9d98adae3479aa402051312e9ca58f4df67d4240945b69d79c5214110"
+    "changed_for_publication": true,
+    "published_sha256": "994a87f64ff59370a67328c578128af13baaf62792195a496ad3d10a6de9279c"
   },
   {
     "path": "runtime/mars/src_tree/submission_experiments_20260726/src/mesh_road_placement.hpp",
@@ -2712,8 +2712,8 @@
     "path": "runtime/mars/src_tree/submission_experiments_20260726/src/student_diagnostics.hpp",
     "frozen_sha256": "45d5c87c2bfd1a7442ad69416f080d2a5a4806e3e43150ca6f5817f7eaae7816",
     "snapshot": "student_mars_alpha64_final_20261017_v1",
-    "changed_for_publication": false,
-    "published_sha256": "45d5c87c2bfd1a7442ad69416f080d2a5a4806e3e43150ca6f5817f7eaae7816"
+    "changed_for_publication": true,
+    "published_sha256": "e686cda3b4b01e4b5681db4c2fd3634061bf0d74d01517ea0ca4e1ca2825deba"
   },
   {
     "path": "runtime/mars/src_tree/submission_experiments_20260726/src/mesh_road_core.hpp",
@@ -2740,15 +2740,15 @@
     "path": "runtime/mars/drivers/freq_acceptance.hpp",
     "frozen_sha256": "8a894e9f374c4fdd2ec36e1d5da4d36294f9b52d457f7029f03cb184cf7db9ed",
     "snapshot": "student_mars_alpha64_final_20261017_v1",
-    "changed_for_publication": false,
-    "published_sha256": "8a894e9f374c4fdd2ec36e1d5da4d36294f9b52d457f7029f03cb184cf7db9ed"
+    "changed_for_publication": true,
+    "published_sha256": "5e8758fa7316fd43d5ddc566d28345381b6fc13fa1578c6e55f5ca2385f3f438"
   },
   {
     "path": "runtime/mars/drivers/freq_mars_entry.cpp",
     "frozen_sha256": "3847a5e1701b1365cd2956a3d77d690ca126e859ea8bbf3ce461a1839990d11b",
     "snapshot": "student_mars_alpha64_final_20261017_v1",
     "changed_for_publication": true,
-    "published_sha256": "f9c4f71e4b39671f1d8790ea6d0b66c1919b9c595768dd7bf9acb270df6886b7"
+    "published_sha256": "e734759bf24452e9f8386bb92d25e8a8502ce3a9da0979caa7f227f372028177"
   },
   {
     "path": "runtime/mars/drivers/entry_support.hpp",
@@ -2761,8 +2761,8 @@
     "path": "runtime/mars/drivers/exact_road_assertion.hpp",
     "frozen_sha256": "136d5e5b35640b49b5151eefa0ae67c8cf4a5d7dfafd2d32e7542597ff33df99",
     "snapshot": "student_mars_alpha64_final_20261017_v1",
-    "changed_for_publication": false,
-    "published_sha256": "136d5e5b35640b49b5151eefa0ae67c8cf4a5d7dfafd2d32e7542597ff33df99"
+    "changed_for_publication": true,
+    "published_sha256": "9ae7d9f10f5f0e7ce451e77321b35cb040b310e555ae5e8357368f328f1bc39f"
   },
   {
     "path": "runtime/baselines/src_tree/code/h2h.cpp",
@@ -2796,8 +2796,8 @@
     "path": "runtime/baselines/src_tree/baselines/mars_baselines/baseline_common.hpp",
     "frozen_sha256": "52d7c5191e8b196969b7c721a4f4bbaf746641be0b2599e19327d4b2a16ca5bc",
     "snapshot": "final baseline query runtime including accepted HNSW restart",
-    "changed_for_publication": false,
-    "published_sha256": "52d7c5191e8b196969b7c721a4f4bbaf746641be0b2599e19327d4b2a16ca5bc"
+    "changed_for_publication": true,
+    "published_sha256": "16347d1bad079ccd9228c18ae779e0d8f711ae72cf830acb03bc8dfe93d8acee"
   },
   {
     "path": "runtime/baselines/src_tree/baselines/mars_baselines/qg_build_contract.hpp",
@@ -5456,8 +5456,8 @@
     "path": "runtime/baselines/src_tree/submission_experiments_20260726/src/mesh_road_core.hpp",
     "frozen_sha256": "d64296dfd9e578711687ac76ccb83c6541e3875c0cba371f3671f39a35cfe151",
     "snapshot": "final baseline query runtime including accepted HNSW restart",
-    "changed_for_publication": false,
-    "published_sha256": "d64296dfd9e578711687ac76ccb83c6541e3875c0cba371f3671f39a35cfe151"
+    "changed_for_publication": true,
+    "published_sha256": "a3a99aca27c50b5a989e875c6118f91e5cfc8e545c49cc813fa0c939eb5d299f"
   },
   {
     "path": "runtime/baselines/src_tree/submission_experiments_20260726/src/channel_topk.hpp",
@@ -5470,8 +5470,8 @@
     "path": "runtime/baselines/src_tree/submission_experiments_20260726/src/mesh_submission_runner.cpp",
     "frozen_sha256": "93e10a21f26ca8d5449fcb489de2d384cf34473bbb1727118bde87879a59dad5",
     "snapshot": "final baseline query runtime including accepted HNSW restart",
-    "changed_for_publication": false,
-    "published_sha256": "93e10a21f26ca8d5449fcb489de2d384cf34473bbb1727118bde87879a59dad5"
+    "changed_for_publication": true,
+    "published_sha256": "c3d9090a5770730c99700a810944a9c71a392ffb2673d4958578d0385b05be0a"
   },
   {
     "path": "runtime/baselines/src_tree/submission_experiments_20260726/src/unified_index_probe_contract.hpp",
@@ -5484,15 +5484,15 @@
     "path": "runtime/baselines/drivers/vector_cache_preparation.hpp",
     "frozen_sha256": "4ddf45d4153aeaf07103578c6c7fefff641f371005cc27a54e7ba9abeffd103e",
     "snapshot": "final baseline query runtime including accepted HNSW restart",
-    "changed_for_publication": false,
-    "published_sha256": "4ddf45d4153aeaf07103578c6c7fefff641f371005cc27a54e7ba9abeffd103e"
+    "changed_for_publication": true,
+    "published_sha256": "1594d03dfd323f79f3e3c94380afb0823dc406590ef4097f44b1b2115888556b"
   },
   {
     "path": "runtime/baselines/drivers/baseline_measure_entry.cpp",
     "frozen_sha256": "26b35b340b0dc4b5292a654c9506e95c3a5ce91521282513060a2d2e4644a527",
     "snapshot": "final baseline query runtime including accepted HNSW restart",
     "changed_for_publication": true,
-    "published_sha256": "3494fbb53659631362e01588beffd951a1681312ebf922f2381e43888b73e6a5"
+    "published_sha256": "b0b47efdebfbec2f12ec960b69e95aeaf15cbdefccc751b0b2bb52e8ca2d3ebb"
   },
   {
     "path": "runtime/baselines/drivers/entry_support.hpp",
@@ -5505,7 +5505,7 @@
     "path": "runtime/baselines/drivers/exact_road_assertion.hpp",
     "frozen_sha256": "136d5e5b35640b49b5151eefa0ae67c8cf4a5d7dfafd2d32e7542597ff33df99",
     "snapshot": "final baseline query runtime including accepted HNSW restart",
-    "changed_for_publication": false,
-    "published_sha256": "136d5e5b35640b49b5151eefa0ae67c8cf4a5d7dfafd2d32e7542597ff33df99"
+    "changed_for_publication": true,
+    "published_sha256": "9ae7d9f10f5f0e7ce451e77321b35cb040b310e555ae5e8357368f328f1bc39f"
   }
 ]

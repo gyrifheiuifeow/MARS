@@ -45,7 +45,7 @@ static void runToyAcceptance(const filesystem::path& out){
   for(uint32_t uid=0;uid<frequency_partition.owners.size();++uid){vector<float>v(frequency_partition.vectorAt(uid),frequency_partition.vectorAt(uid)+2);set<uint32_t>own(frequency_partition.owners[uid].begin(),frequency_partition.owners[uid].end());if(own!=truth.at(v)||frequency_partition.channels[uid]!=(own.size()>=size_t(alpha)))throw runtime_error("toy independent frequency/partition mismatch");if(own.size()<size_t(alpha))for(auto oid:own)expectedRest.insert({uid,oid});}
   auto&h=idx.hierarchy;h.coords.resize(3);h.vertex_key={-1,0,1};h.key_vertex={1,2};CatIndex ci=buildCatIndex(ds,idx);NameGraph ng;ng.dim=2;ng.ready=true;populateRestMapping(ng);validateRestMapping(ng);
   set<pair<uint32_t,uint32_t>>got;for(size_t pid=0;pid<ng.num;++pid)got.insert({ng.pid2uid[pid],uint32_t(ng.pid2oid[pid])});if(got!=expectedRest||got.size()!=ng.num)throw runtime_error("toy missing/duplicate rest associations");
-  // A fixed visited set bypasses ANN only in this synthetic fixture. Real graph search remains approximate.
+  // Enumerate a fixed visited set for the synthetic score-aggregation checks.
   freq_fixture_rest_enumeration=true;Options o;o.k=10;o.tau=5000;o.param_name="ef";o.param_value="1600";vector<float>q={0,1};setenv("MARS_CAT_PIVOT","1",1);
   auto queryChecks=[&](){for(bool rest:{false,true})for(bool point:{false,true}){
    setenv("MARS_CAT_UNIQUE",rest?"1":"0",1);setenv("MARS_CAT_POINTWISE_ROAD",point?"1":"0",1);

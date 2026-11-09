@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Recompute every published mean and sample SD from the per-instance tables."""
+"""Recompute summary statistics from per-instance results."""
 from pathlib import Path
 import csv, math, statistics, json
 ROOT=Path(__file__).resolve().parents[1]
@@ -32,7 +32,7 @@ def main():
   for s in sorted(directory.glob('*summary.csv')):
    r=s.with_name(s.name.replace('summary.csv','rounds.csv'))
    if r.exists():total+=verify(s,r);pairs.append(s.name)
- # The alpha64 performance matrix must contain independent instances 1, 2, 3.
+ # Check all three repetitions for each configuration.
  records=rows(ROOT/'results/alpha64/MARS64_performance_rounds.csv')
  assert len(records)==144 and all(r['alpha']=='64' and r['queries']=='1000' for r in records)
  for config in {r['config_id'] for r in records}:

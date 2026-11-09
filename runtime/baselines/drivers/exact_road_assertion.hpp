@@ -8,8 +8,8 @@
 #include <iomanip>
 #include <cstdlib>
 #include <stdexcept>
-// Called ONLY by post-query assertions. No normal search code calls this helper.
-// Original integer arcs are parsed independently; neither G nor H2H labels are reused.
+// Post-query road checks, excluded from query timing.
+// Fall back to integer-weight Dijkstra when H2H does not confirm feasibility.
 namespace exact_assertion {
 inline bool feasible(const std::string& region,int source0,int target0,double tau,double h2h){
  if(std::isfinite(h2h)&&h2h>=0&&h2h<=tau)return true;
@@ -19,7 +19,7 @@ inline bool feasible(const std::string& region,int source0,int target0,double ta
  std::ifstream mf(manifest);std::string line,path,sha,reg;long long scale=0;bool found=false;
  std::getline(mf,line);
  while(std::getline(mf,line)){std::istringstream row(line);long long s;std::string p,h;if(row>>reg>>s>>p>>h&&reg==region){scale=s;path=p;sha=h;found=true;break;}}
- // Formal radii are integer metres. Reject unsupported thresholds, never round or add epsilon.
+ // Convert an integer-metre radius to the graph's integer distance units.
  if(!found||scale<=0||!std::isfinite(tau)||tau<0||std::floor(tau)!=tau||tau>1e12)throw std::runtime_error("unverified road units or unsupported exact threshold");
  long long bound=static_cast<long long>(tau)*scale;
  using Edge=std::pair<int,long long>;std::vector<std::vector<Edge>> adj;

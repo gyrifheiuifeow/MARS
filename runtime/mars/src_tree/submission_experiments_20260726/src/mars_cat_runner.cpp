@@ -1,29 +1,8 @@
 #include "student_diagnostics.hpp"
 #define h2hQuery studentH2HQuery
-// MARS-CAT: Category-Pivoted Search query backend prototype (DUAL channel).
-//
-// Isolation discipline (hard constraint): this is a NEW translation unit under
-// mars_cat/. It #includes the existing code/mars_experiment_runner.cpp with the
-// experiment runner's main() renamed out of the way, exactly like mars_bf does,
-// so it reuses the SAME H2H / objectScore / recall evaluator / DFS-key road
-// hierarchy / road-predicate compilation. It does NOT modify code/, baselines/,
-// mars_bf/, or mars_exp/ behaviour. The unique-aspect (name) ANN graph uses a
-// LOCAL COPY of qg.hpp (src/qg_theta.hpp, namespace rabitqlib::symqg_theta) with
-// a theta early-stop search method added there; the upstream qg.hpp is untouched.
-//
-// Framework terminology (used in comments / output):
-//   pivot aspect  (low-cardinality, shared by many objects, e.g. category):
-//                 inverted posting list + bound-guided early stop.
-//   rest aspect: ANN graph (SymphonyQG) with threshold filtering.
-//
-// Channels:
-//   Channel 1 (pivot/category): posting-list best-first with admissible early
-//     stop.
-//   Channel 2 (unique/name): standard convergent SymphonyQG search over
-//     name-only vectors, followed by threshold and road filtering.
-//   Switch: env MARS_CAT_UNIQUE (default ON; set 0 for pure-pivot ablation).
-//   Probe: env MARS_CAT_SCORE_MODE=full|channel|both compares full object
-//     reranking with per-channel score updates while reusing one index build.
+// MARS query backend with frequency-partitioned pivot and rest channels.
+// Pivot vectors use DFS-key posting lists. Rest nodes represent (vector, object)
+// associations and are searched with SymphonyQG before score aggregation.
 
 #define main mars_exp_main_unused
 #include "../../code/mars_experiment_runner.cpp"
@@ -55,11 +34,8 @@ static vector<CatScoreMode> catRequestedScoreModes() {
     throw runtime_error("MARS_CAT_SCORE_MODE must be full, channel, both, or both-reverse");
 }
 
-// ---------------------------------------------------------------------------
-// Road predicate compilation (same strategy as mars_bf: inside intervals are
-// trusted DFS-key intervals; partial leaf blocks contribute UNVERIFIED fringe
-// vertices that are exact-checked by H2H only when reached).
-// ---------------------------------------------------------------------------
+// Store fully reachable blocks as DFS-key intervals. Check fringe vertices
+// with H2H when a candidate object is encountered.
 static void catCompileRoadPredicateBlock(
     Dataset& ds,
     const RoadBlockHierarchy& hierarchy,
@@ -111,10 +87,7 @@ static CompiledRoadPredicate catCompileRoadPredicate(
     return pred;
 }
 
-// ---------------------------------------------------------------------------
-// MARS-CAT pivot (category) index: category inverted lists sorted by DFS key +
-// a dense table of category vectors. Reuses MarsIndex.global.
-// ---------------------------------------------------------------------------
+// Pivot vectors and their object posting lists, sorted by DFS key.
 struct CatPostingEntry {
     int dfs_key;
     int object_id;
@@ -132,13 +105,8 @@ struct CatIndex {
 
 static CatIndex buildCatIndex(Dataset& ds, MarsIndex& idx) { return buildFrequencyPivotIndex(ds,idx); }
 
-// ---------------------------------------------------------------------------
-// Unique (name) ANN channel index: a SymphonyQG graph over ONLY the per-object
-// name vectors (one row per object that has a name/poi aspect), NOT all aspects.
-// This is the framework design point: the graph holds only unique aspects; pivot
-// aspects live in inverted lists. We build with the upstream symqg builder, save,
-// then load into the local theta-stop class (identical binary layout).
-// ---------------------------------------------------------------------------
+// Rest graph with one node per (merged vector, object) association.
+// Build with QGBuilder and load the saved graph through QuantizedGraphTheta.
 struct NameGraph {
     rabitqlib::symqg_theta::QuantizedGraphTheta<float> qg;
     vector<int> pid2oid;   // graph PID -> object_id
@@ -178,7 +146,7 @@ static bool catPointwiseRoadEnabled() {
     return v && atoi(v) != 0;
 }
 
-// Search-pool capacity for the name graph.
+// Search-pool capacity for the rest graph.
 static size_t catUniqueEf() {
     const char* v = getenv("MARS_CAT_UNIQUE_EF");
     if (v) { int e = atoi(v); if (e > 0) return static_cast<size_t>(e); }
@@ -193,14 +161,13 @@ static size_t catUniqueEfForTask(const Options& opt) {
     return catUniqueEf();
 }
 
-// Fills `ng` in place (NameGraph is non-copyable/non-movable: it owns a
-// QuantizedGraphTheta with a unique_ptr + aligned Array), so we build by ref.
+// Build in place because NameGraph owns a non-copyable graph.
 static void buildNameGraph(Dataset& ds, MarsIndex& idx, const Options& opt, NameGraph& ng) {
     ng.dim = idx.global.dim;
     const GlobalIndexData& g = idx.global;
     const size_t dim = g.dim;
 
-    // One graph node for every rest (UID, object) association, including shared rest.
+    // Map each rest-vector association to a graph node.
     vector<float> name_matrix;populateRestMapping(ng);validateRestMapping(ng);
     name_matrix.reserve(ng.num*dim);
     for(uint32_t uid:ng.pid2uid){const float* v=frequency_partition.vectorAt(uid);name_matrix.insert(name_matrix.end(),v,v+dim);}
@@ -228,7 +195,7 @@ static void buildNameGraph(Dataset& ds, MarsIndex& idx, const Options& opt, Name
             builder_qg, opt.qg_ef_build, name_matrix.data()
         );
         builder.build();
-        // Persist & reload into the theta-stop class (same binary format).
+        // Save the built graph for loading through QuantizedGraphTheta.
         string path=student_graph;
         entry::phase(3);
         builder_qg.save(path.c_str());
@@ -244,8 +211,6 @@ static void buildNameGraph(Dataset& ds, MarsIndex& idx, const Options& opt, Name
          << " build_ms=" << ng.build_ms << " ef=" << catUniqueEf() << endl;
 }
 
-// ---------------------------------------------------------------------------
-// Query order, filtering, thresholds and timing remain inherited.
 #ifndef STUDENT_FREQ_ACCEPTANCE
 #define STUDENT_FREQ_ACCEPTANCE 0
 #endif
@@ -255,8 +220,7 @@ static vector<FrequencyObservedUpdate> freq_observed_updates;
 static vector<double> freq_returned_scores;
 static bool freq_fixture_rest_enumeration=false;
 #endif
-// MARS-CAT online query (dual channel: pivot category + unique name).
-// ---------------------------------------------------------------------------
+// Query the pivot postings and rest graph, then aggregate object scores.
 static MarsSearchResult marsCatSearch(
     Dataset& ds,
     MarsIndex& idx,
@@ -360,8 +324,7 @@ static MarsSearchResult marsCatSearch(
     studentPivotPart(0);
     double expanded_categories = 0.0;
     if (catPivotEnabled()) {
-        // ===== Channel 1: pivot (category) =================================
-        // Phase 2: category relevance rel[slot] = dot(q, cat_vec[slot]); sort desc.
+        // Visit pivot posting lists in descending query similarity.
         const size_t C = ci.slot_cid.size();
         const size_t dim = ci.dim;
         vector<pair<double, int>> rel;
@@ -376,11 +339,11 @@ static MarsSearchResult marsCatSearch(
         sort(rel.begin(), rel.end(), [](const auto& a, const auto& b) { return a.first > b.first; });
         studentPivotPart(2);
 
-        // Phase 3: category-driven best-first with admissible early stop.
+        // Stop scanning pivot vectors once their similarity falls below theta.
         for (const auto& r : rel) {
             double rel_cid = r.first;
             double theta = currentTheta();
-            if (rel_cid < theta) break;  // early stop: no remaining category can beat theta
+            if (rel_cid < theta) break;  // remaining pivot similarities are below theta
             int slot = r.second;
             const vector<CatPostingEntry>& posting = ci.postings[slot];
             if (posting.empty()) continue;
@@ -436,16 +399,13 @@ static MarsSearchResult marsCatSearch(
     studentPivotPart(3);
     stats.feasible_category_expanded_objects = expanded_categories;
 
-    // ===== Channel 2: unique (name) convergent ANN + theta filter ==========
-    // The graph uses standard SymphonyQG convergence. The pivot threshold filters
-    // visited pairs but never terminates graph traversal.
+    // Search the rest graph to beam convergence and filter visited nodes by theta.
     studentSwitchPhase(3); // rest channel
     bool unique_on = catUniqueEnabled() && ng.ready;
     if (unique_on) {
         float theta = static_cast<float>(currentTheta());
         ng.qg.set_ef(catUniqueEfForTask(opt));
-        // accept predicate: feasible (trusted interval, or fringe verified by H2H).
-        // It maps graph PID -> object_id and reuses catObjectFeasible.
+        // Map the graph node to its object before checking road feasibility.
         auto accept = [&](rabitqlib::PID pid) -> bool {
             if (pid >= ng.pid2oid.size()) return false;
             int oid = ng.pid2oid[pid];
@@ -465,10 +425,9 @@ static MarsSearchResult marsCatSearch(
         }else
 #endif
         ng.qg.search_converge(q.data(), theta, accept, hits, steps);
-        stats.route_graph = double(steps);                 // name-graph beam steps (diagnostic)
-        stats.feasible_object_checks = double(hits.size()); // feasible name candidates above theta
-        // Exact-score feasible name hits not already evaluated, in descending
-        // name similarity, with the shared theta early stop.
+        stats.route_graph = double(steps);                 // rest-graph beam steps
+        stats.feasible_object_checks = double(hits.size()); // road-feasible rest nodes above theta
+        // Process rest hits by descending similarity until the updated theta is reached.
         sort(hits.begin(), hits.end(), [](const auto& a, const auto& b) { return a.similarity > b.similarity; });
         for (const auto& h : hits) {
             double theta_now = currentTheta();

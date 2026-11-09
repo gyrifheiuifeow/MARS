@@ -3,9 +3,8 @@
 #ifndef STUDENT_DIAGNOSTICS
 #define STUDENT_DIAGNOSTICS 0
 #endif
-// 0 init (before/after compile), 1 compile, 2 pivot, 3 rest,
-// 4 returned-ID materialization, 5 normal cleanup/return,
-// 6 extra returned-result assertion, 7 untimed teacher-reference replay.
+// Phases 0-5: initialization, road compilation, pivot, rest, result IDs, cleanup.
+// Phase 6 records post-query checks. Phase 7 records untimed reference replay.
 struct StudentDiagnostics {
  uint64_t h2h[8]={0,0,0,0,0,0,0,0};
  uint64_t post_direct=0,post_interval=0,post_fringe=0,binary_comparisons=0;

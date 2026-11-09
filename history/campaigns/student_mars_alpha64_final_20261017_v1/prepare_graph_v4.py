@@ -19,7 +19,7 @@ for rep in [2,3]:
   cmd=[x.replace(str(G),str(D)) for x in json.loads((G/'configs/compile_command.json').read_text())]
   with (D/'logs/compile_shared_graph.log').open('x') as f:r=subprocess.run(cmd,stdout=f,stderr=subprocess.STDOUT)
   assert r.returncode==0;save(D/'configs/compile_shared_graph.json',{'argv':cmd,'sha256':sha(D/'runtime/shared_graph')})
- # Keep build and query source snapshots separate: the accepted query entry has cache introspection methods.
+ # Query builds need the reader's cache-inspection methods.
  if not (D/'runtime_query').exists():shutil.copytree(W/'runtime',D/'runtime_query',ignore=shutil.ignore_patterns('measure_once'))
  driver=D/'runtime_query/drivers/measure_once.cpp';driver.chmod(0o644);old=(W/'runtime/drivers/measure_once.cpp').read_text();new=old.replace('if(ef!="3200"&&ef!="6400")','if(ef!="1600"&&ef!="3200"&&ef!="6400")').replace('_medium,1,NYC,6000','_medium,'+str(rep)+',NYC,6000');assert new!=old;driver.write_text(new)
  oldrun=(W/'run_sweep.py').read_text();newrun=oldrun.replace("P/'runtime/measure_once'","P/'runtime_query/measure_once'");assert newrun!=oldrun

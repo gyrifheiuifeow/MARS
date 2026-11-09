@@ -18,12 +18,12 @@ def archive(directory):
  shutil.copytree(directory,dest)
  for rel,info in before.items():assert (dest/rel).stat().st_size==info['bytes'] and sha(dest/rel)==info['sha256']
  save(P/'provenance/archive_records'/ (str(directory.relative_to(P)).replace('/','_')+'.json'),{'original_path':str(directory),'archive_path':str(dest),'files':before,'copy_verified_before_local_release':True,'only_new_campaign_artifacts':True})
- # Only the new campaign copy is released after every byte is verified in its archive.
+ # Verify the archived copy before replacing the local directory with a symlink.
  shutil.rmtree(directory);directory.symlink_to(dest,target_is_directory=True)
 def gate():
  assert shutil.disk_usage(P).free>35_000_000_000,'Insufficient student scratch capacity; preserve all records'
  tasks=subprocess.check_output(['ps','-u',str(os.getuid()),'-o','pid,args'],text=True)
- # The coordinator itself is harmless. Prevent overlapping other measurement workers.
+ # Avoid overlapping benchmark workers.
  active=[x for x in tasks.splitlines() if any(k in x for k in ['bin/freq_perf ','bin/freq_diag ','runtime/measure_once ','runtime/shared_graph build','bin/baseline_entry '])]
  assert not active,('Another benchmark is running',active)
 def main_stage():
@@ -32,7 +32,7 @@ def main_stage():
   cid=r['config_id'];reg=r['region'];out=P/f'runs/{reg}_rep1/perf/raw';out.mkdir(parents=True,exist_ok=True);dest=out/(cid+'.csv');shutil.copy2(r['raw_file'],dest);assert sha(dest)==r['raw_sha256']
   row=m.validate(reg,1,'perf',cid,dest);row.update(reused=True,source_file=r['raw_file'],source_sha256=r['raw_sha256']);m.perf.append(row)
  m.refresh('REUSED_FIVE_FORMAL_ROUNDS')
- # Complete one instance at a time to keep storage bounded and measurements serial.
+ # Process indexes serially to limit disk usage.
  for reg in ['BAY','COL','NYC','FLA']:
   for rep in [1,2,3]:
    gate()
@@ -43,7 +43,7 @@ def main_stage():
     prior={r['config_id'] for r in (m.perf if mode=='perf' else m.diag) if r['region']==reg and r['repetition']==rep};missing=[c for c in selected if c['config_id'] not in prior]
     folder=out/mode
     if missing:
-     # Reused raw files are kept in perf/raw; the executable writes a fresh sibling.
+     # Write new measurements beside the reused results.
      fresh=out/(mode+'_new');task=P/f'configs/runtime_{mode}_{reg}_{rep}.tsv';write_tasks(task,missing)
      m.run(f'{mode}_{reg}_{rep}',[P/f'bin/freq_{mode}',mode,reg,inst,fresh,task,64])
      (folder/'raw').mkdir(parents=True,exist_ok=True)

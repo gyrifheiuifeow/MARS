@@ -110,8 +110,7 @@ int main(int argc,char**argv){try{
     if(task.variant!="pivot"){
      setenv("MARS_CAT_POINTWISE_ROAD",task.variant=="pointwise"?"0":"1",1);auto other=marsCatSearch(ds,idx,ci,ng,opt,q,pick.vertex,CatScoreMode::ChannelScore);checkProcessedMerge(other.ids,task.k);if(other.ids!=result.ids||freq_returned_scores!=saved_scores||recallAtScoreThreshold(other.ids,q,ds,pick.id,task.k)!=recall)throw runtime_error("full/direct ID score Recall mismatch");setenv("MARS_CAT_POINTWISE_ROAD",task.variant=="pointwise"?"1":"0",1);
     }
-    // Coordinator checks round-trip file equality after this process exits;
-    // load it into the same graph object (no double resident index) and replay.
+    // Reload into the existing graph to avoid holding two indexes during replay.
     if(ng.num&&pick.id==picks.front().id){ng.qg.load((outdir/"roundtrip_rest_graph.bin").c_str());ng.qg.set_ef(task.ef);}
     auto replay=marsCatSearch(ds,idx,ci,ng,opt,q,pick.vertex,CatScoreMode::ChannelScore);checkProcessedMerge(replay.ids,task.k);if(replay.ids!=result.ids||freq_returned_scores!=saved_scores)throw runtime_error("save/load query changed");
    }

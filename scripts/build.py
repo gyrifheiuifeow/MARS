@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Compile the final experiment entry points. Does not build any data index."""
+"""Compile the C++ experiment programs."""
 from pathlib import Path
 import argparse, hashlib, json, os, platform, subprocess
 

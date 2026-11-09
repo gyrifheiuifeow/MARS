@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify published source bytes against the frozen-source mapping."""
+"""Check source checksums against the publication manifest."""
 from pathlib import Path
 import hashlib,json
 ROOT=Path(__file__).resolve().parents[1]

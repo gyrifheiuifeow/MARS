@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the original prepared corpus and query/GT input hashes, without searching."""
+"""Check dataset, query and ground-truth checksums."""
 from pathlib import Path
 import argparse,hashlib,json
 ROOT=Path(__file__).resolve().parents[1]

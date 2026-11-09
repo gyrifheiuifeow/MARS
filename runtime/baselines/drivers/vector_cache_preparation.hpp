@@ -1,5 +1,5 @@
 #pragma once
-// Included after the frozen baseline definitions. No code here executes inside a query timer.
+// Prepare and record vector-reader caches before query timing.
 static void recordVectorReaderCacheState(Dataset& ds,const filesystem::path& output,const string& label) {
  auto names=ds.poi_reader->cachedVectorIds(),categories=ds.cat_reader->cachedVectorIds();
  auto fingerprint=[](const vector<int>& ids){uint64_t h=1469598103934665603ULL;for(int id:ids){h^=uint32_t(id);h*=1099511628211ULL;}return h;};
@@ -13,11 +13,11 @@ static void prepareVectorReaderCaches(Dataset& ds,const filesystem::path& output
  recordVectorReaderCacheState(ds,output,"before_preparation");
  auto start=entry::Clock::now();size_t name_calls=ds.objects.size(),category_calls=0;
  if(original_mars_preparation_reference) {
-  // Only the original vector/mapping preparation is replayed; no ANN graph is constructed or saved.
+  // Replay vector and mapping preparation to obtain the reference cache state.
   auto data=buildGlobalIndexData(ds,0);category_calls=data.cat_aspect_by_id.size();
  } else {
   ds.poi_reader->resetReadCacheForPreparation();ds.cat_reader->resetReadCacheForPreparation();
-  // Same category-centre order as loadCategoryMap, followed by buildGlobalIndexData's data order.
+  // Cache category centres, object names in data order, then sorted category IDs.
   for(int cid:ds.category_map.group_cat_id){ds.cat_reader->readNorm1Based(cid);++category_calls;}
   set<int> category_ids;
   for(const auto& object:ds.objects){ds.poi_reader->readNorm1Based(object.poi_id);for(int cid:object.category_ids)category_ids.insert(cid);}
