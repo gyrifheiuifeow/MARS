@@ -2,42 +2,37 @@
 
 Efficient Multi-Aspect Road-Constrained Vector Search
 
-MARS retrieves objects by semantic similarity within a road-distance budget.
-It combines road predicates, pivot posting lists, and a semantic graph to search
-objects described by multiple aspects. This repository contains the MARS
-implementation, four comparison methods, experiment scripts, prepared datasets,
-and per-query results.
+MARS searches for semantically similar objects within a road-distance budget.
+It uses posting lists for frequent vectors and a semantic graph for the remaining
+vectors. The code here uses α=64 and includes RoadScan, HNSW, SymphonyQG and
+Mesh-Road for comparison.
 
 ### Compilation
 
-Use Linux x86-64 with AVX2/FMA, Python 3.12 or later, and a C++17 compiler with
-OpenMP. The experiments used GCC 13.3. Python scripts use the standard library.
-Search with the supplied embeddings runs on the CPU.
+Use Linux x86-64 with AVX2/FMA, Python 3.12+, and a C++17 compiler with OpenMP.
+We used GCC 13.3. The Python scripts use the standard library. Queries run on
+the CPU with the supplied 768-dimensional embeddings.
 
 ```bash
 cd MARS
 python3 scripts/build.py
 ```
 
-The build compiles MARS, the baseline runner, and the validation programs into
-`build/bin/`. Third-party source and its notices are included in the repository.
-
-### Execution
-
-Run the small correctness checks first. They do not require a dataset or a
-constructed index:
+The executables go in `build/bin/`. To run the small test cases:
 
 ```bash
 python3 -m unittest discover -s tests -v
 build/bin/mars_accept unit build/toy_acceptance
 ```
 
-The C++ checks cover frequency partitioning, object associations, scoring, and
-index serialization. A successful run prints `TOY_ACCEPTANCE_PASS`.
+The C++ tests check vector partitioning, object associations, scores and
+save/load behavior. They print `TOY_ACCEPTANCE_PASS` on success.
 
-Place the prepared data under `../mars-artifacts/MARSExp2`. The following
-commands build one MARS index for NYC and run its performance configurations.
-Replace `NYC` with another region from the dataset table to run that region.
+### Execution
+
+Put the prepared data in `../mars-artifacts/MARSExp2`, following the layout in
+[DATA.md](docs/DATA.md). This example builds one NYC index and runs its query
+configurations:
 
 ```bash
 python3 scripts/verify_data.py --data-root ../mars-artifacts/MARSExp2
@@ -51,13 +46,12 @@ python3 scripts/reproduce.py run \
   --data-root ../mars-artifacts/MARSExp2 --output-root ../mars-run
 ```
 
-The index is written to `../mars-run/instances/MARS/NYC/rep1`, and query results
-to `../mars-run/results/MARS/NYC/rep1/perf`. Use the same output root for the build
-and query stages. To run a comparison method, replace `MARS` in both commands
-with `HNSW`, `SymphonyQG`, `Mesh-Road`, or `RoadScan`.
+The index goes in `../mars-run/instances/MARS/NYC/rep1`. Query results go in
+`../mars-run/results/MARS/NYC/rep1/perf`. Both commands use the same output root.
+For another method, replace `MARS` in both commands with `HNSW`, `SymphonyQG`,
+`Mesh-Road` or `RoadScan`.
 
-To run the full MARS experiment matrix with three independently constructed
-indexes per region:
+To run the MARS matrix across four regions and three index instances per region:
 
 ```bash
 python3 scripts/run_matrix.py \
@@ -65,17 +59,16 @@ python3 scripts/run_matrix.py \
   --output-root ../mars-full --execute
 ```
 
-Without `--execute`, this command prepares the task files and prints the plan.
-The matrix includes 144 performance runs and 48 separate diagnostic runs. The
-additional α sweep, Graph-only ablation, and four-region query-group experiments
-are described in [the experiment protocol](docs/EXPERIMENTS.md) and
-[the archive guide](docs/ARCHIVE.md).
+This runs 144 performance tasks and 48 phase-diagnostic tasks in sequence.
+Omit `--execute` to prepare the task files and inspect the plan first.
+The α sweep, Graph-only experiment and extra query-group runs have their own
+entries in [EXPERIMENTS.md](docs/EXPERIMENTS.md) and [ARCHIVE.md](docs/ARCHIVE.md).
 
-Recorded results are available in [`results/alpha64/`](results/alpha64/) and
-[`results/query_groups_four_regions/`](results/query_groups_four_regions/).
-They cover query efficiency, QPS and Recall as τ varies, Pareto curves, query
-groups, parameter studies, ablations, and index construction costs. To check
-the raw files and recalculate the reported statistics:
+Saved tables and per-query CSVs are in [`results/alpha64/`](results/alpha64/)
+and [`results/query_groups_four_regions/`](results/query_groups_four_regions/).
+They cover query efficiency, the effect of τ, Pareto curves, popular/medium/rare
+queries, α and ef, the three ablations, and index build time and size.
+You can check the saved results without building an index:
 
 ```bash
 python3 scripts/verify_sources.py
@@ -83,58 +76,47 @@ python3 scripts/verify_raw_results.py
 python3 scripts/verify_results.py
 ```
 
-QPS is calculated from the total core query time. Recall uses the recorded
-score-threshold criterion, with a denominator of `min(k, ground-truth count)`.
-Tables report means and sample standard deviations across index instances.
-Timing conventions, baseline settings, and index-size definitions are given in
-[the protocol](docs/EXPERIMENTS.md); CPU bindings and historical run conditions
-are retained with the experiment records.
-
 ### Parameters
 
-- `--method` selects MARS or one of the four comparison methods. `--region`
-  selects `NYC`, `BAY`, `COL`, or `FLA`.
-- `--data-root` points to the directory containing `data/<region>`.
-  `--output-root` selects the directory for indexes, logs, and query results.
-  Use a new output directory for a new experiment.
-- `--rep` selects index instance 1, 2, or 3. Each instance is constructed
-  separately and reused across its query configurations.
-- `--alpha` sets the MARS frequency threshold. Vectors belonging to at least
-  α distinct objects enter the pivot channel; the remaining vectors enter
-  the rest graph. The default is 64. Use a separate output root for each α.
-- The default query settings are `k=10` and rest `ef=1600`. Radius, ef, workload,
-  and ablation variants are recorded in `configs/mars/performance_matrix.json`.
-  Baseline configurations are under `configs/baselines/`.
-- `--stage diag` runs the MARS phase measurements separately from performance
-  timing. `--dry-run` prepares the inputs and prints the command without
-  building an index or running queries.
+The defaults are α=64, k=10 and rest ef=1600. Frequency counts distinct objects
+after merging equal normalized vectors. Vectors associated with at least α
+objects enter pivot. The rest graph has one node per remaining vector/object
+association.
 
-The rest ablation uses the `pivot` variant; the road-compilation ablation uses
-`pointwise`. Both are included in the MARS matrix. The pivot ablation uses the
-shared-category Graph-only implementation, prepared and run through
-[`scripts/graph_only.py`](scripts/graph_only.py). Its commands are listed in
-[the archive guide](docs/ARCHIVE.md).
+| Argument | Use |
+|---|---|
+| `--method`, `--region` | Choose the method and one of `NYC`, `BAY`, `COL`, `FLA`. |
+| `--data-root`, `--output-root` | Set the input location and run directory. Use a new output root for a new experiment. |
+| `--rep` | Choose index instance 1, 2 or 3. Build each instance separately. |
+| `--alpha` | Set the frequency threshold. Use a separate output root for each value. |
+| `--stage` | Select a stage such as `build`, `perf` or, for MARS, `diag`. |
+| `--dry-run` | Prepare the task files and print the command. |
+
+`configs/mars/performance_matrix.json` lists radii, ef values, query groups and
+variants. Baseline settings are in `configs/baselines/`. The `pivot` variant
+disables rest, and `pointwise` uses direct road-distance checks. For the
+Graph-only pivot ablation, use [`scripts/graph_only.py`](scripts/graph_only.py)
+with the commands in [ARCHIVE.md](docs/ARCHIVE.md).
+
+QPS uses the total core query time. Recall uses the score-threshold evaluator
+with denominator `min(k, GT count)`. Tables give means and sample standard
+deviations over index instances. [EXPERIMENTS.md](docs/EXPERIMENTS.md) records
+the timing boundaries and the conditions of the historical runs.
 
 ### Datasets
 
-| Region argument | Objects | Data directory |
+| Region | Objects | Directory |
 |---|---:|---|
 | `NYC` | 1,140,399 | `data/NYC` |
 | `BAY` | 700,864 | `data/BAY` |
 | `COL` | 393,709 | `data/COL` |
 | `FLA` | 1,534,361 | `data/FLA` |
 
-Each region contains road graphs, POI mappings, 768-dimensional name and
-category vectors, query vectors, and ground truth. The experiments use the
-supplied vectors directly. File layouts and input hashes are described in
-[DATA.md](docs/DATA.md).
+Each region contains its road graph, POI mapping, name and category vectors,
+query vectors and ground truth. The four compressed region archives total
+about 8.84 GB. Allow more space for extraction and indexes.
 
-The four compressed region archives total about 8.84 GB. Additional storage is
-needed for extraction and index construction. Generated ANN indexes are built
-locally; their historical build records and file hashes are included in the
-archives. Fresh graph construction may produce different index bytes and
-approximate query results.
-
-The main implementation uses α64;
-the original category-based version and earlier α experiments are retained
-separately.
+Build ANN indexes locally. Graph construction uses random choices, so a rebuilt
+index can produce different approximate answers from the saved instances.
+The archive also contains the earlier category-based MARS implementation and
+other α runs.

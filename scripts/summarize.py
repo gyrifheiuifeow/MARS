@@ -47,6 +47,6 @@ def main():
     (destination/"construction_rounds.json").write_text(json.dumps(costs,indent=2)+"\n")
     if costs:
         with (destination/"construction_rounds.csv").open("w",newline="") as f:w=csv.DictWriter(f,fieldnames=list(costs[0]));w.writeheader();w.writerows(costs)
-    print(f"Summarized {len(rounds)} query runs and {len(costs)} construction records. Missing instances remain explicitly incomplete.")
+    print(f"Summarized {len(rounds)} query runs and {len(costs)} construction records.")
 
 if __name__=="__main__":main()

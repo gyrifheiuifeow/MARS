@@ -312,11 +312,8 @@ static void pushEvaluatedObject(
     if (!state.evaluated_objects.insert(object_id).second) return;
     if (stats) stats->exact_evaluated_objects += 1.0;
     const auto& obj = ds.objects[object_id];
-    // F2 scoring-path parity: final object reranking uses the same exact
-    // max-over-aspects scorer as all baselines and the shared recall evaluator.
-    // The global aspect cache is still used for graph candidate generation, but
-    // not for final object scoring, so query-time QPS comparisons are not
-    // contaminated by a MARS-only rerank cache.
+    // Score each object by its best aspect using the dataset readers.
+    // The global aspect cache serves graph candidate generation.
     (void)global;
     pushTop(state.heap, k, {objectScore(q, obj, ds), obj.object_id, obj.vertex_id});
 }
@@ -1549,8 +1546,7 @@ static vector<pair<int, int>> selectInitialTraversalBlocks(
         return starts;
     }
 
-    // Conceptual root fallback: root boundary distance is infinity, and its children
-    // are the current highest-level blocks. We do not materialize a root processor.
+    // Use all top-level blocks as the fallback start set.
     for (const RoadBlock& block : hierarchy.levels[max_level]) starts.push_back({max_level, block.id});
     return starts;
 }

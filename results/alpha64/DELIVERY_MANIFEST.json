@@ -100,8 +100,8 @@
     "sha256": "289c54c383f3a54b935299a44c421a220f882f7f3cd1eaf099b805348c469fe7"
   },
   "论文最小修改说明.txt": {
-    "bytes": 1795,
-    "sha256": "bea0783c68342f0f97ed3f38a451ab03261b10a8924af3a01191cabaddf29391"
+    "bytes": 1507,
+    "sha256": "35a7005bf6aa3f2ffaff7102eade28c099f875a4c31b8ed80b2ff1e87bc0cbc6"
   },
   "GRAPH_COMPLETE.json": {
     "bytes": 191,
@@ -116,8 +116,8 @@
     "sha256": "1c0ea468b03028dc547ee592b667a37d8065c013371a16a7c7650c9a0c441b26"
   },
   "正式结果总表与说明.html": {
-    "bytes": 10097,
-    "sha256": "ee5ac98596921899a9159b4c5a152ee4880599bf23212d7e4906d00ed1a120bf"
+    "bytes": 9793,
+    "sha256": "5b2fcf7f8467fb1c48c62344b59519350f9d9e8507ca00d163535b8d07de7ef0"
   },
   "Exp7_paired_road_rounds.csv": {
     "bytes": 2012,

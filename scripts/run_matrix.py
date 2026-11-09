@@ -14,7 +14,7 @@ def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument("--data-root",type=Path,required=True);p.add_argument("--output-root",type=Path,required=True)
     p.add_argument("--reuse-manifest",type=Path)
-    p.add_argument("--execute",action="store_true",help="Without this option, print a plan only")
+    p.add_argument("--execute",action="store_true",help="Build indexes and run the matrix")
     a=p.parse_args();out=a.output_root.resolve();data=a.data_root.resolve();prepare(data,out)
     reused={}
     if a.reuse_manifest:
@@ -26,7 +26,7 @@ def main():
     from verify_data import check
     check(data)
     marker=out/"MATRIX_STARTED.json"
-    if marker.exists():raise RuntimeError("Existing execution: inspect saved results; do not automatically rerun.")
+    if marker.exists():raise RuntimeError("This output root already contains a matrix run.")
     marker.write_text(json.dumps(plan,indent=2)+"\n")
     if reused:(out/"REUSED_INDICES.json").write_text(json.dumps(list(reused.values()),indent=2)+"\n")
     def run(region,rep,stage,index=None):

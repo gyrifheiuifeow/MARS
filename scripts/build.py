@@ -12,7 +12,7 @@ def main():
     p.add_argument("--cxx", default=os.environ.get("CXX", "g++"))
     a = p.parse_args()
     if platform.system() != "Linux" or platform.machine() not in ("x86_64", "amd64"):
-        p.error("The frozen kernels target Linux x86-64 with AVX2/FMA and OpenMP.")
+        p.error("Build on Linux x86-64 with AVX2/FMA and OpenMP.")
     out = ROOT / "build" / "bin"
     out.mkdir(parents=True, exist_ok=True)
     records = []

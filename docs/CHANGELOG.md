@@ -1,15 +1,20 @@
-# Experiment lineage
+# Experiment history
 
-These dates identify saved experiment snapshots, not a reconstructed Git commit history. The original working directory was not a Git checkout.
+The dates below refer to the October 2026 experiment directories.
 
-The October 5 records establish the original-category formal measurements and the corrected rest/road experiment source. The subsequent October 6 measurement entry separates cache preparation from core timing. The October 7 v3 entry adds the independent integer-road check outside the performance timer and freezes the shared baseline measurement protocol.
+| Date | Work |
+|---|---|
+| October 5 | Original-category MARS measurements and the corrected rest and road experiments. |
+| October 6 | Cache preparation moved outside core query timing in the measurement entry. |
+| October 7 | The v3 entry added the post-query integer-road check and shared baseline timing protocol. |
+| October 8 | HNSW added a bounded empty-candidate restart, followed by remeasurement. The main comparison and cost tables use these HNSW records. |
+| October 9 | Original-category rest ablation on popular, medium and rare queries. |
+| October 13 to 15 | Configuration, pivot-selection and query-origin checks, followed by the α32 campaign. |
+| October 15 to 16 | Graph-only moved to shared category-ID nodes with full object associations. The medium1000 workload and ef sweeps used the formal cache and timing setup. |
+| October 17 | The α64 campaign completed 144 performance runs, 48 diagnostic runs, twelve default index instances, 33 α-study records and nine Graph-only records. Its v2 adapter contains the continuation and export fixes. |
+| October 17 | The four-region query-group table combined 45 NYC records with 135 new BAY/COL/FLA records. The separate category-based ef remeasurement kept its own results. |
+| October 18 | Source trees, prepared data and saved CSVs were packaged with portable entry points. |
 
-On October 8, the accepted HNSW change adds a bounded empty-candidate restart and the associated formal remeasurement. The final main comparison and construction tables use these repaired HNSW records. Earlier HNSW results and the diagnostics that motivated the change remain in the archive, with their original names and bindings.
-
-The October 9 original-category rest experiment checks popular, medium and rare queries. October 13–15 audit directories trace configuration, pivot selection, query-group origin and the frequency implementation. The October 15 α32 formal campaign and its publication checkout are retained as a separate predecessor.
-
-October 15–16 Graph-only work progresses from the initial variant to shared category-ID nodes with every object association retained. The full medium1000 run and ef sweeps retain the formal cache-preparation and timing checks. The final package uses three graph instances at each of three ef settings; the earlier single-instance records remain identifiable rather than being relabeled as three repetitions.
-
-The October 17 α64 campaign combines 144 MARS performance records, 48 diagnostic records, twelve default MARS instances, 33 α-parameter records and nine Graph-only records. Its v2 execution adapter and final audit are the accepted completion evidence. The additional four-region query-group table contains 180 method/region/group/instance records, including 45 existing NYC records and 135 new BAY/COL/FLA records. The independent original-category ef remeasurement on October 17 remains historical and is not substituted into the α64 curve.
-
-On October 18, this publication collects the source trees and records, adds downloadable prepared data, exposes the final raw CSVs, and makes the main α64 entry portable. Search code is bound to its frozen sources; source-path adapters and publication scripts are tracked separately. Packaging and verification are not new formal benchmark measurements.
+The α32, original-category and α64 directories retain their source and input
+bindings. Graph-only has three index instances at each of three ef settings.
+The earlier single-instance checks remain in their original directories.

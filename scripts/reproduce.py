@@ -33,7 +33,7 @@ def gt_path(data, original, region):
 def prepare(data, output, alpha=64):
     data, output = Path(data).resolve(), Path(output).resolve()
     if any(c.isspace() for c in str(data)):
-        raise ValueError("The frozen road manifest requires a data-root path without whitespace.")
+        raise ValueError("The road manifest parser requires a data-root path without whitespace.")
     matrix = json.loads((ROOT / "configs/mars/performance_matrix.json").read_text())
     diag_ids = set(json.loads((ROOT / "configs/mars/diagnostic_config_ids.json").read_text()))
     assert len(matrix) == 48 and len(diag_ids) == 16
@@ -97,8 +97,8 @@ def main():
     for name in ("prepare", "run"):
         s = sub.add_parser(name)
         s.add_argument("--data-root", type=Path, required=True, help="Directory containing data/<region> and optionally legacy groundtruth directories")
-        s.add_argument("--output-root", type=Path, required=True, help="Fresh isolated output directory")
-        s.add_argument("--alpha",type=int,default=64,choices=(2,4,8,16,32,64,96,128,256,512,1024),help="Frequency threshold; use a separate output root for each threshold. Historical alpha2 used a specialized implementation.")
+        s.add_argument("--output-root", type=Path, required=True, help="Run directory for indexes, logs and results")
+        s.add_argument("--alpha",type=int,default=64,choices=(2,4,8,16,32,64,96,128,256,512,1024),help="Frequency threshold. Use a separate output root for each value.")
     r = sub.choices["run"]
     r.add_argument("--method", choices=METHODS, required=True); r.add_argument("--region", choices=REGIONS, required=True)
     r.add_argument("--rep", type=int, choices=(1,2,3), default=1)
@@ -107,7 +107,7 @@ def main():
     a = p.parse_args(); data = a.data_root.resolve(); out = a.output_root.resolve()
     prepare(data, out, a.alpha)
     if a.action == "prepare":
-        print("Prepared frozen task paths; no search or index build executed."); return
+        print("Prepared task files."); return
     args, dest = command(a.method, a.region, a.rep, a.stage, data, out, a.index, a.alpha)
     print(json.dumps({"argv": args, "alpha":a.alpha if a.method == "MARS" else None, "single_thread":True}, indent=2))
     if a.dry_run: return
@@ -120,7 +120,7 @@ def main():
     with (logs/(stem+".command.json")).open("x") as f:json.dump({"argv":args,"environment_overrides":{k:env[k] for k in ("MARS_ROOT","MARS_OUTPUT_ROOT","STUDENT_FREQ_ALPHA","STUDENT_HNSW_EMPTY_RESTART","STUDENT_QSCAN_REUSE","OMP_NUM_THREADS")}},f,indent=2)
     with (logs/(stem+".log")).open("x") as log:
         subprocess.run(args, env=env, cwd=ROOT, stdout=log, stderr=subprocess.STDOUT, check=True)
-    print("Stage completed. Preserve outputs and index files for reuse.")
+    print("Stage completed.")
 
 if __name__ == "__main__":
     main()

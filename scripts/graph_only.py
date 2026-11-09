@@ -32,7 +32,7 @@ def prepare(workspace,out):
   cmd=[x.replace(old,str(out)) for x in record['argv']]
   (out/'configs'/name).write_text(json.dumps({'argv':cmd,'original_argv':record['argv']},indent=2))
  gt=workspace/'results_tau_all_2000_10000_20260707_000802/groundtruth/NYC/q1000_seed42_natural_medium_tau6000_k10.tsv'
- if not gt.is_file():raise RuntimeError('Missing frozen GT: '+str(gt))
+ if not gt.is_file():raise RuntimeError('Missing ground-truth file: '+str(gt))
  (out/'configs/gt_path.txt').write_text(str(gt))
  (out/'configs/frozen_index_root.txt').write_text(str(out/'index'))
  with (REPO/'configs/road_units.tsv').open() as f:rows=list(csv.DictReader(f,delimiter='\t'))
@@ -51,7 +51,7 @@ def main():
   for name in ['compile_shared_graph.json','compile_query_v3.json']:
    cmd=json.loads((out/'configs'/name).read_text())['argv']
    with (out/'logs'/(name+'.log')).open('x') as f:subprocess.run(cmd,stdout=f,stderr=subprocess.STDOUT,check=True)
-  print('Compiled Graph-only construction and query programs. No data index built.');return
+  print('Compiled the Graph-only build and query programs.');return
  if a.cpu is None or a.numa is None:p.error('Specify --cpu and --numa for your machine; historical runs used 96 and 4.')
  if a.cpu not in os.sched_getaffinity(0):p.error('Requested CPU is unavailable to this process.')
  gt=(out/'configs/gt_path.txt').read_text();env=dict(os.environ)

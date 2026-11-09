@@ -1,3 +1,1 @@
-# Build, download, verification and reproduction wrappers use Python's standard library.
-# Use Python >=3.12 for tar extraction with the data safety filter.
-# Search is implemented in C++17; see Dockerfile and provenance/build_environment.json.
+# The Python tools use the standard library (Python 3.12+).

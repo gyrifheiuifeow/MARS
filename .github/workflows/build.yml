@@ -1,4 +1,4 @@
-name: Build and dataset-free checks
+name: Build and test
 on:
   push:
   pull_request:
@@ -11,15 +11,15 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-      - name: Check final matrices and portable configuration
+      - name: Check task files
         run: python3 -m unittest discover -s tests -v
-      - name: Compile final experiment entry points (sequentially)
+      - name: Build programs
         run: python3 scripts/build.py
-      - name: Synthetic frequency, mapping, scoring and round-trip checks
+      - name: Run C++ tests
         run: build/bin/mars_accept unit build/toy_acceptance
-      - name: Verify published source hashes
+      - name: Check source hashes
         run: python3 scripts/verify_sources.py
-      - name: Verify frozen raw results and recompute reported statistics
+      - name: Check saved results
         run: |
           python3 scripts/verify_raw_results.py
           python3 scripts/verify_results.py

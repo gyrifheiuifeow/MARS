@@ -3,8 +3,8 @@
     "path": "runtime/mars/src_tree/code/mars_experiment_runner.cpp",
     "frozen_sha256": "5b8cc697f2b92d5c252deadc89fe8e977140ab0a4d5a1613a094e196c77b93d3",
     "snapshot": "student_mars_alpha64_final_20261017_v1",
-    "changed_for_publication": false,
-    "published_sha256": "5b8cc697f2b92d5c252deadc89fe8e977140ab0a4d5a1613a094e196c77b93d3"
+    "changed_for_publication": true,
+    "published_sha256": "a8545cbcf1b79ea100f546cab4c61371c00445947de3e73d9506a4371b8482f2"
   },
   {
     "path": "runtime/mars/src_tree/code/h2h.cpp",

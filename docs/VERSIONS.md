@@ -1,29 +1,25 @@
-# Final versions and publication adapters
+# Implementation versions
 
-| Component | Final version |
+| Component | Version used by the saved results |
 |---|---|
-| MARS | October 17 frequency alpha64 formal implementation, 144 performance/48 diagnostic runs |
-| HNSW | Accepted one-pass empty-candidate restart, used for the final 132-run remeasurement |
-| Other baselines | Frozen cache-prepared entry with strict untimed integer-road verification |
-| RoadScan reuse | OFF |
-| Mesh placement | Existing frozen per-region selection |
+| MARS | October 17 α64 implementation, 144 performance runs and 48 diagnostic runs |
+| HNSW | Empty-candidate restart version, followed by 132 remeasurement runs |
+| Other baselines | Cache preparation and post-query integer-road validation |
+| RoadScan | Score reuse off |
+| Mesh-Road | Saved placement selection for each region |
 
-The two runtime trees retain their corresponding snapshots. The baseline HNSW
-is not taken from the older header bundled in the MARS snapshot. Baseline Mesh
-includes the validated relocation of its correctness check outside the query timer.
+The two runtime directories contain the versions used by MARS and the
+baselines. The baseline directory has the HNSW retry patch and runs Mesh's extra
+result check after the query timer.
 
-`provenance/FROZEN_SOURCE_HASHES.json` maps frozen source hashes to published
-hashes. Unchanged files match byte for byte. Publication changes are limited to
-entry output-root handling, the acceptance reference-root path, and accepting
-explicit read-only baseline instances outside the output directory. Search,
-scores, thresholds, filters and query timing boundaries are retained.
+`provenance/FROZEN_SOURCE_HASHES.json` stores the original and published hashes.
+The publication entry points accept data, output and reference roots. They also
+support loading an existing baseline instance from outside the output directory.
+Comment edits have their own published hashes. CI compiles these entry points
+and runs synthetic cases. The CSVs contain the recorded real-data measurements.
 
-Python scripts are portable publication adapters. They do not claim their CI
-checks are another real-data experiment. Source compilation and synthetic tests
-are distinct from real-data acceptance and formal measurement.
-
-For index reuse, supply the original input/parameter binding, file hashes and
-cost records. `run_matrix.py --reuse-manifest` accepts this format:
+To reuse an index with `run_matrix.py --reuse-manifest`, provide its file hashes
+and the directory containing its construction costs:
 
 ```json
 [
@@ -42,5 +38,6 @@ cost records. `run_matrix.py --reuse-manifest` accepts this format:
 ]
 ```
 
-This is a format example, not a ready-to-run binding. A seed label cannot replace
-saved graph files. Fresh constructions can differ in bytes and approximate results.
+Replace the paths and hash placeholders with values for your instance. The
+wrapper checks them before reuse. Rebuilding from a seed label can produce a
+different approximate graph.
